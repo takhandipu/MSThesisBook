@@ -1,0 +1,196 @@
+\begin{thebibliography}{10}
+
+\bibitem{khan2015towards}
+Tanvir~Ahmed Khan, Chowdhury~Sayeed Hyder, and ABM Islam.
+\newblock Towards exploiting a synergy between cognitive and multi-radio
+  networking.
+\newblock In {\em Wireless and Mobile Computing, Networking and Communications
+  (WiMob), 2015 IEEE 11th International Conference on}, pages 370--377. IEEE,
+  2015.
+
+\bibitem{zhong2014capacity}
+Xiaoxiong Zhong, Yang Qin, and Li~Li.
+\newblock Capacity analysis in multi-radio multi-channel cognitive radio
+  networks: A small world perspective.
+\newblock {\em Wireless Personal Communications}, 79(3):2209--2225, 2014.
+
+\bibitem{akyildiz2006next}
+Ian~F Akyildiz, Won-Yeol Lee, Mehmet~C Vuran, and Shantidev Mohanty.
+\newblock Next generation/dynamic spectrum access/cognitive radio wireless
+  networks: a survey.
+\newblock {\em Computer Networks}, 50(13):2127--2159, 2006.
+
+\bibitem{Mitola}
+J.~Mitola and Jr. Maguire, G.Q.
+\newblock Cognitive radio: making software radios more personal.
+\newblock {\em Personal Communications, IEEE}, 6(4):13--18, 1999.
+
+\bibitem{bahl2004reconsidering}
+Paramvir Bahl, Atul Adya, Jitendra Padhye, and Alec Walman.
+\newblock Reconsidering wireless systems with multiple radios.
+\newblock {\em ACM SIGCOMM Computer Communication Review}, 34(5):39--46, 2004.
+
+\bibitem{adya2004multi}
+Atul Adya, Paramvir Bahl, Jitendra Padhye, Alec Wolman, and Lidong Zhou.
+\newblock A multi-radio unification protocol for ieee 802.11 wireless networks.
+\newblock In {\em Broadband Networks, 2004. BroadNets 2004. Proceedings. First
+  International Conference on}, pages 344--354. IEEE, 2004.
+
+\bibitem{draves2004routing}
+Richard Draves, Jitendra Padhye, and Brian Zill.
+\newblock Routing in multi-radio, multi-hop wireless mesh networks.
+\newblock In {\em Proceedings of the 10th annual international conference on
+  Mobile computing and networking}, pages 114--128. ACM, 2004.
+
+\bibitem{miu2005improving}
+Allen Miu, Hari Balakrishnan, and Can~Emre Koksal.
+\newblock Improving loss resilience with multi-radio diversity in wireless
+  networks.
+\newblock In {\em Proceedings of the 11th annual international conference on
+  Mobile computing and networking}, pages 16--30. ACM, 2005.
+
+\bibitem{song2012performance}
+Wei Song and Weihua Zhuang.
+\newblock Performance analysis of probabilistic multipath transmission of video
+  streaming traffic over multi-radio wireless devices.
+\newblock {\em Wireless Communications, IEEE Transactions on},
+  11(4):1554--1564, 2012.
+
+\bibitem{kyasanur2006routing}
+Pradeep Kyasanur and Nitin~H Vaidya.
+\newblock Routing and link-layer protocols for multi-channel multi-interface ad
+  hoc wireless networks.
+\newblock {\em ACM SIGMOBILE Mobile Computing and Communications Review},
+  10(1):31--43, 2006.
+
+\bibitem{chatterjee2013low}
+Avhishek Chatterjee, Supratim Deb, Kanthi Nagaraj, and Vikram Srinivasan.
+\newblock Low delay mac scheduling for frequency-agile multi-radio wireless
+  networks.
+\newblock 2013.
+
+\bibitem{hoang2008downlink}
+Anh~Tuan Hoang and Ying-Chang Liang.
+\newblock Downlink channel assignment and power control for cognitive radio
+  networks.
+\newblock {\em IEEE Transactions on Wireless Communications}, 7(8), 2008.
+
+\bibitem{ahmed2014channel}
+Ejaz Ahmed, Abdullah Gani, Saeid Abolfazli, Liu~Jie Yao, and Samee~U Khan.
+\newblock Channel assignment algorithms in cognitive radio networks: Taxonomy,
+  open issues, and challenges.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 18(1):795--823, 2014.
+
+\bibitem{gamal2004throughput}
+A~El Gamal, James Mammen, Balaji Prabhakar, and Devavrat Shah.
+\newblock Throughput-delay trade-off in wireless networks.
+\newblock In {\em INFOCOM 2004. Twenty-third AnnualJoint Conference of the IEEE
+  Computer and Communications Societies}, volume~1. IEEE, 2004.
+
+\bibitem{de2012survey}
+Antonio De~Domenico, Emilio~Calvanese Strinati, and Maria-Gabriella
+  Di~Benedetto.
+\newblock A survey on mac strategies for cognitive radio networks.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 14(1):21--44, 2012.
+
+\bibitem{feng2009joint}
+Wei Feng, Jiannong Cao, Chisheng Zhang, and Chuda Liu.
+\newblock Joint optimization of spectrum handoff scheduling and routing in
+  multi-hop multi-radio cognitive networks.
+\newblock In {\em Distributed Computing Systems, 2009. ICDCS'09. 29th IEEE
+  International Conference on}, pages 85--92. IEEE, 2009.
+
+\bibitem{li2014deterministic}
+Guyue Li, Zhaoquan Gu, Xiao Lin, Haosen Pu, and Qiang-sheng Hua.
+\newblock Deterministic distributed rendezvous algorithms for multi-radio
+  cognitive radio networks.
+\newblock In {\em Proceedings of the 17th ACM international conference on
+  Modeling, analysis and simulation of wireless and mobile systems}, pages
+  313--320. ACM, 2014.
+
+\bibitem{valenta2010survey}
+V{\'a}clav Valenta, Roman Mar{\v{s}}{\'a}lek, Genevi{\`e}ve Baudoin, Martine
+  Villegas, Martha Suarez, and Fabien Robert.
+\newblock Survey on spectrum utilization in europe: Measurements, analyses and
+  observations.
+\newblock In {\em Cognitive Radio Oriented Wireless Networks \& Communications
+  (CROWNCOM), 2010 Proceedings of the Fifth International Conference on}, pages
+  1--5. IEEE, 2010.
+
+\bibitem{tandra2009spectrum}
+Rahul Tandra, Shridhar~Mubaraq Mishra, and Anant Sahai.
+\newblock What is a spectrum hole and what does it take to recognize one?
+\newblock {\em Proceedings of the IEEE}, 97(5):824--848, 2009.
+
+\bibitem{thomas2005cognitive}
+Ryan~W Thomas, Luiz~A DaSilva, and Allen~B MacKenzie.
+\newblock Cognitive networks.
+\newblock In {\em New Frontiers in Dynamic Spectrum Access Networks, 2005.
+  DySPAN 2005. 2005 First IEEE International Symposium on}, pages 352--360.
+  Ieee, 2005.
+
+\bibitem{haykin2005cognitive}
+Simon Haykin.
+\newblock Cognitive radio: brain-empowered wireless communications.
+\newblock {\em IEEE journal on selected areas in communications},
+  23(2):201--220, 2005.
+
+\bibitem{jondral2005software}
+Friedrich~K Jondral.
+\newblock Software-defined radio: basics and evolution to cognitive radio.
+\newblock {\em EURASIP journal on wireless communications and networking},
+  2005(3):275--283, 2005.
+
+\bibitem{federal2005notice}
+Federal~Communications Commission et~al.
+\newblock Notice of proposed rule making and order: Facilitating opportunities
+  for flexible, efficient, and reliable spectrum use employing cognitive radio
+  technologies.
+\newblock {\em ET docket}, (03-108):73, 2005.
+
+\bibitem{cormio2009survey}
+Claudia Cormio and Kaushik~R Chowdhury.
+\newblock A survey on mac protocols for cognitive radio networks.
+\newblock {\em Ad Hoc Networks}, 7(7):1315--1329, 2009.
+
+\bibitem{zhu2008stod}
+Guo-Mei Zhu, Ian~F Akyildiz, and Geng-Sheng Kuo.
+\newblock Stod-rp: A spectrum-tree based on-demand routing protocol for
+  multi-hop cognitive radio networks.
+\newblock In {\em Global Telecommunications Conference, 2008. IEEE GLOBECOM
+  2008. IEEE}, pages 1--5. IEEE, 2008.
+
+\bibitem{ahmadi2012distributed}
+Maryam Ahmadi, Yanyan Zhuang, and Jianping Pan.
+\newblock Distributed robust channel assignment for multi-radio cognitive radio
+  networks.
+\newblock In {\em Vehicular Technology Conference (VTC Fall), 2012 IEEE}, pages
+  1--5. IEEE, 2012.
+
+\bibitem{Ross}
+Sheldon~M. Ross.
+\newblock {\em Introduction to Probability Models, Ninth Edition}.
+\newblock Academic Press, Inc., Orlando, FL, USA, 2006.
+
+\bibitem{al2014simulating}
+Abdulla Al-Ali and Kaushik Chowdhury.
+\newblock Simulating dynamic spectrum access using ns-3 for wireless networks
+  in smart environments.
+\newblock In {\em Sensing, Communication, and Networking Workshops (SECON
+  Workshops), 2014 Eleventh Annual IEEE International Conference on}, pages
+  28--33. IEEE, 2014.
+
+\bibitem{heo2008mathematical}
+Junghyun Heo, Jungchae Shin, Jihee Nam, Yutae Lee, Joon~Goo Park, and Ho-Shin
+  Cho.
+\newblock Mathematical analysis of secondary user traffic in cognitive radio
+  system.
+\newblock In {\em Vehicular Technology Conference, 2008. VTC 2008-Fall. IEEE
+  68th}, pages 1--5. IEEE, 2008.
+
+\bibitem{winston2000simulation}
+Wayne~L Winston.
+\newblock {\em Simulation modeling using@ RISK}.
+\newblock Duxbury, 2000.
+
+\end{thebibliography}

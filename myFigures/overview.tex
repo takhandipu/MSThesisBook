@@ -1,0 +1,30 @@
+\begin{tikzpicture}[node distance=2cm, scale=1.0, transform shape]
+\tikzset{every node/.style={text width=4cm}}
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
+\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
+\tikzstyle{decision} = [diamond, minimum width=1cm,  text badly centered, inner sep=0pt, draw=black, fill=green!30]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+\node (sendPacket) [startstop] {Application layer packet is sent to the SU agent, \texttt{sendPacket}};
+\node (getSelectedRadio) [process, below of=sendPacket] {SU agent selects a radio to transmit the packet, \texttt{getSelectedRadio}};
+\node (startSensing) [decision, text width=3cm, aspect=2, below of=getSelectedRadio, yshift=-1cm] {Radio senses PU's activities, \texttt{startSensing}};
+\node (startSwitching) [process, text width=3.5cm, below right =0.75cm and -0.625 cm of startSensing, xshift=-0.5cm] {Radio switches its channel, \texttt{startSwitching}};
+%right of=startSensing, yshift=-3cm
+\node (getSelectedChannel) [process, below=0.65cm of startSwitching, xshift=-0.25cm] {SU agent selects a channel for radio, \texttt{getSelectedChannel}};
+\node (transmitPacket) [process, text width=3.5cm, below left =0.75cm and -0.625 cm of startSensing] {Radio transmits the packet, \texttt{transmitPacket}};
+\node (endTransmit) [decision, text width=3cm, aspect=2, below=0.5cm of transmitPacket] {Transmission end?};
+\node (end) [startstop, text width=0.5cm, below of=endTransmit] {End};
+\draw [arrow] (sendPacket) -- (getSelectedRadio);
+\draw [arrow] (getSelectedRadio) -- (startSensing);
+\draw [arrow] (transmitPacket) -- (endTransmit);
+\draw [arrow] (endTransmit) -- (end);
+\node at (-3, -10) {No};
+\node at (-1.4, -10.75) {Yes};
+\node at (-1.75, -5) {Idle};
+\node at (5.2, -5) {Busy};
+\draw [arrow] (-4.9,-9.575) -- (-6,-9.575) -- (-6, -3.35) -- (0, -3.35);
+\draw [arrow] (-2.8,-5) -- (-3,-5) -- (-3,-6.475);
+\draw [arrow] (2.8,-5) -- (3,-5) -- (3,-6.475);
+\draw [arrow] (3,-8.025) --  (3,-8.675);
+\draw [arrow] (4.05,-9.575) -- (5.2,-9.575) -- (5.2, -3.35) -- (0, -3.35);
+\end{tikzpicture}

@@ -1,0 +1,19 @@
+\contentsline {chapter}{\textit {Board of Examiners}}{ii}{figure.caption.1}
+\contentsline {chapter}{\textit {Candidate's Declaration}}{iii}{figure.caption.1}
+\contentsline {chapter}{\textit {Acknowledgment}}{iv}{chapter*.2}
+\contentsline {chapter}{\textit {Abstract}}{v}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Background and Motivation}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Summary of Contributions}{3}{section.1.2}
+\contentsline {chapter}{\numberline {2}Related Work}{4}{chapter.2}
+\contentsline {chapter}{\numberline {3}System Model and Problem Definition}{7}{chapter.3}
+\contentsline {chapter}{\numberline {4}Feedback-based Multi-radio Exploitation Approach}{9}{chapter.4}
+\contentsline {section}{\numberline {4.1}Overview of The Proposed Approach}{9}{section.4.1}
+\contentsline {section}{\numberline {4.2}Radio Selection Based on Packet Transmission Ratio}{9}{section.4.2}
+\contentsline {section}{\numberline {4.3}Channel Selection Based on Channel Utilization Ratio}{11}{section.4.3}
+\contentsline {section}{\numberline {4.4}Variants of Our Proposed Approach}{11}{section.4.4}
+\contentsline {chapter}{\numberline {5}Experimental Evaluation}{15}{chapter.5}
+\contentsline {section}{\numberline {5.1}Simulation Settings}{16}{section.5.1}
+\contentsline {section}{\numberline {5.2}Simulation Results}{16}{section.5.2}
+\contentsline {section}{\numberline {5.3}Simulation Findings}{21}{section.5.3}
+\contentsline {chapter}{\numberline {6}Conclusion}{23}{chapter.6}

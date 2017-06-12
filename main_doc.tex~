@@ -1,0 +1,109 @@
+\documentclass[a4paper,oneside,11pt]{report}
+\usepackage[top=1.5in, bottom=1.5in, left=0.8in, right=0.8in]{geometry}
+\usepackage{graphicx} 
+\usepackage{caption} 
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{verbatim}                    
+\usepackage{color} %only temporary for proof pointing
+\usepackage{verbatim} 
+\usepackage{setspace} %used to reduce line spacing in algorithm float
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+\usepackage{epstopdf}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{longtable}
+\usepackage{multirow} % tables
+\usepackage{rotating} % for rotating texts
+\usepackage{paralist}
+%\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+%\usepackage{algorithmic}
+
+\usepackage[utf8]{inputenc}
+\usepackage{subcaption}
+\usepackage{algorithmicx,algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{tikz}
+\usepackage{varwidth}
+\usepackage{cleveref}
+\usepackage{amsmath}
+\usetikzlibrary{backgrounds}%arrows, shapes, trees, 
+\usetikzlibrary{positioning}
+\usetikzlibrary{shapes.geometric, arrows}
+
+\makeatletter
+\let\OldStatex\Statex
+\renewcommand{\Statex}[1][3]{%
+  \setlength\@tempdima{\algorithmicindent}%
+  \OldStatex\hskip\dimexpr#1\@tempdima\relax}
+\makeatother
+
+\pagestyle{empty} % hiding page numbering
+\sloppy % for tricky allignments
+\usepackage[justification=centering]{caption}
+%\usepackage[font={small,it}]{caption}
+%#############only for fancy header
+
+\usepackage{fancyhdr, blindtext}
+%################only for fancy header
+ \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+%\usepackage{fancyhdr} 
+%\pagestyle{fancy}
+%\rightmark  
+%\includeonly{chapter_2, chapter_3} 
+%\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+%\renewcommand{\algorithmicensure}{\textbf{Output:}}
+%\newcounter{lemma_counter}[chapter]
+%\newcounter{def_counter}[chapter]   
+%\newcommand{\lemma}{\refstepcounter{lemma_counter}Lemma \arabic{chapter}.\arabic{lemma_counter}} %macro to track lemma numbers in different chapters
+
+%\newcommand{\defn}{\refstepcounter{def_counter}Definition \arabic{chapter}.\arabic{def_counter}} 
+
+\linespread{1.5} 
+       
+\begin{document}
+  
+\pagenumbering{roman}    
+\input{front_matter}
+\input{acknowledgment}
+\input{abstract}
+\tableofcontents         
+\listoffigures 
+\listoftables
+%\listofalgorithms 
+\cleardoublepage   
+
+
+\fancyhf{}     
+\fancyhead[L]{\slshape \leftmark}
+\fancyhead[R]{\thepage}
+\pagestyle{fancy}
+\pagenumbering{arabic}  
+\input{introduction}
+
+\input{relatedWork.tex}
+
+\input{systemModel.tex}
+
+\input{feedback.tex}
+
+\input{results.tex}
+
+\input{conclusion.tex}
+
+\bibliographystyle{unsrt}
+%\bibliographystyle{ieeetr}
+\bibliography{SystemModel}
+
+
+\end{document}

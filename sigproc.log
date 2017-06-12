@@ -1,0 +1,27 @@
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdftex 2014.10.5)  15 OCT 2014 19:51
+entering extended mode
+**H:/MasTerS/Term*2/WAN/Thesis/Thesis*Book/sigproc.bib
+("H:/MasTerS/Term 2/WAN/Thesis/Thesis Book/sigproc.bib"
+Overfull \hbox (5.46721pt too wide) in paragraph at lines 11--21
+\tenrm dio, au-thor=Li, James CF and Zhang, Wei and Nos-ra-tinia, Aria and Yuan
+, Jin-hong, jour-nal=Communications,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm d
+.\tenrm i
+.\tenrm o
+.\tenrm ,
+.\glue 3.33333 plus 2.08331 minus 0.88889
+.etc.
+
+! Undefined control sequence.
+l.35   howpublished = "\url
+                           {http://faculty.uml.edu/Tricia_Chigan/Research/CR...
+
+? 
+! Emergency stop.
+l.35   howpublished = "\url
+                           {http://faculty.uml.edu/Tricia_Chigan/Research/CR...
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!

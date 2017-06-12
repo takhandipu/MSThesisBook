@@ -1,0 +1,11 @@
+\chapter*{Acknowledgment}
+\chaptermark{Acknowledgment}
+\addcontentsline{toc}{chapter}{\textit{Acknowledgment}} 
+
+Foremost, I express my heart-felt gratitude to my supervisor, Dr. A. B. M. Alim Al Islam, for his constant supervision of this work. He helped me a lot in every aspect of this work and guided me with proper directions whenever I sought one. His patient hearing of my ideas, critical analysis of my observations and detecting flaws (and amending thereby) in my thinking and writing have made this thesis a success.
+
+I would also want to thank the members of my thesis committee: Dr. M. Sohel Rahman, Dr. A.K.M. Ashikur Rahman, Dr. Mahmuda Naznin, and specially the external member Dr. Md. Abdur Razzaque, for their encouragements, insightful comments, and valuable suggestions.
+
+I am also thankful to Chowdhury Sayeed Hyder (Software Engineer, DS SQL Engineering, Microsoft, Redmond, WA, USA.). I sought help from him a number of occasions regarding simulation set-up and performance evaluation of this thesis. In addition, I am grateful to Md. Jahidul Islam (PhD Candidate, University of Minnesota -Twin Cities), Novia Nurain (Assistant Professor, CSE-UIU), Abdus Salam Azad (Lecturer, CSE-BUET), and Md. Ishat-E-Rabban (Lecturer, CSE-BUET) for their help and valuable suggestions regarding the writing and presentation of this thesis.
+
+Last but not the least, I remain ever grateful to my beloved parents, who always exists as sources of inspiration behind every success of mine.

@@ -1,0 +1,100 @@
+\begin{titlepage}
+\centering 
+ {\sc \Large M.Sc. Engg. Thesis} \\
+ \vspace{1 cm}
+ {\huge \sc Overcoming Throughput Degradation in Multi-Radio Cognitive Radio Networks}\\
+ \vspace{0.5 cm}
+ {\Large by \\
+\sc Tanvir Ahmed Khan} (1014052013) \\
+ \vspace{2cm}
+ {\Large Submitted to}\\
+ %\vspace{0.5cm}
+ {\Large Department of Computer Science \& Engineering\\
+ (In partial fulfilment of the requirements for the degree of \\
+ Master of Science in Computer Science \& Engineering)} \\
+ \vspace{1cm}
+ \begin{figure}[h] 
+ \centering
+ \includegraphics[scale=0.08]{figures/buet_logo}
+ \end{figure}
+ \vspace{0.3cm}
+ {\Large Department of Computer Science \& Engineering\\
+ 	Bangladesh University of Engineering \& Technology (BUET)\\
+ 	Dhaka 1000 \\
+ }
+ \vspace{1cm}
+ {\today}
+\end{titlepage}
+ %\pagenumbering{roman}
+ \newpage
+ \begin{flushright}
+ \vspace{40cm}
+ 	 \textit{\Large Dedicated to my loving parents}\\
+ \vspace{15cm}
+ \textit{\Large \sc Author's Contact}\\
+ \line(1,0){200}\\
+Tanvir Ahmed Khan\\
+Lecturer,\\
+Department of Computer Science \& Engineering, \\
+Bangladesh University of Engineering \& Technology (BUET), Dhaka.\\
+Email: \href{mailto:takhan@cse.buet.ac.bd}{takhan@cse.buet.ac.bd},  \href{mailto:takhandipu@gmail.com}{takhandipu@gmail.com} \\
+ \end{flushright}
+ \newpage
+ \addcontentsline{toc}{chapter}{\textit{Board of Examiners}} 
+ { \singlespacing
+ The thesis titled ``Overcoming Throughput Degradation in Multi-Radio Cognitive Radio Networks'', submitted by Tanvir Ahmed Khan, Roll No. \textbf{1014052013}, Session October 2014, to the Department of Computer Science \& Engineering, Bangladesh University of Engineering \& Technology, has been accepted as satisfactory in partial fulfilment of the requirements for the degree of Master of Science in Computer Science \& Engineering and approved as to its style and contents. Examination held on \today. \\
+ \begin{center}
+ 	\textbf{\Large Board of Examiners}
+ \end{center}
+ \begin{tabular}{p{12cm} r }
+ 	\vspace{0.8cm}
+ 	1. \line(1,0){200} &  \\
+ 	Dr. A. B. M. Alim Al Islam & Chairman\\ 
+ 	Assistant Professor & (Supervisor)\\
+ 	Department of Computer Science \& Engineering & \\
+ 	Bangladesh University of Engineering \& Technology, Dhaka. & \\
+ 	\vspace{0.8cm}
+ 	2. \line(1,0){200} &  \\
+ 	Dr. M. Sohel Rahman  & Member \\ 
+ 	Head and Professor & (Ex-Officio)\\
+ 	Department of Computer Science \& Engineering & \\
+ 	Bangladesh University of Engineering \& Technology, Dhaka. & \\
+ 	\vspace{0.8cm}
+ 	3. \line(1,0){200} &  \\
+ 	Dr. A.K.M. Ashikur Rahman & Member\\ 
+ 	Professor &\\
+ 	Department of Computer Science \& Engineering & \\
+ 	Bangladesh University of Engineering \& Technology, Dhaka. & \\
+ 	\vspace{0.8cm}
+ 	4. \line(1,0){200} &  \\
+ 	Dr. Mahmuda Naznin & Member\\ 
+ 	Professor & \\
+ 	Department of Computer Science \& Engineering & \\
+ 	Bangladesh University of Engineering \& Technology, Dhaka. & \\
+ 	\vspace{0.8cm}
+ 	5. \line(1,0){200} &  \\
+ 	Dr. Md. Abdur Razzaque & Member\\ 
+ 	Professor & (External)\\
+ 	Department of Computer Science \& Engineering & \\
+ 	University of Dhaka, Dhaka. &\\
+ \end{tabular}
+ } 
+ \newpage
+ \addcontentsline{toc}{chapter}{\textit{Candidate's Declaration}} 
+ \begin{center}
+ \LARGE \textbf{Candidate's Declaration}
+ \end{center}
+ \vspace{3cm}
+ This is hereby declared that the work titled ```Overcoming Throughput Degradation in Multi-Radio Cognitive Radio Networks'', is the outcome of research carried out by me under the supervision of Dr. A. B. M. Alim Al Islam, in the Department of Computer Science \& Engineering, Bangladesh University of Engineering \& Technology, Dhaka 1000. It is also declared that this thesis or any part of it has not been submitted elsewhere for the award of any degree or diploma.\\
+ \vspace{4cm}
+\begin{center}
+ \line(1,0){200}\\
+ \large
+ Tanvir Ahmed Khan\\
+ Candidate
+\end{center}
+ 
+
+ 
+ 
+ 

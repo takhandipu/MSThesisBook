@@ -1,0 +1,186 @@
+\chapter{Feedback-based Multi-radio Exploitation Approach}\label{chap:feedback}
+
+Our proposed approach consists of mainly two different types of feedbacks. Firstly, we measure packet transmission ratio for each radio to evaluate radio performance. Secondly, we calculate channel utilization ratio for each channel to assess corresponding channel condition.
+
+\section{Overview of The Proposed Approach}
+
+We present a brief overview of our proposed feedback-based approach in \cref{fig:overview}. As SUs are equipped with multiple radios, a single radio is first selected to send an application layer packet. The radio selection process as described in \cref{sec:radioSelect} is based on packet transmission ratio. The selected radio then senses the PU activity on its current channel. If the current channel is idle, it transmits the packet following an standard CSMA-CA protocol. However, if the current channel is busy, then the radio selects another channel and starts switching to that channel. The channel selection process is based on channel utilization ratio and is described in \cref{sec:channelSelect}.
+
+\iffalse
+\begin{figure}[!htb]
+\begin{center}
+%\resizebox{0.625\textwidth}{!}{
+\begin{center}
+
+\end{center}
+%}
+\caption{High-level overview of the proposed approach}
+\label{fig:overview}
+\end{center}
+\end{figure}
+\fi
+
+\begin{figure}[!htb]
+\begin{center}
+\begin{tikzpicture}[scale=1.0, transform shape]
+    \node {\input{myFigures/overview}};
+\end{tikzpicture}
+\caption{High-level overview of the proposed approach}
+\label{fig:overview}
+\end{center}
+\end{figure}
+
+\section{Radio Selection Based on Packet Transmission Ratio}
+\label{sec:radioSelect}
+
+When SUs are equipped with multiple data transmission radios, the first issue comes into play is to select the radio for transmitting data packets. For this selection, our proposed approach maintains two counters for each radio namely \texttt{pktQueued} denoting the number of packets queued for the radio and \texttt{pktSent} denoting the number of packets already transmitted by the radio. Whenever the Application layer of an SU sends a packet for transmission to the lower layers, the secondary user agent calculates the ratio between 	\texttt{pktSent} and \texttt{pktQueued} for each radio. We define the ratio as Packet Transmission Ratio, \texttt{sentQueuedRatio}. Subsequently, we normalize values of the ratio to rank the radios in a uniform manner. A larger value of such packet transmission ratio implies that the corresponding radio has been successful to transmit more packets than others. Using these packet transmission ratios as the weights, our proposed approach conducts a weighted lottery to select radios for transmission of packets.
+
+At the beginning of the packet transmission process, an SU's radio senses its current channel. If the cognitive radio finds that the current channel is busy, then the radio starts a channel switching process. At the beginning of the channel switching process, the SU agent lists all the channels currently not used by any radio of the corresponding SU. If no such channel can be found, the radio is reported as Off and the queued packets are discarded as dropped. Otherwise, a channel is selected from the list of available channels, \texttt{availableChannels} based on current channel utilization ratio. We present the selection process along with the definition of the channel utilization ratio next.
+
+\section{Channel Selection Based on Channel Utilization Ratio}
+\label{sec:channelSelect}
+
+In our proposed approach, each SU keeps two counters for each channel. First, \texttt{pktTransmitted} counts the number of packets transmitted in the channel by the corresponding SU radios. Besides, \texttt{pktReceived} counts the number of packets successfully received by the corresponding receiver. The counter, \texttt{pktReceived} is incremented after reception of each acknowledgment packet. When a switching radio requires selecting a channel among \texttt{availableChannels}, the SU agent calculates the ratio between \texttt{pktReceived} and \texttt{pktTransmitted} for each channel on the list, \texttt{availableChannels}. We define the ratio as Channel Utilization Ratio, \texttt{RxTxRatio}. We normalize this ratio to rank the channels in a uniform manner. Using these channel utilization ratios as the weights, the SU agent conducts a weighted lottery to select the channel to switch over.
+
+The last two important aspects of our feedback-based multi-radio exploitation approach are the reactivation of Off radios and probabilistic channel switching. Radios marked Off at the beginning of a channel switching process, are reactivated probabilistically by the radio selection process. While calculating packet transmission ratio from \texttt{pktSent} and \texttt{pktQueued}, in the case of Off radios, the ratio is multiplied by \texttt{wakeUpProbability} to make it less likely to be selected as the next radio for sending a packet. Though, if selected, the Off radio is reported as On and it starts its cognitive cycle through the channel sensing process. The probabilistic channel switching implies that radios do not always switch after finding their current channel busy. The channel switching process occurs at a probability of \texttt{switchingProbability}.
+
+\iffalse
+\begin{algorithm}
+\caption{$\mathit{sendPacket}$: SU agent sending a packet, $p$}
+\label{alg:sendPacket}
+\begin{algorithmic}[1]
+\Function{$\mathit{sendPacket}$}{}
+\State $\mathit{radioIndex}\gets \mathit{getSelectedRadio}()$
+\State $pktQueued[radioIndex]\gets $\Statex$ 1+\mathit{pktQueued}[\mathit{radioIndex}]$
+\State $\mathit{radioStatus}[\mathit{radioIndex}]\gets \mathit{On}$
+\State $\mathit{startSensing}(\mathit{radioIndex})$
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}
+\caption{$\mathit{startSensing}$: SU's radio sensing its channel}
+\label{alg:startSensing}
+\begin{algorithmic}[1]
+\Function{$\mathit{startSensing}$}{$\mathit{radioIndex}$}
+\If{$\mathit{currentChannel}[\mathit{radioIndex}]$ is $\mathit{Busy}$}
+\State $\mathit{startSwitching}(\mathit{radioIndex})$
+\Else
+\State $\mathit{transmitPacket}(\mathit{radioIndex})$
+\EndIf
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}
+\caption{$\mathit{startSwitching}$: SU's radio changing its channel}\label{alg:startSwitching}
+\begin{algorithmic}[1]
+\Function{$\mathit{startSwitching}$}{$\mathit{radioIndex}$}
+\State Stop the switching process and \textbf{return} with the probability $(1-\mathit{switchingProbability})$
+\State $\mathit{availableChannels} \gets $ all the channels currently not used by any radio of the SU
+\If{$\mathit{availableChannels}=\varnothing$}
+\State $\mathit{radioStatus}[\mathit{radioIndex}]\gets \mathit{Off}$
+\State $\mathit{dropPacket}()$
+\Else
+\State $\mathit{channelIndex}\gets$\Statex$ \mathit{getSelectedChannel}(\mathit{availableChannels})$
+\State $\mathit{currentChannel}[\mathit{radioIndex}] \gets \mathit{channelIndex}$
+\State $\mathit{channels}[\mathit{channelIndex}] \gets \mathit{Used}$
+\State $\mathit{startSensing}(\mathit{radioIndex})$
+\EndIf
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}
+\caption{$\mathit{transmitPacket}$: SU's radio transmitting a packet, $p$}
+\label{alg:transmitPacket}
+\begin{algorithmic}[1]
+\Function{$\mathit{transmitPacket}$}{$\mathit{radioIndex}$}
+\State $\mathit{pktSent}[\mathit{radioIndex}]\gets \mathit{pktSent}[\mathit{radioIndex}]+1$
+\State $\mathit{pktTransmitted}[\mathit{currentChannel}[\mathit{radioIndex}]]\gets$\par\hskip\algorithmicindent$\mathit{pktTransmitted}[\mathit{currentChannel}[\mathit{radioIndex}]]$\par\hskip\algorithmicindent$+1$
+\State encapsulate $\mathit{radioIndex}$ within the packet, $p$ and transmit it following CSMA-CA
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+\begin{algorithm}
+\caption{$\mathit{receiveAckPacket}$: SU's radio receiving an Ack packet, $p$}
+\label{alg:receivePacket}
+\begin{algorithmic}[1]
+\Function{$\mathit{receivePacket}$}{$p$}
+\State $\mathit{radioIndex} \gets $ the radio index extracted from the packet
+\If{$\mathit{radioIndex}=$ current radio's index}
+\State $\mathit{pktReceivedRadio}[\mathit{radioIndex}]\gets$\Statex$ \mathit{pktReceivedRadio}[\mathit{radioIndex}]+1$
+\State $\mathit{pktReceived}[\mathit{currentChannel}[\mathit{radioIndex}]]\gets$\Statex$ \mathit{pktReceived}[\mathit{currentChannel}[\mathit{radioIndex}]]+1$
+\EndIf
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}
+\caption{$\mathit{getSelectedRadio}$: Selects an SU radio to send a packet}
+\label{alg:getSelectedRadio}
+\begin{algorithmic}[1]
+\Function{$\mathit{getSelectedRadio}$}{}
+%\State $\mathit{radios} \gets$ all the radios
+\State $k \gets$ the number of radios
+\State $\mathit{sentQueuedRatio} [0\ldots k] \gets $a new array of floating point values
+\State $\mathit{total} \gets 0.0$
+\For{$r=1$ \textbf{to} $k$}
+\State $\mathit{sentQueuedRatio}[r] \gets \dfrac{(1+\mathit{pktSent}[\mathit{r}])}{(1+\mathit{pktQueued}[\mathit{r}])}$
+\If{$\mathit{radioStatus}[\mathit{r}]=\mathit{Off}$}
+\State $\mathit{sentQueuedRatio}[r] \gets$\Statex[2]$ \mathit{sentQueuedRatio}[r] \times \mathit{wakeUpProbability}$
+\EndIf
+\State $\mathit{total} \gets \mathit{total} + \mathit{sentQueuedRatio}[r]$
+\EndFor
+\For{$r=1$ \textbf{to} $k$}
+\State $\mathit{sentQueuedRatio}[r] \gets \dfrac{\mathit{sentQueuedRatio}[r]}{\mathit{total}}$
+\EndFor
+\State $\mathit{radioIndex} \gets$ winner of the weighted lottery among all the radios with weight, $\mathit{sentQueuedRatio}$
+\State \textbf{return} $\mathit{radioIndex}$
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}
+\caption{$\mathit{getSelectedChannel}$: Selects a new channel to switch for an SU radio over the $\mathit{availableChannels}$}
+\label{alg:getSelectedRadio}
+\begin{algorithmic}[1]
+\Function{$\mathit{getSelectedChannel}$}{$\mathit{availableChannels}$}
+\State $k \gets$ the number of channels in $\mathit{availableChannels}$
+\State $\mathit{RxTxRatio} [0\ldots k] \gets $ a new array of floating point values
+\State $\mathit{total} \gets 0.0$
+\For{$r=1$ \textbf{to} $k$}
+\State $\mathit{RxTxRatio}[r] \gets \dfrac{(1+\mathit{pktReceived}[\mathit{r}])}{(1+\mathit{pktTransmitted}[\mathit{r}])}$
+\State $\mathit{total} \gets \mathit{total} + \mathit{RxTxRatio}[r]$
+\EndFor
+\For{$r=1$ \textbf{to} $k$}
+\State $\mathit{RxTxRatio}[r] \gets \dfrac{\mathit{RxTxRatio}[r]}{\mathit{total}}$
+\EndFor
+\State $\mathit{channelIndex} \gets$ winner of the weighted lottery among all the channels in $\mathit{availableChannels}$ with weight, $\mathit{RxTxRatio}$
+\State \textbf{return} $\mathit{channelIndex}$
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+\fi
+
+\section{Variants of Our Proposed Approach}
+
+We create three variants of our proposed approach introducing radio and channel selection based on a random variable following a uniform distribution. While selecting the next radio for data packet transmission, we can randomly select any one of data radios ignoring the packet transmission ratios. Similarly, the next channel to switch can also be chosen randomly from the available channels irrespective of the channel utilization ratio. We define this random radio and channel selection policy as unweighted lottery. From this unweighted lottery, we devise three variants of our proposed approach as described in \cref{tab:variantDefintion}. The approach of randomly selecting both the radio and the channel has not be listed as the variants of the proposed approach as that approach is quite similar to the approach proposed by Zhong et al.,~\cite{zhong2014capacity}.
+
+\begin{table*}
+\begin{center}
+  \caption{Several variants of the proposed feedback-based approach}
+  \label{tab:variantDefintion}
+  \begin{tabular}{p{0.2\textwidth}p{0.35\textwidth}p{0.35\textwidth}}
+    \toprule
+    Variant name & Radio selection policy & Channel selection policy\\
+    \midrule
+    Radio feedback & Weighted lottery based on radio transmission ratio & Unweighted lottery \\
+    Channel feedback & Unweighted lottery  & Weighted lottery based on channel utilization ratio \\
+    Radio channel feedback & Weighted lottery based on radio transmission ratio & Weighted lottery based on channel utilization ratio \\
+    \bottomrule
+  \end{tabular}
+\end{center}
+\vspace{-0.8cm}
+\end{table*}
+\endinput

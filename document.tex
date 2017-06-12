@@ -1,0 +1,772 @@
+\documentclass{llncs}
+\usepackage{graphicx,amsmath,amsfonts,amssymb}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amsthm}
+\usepackage{setspace} %used to reduce line spacing in algorithm float
+\usepackage{verbatim,subfigure}
+\usepackage{appendix}
+\title{shortening the Tour-length of a Mobile Data Collector in the WSN by the Method of Linear
+shortcut} 
+\titlerunning{Energy-aware Path of MDC for WSN}
+ 
+\author{Md. Shaifur Rahman} %\and Mahmuda Naznin}
+\authorrunning{Shaifur et at.}
+
+\institute{Bangladesh University of Engineering \& technology, Dhaka, Bangladesh \\
+ \email{shaifur.at.buet@gmail.com}
+}
+ 
+%\institute{Bangladesh University of Engineering \& technology, Dhaka, Bangladesh \\
+% \email{\{shaifur, mahmudanaznin\}@cse.buet.ac.bd}
+%} 
+\newtheorem{mydef}{Definition}%[section]
+\newtheorem{mylemma}{Lemma}%[section]
+%\newtheorem{prob_state}{Problem Statement}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+In this work, we present a path-planning framework for the \textit{Mobile Data Collector} (MDC) in a
+wireless sensor network (WSN). Using this framework, a tour for the MDC is generated such that the
+latency of delivering data to the sink is reduced and the lifetime of the network is increased. We
+prove that the $TSP$-tour by the MDC ensures maximum lifetime of the network. However, the latency
+in case of the $TSP$-tour may be prohibitively high for delay-sensitive WSN. Our framework reduces
+latency by shortening the given $TSP$-tour using a method called \textit{Linear shortcut}. The
+method take advantage of the fact that the MDC need not visit the exact location of the wireless
+sensor nodes, but only the proximity of it as required by the transmission radius. We present an
+algorithm that iteratively improves the quality of the path. Simulation results show that the
+resulting tour known as \textit{Tight Label Covering} tour is as energy-efficient as the $TSP$-tour
+and that it drastically reduces latency. Our framework makes the use of the MDC feasible for  delay-sensitive WSN.
+\end{abstract}
+
+\keywords{Wireless Sensor Network, Path-planning, Mobile Data Collector, TSP-tour}
+\section{Introduction}
+Wireless Sensor Network (WSN) is widely used for tracking, monitoring and other
+purposes. The problem of collecting data packets from the sensor nodes and depositing those to the
+sink node is known as \textit{Data Gathering}. Using mobile elements for the purpose of  data in
+the WSN is a recent trend. It has many advantages. For example, it increases connectivity, reduces
+cost of deployment of a dense WSN and increases the lifetime of the WSN. However, it has the
+disadvantage of high latency as these mobile elements have limited speed (compared to the high
+speed data gathering by routing).
+The dedicated mobile elements in the WSN that collects data packets and bring those 
+to the static sink is called \textit{Mobile Data Collector} or MDC. An important way to control the 
+latency of the data collection by the MDC is to carefully plan its path so that the path is as short
+as possible. In this work, we present a path-planning framework that improves the path of the MDC 
+iteratively. We also run simulation using our path-planning method in a realistic testbed. In
+the result of the simulation, we observe that, the shortening of the path indeed translates into
+decreased latency and other improvements.
+\section{Related Works}
+\cite{DiFrancesco:2011:DCW:1993042.1993049} is a complete survey on using mobile elements for data
+collection in the WSN. Earlier works on mobile elements can be found in 
+\cite{Zhao:2003:MFP:795675.797105},
+\cite{Shah03datamules},
+\cite{Zhao:2004:MFA:989459.989483} 
+and \cite{Jun:2005:TLE:1048931.1049847}. However, random motion of the mobile elements in these
+works is not suitable for optimization. Mobile sinks have been considered in
+\cite{Wang:2005:ESM:1042440.1043284} and \cite{RaoWB08}. 
+Mobile relay based approaches for opportunistic networks have been surveyed in
+\cite{conti_2008_opportunistic}. However, these methods are not suitable for the WSN because of its
+difference with such network. In \cite{Ma:2007:SED:1313042.1313066}, an energy-efficient data
+gathering mechanism for large-scale multi-hop network has been proposed. The
+inter-cluster tour proposed in this work is $NP$-hard. Latency issue is not addressed in it.
+One of the heuristics used in this work produces edges which are not connected with any nodes of the
+WSN. The issue of latency is considered while planning path for the mobile collector in
+\cite{Sugihara:2008} and \cite{Sugihara:2011}. Methods presented in these works
+produce a shorter tour termed \textit{Label Covering} tour from a $TSP$-tour. However, the
+transmission range of the sensor nodes is ignored in the shortening process. 
+In \cite{Yuan:2010:RaceTrack}, authors propose an approximation algorithm called \textit{RaceTrack} 
+which is based also based on
+the $TSP$-tour constructed from the locations of the deployed
+sensor nodes. Although, the computation time ($O(n)$) is impressive, the solution is
+applicable to only certain kind of $TSP$-tour 
+(only for a $TSP$-polygon whose centroid lies inside it). If a condition regarding concavity of
+the given $TSP$-tour is not met, the problem of
+finding the optimal solution becomes $NP$-hard. In \cite{Bhadauria:2011:RDM:1967380.1967382}, 
+authors address  the problem of planning
+ paths of multiple robots so as to collect the data from all sensors in the least amount of time. 
+ The method presented here exploits earlier work on $TSP$\textit{-tour with neighborhood} problem.
+ However, the  method presented in this work does not utilize the available location information of
+ the sensor nodes to the fullest when it allows traversals of the boundaries. In sparse network, one
+ or more sensor nodes have no neighbors at all and as a result, the traversal of the boundary
+ those nodes is futile and adds up to the tour-length.
+ 
+ Rest of the sections are organized as follows: the problem is formulated in Section \ref{prelim}.
+ Our approach is presented in Section 4. Simulation result is discussed in Section 5. The prospect
+ of future work is presented in Section 6.
+\section{Preliminaries \label{prelim}}
+We represent a WSN with $n$ nodes by a complete graph $K_n$ where the graph-nodes represent location
+of the sensor nodes and the sink. The edges in this graph represent the Euclidian distances
+ between any
+two locations of the nodes. We adopt the \textit{disk model} of the given transmission 
+range $TXR$. A
+circle with radius $TXR$ centered at a node represent the area of radio transmission of that node.
+We assume that there are one sink and one MDC in the WSN and that both the sink and the sensor nodes
+are static. 
+A \textit{tour} or \textit{cycle} for the MDC is a closed path in the graph $K_n$ which starts
+and ends at the sink node.
+\begin{mydef}
+	A $TSP$ tour is a tour in which the MDC visits the exact location of all the nodes in the WSN
+	except the sink exactly once. The \textit{min-cost} $TSP$ tour is a $TSP$-tour in which the MDC covers the
+	minimum Euclidian distance.
+\end{mydef}
+\begin{mydef}
+	A tour $T$ by the MDC is \textit{complete} if each sensor node of the WSN can send data packets to
+	the visiting MDC directly or by a neighboring forwarding node. Otherwise, the tour is
+	\textit{incomplete}.
+\end{mydef}
+Unless stated otherwise, a $TSP$-tour will denote the min-cost $TSP$-tour in this work. By
+definition, a $TSP$-tour is complete. In a $TSP$-tour all nodes send data packets directly to the
+MDC. Therefore, there is no forwarding nodes.
+\begin{mydef}
+	\textit{m-lifetime} of a WSN is the period after which exactly $m$ sensor nodes die in the network
+	due to energy-depletion.
+\end{mydef}
+\begin{mylemma}
+	All other things being equal, the $m$-lifetime of the $TSP$-tour is the minimum of any complete
+	tour.
+\end{mylemma}
+\textbf{Proof.} Let us compare the $1$-lifetime of the $TSP$-tour $T_{TSP}$ with that of an
+arbitrary complete tour $T_i$. There are two cases:
+
+Case (a): There are one or more forwarding nodes in tour $T_i$. In this case, let $n_j$ be
+one such forwarding node. Under similar traffic scenario and  network topology, node $n_j$ will
+die faster in case of tour $T_i$ than  in case of the $TSP$-tour, because
+ node $n_j$ has to forward packets of other nodes in addition to its own packets. No node will die
+ faster in case of $TSP$-tour than in case of tour $T_i$. Thus, the $1$-lifetime of 
+ tour $T_i$ is shorter than that of the $TSP$-tour.
+ 
+Case(b): There is no forwarding node in tour $T_i$. In this case, we can still beat the
+$1$-lifetime of tour $T_i$ by decreasing the transmission radius $TXR$ by a small amount
+$\epsilon$. $TSP$-tour is invariant to the value of $TXR$.
+Since, all other things being equal, the energy consumption by a node is directly proportional to
+the value of TXR, the $1$-lifetime of $TSP$-tour with
+TXR=$(r-\epsilon)$ will still be higher than that of tour $T_i$ with TXR=$r$. 
+
+Using similar approach, we can show that $2,3,\ldots,m$-lifetimes of $TSP$-tour are higher than
+$2,3,\ldots,m$-lifetime respectively of any arbitrary complete tour $T_i$. $\blacksquare$
+ 
+We observe that a $TSP$-tour is complete and energy-efficient. However, it is not a good choice for
+a delay-sensitive WSN.
+\begin{mydef}
+	Data Delivery Latency of a packet is the time-difference between the generation and delivery of the
+	packet.
+\end{mydef}
+Let a packet $i$ be generated after $t_g$ time since the MDC sets out from the sink node position.
+The MDC completes the current tour in $t_{T}$ time according to some tour plan $T$. The packet
+delivery latency $t_l$ for this particular packet $i$ is given by:
+\begin{equation}
+	t_l(i) = t_{T}  -  t_g(i)
+	\label{eqn:latency_per_pkt}
+\end{equation}
+If a total of $n$ packets are collected from this tour $T$, average packet delivery latency
+$t_{avg}$ is given by:
+\begin{align}
+	t_{avg} &= \frac{\sum_{i=1}^n [t_{T}  -  t_g(i)]}{n} \nonumber \\
+			&= t_{T}-\frac{\sum_{i=1}^n t_g(i)}{n}
+	\label{eqn:latency_avg}
+\end{align} 
+The quantity $\frac{ \sum_{i=1}^n t_g(i)}{n}$ in Equation
+\ref{eqn:latency_avg} known as \textit{average packet generation time} is not controllable as it depends on the 
+sampling rate of
+the sensor nodes plus event frequency; however, we can improve both  the per packet latency and the 
+average latency by
+decreasing the tour-time $t_{T}$ as evident from both Equation \ref{eqn:latency_per_pkt} and
+\ref{eqn:latency_avg}.\\
+The tour-time of the $TSP$-tour i.e. $t_{TSP}$ has two components:  the fraction of tour-time
+$t_{h}$ that the MDC halts and collects data from nearby nodes and the fraction 
+of tour-time $t_{m}$ that the
+MDC travels between the node positions.
+\begin{equation}
+	t_{TSP}=t_h+t_m
+\end{equation}
+When the number of nodes is very high and/or the network is sparse, $t_h<<t_m$ and thus $t_m$
+dominates tour-time $t_{TSP}$. This assumption is logical for practical scenario where the speed
+of a commercially available robotic car used as MDC usually is $5\mbox{ }ms^{-1}$ whereas
+packet transfer from a sensor node to the MDC happens in the order of miliseconds. Thus, decreasing
+the  motion time $t_m$ contributes to improving latency. If the speed of the MDC is $v_{MDC}$, and
+if we assume that it accelerates to this speed instantly and  stops instantly, then
+\begin{equation}
+	t_m=\frac{|t_{TSP}|}{v_{MDC}}
+	\label{eqn:motion_time}
+\end{equation}
+where $|t_{TSP}|$ is the path-length of the $TSP$-tour. Now, given a
+particular MDC, $v_{MDC}$ is fixed. The only way to decrease tour-time is decreasing the length
+of the tour i.e. $|t_{TSP}|$ as evident from Equation \ref{eqn:motion_time}.\\
+However, by decreasing the tour length, we may have the risk of making the resulting tour
+incomplete.
+However, we address the issue carefully so that, the resulting tour is complete and shorter than
+$TSP$-tour.
+\subsection*{Problem Statement}
+\textit{
+Given a $TSP$-tour of the MDC in a WSN, find a tour $T_d$ that is
+\textit{complete} and \textit{shorter} in length than the $TSP$-tour}.
+\\ \\
+The problem of finding the shortest tour which is complete and which requires no forwarding node in
+a WSN is intractable. The problem of finding the min-cost $TSP$-tour for the MDC is $NP$-complete.
+However, many good approximation algorithms for finding a $TSP$-tour exist which run in
+polynomial-time. The problem of finding the shortest complete tour from a given $TSP$-tour is also
+intractable. In this work, we present a simple framework to derive a shorter tour from a given
+$TSP$-tour.
+\section{Improving Latency by Means of Linear shortcut}
+\subsection{Linear shortcut of a Tour} 
+\begin{mydef}
+A linear shortcut of given a tour is derived by choosing 0, 1 or 2 points (called anchor points)
+from each tour-edge according to some strategy and connecting 
+those points by straight lines in the order of visiting those edges. 
+It is called linear as only new straight lines are introduced in
+the resulting tour instead of any curves.
+\end{mydef}
+\begin{figure}[h!]
+  \centering
+    \includegraphics[scale=0.6]{./fig/ch_3/shortcut_tour} 
+     \caption{Example of a Linear shortcut Tour}
+     \label{fig:shortcut_tour_example}  
+\end{figure} 
+%\begin{figure}[h!] 
+%  \centering
+%    \includegraphics[scale=0.6]{./fig/ch_3/non_shortcut_tour} 
+%     \caption{Examples of derived tours that are not linear shortcut tour}
+%     \label{fig:non_shortcut_tour}   
+%\end{figure}
+An example of linear shortcut of a tour is shown in Figure \ref{fig:shortcut_tour_example}.
+Five anchor points $p_1, p_2, p_3, p_4$ and $p_5$ are chosen from five tour-edges. Those are
+connected in the order of visiting the corresponding edges to produce the linear shortcut. The first
+and the last points are also connected to make the path a cycle. The tour $<p_1, p_2, p_3,
+p_4,p_5,p_1>$ is a linear shortcut but  $<p_1, p_2, p_3,p_4,p_5,p_1>$ is not.
+Using principle of triangle
+inequality, Lemma \ref{lemma_sc} can be easily proved.
+\begin{mylemma}
+	If at least one anchor point is not coincident with the endpoint of the tour-edge, the linear
+	shortcut is shorter than the given tour.
+	\label{lemma_sc}
+\end{mylemma}
+\subsection{Linear shortcut of the $TSP$-tour}
+In \cite{Sugihara:2008} and \cite{Sugihara:2011}, a tour known as \textit{Label Covering} or LC tour
+is derived from the $TSP$-tour that is shorter and complete. However, it is not done in the perspective
+of linear shortcut. However, we observe that the pattern of our linear shortcut is present in the
+method of these works.
+\begin{figure}[h!]
+  \centering
+    \includegraphics[scale=0.8]{./fig/label_covering_tour} 
+     \caption{Labels of Tour Edges in a WSN}
+     \label{fig_label_covering_tour}  
+\end{figure}
+
+As shown in Figure \ref{fig_label_covering_tour}, the tour-edge between nodes 1 and 2 is also within
+the range of node 3 and 5. Therefore, the label set of this edge is $\{1,2,3,5\}$. Similarly, the
+sets of labels of all other edges of this graph representing the WSN are determined. Using a dynamic
+program, the minimum length label covering tour is determined by skipping zero or more edges of the
+given $TSP$-tour. In Figure \ref{fig_label_covering_tour}, the $TSP$-tour is $<1,2,3,4,5,1>$ and
+the $LC$-tour derived from it is $<1,2,3,1>$.\\
+We can interpret the strategy of the method in light of the linear shortcut technique as follows.
+Each edge of the $TSP$-tour is either included or not. If included, the edge has exactly two anchor
+points i.e. the endpoints of the tour-edge. If an edge is derived by shortcutting 2 or more edges, it has exactly
+two anchor points i.e. the last end-point of the first skipped edge and the first end-point of the
+last skipped edge of the $TSP$-tour. Deriving a min-cost $LC$-tour is $NP$-hard. For a given
+$TSP$-tour it has a computation time of $O(n^3)$.
+\subsection{Linear shortcut of the $LC$-tour}
+\begin{figure}[h!]
+  \centering
+    \includegraphics[scale=0.7]{./fig/ch_3/lc_strategy} 
+     \caption{An Edge in the $LC$-tour}
+     \label{fig:lc_strategy}   
+\end{figure}
+An edge of the $LC$-tour is shown in Figure \ref{fig:lc_strategy}. Instead of visiting the exact
+position of the nodes $n_{i+1},n_{i+2}$ and $n_{i+3}$, this edge of the $LC$-tour covers all the
+nodes at points $a_{i+1},a_{i+2}$ and $a_{i+3}$ respectively. This particular edge makes a shortcut
+of a series of five edges of the $TSP$-tour. This is a significant savings in the distance which
+contributes to minimizing latency. However, there is further opportunity of shortening of this edge.
+For example, it is not required to visit the exact location of the nodes $n_i$ and $n_{i+5}$.
+Instead, the point of intersections between this edge and the two terminal nodes can be used as the
+end-points. In that case, node $n_{i+4}$ will be missed by the shortcut edge. Instead of addressing
+these implications of shortcuts in ad hoc manner, we present an iterative algorithm for making
+shortcut tour from the $LC$-tour. 
+\begin{mydef}
+	The segment of the tour-edge which is within the circle representing the transmission area of a
+	node is called the Contact Interval (CI) of that node on that edge.
+\end{mydef}
+\begin{figure}[h!] 
+  \centering   
+    \includegraphics[scale=0.8]{./fig/tlc_study/tlc_interval_sorting} 
+     \caption{Contact intervals on an edge} 
+     \label{fig:tlc_interval_sorting}  
+\end{figure}
+As shown in Figure \ref{fig:tlc_interval_sorting}, four nodes are covered by an edge connecting node
+$n_i$ and $n_j$. Each of their contact intervals (CI's) is represented by two points on the edge i.e
+the $l$  (which is encountered first by the MDC on this edge) and the $r$ points. For example, the
+$CI$ of node $n_{i+1}$ is given by $(ln_{i+1},rn_{i+1})$. Any points between $l$ and $r$
+points inclusive are reachable from the MDC if it travels along this edge. If the intersection of
+the circle and the straight line is beyond the edge, the end-point of the $CI$ is the
+nearest end-point of the edge. For example, in Figure \ref{fig:tlc_interval_sorting}, $r$-point of
+node $n_{i+5}$ is the location of node $n_j$. For simplicity of our algorithm, we do not calculate
+the $CI$'s the the  nodes which the tour-edge connect i.e node $n_i$ and $n_j$ in this
+case.
+\begin{mydef}
+	Given a list of contact intervals $CI_e$ of a tour-edge $e$, 
+Critical Contact Interval or \textit{CCI} is the interval of the minimum length that has at
+least one point from each the contact interval.
+\end{mydef}
+\textit{Critical Contact Interval} or $CCI$ is also represented by two points- $l$ and $r$ points on
+the tour-edge. We denote this two points for the $i$-th tour edge by $lcci$ and $rcci$ respectively.
+These points can be determined as follows:
+\begin{flalign*}
+	& lcci \leftarrow r\mbox{-point closest to the first end-point along the tour-edge } \\
+	& rcci \leftarrow l\mbox{-point closest to the last end-point along the tour-edge} 
+\end{flalign*}
+\begin{figure}[h!] 
+  \centering   
+    \includegraphics[scale=0.8]{./fig/tlc_study/tlc_CCI} 
+     \caption{Critical Contact Interval for a given list of intervals} 
+     \label{fig:tlc_CCI}  
+\end{figure}
+For example, the $CCI$ of the edge shown in Figure \ref{fig:tlc_interval_sorting} is determined in
+Figure \ref{fig:tlc_CCI}. Here the $l$ and $r$ points of the $CCI$ are $rn_{i+2}$ and $ln_{i+5}$
+respectively.\\ \\
+%\textbf{Step 1}: \textit{For each tour edge, generate the list of $CI$'s and the $CCI$}.{[}The
+%Algorithm is given in the Appendix{]} \\ \\
+\begin{figure}[p]
+	\centering
+	\subfigure[Connecting the $CCI$'s of successive tour-edges]{   
+    \includegraphics[scale=0.52]{./fig/tlc_study/tlc_cci_connected}  
+     \label{fig:tlc_cci_connected}
+	}
+		\subfigure[Updated $l$ and $r$ points to cover visited nodes]{
+	 \includegraphics[scale=0.52]{./fig/tlc_study/tlc_generation_iteration_1} 
+     \label{fig:tlc_generation_iteration_1}
+	}\\
+	\subfigure[$TLC$-tour derived in iteration $1$]{
+     \includegraphics[scale=0.52]{./fig/tlc_study/tlc_generation_iteration_1_complete} 
+     \label{fig:tlc_generation_iteration_1_complete}
+	} 
+	\subfigure[Updating the $l$ and $r$ point after iteration $1$]{
+     \includegraphics[scale=0.52]{./fig/tlc_study/tlc_generation_iteration_2} 
+     \label{fig:tlc_generation_iteration_2} 
+	}\\
+	\subfigure[$TLC$-tour derived in iteration $2$]{
+		\includegraphics[scale=0.52]{./fig/tlc_study/tlc_generation_iteration_2_complete} 
+    	 \label{fig:tlc_generation_iteration_2_complete} 
+	}
+		\subfigure[Updating the $l$ and $r$ point after iteration $2$]{
+	 \includegraphics[scale=0.52]{./fig/tlc_study/tlc_generation_iteration_3} 
+     \label{fig:tlc_generation_iteration_3}  
+	}\\
+	\subfigure[$TLC$-tour derived in iteration $3$]{
+	    \includegraphics[scale=0.52]{./fig/tlc_study/tlc_generation_iteration_3_complete} 
+     	\label{fig:tlc_generation_iteration_3_complete}
+	}
+	\subfigure[Updating the $l$ and $r$ point after iteration $3$]{
+	 \includegraphics[scale=0.52]{./fig/tlc_study/tlc_generation_iteration_4} 
+     \label{fig:tlc_generation_iteration_4} 
+	}
+	\caption{shortening of $LC$-tour using linear shortcut method}
+\end{figure}
+After the $CCI$'s have been computed, we can connect $r$ point of the $CCI$ of an edge with the $l$
+point of the $CCI$ of the next edge. However, the nodes connected by the tour-edge may be missed as
+shown in Figure \ref{fig:tlc_cci_connected}. Therefore,
+to cover the visited nodes in the resulting shortcut tour, we take different actions depending on
+the status of the $CCI$'s of the two edges adjacent with the visited node $n_i$:
+\begin{enumerate} \itemsep0pt \parskip0pt \parsep0pt
+  \item If both the edges have non-null $CCI$'s, i.e. there are intermediate nodes on both the
+  edges, then we just add the $r$ point of the incoming edge with the $l$ point of the outgoing
+  edge. We call this line segment $r$-$l$ line segment.
+  \begin{enumerate} \itemsep0pt \parskip0pt \parsep0pt
+    \item If $r$-$l$ line segment is intersecting with the node $n_i$ under inspection, then we
+	  do nothing. For example, in Figure \ref{fig:tlc_generation_iteration_1}, node $n_{8}$ has
+	   both the
+	  edges with non-null $CCI$'s. We connect $r$-point of the incoming edge $rcc_2$ with 
+	  the $l$-point
+	  of the outgoing edge $lcc_3$. The resulting $r$-$l$ line segment intersects the circle
+	  centered at $n_8$. Hence, node $n_8$ is covered by this newly added edge.
+	 \item If $r$-$l$ line segment is non-intersecting with the node $n_i$, then we 
+	 draw a straight
+	 line that is parallel to the $r$-$l$ line segment and tangent to the circle centered at $n_i$. 
+	 Let
+	 this line intersects the incoming and outgoing edges at points $p_i$ and $p_o$ respectively. 
+	 We,
+	 then, add a new edge connecting $p_i$ and $p_o$, which is tangent to the circle centered at 
+	 $n_i$
+	 and therefore, covers node $n_i$. We also update the $r$ point of the incoming edge as $p_i$ 
+	 and
+	 $l$ point of the outgoing edge as $p_o$. For example, in Figure
+	 \ref{fig:tlc_generation_iteration_1}, for node $n_{11}$, the $r$ point of incoming edge and the
+	 $l$ point of the outgoing edge are $rcc_3$ and $lcc_4$ respectively. The straight 
+	 line connecting
+	 these two points does not intersect the circle centered at $n_{11}$. Therefore, we draw a line
+	 segment parallel to this straight line and tangent to the circle stated before. 
+	 The resulting edge
+	 covers the node $n_{11}$. We also update the $r$ point of the incoming edge as $rcc_3$.  
+	 The $l$ point of the outgoing edge
+	 is also updated as $lcci_4$.
+  \end{enumerate}
+  \item If the incoming edge does not have any intermediate node with overlapping circle or (if it
+  has then) its $r$ point is farther from point $n_i$ by at least $TXR$, then we compute the point
+  $p_i$ as the intersection between the incoming edge and the circle centered at $n_i$. If the
+  incoming edge has non-null $CCI$, then we update its $r$ point as $p_i$. Otherwise, we set 
+  the incoming edge's $r$ and $l$ point as $p_i$. For example, in Figure
+  \ref{fig:tlc_generation_iteration_1}, the node $n_{13}$ has only one adjacent edge i.e. the
+  incoming edge with non-null $CCI$. Previously, the $r$ point of this edge was the intersection of
+  $n_{12}$ with this edge that lies closer to $n_{13}$. We update this $r$ point as $rcc_4$, which
+  is the intersection of this edge with node $n_{13}$. In the same figure, node $n_1$ has both the
+  adjacent edges with null $CCI$. So, we update both the $l$ and $r$ point of the incoming edge as
+  the intersection of this edge with the circle centered at $n_1$ i.e. the point $lcc_5=rcc_5$. For
+  node $n_2$, the outgoing edge has a non-null $CCI$ but the incoming edge does not. So, we
+  determine the $r$ and $l$ point of its incoming edge as $lcc_1=rcc_1$.
+\end{enumerate} 
+Now that, we have all the edges with non-null $CCI$ i.e. with both $l$ and $r$ points, we can join
+the $r$ point of the previous edge with the $l$ point of the next edge. The final edges are shown as
+bold straight lines in Figure \ref{fig:tlc_generation_iteration_1_complete}.  We term 
+this shortening as \textit{tightening} of the given tour by the
+linear shortcut method. We term the shorter tour derived from the label covering tour as
+\textit{Tight Label Covering} tour or $TLC$-tour in brief.
+\subsection{Iterative Improvement of the \textit{TLC}-tour}   
+The path found in Figure \ref{fig:tlc_generation_iteration_1_complete} can be further shortened
+using linear shortcut method. We divide each iteration
+of improvement into $2$ steps:
+\begin{enumerate} \itemsep0pt \parskip0pt \parsep0pt
+  \item Connect the $r$ point $rcc_i$ of $i$-th edge with $l$ point $lcc_j$ of
+  the next edge ($j$-th edge such that $j>i$) with non-null $CCI$ and include the edge 
+  connecting $lcc_j$ and
+  $rcc_j$ in the edge set.
+  \item \textit{Re-associate} the intermediate circles with the resulting edges and
+  \textit{recompute} the $CCI$'s for each edge.
+\end{enumerate}
+Now, we need a policy to \textit{re-associate}
+the circles when existing tour-edges \textit{break} into shorter ones and new edges are
+\textit{added}.
+We illustrate the method by applying on the tour derived in Figure
+\ref{fig:tlc_generation_iteration_1_complete}.\\
+As shown in Figure \ref{fig:tlc_generation_iteration_2}, there are a total of $8$ edges. We label
+the edge that connects points within range of node $n_1$ and $n_2$ as the first edge, the edge next
+to it as the second edge and so on. Node $n_1$ overlaps both the first edge (outgoing) and the last
+edge (incoming). The outgoing first edge has a non-zero overlapping with the circle centered at node
+$n_1$, but the incoming last edge does not. So, we associate node $n_1$ with the first edge rather
+than the last one in the tour. Node $n_2$ has zero overlapping with both the first (incoming) and
+the second edge (outgoing). So, as a tie-breaker, we associate it with the incoming first edge. So
+the first edge is associated with two circles- one centered at $n_1$ and the other at $n_2$. Their
+contact intervals are re-computed. The $CCI$ is also computed for the first
+edge. \\
+The second edge of the given tour \textit{breaks} at the boundary
+of the circle centered at $n_4$ in iteration 1 to give out the second edge and the third edge. Both
+the circles have bigger contact intervals with the second edge than with the third one. So, we associate both
+ the
+circles with the second edge. Now, the contact intervals of both of these circles border on the
+right end point of the second edge. There are no other contact intervals on this edge. The updated
+$CI$'s and the $CCI$ are shown in Figure \ref{fig:tlc_generation_iteration_2}. \\
+The third tour edge has contact intervals of circles centered
+at $n_5, n_6, n_7$ and $n_8$. However, $n_8$ has larger contact interval with the next edge than
+this edge, so we don't associate it with this edge. Circle centered at $n_7$ has point contact
+interval with both this third edge and the next edge. Because, third edge is incoming, we associate
+this circle with this third edge. In similar fashion as done in previous tour edges, the $l$ and $r$
+point of this tour edge is determined as $lcc_3$ and $rcc_4$ respectively. \\
+In similar ways, we determine the $l$ and $r$ points of the $CCI$'s  of the remaining edges. It is
+to be noted that, the edge exiting circle centered at node $n_{10}$ has no $CCI$ and therefore, no
+$l$ and $r$ point. So, this edge is  skipped in the resulting tour. After this round of
+re-associating of circles and computation of the $CCI$'s of respective edges, we
+join the $r$ point of an edge with the $l$ point of the next edge. Thus, the tour as
+shown in Figure \ref{fig:tlc_generation_iteration_2_complete} is derived. According to the Lemma
+\ref{lemma_sc}, it is shorter than the tour of previous iteration.\\
+We can continue with this way in more iterations to successively tighten the given tour. The
+steps are illustrated in Figure \ref{fig:tlc_generation_iteration_3},
+\ref{fig:tlc_generation_iteration_3_complete} and \ref{fig:tlc_generation_iteration_4}.\\
+\begin{figure}[hbt!]    
+  \centering   
+    \includegraphics[scale=0.6]{./fig/tlc_study/tlc_generation_iteration_4_comparison} 
+     \caption{Comparison between input $LC$-tour(doted path) and $TLC$-tour derived in iteration
+     $4$}
+     \label{fig:tlc_generation_iteration_4_comparison}   
+\end{figure}
+We have already noticed that, in successive iterations, the amount of path path shortened deceases.
+We can define the path gain $g_i(t_{TLC})$ for a derived $TLC$-tour in iteration $i$ as follows:
+\begin{equation}
+	g_i(t_{TLC})=\frac{|t_{TLC}|_{i-1}-|t_{TLC}|_i}{|t_{TLC}|_{i}}
+	\label{eqn:path_gain}
+\end{equation}
+Here $|t_{TLC}|_{i}$ is the length of the $TLC$-tour derived in iteration $i$. Nevertheless, the
+resulting gain is a significant improvement over the given $LC$-tour. The given $LC$-tour and the
+$TLC$-tour derived after iteration $4$ has been over-imposed on each other for comparison in Figure
+\ref{fig:tlc_generation_iteration_4_comparison}.
+\subsubsection{Computation Complexity: }
+In iteration $1$, we used Algorithm \ref{algo:sorted_contact_interval} once for $O(n \log n)$
+time and Algorithm \ref{algo:CCI_list_scanner} for each edge in $O(n^2)$ time and finally 
+Algorithm \ref{algo:tlc_generation_iteration_1} to generate the first
+$TLC$-tour in $O(n)$ time. So, the cost for generating the $TLC$ tour is $O(n \log
+n)+O(n^2)+O(n)=O(n^2)$. As explained previously, the running time for iteration $i>1$ is $O(n^2)$.
+So, we can generalize that, the running time for generating $TLC$-tour by $m$ iterations is
+$O(mn^2)$.\\ 
+We can stop the iterative improvement as soon as the path gain as defined by Equation
+\ref{eqn:path_gain} is below a certain threshold like $5\%$ or $1\%$ etc.
+\begin{figure}[hbt!]    
+  \centering   
+    \includegraphics[scale=0.6]{./fig/tlc_study/algo_pipeline} 
+     \caption{Computational complexity of the pipeline of algorithms for generating the $TLC$-tour}
+     \label{fig:algo_pipeline}   
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Result Analysis}
+\begin{figure}[h!]
+	\centering
+	\subfigure[Average Packet Delivery Latency]{
+		\includegraphics[scale=0.22]{./fig/ch_4/resultPlots/crossSimPlots/avgPacketDeliveryLatencyComp}
+		\label{fig:avg_pkt_delivery_latency}
+	}
+		\subfigure[Throughput for the Entire Run of Simulation]{
+		\includegraphics[scale=0.22]{./fig/ch_4/resultPlots/crossSimPlots/throughtputEntierRun}
+		\label{fig:throughput_entire_run}
+	}\\
+		\subfigure[Total Packets Dropped by the Sensor Nodes]{
+		\includegraphics[scale=0.22]{./fig/ch_4/resultPlots/crossSimPlots/TotalpacketDroppedbySnodesVisitedbyMDC}
+		\label{fig:total_pkts_dropped}
+	}
+		\subfigure[Average Energy Consumed by the Sensor Nodes]{
+		\includegraphics[scale=0.22]{./fig/ch_4/resultPlots/crossSimPlots/avgEnergyConsumedByNodesVisitedByMDC}
+		\label{fig:avg_energy_consumed}
+	}
+	\caption{Comparison among $TSP$-tour, $LC$-tour and $TLC$-tour}
+\end{figure} 
+We used \textit{Castelia}\cite{castalia} framework of \textit{OMENT++} simulator. 
+We distributed a total of 100 nodes randomly in an area of $250 \times 250$ meters. Using
+\textit{Concord TSP-Solver}\cite{concordeTSPsolver}, we derived the exact min-cost $TSP$-tour for
+these nodes. We derived the $LC$-tour from the $TSP$-tour. We derived $TLC$-tour from the $LC$-tour using 
+\textit{path-gain} below $5\%$ as the criteria for stopping the iterations. The parameters of the
+testbed of the simulation is included in the appendix. The sensor nodes generated packet randomly.
+The MDC toured continuously in the predefined paths and collected the packets from the sensor nodes
+and deposited to the sink node. Three types of tour were used in the simulation- $TSP$-tour,
+$LC$-tour and $TLC$-tour. We kept the location of the nodes fixed but increased the $TXR$ from the
+value of $2.00$ meter through $32.00$ meter. Thus, type of the WSN became from sparse to dense.
+
+As shown in Figure \ref{fig:avg_pkt_delivery_latency}, \textit{average latency} is always the
+lowest for the $TLC$-tour and the highest for the $TSP$-tour. The quantity is comparatively better
+in case of the sparse WSN.
+In Figure \ref{fig:throughput_entire_run}, \textit{throughput} for the entire simulation run is 
+shown. The
+value is always the highest for $TLC$-tour and the lowest for the $TSP$-tour. Total number of
+packets dropped by sensor nodes due to buffer-overflow is compared in Figure
+\ref{fig:total_pkts_dropped}. The quantity is always the
+lowest for the $TLC$-tour and the highest for the $TSP$-tour. However, the tour-length and therefore
+the tour-time is higher in case of the sparse WSN. So, number of packets dropped is high in case of
+the sparse WSN. Finally, \textit{average energy consumed per sensor node} is compared in Figure
+\ref{fig:avg_energy_consumed}. The three types of tours have identical profile for this quantity of
+interest.
+\section{Conclusion}
+We have given a framework of shortening a given tour for the MDC. The resulting tour decreases
+packet delivery latency, increases throughput and ensures maximum $m$-lifetime of the network for
+the given $TXR$. The $TLC$-tour derived by linear shortcut of the $LC$-tour is highly desirable for
+an energy-efficient and latency-sensitive WSN. In our future work, we shall consider more
+objectives besides
+minimizing latency. For example facilitating multi-hop forwarding among the sensor nodes, 
+permuting  nodes visited by the MDC in successive tours to balance traffic loads etc. We shall also
+want to extend the path-planning for a WSN with multiple MDC's and/ors sinks.
+\bibliographystyle{splncs}
+\bibliography{master_bibliography}
+\newpage
+\section*{APPENDIX}
+\begin{algorithm}[h!]%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{spacing}{1}
+	\begin{algorithmic}[1]
+		\Require{An edge $e \in E$ that connects node $n_i$ and node $n_j$ in $LC$-tour and its list of
+		intermediate nodes $I_e$}
+			\State $CI_e \leftarrow \{\}$
+			\ForAll{node $n_k \in I_e$}
+				\State Find intersections $(ln_k,rn_k)$ of edge $e$ and circle of radius $TXR$
+				centered at $n_k$
+				\If{$ln_k$ is outside of line segment of edge $e$}
+					\State $ln_k \leftarrow n_i$
+				\EndIf
+				\If{$rn_k$ is outside of line segment of edge $e$}
+					\State $rn_k \leftarrow n_j$
+				\EndIf
+				\State $CI_e \leftarrow CI_e \cup \{(n_k,ln_k,rn_k)\}$
+			\EndFor 
+			\State sort $CI_e$ using $ln_k$ as key
+		\Ensure{$CI_e$ is the sorted contact interval}
+	\end{algorithmic}
+	\end{spacing}
+	\caption{Generating Sorted Contact Interval for any Tour-edge}
+	\label{algo:sorted_contact_interval}
+\end{algorithm}
+\begin{algorithm}[h!]%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{spacing}{1}
+	\begin{algorithmic}[1]
+		\Require{List of sorted intervals $CI_e$ of an edge $e \in E$ of a tour}
+			\State $(n_t, ln_t, rn_t) \leftarrow firstElementOf(CI_e)$
+			\State $lcci_e \leftarrow rn_t$
+			\State $(n_k, ln_k, rn_k) \leftarrow nextElementOf(CI_e) $
+			\While{$ln_k$ closer to $n_i$ than $rn_t$} 
+			\Comment{scan all the intervals contained within the 
+			leftmost interval}
+				\If{$rn_k$ closer to $n_i$ than $lcci_e$}
+					\State $lcci_e \leftarrow rn_k$
+				\EndIf
+				\State $(n_k, ln_k, rn_k) \leftarrow nextElementOf(CI_e) $
+			\EndWhile
+			\State $(n_s, ln_s, rn_s) \leftarrow lastElementOf(CI_e)$
+			\State $rcci_e \leftarrow ln_s$
+			\If{$rcci_e$ closer to $n_i$ than $lcci_e$}
+				\State $rcci_e \leftarrow lcci_e$
+			\EndIf
+		\Ensure{$CCI_e=(lcci_e,rcci_e)$ is the Critical Contact Interval of edge $e$}
+	\end{algorithmic}
+	\end{spacing}
+	\caption{Generating Critical Contact Interval}
+	\label{algo:CCI_list_scanner}
+\end{algorithm}
+\begin{algorithm}[h!]%%%%%%%%%%%%%%%%%%
+	\begin{spacing}{1}
+	\begin{algorithmic}[1]
+		\Require{A tour $t$ with $CCI$'s associated with each edge}
+			\ForAll{node $n_i$ visited in the tour $t$}
+				\If{both the edges $e_s$ (incoming) and $e_t$(outgoing) incident with $n_i$ have $CCI$}
+					\If{line $l_{st}$ connecting $r$ point and $l$ point of the $CCI$'s of edges  $e_s$
+					and $e_t$ respectively does not intersect circle centered at $n_i$}
+						\State $l_{n_i}$ is the line parallel to $l_{st}$ and tangent to the circle centered at $n_i$
+						\State update $r$ point of edge $e_{s}$ as the intersection of $l_{n_i}$ and $e_{s}$
+						\State update $l$ point of edge $e_{t}$ as the intersection of $l_{n_i}$ and $e_{t}$
+					\EndIf
+				\Else
+					\State $p_{n_i}$ is the intersection of the incoming edge $e_s$ and circle centered at $n_i$
+					\If{$p_{n_i}$ is closer to $n_i$ than $r$ point of the CCI of incoming edge $e_s$  \textbf{OR} 
+					$CCI$ for incoming edge $e_s$ does not exist} 
+ 						\State update $r$ point of edge $e_{s}$ as $p_{n_i}$
+ 						\If{$CCI$ for incoming edge $e_s$ does not exist}
+ 							\State update $l$ point of edge $e_{s}$ as its $r$ point
+ 						\EndIf
+					\EndIf
+				\EndIf
+			\EndFor
+			\State $t_{TLC} \leftarrow \{ \}$
+			\State Join $r$ point of an edge to the $l$ point of the next edge successively and add it to
+			tour $t_{TLC}$
+		\Ensure{$t_{TLC}$ is a TLC tour }
+	\end{algorithmic}
+	\end{spacing}
+	\caption{Generating Tight Label Covering Tour in Iteration 1}
+	\label{algo:tlc_generation_iteration_1}
+\end{algorithm} 
+\begin{algorithm}[h!]%%%%%%%%%%%%%%%%%%%%%%
+	\begin{spacing}{1}
+	\begin{algorithmic}[1]
+		\Require{Set of all nodes $V$ with each node $n_i \in V$ indexed with associated edge $e_j$ and
+		set of tour edge $E$ of $TLC$-tour, with each edge $e \in E$ having contact interval $CI_e$
+		sorted on $l$ points}
+			\ForAll{node $n_i \in V$}
+				\State $e_j \leftarrow$ current associated edge of node $n_i$
+				\State $l_j \leftarrow$ updated $l$ point of node $n_i$ with respect to edge $e_j$
+				\State $r_j \leftarrow$ updated $r$ point of node $n_i$ with respect to edge $e_j$
+				\If{$l_j = \mbox{ left-end point of edge } e_j$} \Comment{node's CI aligned with left end-point
+				of the edge} 
+					\State $l_{j-1} \leftarrow$ updated $l$ point of node $n_i$ with respect to edge $e_{j-1}$
+				    \State $r_{j-1} \leftarrow$ updated $r$ point of node $n_i$ with respect to edge $e_{j-1}$
+					\If{$distance(l_{j-1},r_{j-1})>distance(l_{j},r_{j})$}
+						\State remove node $n_i$ from  $I_{e_{j}}$
+						\State add node $n_i$ to list $I_{e_{j-1}}$ in non-decreasing order of $l_{j-1}$
+						\State update $n_i$'s associated edge as $e_{j-1}$
+					\EndIf
+				\EndIf
+				\If{$r_j = \mbox{ left-end point of edge } e_j$} \Comment{node's CI aligned with right end-point
+				of the edge} 
+					\State $l_{j+1} \leftarrow$ updated $l$ point of node $n_i$ with respect to edge $e_{j+1}$
+					\State $r_{j+1} \leftarrow$ updated $r$ point of node $n_i$ with respect to edge $e_{j+1}$
+					\If{$distance(l_{j+1},r_{j+1})>distance(l_{j},r_{j})$}
+						\State remove node $n_i$ from  $I_{e_{j}}$
+						\State add node $n_i$ to list $I_{e_{j+1}}$ in non-decreasing order of $l_{j+1}$
+						\State update $n_i$'s associated edge as $e_{j+1}$
+					\EndIf
+				\EndIf
+			\EndFor 
+		\Ensure{Set of nodes $V$ with each node $n_i \in V$ with updated associated edge, Set of tour
+		edges $E$ with each edge $e \in E$ with updated contact interval $CI_{e}$}
+	\end{algorithmic}
+	\end{spacing}
+	\caption{Re-associating Nodes in Edge Tightening}
+	\label{algo:re_associating_circles}
+\end{algorithm}
+\begin{algorithm}[h!]%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{spacing}{1}
+	\begin{algorithmic}[1]
+		\Require{List of sorted intervals $CI_e$ of an edge $e \in E$ of a tour}
+			\State $(n_t, ln_t, rn_t) \leftarrow firstElementOf(CI_e)$
+			\State $lcci_e \leftarrow rn_t$
+			\State $(n_k, ln_k, rn_k) \leftarrow nextElementOf(CI_e) $
+			\While{$ln_k$ closer to $n_i$ than $rn_t$} 
+			\Comment{scan all the intervals contained within the 
+			leftmost interval}
+				\If{$rn_k$ closer to $n_i$ than $lcci_e$}
+					\State $lcci_e \leftarrow rn_k$
+				\EndIf
+				\State $(n_k, ln_k, rn_k) \leftarrow nextElementOf(CI_e) $
+			\EndWhile
+			\State $(n_s, ln_s, rn_s) \leftarrow lastElementOf(CI_e)$
+			\State $rcci_e \leftarrow ln_s$
+			\If{$lcci_e =$ right end point of edge $e$}
+				\State $lcci_e \leftarrow rcci_e$
+			\ElsIf{$rcci_e$ closer to $n_i$ than $lcci_e$ \textbf{OR} $rcci_e =$ left end point of edge $e$}
+				\State $rcci_e \leftarrow lcci_e$
+			\EndIf
+		\Ensure{$CCI_e=(lcci_e,rcci_e)$ is the Critical Contact Interval of edge $e$}
+	\end{algorithmic}
+	\end{spacing}
+	\caption{Generating Critical Contact Interval for Iteration $i>1$}
+	\label{algo:CCI_generator_iteration_2_or_later}
+\end{algorithm}
+\begin{algorithm}[h!]%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{spacing}{1}
+	\begin{algorithmic}[1]
+		\Require{Set of all nodes $V$ and set of all edges $E_{i-1}$ of $TLC$-tour of iteration $(i-1)$}
+			\State $E_i \leftarrow \{ \}$
+			\ForAll{edge $e \in E_i$ with non-null $CCI$}
+				\State add $CCI$ of edge $e$ to $E_i$
+				\State connect $r$ point of edge $e$ to the $l$ point of next edge with $CCI$ and add it to
+				$E_i$
+			\EndFor
+			\State Re-associate nodes for the set of edge $E_i$ according to Algorithm
+			\ref{algo:re_associating_circles}
+			\ForAll{edge $e \in E_i$}
+				\State Update $CCI$ according to Algorithm \ref{algo:CCI_generator_iteration_2_or_later}
+			\EndFor
+		\Ensure{Set of all nodes $V$ and set of all edges $E_{i}$ of $TLC$-tour of iteration $i$}
+	\end{algorithmic} 
+	\end{spacing}
+	\caption{Generating $TLC$-tour for Iteration $i>1$}
+	\label{algo:tlc_tour_generator_for_iteration_i}
+\end{algorithm}
+  \begin{table}[hbt]
+	\centering
+	\begin{tabular}{| p{4 cm}  | p{4 cm} | p{4 cm} |}
+		\hline
+		 \textbf{Protocol Layers} & \centering \textbf{Parameter Name} & \textbf{Parameter Value}\\
+		 \hline
+		\textbf{Physical Layer} & Radio Type & CC2420  \\ \cline{2-3}
+								& Transmitting Power & 57.42 miliWatt \\ \cline{2-3}
+								& Receiving Power & 62 miliWatt \\ \cline{2-3}
+								& Data Rate & 250 kbps \\ \cline{2-3} 
+								& Base-band & 20 MHz\\ \cline{2-3}
+								& Noise-bandwidth & 194 MHz\\ \cline{2-3}
+								& Sensitivity & -95 dBm\\ \cline{2-3}
+								& Idle Power Consumption & 1.4 miliWatt\\ \cline{2-3}
+								& Modulation Type & Ideal\\ \cline{2-3}
+								& PHY-Frame Overhead & 6 Byte \\
+		\hline
+		\textbf{MAC Layer} 		& MAC Type & Tunable MAC \\ \cline{2-3}
+								& MAC Buffer Size & 32 Protocl Data Unit\\ \cline{2-3}
+								& Access Type & CSMA\\ \cline{2-3}
+								& CS-Persistence & 1-persistent \\ \cline{2-3} 
+								& Delay for Vaid CS & 128 mili-second \\ \cline{2-3}
+								& Transmission Retries & only 1 \\  \cline{2-3}
+								& Stable Duty Cycle & 0.1\\ \cline{2-3}
+								& Listen Interval & 10 mili-second\\ \cline{2-3}
+								& Back-off Type & Random Interval Drawn From Constant Range\\ \cline{2-3}
+								& Back-off Base Value & 16 mili-second \\ \cline{2-3}
+								& Random offset Time before Retransmission & 5 mili-second \\ \cline{2-3}
+								& MAC Packet Overhead & 9 Byte \\ \cline{2-3}
+								& MAC Beacon Frame size & 125 Byte \\ \cline{2-3}
+		\hline
+		\textbf{Mobility Controller} & Stable Speed & 1 meter/second \\ \cline{2-3}
+									 & Acceleration Type & Instant \\ \cline{2-3}
+									 & Mobilty During Data Collection & No \\
+	    \hline
+	\end{tabular}
+	\caption{Parameter Values of PHY and MAC layer used in the Simulation}
+	\label{table:params_mac_phy} 
+\end{table}	
+\end{document}

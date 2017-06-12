@@ -1,0 +1,18 @@
+\chapter{System Model and Problem Definition}\label{chap:systemModel}
+
+We consider a cognitive radio network (as described in \cref{fig:systemmodel}) having $n$ primary users and $m$ secondary users in our analysis. For the sake of simplicity, we assume that $n$ primary users use $n$ distinct spectrum channels. Primary users randomly become active and inactive in their respective channel following a Poisson process~\cite{Ross}. Besides, each of the $m$ secondary users has at least $2$ radios. Here, one radio is for control purpose, and remaining ones are for data communication and channel sensing activities. There is a dedicated control channel for the control radios, which we assume not to be used by any of the primary users. This dedicated channel is utilized into time slots. Each time slot has $m$ sub-slots, one for each of the secondary users. In each sub-slot, the respective secondary user's control radio transmits its current communication parameters to avoid hidden terminal and synchronization problems. We assume that there is no inter-channel interference among the data channels. Also, we only consider single-hop data communication for secondary users.
+
+\begin{figure}[!htb]
+\begin{center}
+\begin{tikzpicture}[scale=0.5, transform shape]
+    \node {\input{myFigures/systemModel}};
+\end{tikzpicture}
+\caption{System model of a CMRN}
+\label{fig:systemmodel}
+\end{center}
+\vspace{-1cm}
+\end{figure}
+
+
+Under the presented system model, our research question is how to efficiently use the available multiple data transmission radios to get enhanced total network throughput while limiting end-to-end delay. As there is no central authority in the considered system model, solution of the problem must be distributed. Besides, the decision making must also be online as the primary and secondary users' behavior can dynamically vary and thus can not be predicted beforehand. Considering these aspects, we propose a new solution in the next chapter.
+\endinput
