@@ -5,15 +5,17 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 5
 \BOOKMARK [1][-]{section.1.1}{Background and Motivation}{chapter.1}% 6
 \BOOKMARK [1][-]{section.1.2}{Summary of Contributions}{chapter.1}% 7
-\BOOKMARK [0][-]{chapter.2}{Related Work}{}% 8
-\BOOKMARK [0][-]{chapter.3}{System Model and Problem Definition}{}% 9
-\BOOKMARK [0][-]{chapter.4}{Feedback-based Multi-radio Exploitation Approach}{}% 10
-\BOOKMARK [1][-]{section.4.1}{Overview of The Proposed Approach}{chapter.4}% 11
-\BOOKMARK [1][-]{section.4.2}{Radio Selection Based on Packet Transmission Ratio}{chapter.4}% 12
-\BOOKMARK [1][-]{section.4.3}{Channel Selection Based on Channel Utilization Ratio}{chapter.4}% 13
-\BOOKMARK [1][-]{section.4.4}{Variants of Our Proposed Approach}{chapter.4}% 14
-\BOOKMARK [0][-]{chapter.5}{Experimental Evaluation}{}% 15
-\BOOKMARK [1][-]{section.5.1}{Simulation Settings}{chapter.5}% 16
-\BOOKMARK [1][-]{section.5.2}{Simulation Results}{chapter.5}% 17
-\BOOKMARK [1][-]{section.5.3}{Simulation Findings}{chapter.5}% 18
-\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 19
+\BOOKMARK [0][-]{chapter.2}{Background and Related Work}{}% 8
+\BOOKMARK [1][-]{section.2.1}{Cognitive Radio Definition}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.1.1}{How does a cognitive radio physically work}{section.2.1}% 10
+\BOOKMARK [0][-]{chapter.3}{System Model and Problem Definition}{}% 11
+\BOOKMARK [0][-]{chapter.4}{Feedback-based Multi-radio Exploitation Approach}{}% 12
+\BOOKMARK [1][-]{section.4.1}{Overview of The Proposed Approach}{chapter.4}% 13
+\BOOKMARK [1][-]{section.4.2}{Radio Selection Based on Packet Transmission Ratio}{chapter.4}% 14
+\BOOKMARK [1][-]{section.4.3}{Channel Selection Based on Channel Utilization Ratio}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.4}{Variants of Our Proposed Approach}{chapter.4}% 16
+\BOOKMARK [0][-]{chapter.5}{Experimental Evaluation}{}% 17
+\BOOKMARK [1][-]{section.5.1}{Simulation Settings}{chapter.5}% 18
+\BOOKMARK [1][-]{section.5.2}{Simulation Results}{chapter.5}% 19
+\BOOKMARK [1][-]{section.5.3}{Simulation Findings}{chapter.5}% 20
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 21

@@ -1,5 +1,18 @@
 \begin{thebibliography}{10}
 
+\bibitem{jondral2005software}
+Friedrich~K Jondral.
+\newblock Software-defined radio: basics and evolution to cognitive radio.
+\newblock {\em EURASIP journal on wireless communications and networking},
+  2005(3):275--283, 2005.
+
+\bibitem{cabric2004implementation}
+Danijela Cabric, Shridhar~Mubaraq Mishra, and Robert~W Brodersen.
+\newblock Implementation issues in spectrum sensing for cognitive radios.
+\newblock In {\em Signals, systems and computers, 2004. Conference record of
+  the thirty-eighth Asilomar conference on}, volume~1, pages 772--776. Ieee,
+  2004.
+
 \bibitem{khan2015towards}
 Tanvir~Ahmed Khan, Chowdhury~Sayeed Hyder, and ABM Islam.
 \newblock Towards exploiting a synergy between cognitive and multi-radio
@@ -134,12 +147,6 @@ Simon Haykin.
 \newblock Cognitive radio: brain-empowered wireless communications.
 \newblock {\em IEEE journal on selected areas in communications},
   23(2):201--220, 2005.
-
-\bibitem{jondral2005software}
-Friedrich~K Jondral.
-\newblock Software-defined radio: basics and evolution to cognitive radio.
-\newblock {\em EURASIP journal on wireless communications and networking},
-  2005(3):275--283, 2005.
 
 \bibitem{federal2005notice}
 Federal~Communications Commission et~al.

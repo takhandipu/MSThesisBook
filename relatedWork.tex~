@@ -4,6 +4,7 @@
 Traditional analog model for spectrum management resulted into the inefficient utilization of most radio frequency spectrum~\cite{valenta2010survey}. While several mobile network spectrum bands are highly congested, other spectrum bands like TV space and non-commercial radio bands are overly under-utilized. Moreover, these utilization varies depending on time and place resulting into spectrum hole~\cite{tandra2009spectrum}. Subsequently, the notion of cognitive radio was proposed to exploit these temporal and spatial spectrum holes.
 
 %CR definition
+\section{Cognitive Radio Definition}
 Cognitive radio is a special kind of radio with two unique attributes, cognitive capability and reconfigurability~\cite{akyildiz2006next, thomas2005cognitive, haykin2005cognitive}. Cognitive capability enables cognitive radio to sense its radio environment. The radio environment sensing process involves observing the power in various spectrum bands as well as identifying temporal and spatial spectrum holes~\cite{akyildiz2006next}. On the other hand, reconfigurability helps cognitive radio to communicate over various spectrum bands to improve spectrum utilization based on its spectrum awareness~\cite{jondral2005software}.
 
 Based on these two special characteristics, the primary objective of cognitive radio can be best understood from its widely adopted definition~\cite{federal2005notice}:
@@ -12,7 +13,25 @@ Based on these two special characteristics, the primary objective of cognitive r
 A cognitive radio is a radio or system that senses its operational electromagnetic environment and can dynamically and autonomously adjust its radio operating parameters to modify system operation, such as maximize throughput, mitigate interference, facilitate interoperability, access secondary markets.
 \end{quote}
 
-Given the fixed nature of traditional spectrum allocation, the primary challenge of cognitive radio is to exploit spectrum holes in the licensed band while not causing any interruption  
+Given the fixed nature of traditional spectrum allocation, the primary challenge of cognitive radio is to exploit spectrum holes in the licensed band while not causing any interruption to the licensed users. Therefore, while using a temporally and/or spatially free spectrum, if the licensed user starts using the corresponding spectrum, the cognitive radio must have the capability to switch to another spectrum or change its other transmission parameters to avoid interruption with the licensed user.
+cabric2004implementation
+\subsection{How does a cognitive radio physically work}
+
+\begin{figure}[!htbp]
+\begin{center}
+    \includegraphics[scale=0.5]{myFigures/PhysicalCR}
+    \caption{Cognitive radio transceiver (redrawn from~\cite{jondral2005software})}
+    \label{fig:PhysicalCR}
+\end{center}
+\end{figure}
+
+\begin{figure}[!htbp]
+\begin{center}
+    \includegraphics[scale=0.375]{myFigures/RFFrontEnd}
+    \caption{Wideband RF/analog front-end architecture for cognitive radio (redrawn from~\cite{cabric2004implementation})}
+    \label{fig:PhysicalCR}
+\end{center}
+\end{figure}
 %CRN definition
 %Research Categories in CRNs
     %Dynamic Spectrum Access issues in CRNs
