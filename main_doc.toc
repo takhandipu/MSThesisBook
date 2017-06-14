@@ -8,14 +8,14 @@
 \contentsline {chapter}{\numberline {2}Background and Related Work}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Cognitive Radio Definition}{4}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}How does a cognitive radio physically work}{5}{subsection.2.1.1}
-\contentsline {chapter}{\numberline {3}System Model and Problem Definition}{8}{chapter.3}
-\contentsline {chapter}{\numberline {4}Feedback-based Multi-radio Exploitation Approach}{10}{chapter.4}
-\contentsline {section}{\numberline {4.1}Overview of The Proposed Approach}{10}{section.4.1}
-\contentsline {section}{\numberline {4.2}Radio Selection Based on Packet Transmission Ratio}{10}{section.4.2}
-\contentsline {section}{\numberline {4.3}Channel Selection Based on Channel Utilization Ratio}{12}{section.4.3}
-\contentsline {section}{\numberline {4.4}Variants of Our Proposed Approach}{12}{section.4.4}
-\contentsline {chapter}{\numberline {5}Experimental Evaluation}{16}{chapter.5}
-\contentsline {section}{\numberline {5.1}Simulation Settings}{17}{section.5.1}
-\contentsline {section}{\numberline {5.2}Simulation Results}{17}{section.5.2}
-\contentsline {section}{\numberline {5.3}Simulation Findings}{22}{section.5.3}
-\contentsline {chapter}{\numberline {6}Conclusion}{24}{chapter.6}
+\contentsline {chapter}{\numberline {3}System Model and Problem Definition}{9}{chapter.3}
+\contentsline {chapter}{\numberline {4}Feedback-based Multi-radio Exploitation Approach}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}Overview of The Proposed Approach}{11}{section.4.1}
+\contentsline {section}{\numberline {4.2}Radio Selection Based on Packet Transmission Ratio}{11}{section.4.2}
+\contentsline {section}{\numberline {4.3}Channel Selection Based on Channel Utilization Ratio}{13}{section.4.3}
+\contentsline {section}{\numberline {4.4}Variants of Our Proposed Approach}{13}{section.4.4}
+\contentsline {chapter}{\numberline {5}Experimental Evaluation}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Simulation Settings}{18}{section.5.1}
+\contentsline {section}{\numberline {5.2}Simulation Results}{18}{section.5.2}
+\contentsline {section}{\numberline {5.3}Simulation Findings}{23}{section.5.3}
+\contentsline {chapter}{\numberline {6}Conclusion}{25}{chapter.6}

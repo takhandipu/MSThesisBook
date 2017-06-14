@@ -16,7 +16,6 @@ A cognitive radio is a radio or system that senses its operational electromagnet
 Given the fixed nature of traditional spectrum allocation, the primary challenge of cognitive radio is to exploit spectrum holes in the licensed band while not causing any interruption to the licensed users. Therefore, while using a temporally and/or spatially free spectrum, if the licensed user starts using the corresponding spectrum, the cognitive radio must have the capability to switch to another spectrum or change its other transmission parameters to avoid interruption with the licensed user. Next, we will see how does a cognitive radio achieve this in greater detail.
 
 \subsection{How does a cognitive radio physically work}
-As shown in Fig.~\ref{fig:PhysicalCR}~\cite{jondral2005software}, the cognitive radio transceiver is consisted of a radio front-end and a processing unit~\cite{akyildiz2006next}. The most important fact that distinguishes cognitive radios from other traditional radios is cognitive radio's ability to reconfigure itself via a control bus parameterizing both the radio front-end and processing units~\cite{jondral2005software}. The radio front-end amplifies and mixes the received signal and then converts it from analog to digital signal. The processing unit doing the job of baseband and data processing is quite similar to conventional radio transceivers. Nonetheless, the unique design of cognitive radio's front end also attributes to its novelty, and therefore, we will discuss the radio front-end up next.
 
 \begin{figure}[!htbp]
 \begin{center}
@@ -26,13 +25,27 @@ As shown in Fig.~\ref{fig:PhysicalCR}~\cite{jondral2005software}, the cognitive 
 \end{center}
 \end{figure}
 
+As shown in Figure~\ref{fig:PhysicalCR}~\cite{jondral2005software}, the cognitive radio transceiver is consisted of a radio front-end and a processing unit~\cite{akyildiz2006next}. The most important fact that distinguishes cognitive radios from other traditional radios is cognitive radio's ability to reconfigure itself via a control bus parameterizing both the radio front-end and processing units~\cite{jondral2005software}. The radio front-end amplifies and mixes the received signal and then converts it from analog to digital signal. The processing unit doing the job of baseband and data processing is quite similar to conventional radio transceivers. Nonetheless, the unique design of cognitive radio's front end also attributes to its novelty, and therefore, we will discuss the radio front-end up next.
+
 \begin{figure}[!htbp]
 \begin{center}
     \includegraphics[scale=0.5]{myFigures/RFFrontEnd}
     \caption{Wideband RF/analog front-end architecture for cognitive radio (redrawn from~\cite{cabric2004implementation})}
-    \label{fig:PhysicalCR}
+    \label{fig:RFFrontEnd}
 \end{center}
 \end{figure}
+
+The radio front-end of a cognitive radio is illustrated in Figure~\ref{fig:RFFrontEnd}~\cite{cabric2004implementation}. It has a wideband sensing capability mainly due to its components like wideband antenna, power amplifier, and adaptive filter. This wideband sensing capability of the radio front end enables cognitive radio to tune to any part of a wide spectrum band. This capability also helps cognitive radio to measure any spectrum information of radio surroundings. To accomplish all this, a wideband radio front-end needs to have following components~\cite{akyildiz2006next}:
+
+\begin{itemize}
+    \item \textbf{RF filter:} The RF filter chooses the appropriate (low, high, or bandpass) spectrum band by filtering out any other frequency components from the received RF signal.
+    \item \textbf{Low noise amplifier (LNA):}
+    \item \textbf{Mixer:}
+    \item \textbf{Voltage-controlled oscillator (VCO):}
+    \item \textbf{Phase locked loop (PLL):}
+    \item \textbf{Channel selection filter:}
+    \item \textbf{Automatic gain control (AGC):}
+\end{itemize}
 %CRN definition
 %Research Categories in CRNs
     %Dynamic Spectrum Access issues in CRNs
