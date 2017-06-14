@@ -13,9 +13,10 @@ Based on these two special characteristics, the primary objective of cognitive r
 A cognitive radio is a radio or system that senses its operational electromagnetic environment and can dynamically and autonomously adjust its radio operating parameters to modify system operation, such as maximize throughput, mitigate interference, facilitate interoperability, access secondary markets.
 \end{quote}
 
-Given the fixed nature of traditional spectrum allocation, the primary challenge of cognitive radio is to exploit spectrum holes in the licensed band while not causing any interruption to the licensed users. Therefore, while using a temporally and/or spatially free spectrum, if the licensed user starts using the corresponding spectrum, the cognitive radio must have the capability to switch to another spectrum or change its other transmission parameters to avoid interruption with the licensed user.
-cabric2004implementation
+Given the fixed nature of traditional spectrum allocation, the primary challenge of cognitive radio is to exploit spectrum holes in the licensed band while not causing any interruption to the licensed users. Therefore, while using a temporally and/or spatially free spectrum, if the licensed user starts using the corresponding spectrum, the cognitive radio must have the capability to switch to another spectrum or change its other transmission parameters to avoid interruption with the licensed user. Next, we will see how does a cognitive radio achieve this in greater detail.
+
 \subsection{How does a cognitive radio physically work}
+As shown in Fig.~\ref{fig:PhysicalCR}~\cite{jondral2005software}, the cognitive radio transceiver is consisted of a radio front-end and a processing unit~\cite{akyildiz2006next}. The most important fact that distinguishes cognitive radios from other traditional radios is cognitive radio's ability to reconfigure itself via a control bus parameterizing both the radio front-end and processing units~\cite{jondral2005software}. The radio front-end amplifies and mixes the received signal and then converts it from analog to digital signal. The processing unit doing the job of baseband and data processing is quite similar to conventional radio transceivers. Nonetheless, the unique design of cognitive radio's front end also attributes to its novelty, and therefore, we will discuss the radio front-end up next.
 
 \begin{figure}[!htbp]
 \begin{center}
@@ -27,7 +28,7 @@ cabric2004implementation
 
 \begin{figure}[!htbp]
 \begin{center}
-    \includegraphics[scale=0.375]{myFigures/RFFrontEnd}
+    \includegraphics[scale=0.5]{myFigures/RFFrontEnd}
     \caption{Wideband RF/analog front-end architecture for cognitive radio (redrawn from~\cite{cabric2004implementation})}
     \label{fig:PhysicalCR}
 \end{center}
