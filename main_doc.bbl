@@ -1,5 +1,19 @@
 \begin{thebibliography}{10}
 
+\bibitem{bwnGatechProjectDescription}
+School of~Electrical Broadband Wireless Networking~Lab and Georgia Insititute
+  of~Technology Computer~Engineering.
+\newblock Cognitive radio networks.
+\newblock \url{http://bwn.ece.gatech.edu/CR/projectdescription.html}, 2006.
+\newblock (Date last accessed 5-July-2017).
+
+\bibitem{mimoWiki}
+Wikipedia.
+\newblock Mimo: Multiple-input and multiple-output, wikipedia{,} the free
+  encyclopedia.
+\newblock \url{https://en.wikipedia.org/wiki/MIMO}, 2017.
+\newblock (Date last accessed 5-July-2017).
+
 \bibitem{jondral2005software}
 Friedrich~K Jondral.
 \newblock Software-defined radio: basics and evolution to cognitive radio.
@@ -37,13 +51,6 @@ Ian~F Akyildiz, Won-Yeol Lee, Mehmet~C Vuran, and Shantidev Mohanty.
 J.~Mitola and Jr. Maguire, G.Q.
 \newblock Cognitive radio: making software radios more personal.
 \newblock {\em Personal Communications, IEEE}, 6(4):13--18, 1999.
-
-\bibitem{bwnGatechProjectDescription}
-School of~Electrical Broadband Wireless Networking~Lab and Georgia Insititute
-  of~Technology Computer~Engineering.
-\newblock Cognitive radio networks.
-\newblock \url{http://bwn.ece.gatech.edu/CR/projectdescription.html}, 2006.
-\newblock (Date last accessed 5-July-2017).
 
 \bibitem{bahl2004reconsidering}
 Paramvir Bahl, Atul Adya, Jitendra Padhye, and Alec Walman.

@@ -6,7 +6,7 @@ The famous spectrum scarcity problem along with significant spectrum under-utili
 
 \begin{figure}[!htbp]
     \begin{center}
-        \includegraphics[width=\textwidth]{myFigures/cogArch.jpg}
+        \includegraphics[width=0.625\textwidth]{myFigures/cogArch.png}
         \caption{Cognitive radio networks architecture~\cite{bwnGatechProjectDescription}}
         \label{fig:cogArch}
     \end{center}
@@ -16,6 +16,14 @@ The famous spectrum scarcity problem along with significant spectrum under-utili
 %The importance of our study lies on the fact that almost all the modern mobile devices contain multiple radios.
 
 On the other hand, classical wireless networks frequently adopt the notion of deploying users with multiple radios~\cite{bahl2004reconsidering, adya2004multi}. Such deployment of multiple radios improves capacity of the networks \cite{draves2004routing, bahl2004reconsidering}, enhances loss resilience \cite{miu2005improving}, and enables heterogeneous wireless access for smart devices \cite{song2012performance}. However, this augmentation also demands modified routing, medium-access, and link-layer protocols \cite{kyasanur2006routing, chatterjee2013low}. Nonetheless, as such deployment of multiple radios in wireless nodes is known to improve the performance of a user and  deployment of cognitive radios also aims to improve the performance of secondary users through spectrum utilization, it is intuitive that simultaneous utilization of both these techniques, i.e., Cognitive Multi-Radio Networks (CMRNs), will result in significantly improved network performance. Therefore, the notion of exploiting multiple radios in CRNs to supplement the dynamic spectrum access has been proposed in the contemporary literature. Existing studies in this regard present that such multi-radio deployment in CRNs improves delay up to a certain point, however, throughput always degrades with an increase in the number of radios per secondary user~\cite{khan2015towards}. Therefore, the main motivation behind this study is to examine how to improve network throughput while equipping secondary users with multiple radios.
+
+\begin{figure}[!htbp]
+    \begin{center}
+        \includegraphics[width=0.55\textwidth]{myFigures/MIMO.png}
+        \caption{Multi-radio channel Model~\cite{mimoWiki}}
+        \label{fig:MIMO}
+    \end{center}
+\end{figure}
 
 % Why is it hard? (E.g., why do naive approaches fail?)
 The main challenge of improving total network throughput in CMRNs lies on the silent features of the architecture of CRNs. In CRNs, nodes generally have limited spectrum knowledge covering only its own neighborhood. Thus, the knowledge is conventionally gathered in a distributed manner. Therefore, graph-based and MILP optimization-based solutions~\cite{hoang2008downlink,ahmed2014channel} for improving throughput can not be directly incorporated due to their nature of performing centralized computations. Moreover, the relation between two different performance metrics (throughput and delay) may be opposing in nature~\cite{gamal2004throughput} and improving one of them may result in degradation of the another. Consequently, a trade-off between these two metrics demands special attention in CMRNs in road to improving throughput.

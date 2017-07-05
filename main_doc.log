@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.5.11)  5 JUL 2017 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.5.11)  5 JUL 2017 15:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1165,42 +1165,49 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 (./introduction.tex
 Chapter 1.
-<myFigures/cogArch.jpg, id=230, 602.25pt x 472.76625pt>
-File: myFigures/cogArch.jpg Graphic file (type jpg)
+<myFigures/cogArch.png, id=234, 800.9925pt x 578.91281pt>
+File: myFigures/cogArch.png Graphic file (type png)
 
-<use myFigures/cogArch.jpg>
-Package pdftex.def Info: myFigures/cogArch.jpg used on input line 9.
-(pdftex.def)             Requested size: 240.93773pt x 189.1392pt.
+<use myFigures/cogArch.png>
+Package pdftex.def Info: myFigures/cogArch.png used on input line 9.
+(pdftex.def)             Requested size: 289.1282pt x 208.96495pt.
  [1
 
 
- <./myFigures/cogArch.jpg>]
+ <./myFigures/cogArch.png>]
+<myFigures/MIMO.png, id=253, 401.5pt x 245.91875pt>
+File: myFigures/MIMO.png Graphic file (type png)
+ <use myFigures/MIMO.png>
+Package pdftex.def Info: myFigures/MIMO.png used on input line 22.
+(pdftex.def)             Requested size: 265.03296pt x 162.34439pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 37.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+[2 <./myFigures/MIMO.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 45.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
-)
-(./relatedWork.tex [3]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
+) (./relatedWork.tex
+[3]
 Chapter 2.
 [4
 
-] <myFigures/PhysicalCR.pdf, id=298, 722.7pt x 542.025pt>
+] <myFigures/PhysicalCR.pdf, id=307, 722.7pt x 542.025pt>
 File: myFigures/PhysicalCR.pdf Graphic file (type pdf)
 
 <use myFigures/PhysicalCR.pdf>
 Package pdftex.def Info: myFigures/PhysicalCR.pdf used on input line 22.
 (pdftex.def)             Requested size: 361.3491pt x 271.01183pt.
 
-<myFigures/RFFrontEnd.pdf, id=305, 723.70375pt x 341.275pt>
+<myFigures/RFFrontEnd.pdf, id=314, 723.70375pt x 341.275pt>
 File: myFigures/RFFrontEnd.pdf Graphic file (type pdf)
 
 <use myFigures/RFFrontEnd.pdf>
@@ -1483,84 +1490,84 @@ Chapter 5.
 [17
 
 ] (./topology4T.tex
-<topology4/Throughput24d1.pdf, id=433, 911.405pt x 363.3575pt>
+<topology4/Throughput24d1.pdf, id=442, 911.405pt x 363.3575pt>
 File: topology4/Throughput24d1.pdf Graphic file (type pdf)
 
 <use topology4/Throughput24d1.pdf>
 Package pdftex.def Info: topology4/Throughput24d1.pdf used on input line 4.
 (pdftex.def)             Requested size: 216.84248pt x 86.448pt.
 
-<topology4/Throughput24d2.pdf, id=434, 911.405pt x 363.3575pt>
+<topology4/Throughput24d2.pdf, id=443, 911.405pt x 363.3575pt>
 File: topology4/Throughput24d2.pdf Graphic file (type pdf)
 
 <use topology4/Throughput24d2.pdf>
 Package pdftex.def Info: topology4/Throughput24d2.pdf used on input line 10.
 (pdftex.def)             Requested size: 216.84248pt x 86.448pt.
 
-<topology4/Throughput24d4.pdf, id=435, 911.405pt x 363.3575pt>
+<topology4/Throughput24d4.pdf, id=444, 911.405pt x 363.3575pt>
 File: topology4/Throughput24d4.pdf Graphic file (type pdf)
 
 <use topology4/Throughput24d4.pdf>
 Package pdftex.def Info: topology4/Throughput24d4.pdf used on input line 16.
 (pdftex.def)             Requested size: 216.84248pt x 86.448pt.
 
-<topology4/Throughput24d8.pdf, id=436, 911.405pt x 362.35374pt>
+<topology4/Throughput24d8.pdf, id=445, 911.405pt x 362.35374pt>
 File: topology4/Throughput24d8.pdf Graphic file (type pdf)
 
 <use topology4/Throughput24d8.pdf>
 Package pdftex.def Info: topology4/Throughput24d8.pdf used on input line 22.
 (pdftex.def)             Requested size: 216.84248pt x 86.20918pt.
 
-<topology4/Throughput24d16.pdf, id=437, 911.405pt x 362.35374pt>
+<topology4/Throughput24d16.pdf, id=446, 911.405pt x 362.35374pt>
 File: topology4/Throughput24d16.pdf Graphic file (type pdf)
 
 <use topology4/Throughput24d16.pdf>
 Package pdftex.def Info: topology4/Throughput24d16.pdf used on input line 28.
 (pdftex.def)             Requested size: 216.84248pt x 86.20918pt.
 
-<topology4/Throughput24d32.pdf, id=438, 911.405pt x 363.3575pt>
+<topology4/Throughput24d32.pdf, id=447, 911.405pt x 363.3575pt>
 File: topology4/Throughput24d32.pdf Graphic file (type pdf)
 
 <use topology4/Throughput24d32.pdf>
 Package pdftex.def Info: topology4/Throughput24d32.pdf used on input line 34.
 (pdftex.def)             Requested size: 216.84248pt x 86.448pt.
 ) (./topology4D.tex
-<topology4/Delay24d1.pdf, id=442, 911.405pt x 362.35374pt>
+<topology4/Delay24d1.pdf, id=451, 911.405pt x 362.35374pt>
 File: topology4/Delay24d1.pdf Graphic file (type pdf)
 
 <use topology4/Delay24d1.pdf>
 Package pdftex.def Info: topology4/Delay24d1.pdf used on input line 4.
 (pdftex.def)             Requested size: 216.84248pt x 86.20918pt.
 
-<topology4/Delay24d2.pdf, id=443, 911.405pt x 363.3575pt>
+<topology4/Delay24d2.pdf, id=452, 911.405pt x 363.3575pt>
 File: topology4/Delay24d2.pdf Graphic file (type pdf)
 
 <use topology4/Delay24d2.pdf>
 Package pdftex.def Info: topology4/Delay24d2.pdf used on input line 10.
 (pdftex.def)             Requested size: 216.84248pt x 86.448pt.
 
-<topology4/Delay24d4.pdf, id=444, 911.405pt x 362.35374pt>
+<topology4/Delay24d4.pdf, id=453, 911.405pt x 362.35374pt>
 File: topology4/Delay24d4.pdf Graphic file (type pdf)
 
 <use topology4/Delay24d4.pdf>
 Package pdftex.def Info: topology4/Delay24d4.pdf used on input line 16.
 (pdftex.def)             Requested size: 216.84248pt x 86.20918pt.
 
-<topology4/Delay24d8.pdf, id=445, 911.405pt x 362.35374pt>
+<topology4/Delay24d8.pdf, id=454, 911.405pt x 362.35374pt>
 File: topology4/Delay24d8.pdf Graphic file (type pdf)
 
 <use topology4/Delay24d8.pdf>
 Package pdftex.def Info: topology4/Delay24d8.pdf used on input line 22.
 (pdftex.def)             Requested size: 216.84248pt x 86.20918pt.
 
-<topology4/Delay24d16.pdf, id=446, 911.405pt x 363.3575pt>
+<topology4/Delay24d16.pdf, id=455, 911.405pt x 363.3575pt>
 File: topology4/Delay24d16.pdf Graphic file (type pdf)
 
 <use topology4/Delay24d16.pdf>
 Package pdftex.def Info: topology4/Delay24d16.pdf used on input line 28.
 (pdftex.def)             Requested size: 216.84248pt x 86.448pt.
 
-<topology4/Delay24d32.pdf, id=447, 911.405pt x 363.3575pt>
+<topology4/Delay24d32.pdf, id=456, 911.405pt x 363.3575pt>
 File: topology4/Delay24d32.pdf Graphic file (type pdf)
 
 <use topology4/Delay24d32.pdf>
@@ -1607,7 +1614,7 @@ iple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./topology4/Delay24d32.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
 >] (./topology4P.tex
-<topology4/PacketDropRatio24d1.pdf, id=553, 911.405pt x 427.5975pt>
+<topology4/PacketDropRatio24d1.pdf, id=562, 911.405pt x 427.5975pt>
 File: topology4/PacketDropRatio24d1.pdf Graphic file (type pdf)
 
 <use topology4/PacketDropRatio24d1.pdf>
@@ -1615,7 +1622,7 @@ Package pdftex.def Info: topology4/PacketDropRatio24d1.pdf used on input line 4
 .
 (pdftex.def)             Requested size: 216.84248pt x 101.73161pt.
 
-<topology4/PacketDropRatio24d2.pdf, id=554, 911.405pt x 427.5975pt>
+<topology4/PacketDropRatio24d2.pdf, id=563, 911.405pt x 427.5975pt>
 File: topology4/PacketDropRatio24d2.pdf Graphic file (type pdf)
 
 <use topology4/PacketDropRatio24d2.pdf>
@@ -1623,7 +1630,7 @@ Package pdftex.def Info: topology4/PacketDropRatio24d2.pdf used on input line 1
 0.
 (pdftex.def)             Requested size: 216.84248pt x 101.73161pt.
 
-<topology4/PacketDropRatio24d4.pdf, id=555, 911.405pt x 427.5975pt>
+<topology4/PacketDropRatio24d4.pdf, id=564, 911.405pt x 427.5975pt>
 File: topology4/PacketDropRatio24d4.pdf Graphic file (type pdf)
 
 <use topology4/PacketDropRatio24d4.pdf>
@@ -1631,7 +1638,7 @@ Package pdftex.def Info: topology4/PacketDropRatio24d4.pdf used on input line 1
 6.
 (pdftex.def)             Requested size: 216.84248pt x 101.73161pt.
 
-<topology4/PacketDropRatio24d8.pdf, id=556, 911.405pt x 427.5975pt>
+<topology4/PacketDropRatio24d8.pdf, id=565, 911.405pt x 427.5975pt>
 File: topology4/PacketDropRatio24d8.pdf Graphic file (type pdf)
 
 <use topology4/PacketDropRatio24d8.pdf>
@@ -1639,7 +1646,7 @@ Package pdftex.def Info: topology4/PacketDropRatio24d8.pdf used on input line 2
 2.
 (pdftex.def)             Requested size: 216.84248pt x 101.73161pt.
 
-<topology4/PacketDropRatio24d16.pdf, id=557, 911.405pt x 427.5975pt>
+<topology4/PacketDropRatio24d16.pdf, id=566, 911.405pt x 427.5975pt>
 File: topology4/PacketDropRatio24d16.pdf Graphic file (type pdf)
 
 <use topology4/PacketDropRatio24d16.pdf>
@@ -1647,7 +1654,7 @@ Package pdftex.def Info: topology4/PacketDropRatio24d16.pdf used on input line
 28.
 (pdftex.def)             Requested size: 216.84248pt x 101.73161pt.
 
-<topology4/PacketDropRatio24d32.pdf, id=558, 911.405pt x 427.5975pt>
+<topology4/PacketDropRatio24d32.pdf, id=567, 911.405pt x 427.5975pt>
 File: topology4/PacketDropRatio24d32.pdf Graphic file (type pdf)
 
 <use topology4/PacketDropRatio24d32.pdf>
@@ -1676,14 +1683,14 @@ sion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./topology4/PacketDropRatio24d32.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
 >] (./topology4PD.tex
-<topology4/DeliveryRatio24d1.pdf, id=609, 932.48375pt x 437.635pt>
+<topology4/DeliveryRatio24d1.pdf, id=618, 932.48375pt x 437.635pt>
 File: topology4/DeliveryRatio24d1.pdf Graphic file (type pdf)
 
 <use topology4/DeliveryRatio24d1.pdf>
 Package pdftex.def Info: topology4/DeliveryRatio24d1.pdf used on input line 4.
 (pdftex.def)             Requested size: 216.84248pt x 101.76912pt.
 
-<topology4/DeliveryRatio24d2.pdf, id=610, 932.48375pt x 437.635pt>
+<topology4/DeliveryRatio24d2.pdf, id=619, 932.48375pt x 437.635pt>
 File: topology4/DeliveryRatio24d2.pdf Graphic file (type pdf)
 
 <use topology4/DeliveryRatio24d2.pdf>
@@ -1691,7 +1698,7 @@ Package pdftex.def Info: topology4/DeliveryRatio24d2.pdf used on input line 10.
 
 (pdftex.def)             Requested size: 216.84248pt x 101.76912pt.
 
-<topology4/DeliveryRatio24d4.pdf, id=611, 932.48375pt x 437.635pt>
+<topology4/DeliveryRatio24d4.pdf, id=620, 932.48375pt x 437.635pt>
 File: topology4/DeliveryRatio24d4.pdf Graphic file (type pdf)
 
 <use topology4/DeliveryRatio24d4.pdf>
@@ -1699,7 +1706,7 @@ Package pdftex.def Info: topology4/DeliveryRatio24d4.pdf used on input line 16.
 
 (pdftex.def)             Requested size: 216.84248pt x 101.76912pt.
 
-<topology4/DeliveryRatio24d8.pdf, id=612, 932.48375pt x 437.635pt>
+<topology4/DeliveryRatio24d8.pdf, id=621, 932.48375pt x 437.635pt>
 File: topology4/DeliveryRatio24d8.pdf Graphic file (type pdf)
 
 <use topology4/DeliveryRatio24d8.pdf>
@@ -1707,7 +1714,7 @@ Package pdftex.def Info: topology4/DeliveryRatio24d8.pdf used on input line 22.
 
 (pdftex.def)             Requested size: 216.84248pt x 101.76912pt.
 
-<topology4/DeliveryRatio24d16.pdf, id=613, 932.48375pt x 437.635pt>
+<topology4/DeliveryRatio24d16.pdf, id=622, 932.48375pt x 437.635pt>
 File: topology4/DeliveryRatio24d16.pdf Graphic file (type pdf)
 
 <use topology4/DeliveryRatio24d16.pdf>
@@ -1715,7 +1722,7 @@ Package pdftex.def Info: topology4/DeliveryRatio24d16.pdf used on input line 28
 .
 (pdftex.def)             Requested size: 216.84248pt x 101.76912pt.
 
-<topology4/DeliveryRatio24d32.pdf, id=614, 932.48375pt x 437.635pt>
+<topology4/DeliveryRatio24d32.pdf, id=623, 932.48375pt x 437.635pt>
 File: topology4/DeliveryRatio24d32.pdf Graphic file (type pdf)
 
 <use topology4/DeliveryRatio24d32.pdf>
@@ -1820,10 +1827,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
  ) 
 Here is how much of TeX's memory you used:
- 22293 strings out of 493105
- 421775 string characters out of 6137072
- 520831 words of memory out of 5000000
- 25110 multiletter control sequences out of 15000+600000
+ 22302 strings out of 493105
+ 421935 string characters out of 6137072
+ 521012 words of memory out of 5000000
+ 25117 multiletter control sequences out of 15000+600000
  19042 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,14n,60p,1746b,2107s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1842,10 +1849,10 @@ m/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main_doc.pdf (40 pages, 651000 bytes).
+Output written on main_doc.pdf (40 pages, 1027179 bytes).
 PDF statistics:
- 796 PDF objects out of 1000 (max. 8388607)
- 665 compressed objects within 7 object streams
- 128 named destinations out of 1000 (max. 500000)
- 305 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 807 PDF objects out of 1000 (max. 8388607)
+ 672 compressed objects within 7 object streams
+ 130 named destinations out of 1000 (max. 500000)
+ 310 words of extra memory for PDF output out of 10000 (max. 10000000)
 
