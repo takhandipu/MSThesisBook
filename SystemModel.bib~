@@ -188,6 +188,14 @@ ISSN={1550-2252},}
    year = "2014",
    howpublished = "\url{http://en.wikipedia.org/wiki/Two-ray\_ground-reflection\_model}",
  }
+ 
+ @misc{ bwnGatechProjectDescription,
+   author = "Broadband Wireless Networking Lab, School of Electrical and Computer Engineering, Georgia Insititute of Technology",
+   title = "Cognitive Radio Networks",
+   year = "2006",
+   howpublished = "\url{http://bwn.ece.gatech.edu/CR/projectdescription.html}",
+  note={(Date last accessed 5-July-2017)},
+ }
 
 @misc{ns3,
   key = "NS-3",
@@ -547,5 +555,15 @@ ISSN={1550-2252},}
   pages={275--283},
   year={2005},
   publisher={Hindawi Publishing Corp.}
+}
+
+@inproceedings{cabric2004implementation,
+  title={Implementation issues in spectrum sensing for cognitive radios},
+  author={Cabric, Danijela and Mishra, Shridhar Mubaraq and Brodersen, Robert W},
+  booktitle={Signals, systems and computers, 2004. Conference record of the thirty-eighth Asilomar conference on},
+  volume={1},
+  pages={772--776},
+  year={2004},
+  organization={Ieee}
 }
 

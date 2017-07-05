@@ -1,8 +1,16 @@
 \chapter{Introduction}\label{intro}
 %\Cref{fig:sample}
 % What is the problem?
-\section{Background and Motivation}
+%\section{Background and Motivation}
 The famous spectrum scarcity problem along with significant spectrum under-utilization in traditional spectrum management has lead towards the notion of dynamic spectrum access~\cite{akyildiz2006next} through cognitive radios. A \textit{cognitive radio} monitors its operational electromagnetic environment to dynamically adjust its operating parameters~\cite{Mitola}. Thus, a cognitive radio is capable of accessing temporal free spectrum. The architecture of the Cognitive Radio Networks (CRNs) comprises of two types of users. The first type refers to \textit{primary users} (PUs), who possess licenses to operate in the spectrum bands. The second type refers to \textit{secondary users} (SUs), who are unlicensed and employ cognitive radios to opportunistically access instantaneous spectrum holes.
+
+\begin{figure}[!htbp]
+    \begin{center}
+        \includegraphics[width=\textwidth]{myFigures/cogArch.jpg}
+        \caption{Cognitive radio networks architecture~\cite{bwnGatechProjectDescription}}
+        \label{fig:cogArch}
+    \end{center}
+\end{figure}
 
 % Why is it interesting and important?
 %The importance of our study lies on the fact that almost all the modern mobile devices contain multiple radios.
@@ -20,6 +28,8 @@ To this end, in this paper, we propose to integrate feedback obtained from lower
 
 % Summary of Contributions
 %Then have a final paragraph or subsection: "Summary of Contributions". It should list the major contributions in bullet form, mentioning in which sections they can be found. This material doubles as an outline of the rest of the paper, saving space and eliminating redundancy.
+
+%\section{Summary of Contributions}
 
 Based on our study in this paper, we make the following set of contributions:
 
