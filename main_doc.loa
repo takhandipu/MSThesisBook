@@ -1,7 +1,7 @@
-\contentsline {algorithm}{\numberline {1}{\ignorespaces $\mathit {sendPacket}$: SU agent sending a packet, $p$\relax }}{14}{algorithm.1}
-\contentsline {algorithm}{\numberline {2}{\ignorespaces $\mathit {startSensing}$: SU's radio sensing its channel\relax }}{14}{algorithm.2}
-\contentsline {algorithm}{\numberline {3}{\ignorespaces $\mathit {startSwitching}$: SU's radio changing its channel\relax }}{14}{algorithm.3}
-\contentsline {algorithm}{\numberline {4}{\ignorespaces $\mathit {transmitPacket}$: SU's radio transmitting a packet, $p$\relax }}{14}{algorithm.4}
-\contentsline {algorithm}{\numberline {5}{\ignorespaces $\mathit {receiveAckPacket}$: SU's radio receiving an Ack packet, $p$\relax }}{14}{algorithm.5}
-\contentsline {algorithm}{\numberline {6}{\ignorespaces $\mathit {getSelectedRadio}$: Selects an SU radio to send a packet\relax }}{15}{algorithm.6}
-\contentsline {algorithm}{\numberline {7}{\ignorespaces $\mathit {getSelectedChannel}$: Selects a new channel to switch for an SU radio over the $\mathit {availableChannels}$\relax }}{15}{algorithm.7}
+\contentsline {algorithm}{\numberline {1}{\ignorespaces $\mathit {sendPacket}$: SU agent sending a packet, $p$\relax }}{15}{algorithm.1}
+\contentsline {algorithm}{\numberline {2}{\ignorespaces $\mathit {startSensing}$: SU's radio sensing its channel\relax }}{15}{algorithm.2}
+\contentsline {algorithm}{\numberline {3}{\ignorespaces $\mathit {startSwitching}$: SU's radio changing its channel\relax }}{15}{algorithm.3}
+\contentsline {algorithm}{\numberline {4}{\ignorespaces $\mathit {transmitPacket}$: SU's radio transmitting a packet, $p$\relax }}{15}{algorithm.4}
+\contentsline {algorithm}{\numberline {5}{\ignorespaces $\mathit {receiveAckPacket}$: SU's radio receiving an Ack packet, $p$\relax }}{15}{algorithm.5}
+\contentsline {algorithm}{\numberline {6}{\ignorespaces $\mathit {getSelectedRadio}$: Selects an SU radio to send a packet\relax }}{16}{algorithm.6}
+\contentsline {algorithm}{\numberline {7}{\ignorespaces $\mathit {getSelectedChannel}$: Selects a new channel to switch for an SU radio over the $\mathit {availableChannels}$\relax }}{16}{algorithm.7}

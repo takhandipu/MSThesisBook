@@ -3,18 +3,18 @@
 \contentsline {chapter}{\textit {Acknowledgment}}{iv}{chapter*.2}
 \contentsline {chapter}{\textit {Abstract}}{v}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Background and Related Work}{4}{chapter.2}
-\contentsline {section}{\numberline {2.1}Cognitive Radio Definition}{4}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}How does a cognitive radio physically work}{5}{subsection.2.1.1}
-\contentsline {chapter}{\numberline {3}System Model and Problem Definition}{9}{chapter.3}
-\contentsline {chapter}{\numberline {4}Feedback-based Multi-radio Exploitation Approach}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}Overview of The Proposed Approach}{11}{section.4.1}
-\contentsline {section}{\numberline {4.2}Radio Selection Based on Packet Transmission Ratio}{11}{section.4.2}
-\contentsline {section}{\numberline {4.3}Channel Selection Based on Channel Utilization Ratio}{13}{section.4.3}
-\contentsline {section}{\numberline {4.4}Variants of Our Proposed Approach}{13}{section.4.4}
-\contentsline {chapter}{\numberline {5}Experimental Evaluation}{17}{chapter.5}
-\contentsline {section}{\numberline {5.1}Simulation Settings}{18}{section.5.1}
-\contentsline {section}{\numberline {5.2}Simulation Results}{18}{section.5.2}
-\contentsline {section}{\numberline {5.3}Simulation Findings}{24}{section.5.3}
-\contentsline {chapter}{\numberline {6}Future Work}{26}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclusion}{27}{chapter.7}
+\contentsline {chapter}{\numberline {2}Background and Related Work}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Cognitive Radio Definition}{5}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}How does a cognitive radio physically work}{6}{subsection.2.1.1}
+\contentsline {chapter}{\numberline {3}System Model and Problem Definition}{10}{chapter.3}
+\contentsline {chapter}{\numberline {4}Feedback-based Multi-radio Exploitation Approach}{12}{chapter.4}
+\contentsline {section}{\numberline {4.1}Overview of The Proposed Approach}{12}{section.4.1}
+\contentsline {section}{\numberline {4.2}Radio Selection Based on Packet Transmission Ratio}{12}{section.4.2}
+\contentsline {section}{\numberline {4.3}Channel Selection Based on Channel Utilization Ratio}{14}{section.4.3}
+\contentsline {section}{\numberline {4.4}Variants of Our Proposed Approach}{14}{section.4.4}
+\contentsline {chapter}{\numberline {5}Experimental Evaluation}{18}{chapter.5}
+\contentsline {section}{\numberline {5.1}Simulation Settings}{19}{section.5.1}
+\contentsline {section}{\numberline {5.2}Simulation Results}{19}{section.5.2}
+\contentsline {section}{\numberline {5.3}Simulation Findings}{25}{section.5.3}
+\contentsline {chapter}{\numberline {6}Future Work}{27}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclusion}{28}{chapter.7}

@@ -2,11 +2,11 @@
 %\Cref{fig:sample}
 % What is the problem?
 %\section{Background and Motivation}
-The famous spectrum scarcity problem along with significant spectrum under-utilization in traditional spectrum management has lead towards the notion of dynamic spectrum access~\cite{akyildiz2006next} through cognitive radios. A \textit{cognitive radio} monitors its operational electromagnetic environment to dynamically adjust its operating parameters~\cite{Mitola}. Thus, a cognitive radio is capable of accessing temporal free spectrum. The architecture of the Cognitive Radio Networks (CRNs) comprises of two types of users. The first type refers to \textit{primary users} (PUs), who possess licenses to operate in the spectrum bands. The second type refers to \textit{secondary users} (SUs), who are unlicensed and employ cognitive radios to opportunistically access instantaneous spectrum holes.
+The famous spectrum scarcity problem along with significant spectrum under-utilization in traditional spectrum management has lead towards the notion of dynamic spectrum access~\cite{akyildiz2006next} through cognitive radios. A \textit{cognitive radio} monitors its operational electromagnetic environment to dynamically adjust its operating parameters~\cite{Mitola}. Thus, a cognitive radio is capable of accessing temporal free spectrum. The architecture of the Cognitive Radio Networks (CRNs) comprises of two types of users as described in Figure~\ref{fig:cogArch}. The first type refers to \textit{primary users} (PUs), who possess licenses to operate in the spectrum bands. The second type refers to \textit{secondary users} (SUs), who are unlicensed and employ cognitive radios to opportunistically access instantaneous spectrum holes.
 
 \begin{figure}[!htbp]
     \begin{center}
-        \includegraphics[width=0.625\textwidth]{myFigures/cogArch.png}
+        \includegraphics[width=0.6\textwidth]{myFigures/cogArch.png}
         \caption{Cognitive radio networks architecture~\cite{bwnGatechProjectDescription}}
         \label{fig:cogArch}
     \end{center}
@@ -15,7 +15,7 @@ The famous spectrum scarcity problem along with significant spectrum under-utili
 % Why is it interesting and important?
 %The importance of our study lies on the fact that almost all the modern mobile devices contain multiple radios.
 
-On the other hand, classical wireless networks frequently adopt the notion of deploying users with multiple radios~\cite{bahl2004reconsidering, adya2004multi}. Such deployment of multiple radios improves capacity of the networks \cite{draves2004routing, bahl2004reconsidering}, enhances loss resilience \cite{miu2005improving}, and enables heterogeneous wireless access for smart devices \cite{song2012performance}. However, this augmentation also demands modified routing, medium-access, and link-layer protocols \cite{kyasanur2006routing, chatterjee2013low}. Nonetheless, as such deployment of multiple radios in wireless nodes is known to improve the performance of a user and  deployment of cognitive radios also aims to improve the performance of secondary users through spectrum utilization, it is intuitive that simultaneous utilization of both these techniques, i.e., Cognitive Multi-Radio Networks (CMRNs), will result in significantly improved network performance. Therefore, the notion of exploiting multiple radios in CRNs to supplement the dynamic spectrum access has been proposed in the contemporary literature. Existing studies in this regard present that such multi-radio deployment in CRNs improves delay up to a certain point, however, throughput always degrades with an increase in the number of radios per secondary user~\cite{khan2015towards}. Therefore, the main motivation behind this study is to examine how to improve network throughput while equipping secondary users with multiple radios.
+On the other hand, classical wireless networks frequently adopt the notion of deploying users with multiple radios~\cite{bahl2004reconsidering, adya2004multi}. An example multi-radio channel model is illustrated in Figure~\ref{}. Such deployment of multiple radios improves capacity of the networks \cite{draves2004routing, bahl2004reconsidering}, enhances loss resilience \cite{miu2005improving}, and enables heterogeneous wireless access for smart devices \cite{song2012performance}. However, this augmentation also demands modified routing, medium-access, and link-layer protocols \cite{kyasanur2006routing, chatterjee2013low}. Nonetheless, as such deployment of multiple radios in wireless nodes is known to improve the performance of a user and  deployment of cognitive radios also aims to improve the performance of secondary users through spectrum utilization, it is intuitive that simultaneous utilization of both these techniques, i.e., Cognitive Multi-Radio Networks (CMRNs), will result in significantly improved network performance. Therefore, the notion of exploiting multiple radios in CRNs to supplement the dynamic spectrum access has been proposed in the contemporary literature. Existing studies in this regard present that such multi-radio deployment in CRNs improves delay up to a certain point, however, throughput always degrades with an increase in the number of radios per secondary user~\cite{khan2015towards}. Therefore, the main motivation behind this study is to examine how to improve network throughput while equipping secondary users with multiple radios.
 
 \begin{figure}[!htbp]
     \begin{center}
@@ -42,8 +42,10 @@ To this end, in this paper, we propose to integrate feedback obtained from lower
 Based on our study in this paper, we make the following set of contributions:
 
 \begin{itemize}
-\item We propose a feedback-based multi-radio exploitation approach, along with several variants, to solve the throughput degradation problem in CMRNs.
-\item We implement the proposed approach and its variants in \texttt{ns-3} to demonstate their radio selection and channel selection policies.
+\item We propose a feedback-based multi-radio exploitation approach, along with several variants, to solve the throughput degradation problem in CMRNs. In our proposed approach, performance information obtained from lower layers (Physical layer and Data link layer) is incorporated in the process of decision making of radio and channel selection.
+\item We also evaluate the performance of our proposed approach through discrete-event simulation. We implement the proposed approach and its variants in \texttt{ns-3} to demonstate their radio selection and channel selection policies and measure various performance metrics in response to an increase in the number of radios per SU.
 \item We compare performance of our proposed approach against that of existing approaches in the literature. Comparative results confirm significant improvement over existing approaches through using our proposed approach.
+\item Our proposed approach increases total network throughput 51\% and decreases packet drop ratio up to 35\% on an average against that of existing approaches.
+\item At last, we also provide several research questions in the domain of CMRNs to guide future research direction.
 \end{itemize}
 \endinput
