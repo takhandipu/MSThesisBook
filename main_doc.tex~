@@ -80,7 +80,7 @@
 \tableofcontents         
 \listoffigures 
 \listoftables
-%\listofalgorithms 
+\listofalgorithms 
 \cleardoublepage   
 
 
@@ -98,6 +98,8 @@
 \input{feedback.tex}
 
 \input{results.tex}
+
+\input{futureWork.tex}
 
 \input{conclusion.tex}
 
