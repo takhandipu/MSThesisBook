@@ -193,6 +193,25 @@ Sheldon~M. Ross.
 \newblock {\em Introduction to Probability Models, Ninth Edition}.
 \newblock Academic Press, Inc., Orlando, FL, USA, 2006.
 
+\bibitem{ACH}
+Kaigui Bian and Jung-Min Park.
+\newblock Asynchronous channel hopping for establishing rendezvous in cognitive
+  radio networks.
+\newblock In {\em INFOCOM, 2011 Proceedings IEEE}, pages 236--240, 2011.
+
+\bibitem{lo2011survey}
+Brandon~F Lo.
+\newblock A survey of common control channel design in cognitive radio
+  networks.
+\newblock {\em Physical Communication}, 4(1):26--39, 2011.
+
+\bibitem{thilina2016dccc}
+Karaputugala G~Madushan Thilina, Ekram Hossain, and Dong~In Kim.
+\newblock Dccc-mac: a dynamic common-control-channel-based mac protocol for
+  cellular cognitive radio networks.
+\newblock {\em IEEE Transactions on Vehicular Technology}, 65(5):3597--3613,
+  2016.
+
 \bibitem{al2014simulating}
 Abdulla Al-Ali and Kaushik Chowdhury.
 \newblock Simulating dynamic spectrum access using ns-3 for wireless networks

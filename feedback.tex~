@@ -1,4 +1,4 @@
-\chapter{Feedback-based Multi-radio Exploitation Approach}\label{chap:feedback}
+\chapter{Proposed Methodology: Feedback-based Multi-radio Exploitation Approach}\label{chap:feedback}
 
 Our proposed approach consists of mainly two different types of feedbacks. Firstly, we measure packet transmission ratio for each radio to evaluate radio performance. Secondly, we calculate channel utilization ratio for each channel to assess corresponding channel condition.
 
@@ -44,7 +44,6 @@ In our proposed approach, each SU keeps two counters for each channel. First, \t
 
 The last two important aspects of our feedback-based multi-radio exploitation approach are the reactivation of Off radios and probabilistic channel switching. Radios marked Off at the beginning of a channel switching process, are reactivated probabilistically by the radio selection process. While calculating packet transmission ratio from \texttt{pktSent} and \texttt{pktQueued}, in the case of Off radios, the ratio is multiplied by \texttt{wakeUpProbability} to make it less likely to be selected as the next radio for sending a packet. Though, if selected, the Off radio is reported as On and it starts its cognitive cycle through the channel sensing process. The probabilistic channel switching implies that radios do not always switch after finding their current channel busy. The channel switching process occurs at a probability of \texttt{switchingProbability}.
 
-\iffalse
 \begin{algorithm}
 \caption{$\mathit{sendPacket}$: SU agent sending a packet, $p$}
 \label{alg:sendPacket}
@@ -161,7 +160,6 @@ The last two important aspects of our feedback-based multi-radio exploitation ap
 \EndFunction
 \end{algorithmic}
 \end{algorithm}
-\fi
 
 \section{Variants of Our Proposed Approach}
 
