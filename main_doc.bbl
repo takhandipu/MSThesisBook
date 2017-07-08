@@ -1,5 +1,13 @@
 \begin{thebibliography}{10}
 
+\bibitem{khan2015towards}
+Tanvir~Ahmed Khan, Chowdhury~Sayeed Hyder, and ABM Islam.
+\newblock Towards exploiting a synergy between cognitive and multi-radio
+  networking.
+\newblock In {\em Wireless and Mobile Computing, Networking and Communications
+  (WiMob), 2015 IEEE 11th International Conference on}, pages 370--377. IEEE,
+  2015.
+
 \bibitem{bwnGatechProjectDescription}
 School of~Electrical Broadband Wireless Networking~Lab and Georgia Insititute
   of~Technology Computer~Engineering.
@@ -26,14 +34,6 @@ Danijela Cabric, Shridhar~Mubaraq Mishra, and Robert~W Brodersen.
 \newblock In {\em Signals, systems and computers, 2004. Conference record of
   the thirty-eighth Asilomar conference on}, volume~1, pages 772--776. Ieee,
   2004.
-
-\bibitem{khan2015towards}
-Tanvir~Ahmed Khan, Chowdhury~Sayeed Hyder, and ABM Islam.
-\newblock Towards exploiting a synergy between cognitive and multi-radio
-  networking.
-\newblock In {\em Wireless and Mobile Computing, Networking and Communications
-  (WiMob), 2015 IEEE 11th International Conference on}, pages 370--377. IEEE,
-  2015.
 
 \bibitem{zhong2014capacity}
 Xiaoxiong Zhong, Yang Qin, and Li~Li.

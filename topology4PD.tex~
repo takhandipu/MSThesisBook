@@ -1,4 +1,5 @@
-\begin{figure*}[htbp]
+\begin{landscape}
+\begin{figure*}[!htbp]
     \centering
     \begin{subfigure}[t]{0.45\textwidth}
         \includegraphics[width=\textwidth]{topology4/DeliveryRatio24d1}
@@ -38,3 +39,4 @@
     \caption{Application layer packet delivery ratio with varying number of radios for various application data rates}
     \label{fig:topology4PD}
 \end{figure*}
+\end{landscape}

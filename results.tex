@@ -15,17 +15,17 @@ We carefully set the various parameters used in our proposed feedback-based appr
 
 \section{Simulation Results}
 \input{topology4T}
+\input{topology4D}
+\input{topology4P}
+\input{topology4PD}
 We start presenting our simulation results for a topology having 11 primary users and 24 secondary users. Here, we vary the application data rate from the source of a flow over secondary users from 1 Mbps to 32 Mbps. Fig.~\ref{fig:topology4T}, \ref{fig:topology4D}, and \ref{fig:topology4P} show the performance of several variants of our proposed approach and other existing approaches.
 
-\input{topology4D}
 Fig.~\ref{fig:topology4T} depicts total network throughput for all the approaches in response to a variation in the number of radios for different application data rates. In most of the cases, our proposed approaches obtain significantly higher network throughput than the existing ones. Here, at lower data rates (1-8 Mbps), total network throughput increases with an increase in the number of radios. After reaching an optimal point, throughput starts degrading. At higher data rates (16 and 32 Mbps), the network throughput falls drastically from the single radio scenario and never again reaches the throughput obtained with single radio data transmission.
 
 Fig.~\ref{fig:topology4D} illustrates that the feedback-based approaches experience significantly lower end-to-end delay than that achieved with the approach proposed by Zhong et al.~\cite{zhong2014capacity}. However, delay using our proposed approach is higher than that achieved with the approach proposed by Khan et al.~\cite{khan2015towards}. Here with our proposed approach, the delay becomes almost constant with an increase in the number of radios at lower application date rates (1-4Mbps). However, at higher data rates (8-32 Mbps), the delay rises with an increase in the number of radios per SU.
 
-\input{topology4P}
 Fig.~\ref{fig:topology4P} compares the average packet drop ratio of our proposed approaches against that of the existing approaches.  As illustrated in \cref{fig:topology4P}, the feedback-based approach achieves significantly lower packet drop ratios than all the existing ones. The feedback-based approach is also able to reduce the packet drop ratio significantly at lower data rates (1-8 Mbps) with the exploitation of multiple radios. However, at higher application data rates (16 and 32 Mbps), most of the packets get dropped resulting in high drop ratios. This explains why the network throughput at higher data rate does not improve even after the introduction of multiple data transmission radios.
 
-\input{topology4PD}
 Fig.~\ref{fig:topology4PD} shows the application layer packet delivery ratio of our proposed approaches against that of the existing approaches. Due to the efficient exploitation of multiple radios, our proposed approaches obtain significantly better packet delivery ratio than that achieved with the existing appraoches.
 
 Table~\ref{tab:topology4RadioImprovement}, \ref{tab:topology4ChannelImprovement}, and \ref{tab:topology4RadioChannelImprovement} summarize average performance improvement using feedback-based approaches in comparison to the approaches proposed by Khan et al.,~\cite{khan2015towards} and Zhong et al.~\cite{zhong2014capacity}. The tables shows that the proposed approach outperforms the existing approaches in terms of all the performance metrics except end-to-end delay. In terms of total network throughput, the proposed approach obtains an average of 51\% improvement over the two existing approaches. Moreover, the proposed approach decreases packet drop ratio on an average 35\% and increases application layer packet delivery ratio on an average 32\% compared to existing approaches. Even though, the feedback-based approach experiences the higher delay in some cases, in average, the delay is improved by 13\% on an average.
