@@ -1,0 +1,16 @@
+\begin{tikzpicture}[scale=1.0, transform shape]
+    \node (center) {};
+    \node (pu1) [left=of center,xshift=-3cm] {\input{pu}};
+    \node (pu2) [right=of center,xshift=3cm] {\input{pu}};
+    \node (pu3) [above=of center,yshift=2cm] {\input{pu}};
+    \node (pu4) [below=of center,yshift=-2cm] {\input{pu}};
+    \node (channels)
+    {
+        \begin{tikzpicture}[scale=1.0, transform shape, node distance=0.25mm and 1mm]
+            \node (channel1) {\input{channel}};
+            \node (channel2) [below=of channel1] {\input{channel}};
+            \node (channel3) [below=of channel2] {\input{channel}};
+            \node (channel4) [below=of channel3] {\input{channel}};
+        \end{tikzpicture}
+    };
+\end{tikzpicture}

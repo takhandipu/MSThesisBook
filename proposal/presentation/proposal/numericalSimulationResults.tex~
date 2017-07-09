@@ -1,0 +1,13 @@
+\begin{figure}[!htbp]
+\begin{center}
+\includegraphics[scale=0.25]{figures/ComparisonPresentation}
+%\caption{as expected, delay \textcolor{blue}{improves} up to a certain point, and then start to degrade}
+%\label{fig:layer}
+\end{center}
+\end{figure}
+
+\begin{center}
+\onslide<1->{As expected, delay \textcolor{blue}{reduces} up to a certain point}
+\onslide<2->{\textcolor{blue}{Back-up} approach performs better for \textcolor{blue}{small} data packets}
+\onslide<3->{\textcolor{blue}{Fragmented} strategy generates better results for \textcolor{blue}{large} data packets}
+\end{center}

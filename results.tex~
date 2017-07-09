@@ -1,7 +1,7 @@
 \chapter{Experimental Evaluation}
 \label{chap:results}
 
-Our proposed system requires wireless devices with multiple networking interface modules. Each of these modules must also have cognitive capability to ensure the basic requirements of our proposed architecture. The development of such devices involves a highly complex level of sophistication and fabrication. Such a development of cognitive radio networks in real setup is still under research. Therefore, we evaluate the performance of our proposed feedback-based multi-radio exploitation approach through extensive discrete-event simulation using \texttt{ns-3}. Yet, we have to make several modifications on the \texttt{ns-3} simulator to evaluate our proposed approach on CMRNs.
+Our proposed system requires wireless devices with multiple networking interface modules. Each of these modules must also have cognitive capability to ensure the basic requirements of our proposed architecture. The development of such devices involves a highly complex level of sophistication and fabrication. Such a development of cognitive radio networks in real setup is still under research. Therefore, we evaluate the performance of our proposed feedback-based multi-radio exploitation approach through extensive discrete-event simulation using \texttt{ns-3}. Yet, we have to make several modifications on the \texttt{ns-3} simulator to evaluate our proposed approach on MRCRNs.
 
 \section{Simulator Modifications}
 
@@ -13,7 +13,7 @@ To implement this functionality, we utilize the \texttt{Callback} mechanism of \
 
 Apart from these changes, we have also made several changes in the \texttt{wifi} module of the \texttt{ns-3} simulator. Specifically, we have modified the \texttt{YansWifiPhy}, \texttt{YansWifiChannel}, \texttt{WifiPhyStateHelper}, \texttt{RegularWifiMac}, and \texttt{WifiNetDevice} models of the \texttt{wifi} module to add the cross-layer implementation of the multi-radio functionailty.
 
-Using the modified simulator, we implement our proposed approach and evaluate its performance on the basis of four performance metrics -- total network throughput, end-to-end delay, packet drop ratio, and application layer packet delivery ratio. Besides, we measure values of these metrics for two existing CMRN protocols and compared them against that obtained using several variants of our proposed approach. We briefly describe our simulation settings next before presenting the evaluation results.
+Using the modified simulator, we implement our proposed approach and evaluate its performance on the basis of four performance metrics -- total network throughput, end-to-end delay, packet drop ratio, and application layer packet delivery ratio. Besides, we measure values of these metrics for two existing MRCRN protocols and compared them against that obtained using several variants of our proposed approach. We briefly describe our simulation settings next before presenting the evaluation results.
 
 \section{Simulation Settings}
 
@@ -45,15 +45,15 @@ Table~\ref{tab:topology4RadioImprovement}, \ref{tab:topology4ChannelImprovement}
 
 \section{Simulation Findings}
 
-Though we have performed discrete event simulations for various network topologies varying the number of secondary users from 12 to 40 with a granularity of 4, in this thesis, due to space limitation, we have presented the simulation results for only one topology with 24 secondary users. Our proposed approach for CMRNs obtains similar results in case of other seven network topologies as well. Based on these simulation results we obtain following findings:
+Though we have performed discrete event simulations for various network topologies varying the number of secondary users from 12 to 40 with a granularity of 4, in this thesis, due to space limitation, we have presented the simulation results for only one topology with 24 secondary users. Our proposed approach for MRCRNs obtains similar results in case of other seven network topologies as well. Based on these simulation results we obtain following findings:
 
 \begin{itemize}
     \item Over all these topologies, our proposed feedback-based approach improves total network throughput 51\% on an average against that of existing approaches.
     \item Over all these topologies, our proposed feedback-based approach decreases packet drop ratio up to 35\% on an average against that of existing approaches.
     \item Among three variants of our proposed feedback-based approach, radio channel feedback approach marginally (3\%) performs better over other variants.
-    \item For CMRNs, our proposed feedback-based approach increases throughput with an increase in number of radios for low to medium (1-8Mbps) data rates. For high data rates (16-32 Mbps), multiple radio introduction could not make significant impact on throughput and throughput usually degrades with an increase in number of radios.
-    \item For CMRNs, our proposed feedback-based approach is able to make average end-to-end delay constant with an increase in number of radios for low to medium (1-8Mbps) data rates. For high data rates (16-32 Mbps), delay usually increases with an increase in number of radios.
-    \item For CMRNs, our proposed feedback-based approach improves average packet drop ratio with an increase in number of radios for low to medium (1-16Mbps) data rates. For high data rate (32 Mbps), packet drop ratio remains constant with an increase in number of radios.
+    \item For MRCRNs, our proposed feedback-based approach increases throughput with an increase in number of radios for low to medium (1-8Mbps) data rates. For high data rates (16-32 Mbps), multiple radio introduction could not make significant impact on throughput and throughput usually degrades with an increase in number of radios.
+    \item For MRCRNs, our proposed feedback-based approach is able to make average end-to-end delay constant with an increase in number of radios for low to medium (1-8Mbps) data rates. For high data rates (16-32 Mbps), delay usually increases with an increase in number of radios.
+    \item For MRCRNs, our proposed feedback-based approach improves average packet drop ratio with an increase in number of radios for low to medium (1-16Mbps) data rates. For high data rate (32 Mbps), packet drop ratio remains constant with an increase in number of radios.
 \end{itemize}
 
 \endinput

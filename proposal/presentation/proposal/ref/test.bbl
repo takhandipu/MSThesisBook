@@ -1,0 +1,66 @@
+\begin{thebibliography}{1}
+
+\bibitem{ahmadi2012distributed}
+Maryam Ahmadi, Yanyan Zhuang, and Jianping Pan.
+\newblock Distributed robust channel assignment for multi-radio cognitive radio
+  networks.
+\newblock In {\em Vehicular Technology Conference (VTC Fall), 2012 IEEE}, pages
+  1--5. IEEE, 2012.
+
+\bibitem{bahl2004reconsidering}
+Paramvir Bahl, Atul Adya, Jitendra Padhye, and Alec Walman.
+\newblock Reconsidering wireless systems with multiple radios.
+\newblock {\em ACM SIGCOMM Computer Communication Review}, 34(5):39--46, 2004.
+
+\bibitem{draves2004routing}
+Richard Draves, Jitendra Padhye, and Brian Zill.
+\newblock Routing in multi-radio, multi-hop wireless mesh networks.
+\newblock In {\em Proceedings of the 10th annual international conference on
+  Mobile computing and networking}, pages 114--128. ACM, 2004.
+
+\bibitem{khan2015towards}
+Tanvir~Ahmed Khan, Chowdhury~Sayeed Hyder, and ABM Islam.
+\newblock Towards exploiting a synergy between cognitive and multi-radio
+  networking.
+\newblock In {\em Wireless and Mobile Computing, Networking and Communications
+  (WiMob), 2015 IEEE 11th International Conference on}, pages 370--377. IEEE,
+  2015.
+
+\bibitem{li2014deterministic}
+Guyue Li, Zhaoquan Gu, Xiao Lin, Haosen Pu, and Qiang-sheng Hua.
+\newblock Deterministic distributed rendezvous algorithms for multi-radio
+  cognitive radio networks.
+\newblock In {\em Proceedings of the 17th ACM international conference on
+  Modeling, analysis and simulation of wireless and mobile systems}, pages
+  313--320. ACM, 2014.
+
+\bibitem{miu2005improving}
+Allen Miu, Hari Balakrishnan, and Can~Emre Koksal.
+\newblock Improving loss resilience with multi-radio diversity in wireless
+  networks.
+\newblock In {\em Proceedings of the 11th annual international conference on
+  Mobile computing and networking}, pages 16--30. ACM, 2005.
+
+\bibitem{song2012performance}
+Wei Song and Weihua Zhuang.
+\newblock Performance analysis of probabilistic multipath transmission of video
+  streaming traffic over multi-radio wireless devices.
+\newblock {\em Wireless Communications, IEEE Transactions on},
+  11(4):1554--1564, 2012.
+
+\bibitem{valenta2010survey}
+V{\'a}clav Valenta, Roman Mar{\v{s}}{\'a}lek, Genevi{\`e}ve Baudoin, Martine
+  Villegas, Martha Suarez, and Fabien Robert.
+\newblock Survey on spectrum utilization in europe: Measurements, analyses and
+  observations.
+\newblock In {\em Cognitive Radio Oriented Wireless Networks \& Communications
+  (CROWNCOM), 2010 Proceedings of the Fifth International Conference on}, pages
+  1--5. IEEE, 2010.
+
+\bibitem{zhong2014capacity}
+Xiaoxiong Zhong, Yang Qin, and Li~Li.
+\newblock Capacity analysis in multi-radio multi-channel cognitive radio
+  networks: A small world perspective.
+\newblock {\em Wireless Personal Communications}, 79(3):2209--2225, 2014.
+
+\end{thebibliography}

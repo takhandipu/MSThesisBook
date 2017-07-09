@@ -1,0 +1,50 @@
+\begin{thebibliography}{1}
+
+\bibitem{al2014simulating}
+Abdulla Al-Ali and Kaushik Chowdhury.
+\newblock Simulating dynamic spectrum access using ns-3 for wireless networks
+  in smart environments.
+\newblock In {\em Sensing, Communication, and Networking Workshops (SECON
+  Workshops), 2014 Eleventh Annual IEEE International Conference on}, pages
+  28--33. IEEE, 2014.
+
+\bibitem{bahl2004reconsidering}
+Paramvir Bahl, Atul Adya, Jitendra Padhye, and Alec Walman.
+\newblock Reconsidering wireless systems with multiple radios.
+\newblock {\em ACM SIGCOMM Computer Communication Review}, 34(5):39--46, 2004.
+
+\bibitem{draves2004routing}
+Richard Draves, Jitendra Padhye, and Brian Zill.
+\newblock Routing in multi-radio, multi-hop wireless mesh networks.
+\newblock In {\em Proceedings of the 10th annual international conference on
+  Mobile computing and networking}, pages 114--128. ACM, 2004.
+
+\bibitem{miu2005improving}
+Allen Miu, Hari Balakrishnan, and Can~Emre Koksal.
+\newblock Improving loss resilience with multi-radio diversity in wireless
+  networks.
+\newblock In {\em Proceedings of the 11th annual international conference on
+  Mobile computing and networking}, pages 16--30. ACM, 2005.
+
+\bibitem{ns3}
+{The Network Simulator}.
+\newblock \url{https://www.nsnam.org/}.
+\newblock (Date last accessed 13-July-2016).
+
+\bibitem{song2012performance}
+Wei Song and Weihua Zhuang.
+\newblock Performance analysis of probabilistic multipath transmission of video
+  streaming traffic over multi-radio wireless devices.
+\newblock {\em Wireless Communications, IEEE Transactions on},
+  11(4):1554--1564, 2012.
+
+\bibitem{valenta2010survey}
+V{\'a}clav Valenta, Roman Mar{\v{s}}{\'a}lek, Genevi{\`e}ve Baudoin, Martine
+  Villegas, Martha Suarez, and Fabien Robert.
+\newblock Survey on spectrum utilization in europe: Measurements, analyses and
+  observations.
+\newblock In {\em Cognitive Radio Oriented Wireless Networks \& Communications
+  (CROWNCOM), 2010 Proceedings of the Fifth International Conference on}, pages
+  1--5. IEEE, 2010.
+
+\end{thebibliography}

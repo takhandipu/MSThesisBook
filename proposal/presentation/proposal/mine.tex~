@@ -1,0 +1,388 @@
+\documentclass[final]{beamer}
+\usepackage{color}
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.eps}
+\usepackage{epstopdf}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{tikz}
+\usepackage[absolute,overlay,showboxes]{textpos}
+\usetikzlibrary{arrows}
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
+\usetikzlibrary{backgrounds}%arrows, shapes, trees, 
+\usetikzlibrary{positioning}
+\usetikzlibrary{patterns}
+\title{Overcoming Throughput Degradation in Multi-Radio Cognitive Radio Networks}
+\author{
+    Tanvir~Ahmed~Khan
+}
+\institute{
+    \textbf{Supervised by:}\\ Dr.~A.~B.~M.~Alim~Al~Islam\\ Assistant Professor,\\
+    Dept. of Computer Science and Engineering,\\
+    Bangladesh University of Engineering and Technology,\\
+    Dhaka, Bangladesh.
+}
+%\iffalse
+\titlegraphic{\includegraphics[width=1.5cm]{figures/BuetLogo.png}
+}%\fi
+%\date{October 19, 2015}
+\setbeamerfont{date}{size=\tiny}%series=\bfseries,,parent=structure
+\date{M.Sc. Thesis Proposal}
+\addtobeamertemplate{navigation symbols}{}{%
+    \usebeamerfont{footline}%
+    \usebeamercolor[fg]{footline}%
+    \hspace{1em}%
+    \insertframenumber/\inserttotalframenumber
+}
+\setbeamertemplate{section in toc}[sections numbered]
+%\setbeamertemplate{subsection in toc}[subsections numbered]
+\begin{document}
+
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\iffalse
+\begin{frame}{Outline of this Presentation}
+    \tableofcontents[section,subsection]
+\end{frame}
+\fi
+
+%\section{Preliminaries}
+\section{Motivation and Background}
+%\subsection{Preliminaries}
+
+\begin{frame}
+\frametitle{Preliminaries}
+\framesubtitle{Cognitive Radio Networks (CRNs)}
+\begin{figure}[!htbp]
+\begin{center}
+\includegraphics[scale=0.375]{figures/SpectrumUnderutilization.jpg}
+%\caption{Spectrum under-utilization in traditional spectrum management~\cite{valenta2010survey}}
+%\label{fig:layer}
+\end{center}
+\end{figure}
+\begin{center}
+\textcolor{red}{Licensed frequency spectrums are mostly under-utilized!~\cite{valenta2010survey}}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{Preliminaries}
+\framesubtitle{Cognitive Radio Networks}
+\input{crn}
+\end{frame}
+
+%\subsection{Motivation}
+\begin{frame}
+\frametitle{Preliminaries}
+\framesubtitle{Multi-radio Networks}
+\only<1>{
+    \input{improvedNetworkCapacity}
+}
+\only<2>{
+    \input{enhancedLossResilence}
+}
+\only<3>{
+    \input{heterogenousAccess}
+}
+\end{frame}
+
+\begin{frame}
+\frametitle{Preliminaries}
+\framesubtitle{Multi-radio Cognitive Radio Networks}
+%\framesubtitle{in CRNs}
+\input{switchingDelay}
+\end{frame}
+
+%\subsection{Our Contributions}
+\begin{frame}
+\frametitle{Preliminaries}
+\framesubtitle{Throughput Degradation in Multi-radio CRNs}
+%\frametitle{Results}
+%\framesubtitle{Our Contributions}
+\only<1>{
+%However, the other metric, throughput, does not go in the same way!
+\begin{figure}[!htbp]
+\vspace{-0.4cm}
+\begin{center}
+\includegraphics[scale=0.35]{figures/throughput_fragmented_datarate}
+\caption{Throughput \textcolor{red}{degrades} with an increase in number of radios per SU}
+\label{fig:throughput}
+\end{center}
+\vspace{-0.65cm}
+\end{figure}
+}
+\only<2>{
+%We start presenting outcomes of our study through experimental results first...
+\begin{figure}[!htbp]
+\vspace{-0.225cm}
+\begin{center}
+\includegraphics[scale=0.4]{figures/delay_fragmented_datarate}
+\caption{Delay \textcolor{blue}{improves} up to a certain point, and then start to degrade}
+%\label{fig:layer}
+\end{center}
+\end{figure}
+}
+\end{frame}
+
+%\section{Problem Definition}
+\section{Objectives \& Possible Outcome}
+\begin{frame}
+\frametitle{Our Research Problem}
+\only<1>{
+%However, the other metric, throughput, does not go in the same way!
+\begin{figure}[!htbp]
+%\vspace{-0.4cm}
+\begin{center}
+\includegraphics[scale=0.45]{figures/throughput_fragmented_datarate}
+\label{fig:throughput}
+\end{center}
+%\vspace{-0.65cm}
+\end{figure}
+\begin{textblock*}{0.6\textwidth}(0.30\textwidth,0.4\textheight)
+\textblockcolour{blue!15!white}
+\centering
+\vspace{5mm}
+  %\textcolor{red}{Motivation}\\
+  \textcolor{red}{How to overcome this throughput degradation in Multi-radio CRNs?}
+\vspace{5mm}
+\end{textblock*}
+}
+\only<2>{
+%However, the other metric, throughput, does not go in the same way!
+\begin{figure}[!htbp]
+%\vspace{-0.4cm}
+\begin{center}
+\includegraphics[scale=0.45]{figures/throughput_fragmented_datarate}
+\label{fig:throughput}
+\end{center}
+%\vspace{-0.65cm}
+\end{figure}
+\begin{textblock*}{0.6\textwidth}(0.30\textwidth,0.4\textheight)
+\textblockcolour{blue!15!white}
+\centering
+\vspace{5mm}
+  %\textcolor{red}{Motivation}\\
+  \textcolor{red}{More importantly, what is the reason behind this degradation?}
+\vspace{5mm}
+\end{textblock*}
+}
+\only<3>{
+%However, the other metric, throughput, does not go in the same way!
+\begin{figure}[!htbp]
+%\vspace{-0.4cm}
+\begin{center}
+\includegraphics[scale=0.45]{figures/throughput_fragmented_datarate}
+\label{fig:throughput}
+\end{center}
+%\vspace{-0.65cm}
+\end{figure}
+\begin{textblock*}{0.6\textwidth}(0.30\textwidth,0.4\textheight)
+\textblockcolour{blue!15!white}
+\centering
+\vspace{5mm}
+  %\textcolor{red}{Motivation}\\
+  \textcolor{red}{Possible reason, \textbf{Intra-user radio collision}}
+\vspace{5mm}
+\end{textblock*}
+}
+\only<4>{
+%However, the other metric, throughput, does not go in the same way!
+\begin{figure}[!htbp]
+%\vspace{-0.4cm}
+\begin{center}
+\includegraphics[scale=0.45]{figures/throughput_fragmented_datarate}
+\label{fig:throughput}
+\end{center}
+%\vspace{-0.65cm}
+\end{figure}
+\begin{textblock*}{0.6\textwidth}(0.30\textwidth,0.4\textheight)
+\textblockcolour{blue!15!white}
+\centering
+\vspace{5mm}
+  %\textcolor{red}{Motivation}\\
+  \textcolor{red}{How to lessen this Intra-user radio collision?}
+\vspace{5mm}
+\end{textblock*}
+}
+\only<5>{
+%We start presenting outcomes of our study through experimental results first...
+\begin{figure}[!htbp]
+\vspace{-0.225cm}
+\begin{center}
+\includegraphics[scale=0.45]{figures/delay_fragmented_datarate}
+%\label{fig:layer}
+\end{center}
+\end{figure}
+\begin{textblock*}{0.72\textwidth}(0.25\textwidth,0.4\textheight)
+\textblockcolour{blue!15!white}
+\centering
+\vspace{5mm}
+  %\textcolor{red}{Motivation}\\
+  \textcolor{red}{Also, we want to make sure that delay does not get worse while attempting to increase the throughput.}
+\vspace{5mm}
+\end{textblock*}
+}
+\end{frame}
+
+\section{Outline of Methodology}
+\begin{frame}
+\frametitle{Our System Model}
+\input{animatedSystemModel}
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{How to Lessen Intra-user Radio Collision?}
+    \framesubtitle{Radio-Channel Assignment with Collision Avoidance}
+    \begin{center}
+    \only<1>{
+        \input{feedback6}
+    }
+    \only<2,3,4>{
+        \input{feedback7}
+    }
+    \end{center}
+    \only<3>{
+    \begin{textblock*}{0.6\textwidth}(0.30\textwidth,0.4\textheight)
+    \textblockcolour{blue!15!white}
+    \centering
+    \vspace{5mm}
+      %\textcolor{red}{Motivation}\\
+      should reduce contention probability
+    \vspace{5mm}
+    \end{textblock*}
+    }
+    \only<4>{
+    \pause
+    \begin{textblock*}{0.6\textwidth}(0.30\textwidth,0.4\textheight)
+    \textblockcolour{blue!15!white}
+    \centering
+    \vspace{5mm}
+      %\textcolor{red}{Motivation}\\
+      should also reduce switching delay
+    \vspace{5mm}
+    \end{textblock*}
+    }
+\end{frame}
+
+\begin{frame}
+    \frametitle{Feedback-based Multi-radio Exploitation}
+    \begin{center}
+    send data through someone who is reliable\\
+    \only<1>{\input{feedback}}
+    \only<2>{\input{feedback1}}
+    \only<3>{
+        \input{feedback2}
+            measurements of \textcolor{red}{p}acket \textcolor{red}{d}elivery \textcolor{red}{r}atio for each radio
+    }
+    \only<4>{
+        \input{feedback3}
+            measurements of \textcolor{red}{c}hannel \textcolor{red}{u}tilization \textcolor{red}{r}atio for each channel
+    }
+    \only<5>{
+            \input{feedback4}
+            cutoff based on \textbf{pdr} and cur
+    }
+    \only<6>{
+            \input{feedback5}
+            cutoff based on pdr and \textbf{cur}
+    }
+    \end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{Performance Analysis through Simulation}
+\framesubtitle{Simulation Platform}
+\begin{itemize}
+    \item \texttt{ns-3} simulator~\cite{ns3}%\footnote{will find and put ns-2 logo here, when on internet}
+    \begin{itemize}
+        \item Using \texttt{CRE} extension~\cite{al2014simulating}%\footnote{here too}
+        \item Perform modifications in the simulator to implement our approach
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Conclusion}
+%\frametitle{Comparsion of Various Network Performance Metrics}
+%\framesubtitle{Against Existing Approaches}
+\only<1>{
+\begin{itemize}
+    \item We will simulate multi-radio CRNs using our developed module and investigate the performance of the network.
+    \begin{itemize}
+        \item Here, we will vary operational parameters of our proposed approach and evaluate sensitivity of changing the parameters' values over performance of the network.
+    \end{itemize}
+\end{itemize}
+}
+\only<2>{
+\begin{itemize}
+    \item Then, we will compare the following network performance metrics obtained through our proposed approach against that of the existing approaches.
+    \begin{itemize}
+        \item Average network throughput,
+        \item Per packet average end-to-end delay,
+        \item Per node average throughput,
+        \item Average packet loss.
+    \end{itemize}
+\end{itemize}
+}
+\only<3>{
+\begin{itemize}
+    \item Finally, we will investigate various properties of our proposed approach, discuss findings of our study, and highlight open issues of the study as future directions.
+\end{itemize}
+}
+\end{frame}
+
+\iffalse
+%\section{Conclusion}
+\begin{frame}
+\frametitle{Applications of Our Study}
+\begin{itemize}
+    \item Delay-sensitive applications~\cite{huang2008supporting}
+    \begin{itemize}
+        \item Critical infrastructure services
+        \item Real time systems
+        \item Distributed processing networks
+    \end{itemize}
+\end{itemize}
+\end{frame}
+\fi
+
+\section{Conclusion}
+
+%\section{Conclusion}
+\iffalse
+\begin{frame}
+\frametitle{Conclusion}
+\begin{itemize}
+    \item Augmenting dynamic spectrum access with multiple radios was not investigated in previous literature
+    \item Our study presents an in-depth investigation on multi-radio cognitive radio networks
+    \item Our extensive \texttt{ns-2} and numerical simulation results reveal, with an increase in number of radios per SU,
+    \begin{itemize}
+        \item \textcolor{green!50!black}{delay} gets better up to a certain point
+        \item \textcolor{red}{throughput} always degrades significantly
+    \end{itemize}
+\end{itemize}
+\end{frame}
+\fi
+
+\begin{frame}
+    %\frametitle{Any Questions?}
+    \begin{center}
+        {\Large \textcolor{blue!75!black}{Thanks for your attention! Any questions?\\}}
+        %Email: \texttt{alim\_razi@cse.buet.ac.bd}
+    \end{center}
+\end{frame}
+
+%\iffalse
+\begin{frame}%[allowframebreaks]
+        \frametitle{References}
+        \tiny
+        \bibliographystyle{plain}%amsalpha
+        \bibliography{mine.bib}
+\end{frame}
+%\fi
+
+\end{document}

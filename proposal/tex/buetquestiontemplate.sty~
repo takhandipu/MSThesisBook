@@ -1,0 +1,73 @@
+\RequirePackage{exammplusnpoint}
+
+%\RequirePackage{newtxfonts}
+\RequirePackage{times}
+
+\RequirePackage{array}
+\RequirePackage{colortbl}
+
+\RequirePackage{amsmath}
+
+%\pagestyle{empty}
+
+% Double spacing
+%\RequirePackage{setspace}
+%\doublespacing
+
+% Space before a question
+\renewcommand{\questionshook}{\setlength{\itemsep}{3\bigskipamount}}
+%\AtBeginEnvironment{subparts}{\bigskip}
+
+% Solutions
+%\AtBeginEnvironment{solution}{\onehalfspacing\small\raggedright%\setlength{\itemsep}{\smallskipamount}}
+
+
+\RequirePackage[a4paper,top=15.0mm,bottom=55.0mm,left=30.0mm,right=45.0mm,includeheadfoot]{geometry}
+
+% Placement of marks
+\pointsinrightmargin
+\setlength{\rightpointsmargin}{-5.0mm}
+
+\RequirePackage{enumitem}
+
+\RequirePackage{xspace}
+
+% Text tweaks
+\RequirePackage{negskips}
+\raggedright
+\raggedbottom
+\hyphenpenalty 5000
+\tolerance 6000
+
+\def\clearpageonlyinsolution{\ifprintanswers\clearpage\fi}
+
+%\pagestyle{foot}
+\RequirePackage{multirow}
+
+\iffalse
+\lfoot{
+  \def\arraystretch{1.4}
+  \scriptsize
+  \bfseries
+  \centering
+ \hfuzz\maxdimen
+ \begin{center}%>{\columncolor[gray]{0.8}}
+ \begin{tabular}[c]{|p{0.175\textwidth}|>{Name }p{0.25\textwidth}|>{SIGN}p{0.25\textwidth}|>{DATE}p{0.25\textwidth}|>{\centering\arraybackslash}p{0.125\textwidth}|}
+    \hline
+    PAPER SETTER&\textnormal{Tanvir Ahmed Khan}&&&PAGE\\\cline{1-5}
+    MODERATOR-1&&&&\multirow{2}{20.0mm}{\centering\centerline{\fontsize{50}{60}\selectfont\thepage}}\\\cline{1-4}
+    MODERATOR-2&&&&\\\cline{1-4}
+    \hline
+  \end{tabular}
+  \end{center}
+}
+
+\cfoot{}
+\rfoot{}
+\fi
+%\setcounter{page}{2}
+
+
+
+
+\endinput

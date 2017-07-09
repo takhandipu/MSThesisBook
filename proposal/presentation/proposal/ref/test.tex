@@ -1,0 +1,17 @@
+\documentclass{beamer}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{patterns}
+\beamertemplatenavigationsymbolsempty
+\setbeamertemplate{frametitle}[default][center]
+\setbeamertemplate{bibliography item}{\insertbiblabel}
+\begin{document}
+\begin{frame}[allowframebreaks]
+        \frametitle{References}
+        \scriptsize
+        \bibliographystyle{plain}%amsalpha%
+        \nocite{*}
+        \bibliography{ref.bib}
+\end{frame}
+\end{document}

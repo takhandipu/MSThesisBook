@@ -1,0 +1,19 @@
+\begin{tikzpicture}[scale=5, transform shape]
+    \node (dataRadio1)  %, xshift=-1.5mm
+    {
+        \begin{tikzpicture} [scale=0.5]
+        \draw [line width=0.25mm, green!50!black] (2, -0.44) to (2.5,0.44);
+        \draw [line width=0.25mm, green!50!black] (3, -0.44) to (2.5,0.44);
+        \draw [line width=0.25mm, green!50!black] (2, -0.44) to (3,-0.44);
+        \draw [line width=0.25mm, green!50!black] (2.5, -0.44) to (2.5,0.44);
+        \draw [fill=green!50!black, green!50!black] (2.5,0.44) circle(1.5mm);
+
+        \draw [line width=0.25mm, green!50!black] (2.5, 0.725) to (2.5,1.0);
+        \draw [line width=0.25mm, green!50!black] (2.65, 0.65) to (2.825,0.85);
+        \draw [line width=0.25mm, green!50!black] (2.725, 0.44) to (3,0.44);
+        \draw [line width=0.25mm, green!50!black] (2.35, 0.65) to (2.175,0.85);
+        \draw [line width=0.25mm, green!50!black] (2.275, 0.44) to (2,0.44);
+
+        \end{tikzpicture}
+    };
+\end{tikzpicture}

@@ -1,0 +1,65 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: test.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: SystemModel.bib
+Unbalanced braces---line 104 of file SystemModel.bib
+ : keywords="Poisson equation;cognitive radio;differential equations;stochastic processes;telecommunication channels;Fluid Queue View;Poisson driven stochastic differential equations;cognitive radio networks;delay analysis;practical systems;primary user;random access;secondary users;stochastic fluid models;Cognitive radio;Delay;Differential equations;Fluid dynamics;Frequency;Performance analysis;Queueing analysis;Steady-state;Stochastic processes;Traffic control
+ :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                },
+I'm skipping whatever remains of this entry
+Repeated entry---line 271 of file SystemModel.bib
+ : @inproceedings{draves2004routing
+ :                                 ,
+I'm skipping whatever remains of this entry
+-- IEEEtran.bst version 1.11 (2003/04/02) by Michael Shell.
+-- http://www.ctan.org/tex-archive/macros/latex/contrib/supported/IEEEtran/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+You've used 9 entries,
+            3994 wiz_defined-function locations,
+            862 strings with 9189 characters,
+and the built_in function-call counts, 8213 in all, are:
+= -- 651
+> -- 188
+< -- 84
++ -- 106
+- -- 28
+* -- 407
+:= -- 1179
+add.period$ -- 23
+call.type$ -- 9
+change.case$ -- 9
+chr.to.int$ -- 201
+cite$ -- 9
+duplicate$ -- 564
+empty$ -- 663
+format.name$ -- 37
+if$ -- 1910
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 91
+newline$ -- 47
+num.names$ -- 9
+pop$ -- 205
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 631
+stack$ -- 0
+substring$ -- 478
+swap$ -- 488
+text.length$ -- 17
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 0
+warning$ -- 0
+while$ -- 44
+width$ -- 10
+write$ -- 108
+(There were 2 error messages)

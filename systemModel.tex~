@@ -1,6 +1,6 @@
 \chapter{System Model and Problem Definition}\label{chap:systemModel}
 
-In this chapter, we introduce the system model of a Cognitive Multi-Radio Network (CMRN). Additionally, we list down several assumptions for the system model. For this system model, we then define our research problem.
+In this chapter, we introduce the system model of a Multi-Radio Cognitive Radio Network (MRCRN). Additionally, we list down several assumptions for the system model. For this system model, we then define our research problem.
 
 \section{System Model}
 

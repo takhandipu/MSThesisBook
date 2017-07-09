@@ -1,0 +1,55 @@
+\begin{center}
+\begin{figure}[!Htb]
+    \begin{tikzpicture} [scale=0.5, transform shape]%
+        \tikzstyle{every node} = [draw, shape = rectangle, node distance=0mm, minimum width=5mm, minimum height=5.1mm]
+        \node[draw=blue, thick] (dataPacket1) {
+            \begin{tikzpicture}
+                \node (data1) {$1$};
+                \node (data2) [right=of data1, xshift=0mm] {$2$};
+                \node (data3) [right=of data2, xshift=0mm] {$3$};
+            \end{tikzpicture}
+        };
+        \node[draw=black, thick, label=below:Channel 2] (channel2) [right=of dataPacket1, xshift=10mm] {
+            \begin{tikzpicture}
+                \node (puActive1) [fill=gray!20, minimum width=5mm] {};
+                \node (puActive2) [right=of puActive1, fill=gray!20, minimum width=5mm] {};
+                \node (data1) [right=of puActive2, xshift=0mm] {$2$};
+            \end{tikzpicture}
+        };
+        \node[draw=black, thick, label=below:Channel 1] (channel1) [above=of channel2, yshift=5mm] {
+            \begin{tikzpicture}
+                \node (data1)  {$1$};
+                \node (puActive1) [right=of data1, fill=gray!20, minimum width=5mm] {};
+                \node (free1) [right=of puActive1, minimum width=5mm] {};
+            \end{tikzpicture}
+        };
+        \node[draw=black, thick, label=below:Channel 3] (channel3) [below=of channel2, yshift=-5mm] {
+            \begin{tikzpicture}
+                \node (puActive1) [fill=gray!20, minimum width=5mm] {};
+                \node (data1) [right=of puActive1] {$3$};
+                \node (puActive2) [right=of data1, fill=gray!20, minimum width=5mm] {};
+            \end{tikzpicture}
+        };
+        
+        \node[draw=blue, thick, right=of channel2, xshift=10mm] (dataPacket2) {
+            \begin{tikzpicture}
+                \node (data1) {$1$};
+                \node (data2) [right=of data1, xshift=0mm] {$2$};
+                \node (data3) [right=of data2, xshift=0mm] {$3$};
+            \end{tikzpicture}
+        };
+        
+        \draw [line width=0.5mm, ->] (1, 0) to (1.75,1.25);
+        \draw [line width=0.5mm, ->] (1, 0) -- (1.75, 0);
+        \draw [line width=0.5mm, ->] (1, 0) to (1.75,-1.25);
+        
+        \draw [line width=0.5mm, ->] (3.8, 1.25) to (4.55,0.1);
+        \draw [line width=0.5mm, ->] (3.8, 0) to (4.55,0);
+        \draw [line width=0.5mm, ->] (3.8, -1.25) to (4.55,-0.1);
+    \end{tikzpicture}
+        %\caption{Fragmented data transmission performs better in case of frequent changes in availability of primary users}
+        \caption{Fragmented data transmission}
+        \label{fig:motivation-fragmented}
+  \vspace{-0.1in}
+\end{figure}
+\end{center}

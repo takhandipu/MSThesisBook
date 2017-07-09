@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.24pt}
+\beamer@sectionintoc {1}{Motivation and Background}{2}{0}{1}
+\beamer@sectionintoc {2}{Objectives \& Possible Outcome}{13}{0}{2}
+\beamer@sectionintoc {3}{Outline of Methodology}{18}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{36}{0}{4}

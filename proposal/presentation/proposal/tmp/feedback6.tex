@@ -1,0 +1,55 @@
+\begin{center}
+    \begin{tikzpicture} [scale=1.5, transform shape]%show background rectangle,
+    \tikzstyle{every node} = [draw, shape = rectangle, node distance=0mm, minimum width=4mm, minimum height=5mm]
+    \node[draw=black, thick, label=below:\tiny Channel 1, minimum width=25mm, fill=green!25] (channel1) {
+    };
+    \node[draw=black, thick, label=below:\tiny Channel 2, minimum width=25mm, fill=green!50] (channel2) [below=of channel1, yshift=-5mm] {
+    };
+    \node[draw=black, thick, label=below:\tiny Channel 3, minimum width=25mm, fill=green!75] (channel3) [below=of channel2, yshift=-5mm] {
+    };
+    \node[draw=black, thick, label=below:\tiny Channel 4, minimum width=25mm, fill=green!100] (channel4) [below=of channel3, yshift=-5mm] {
+    };
+    \node[draw=white, thick] (su1) [left=of channel2, xshift=-1.5mm, yshift=0.5mm] {
+        \begin{tikzpicture} [scale=0.5]
+        \draw [line width=0.25mm, green!50!black] (2, -0.44) to (2.5,0.44);
+        \draw [line width=0.25mm, green!50!black] (3, -0.44) to (2.5,0.44);
+        \draw [line width=0.25mm, green!50!black] (2, -0.44) to (3,-0.44);
+        \draw [line width=0.25mm, green!50!black] (2.5, -0.44) to (2.5,0.44);
+        \draw [fill=green!50!black, green!50!black] (2.5,0.44) circle(1.5mm);
+
+        \draw [line width=0.25mm, green!50!black] (2.5, 0.725) to (2.5,1.0);
+        \draw [line width=0.25mm, green!50!black] (2.65, 0.65) to (2.825,0.85);
+        \draw [line width=0.25mm, green!50!black] (2.725, 0.44) to (3,0.44);
+        \draw [line width=0.25mm, green!50!black] (2.35, 0.65) to (2.175,0.85);
+        \draw [line width=0.25mm, green!50!black] (2.275, 0.44) to (2,0.44);
+
+        \end{tikzpicture}
+    };
+    \node[draw=white, thick] (su2) [left=of channel3, xshift=-1.5mm, yshift=0.5mm] {
+        \begin{tikzpicture} [scale=0.5]
+        \draw [line width=0.25mm, green!50!black] (2, -0.44) to (2.5,0.44);
+        \draw [line width=0.25mm, green!50!black] (3, -0.44) to (2.5,0.44);
+        \draw [line width=0.25mm, green!50!black] (2, -0.44) to (3,-0.44);
+        \draw [line width=0.25mm, green!50!black] (2.5, -0.44) to (2.5,0.44);
+        \draw [fill=green!50!black, green!50!black] (2.5,0.44) circle(1.5mm);
+
+        \draw [line width=0.25mm, green!50!black] (2.5, 0.725) to (2.5,1.0);
+        \draw [line width=0.25mm, green!50!black] (2.65, 0.65) to (2.825,0.85);
+        \draw [line width=0.25mm, green!50!black] (2.725, 0.44) to (3,0.44);
+        \draw [line width=0.25mm, green!50!black] (2.35, 0.65) to (2.175,0.85);
+        \draw [line width=0.25mm, green!50!black] (2.275, 0.44) to (2,0.44);
+
+        \end{tikzpicture}
+    };
+    \draw [line width=0.25mm,->] (su1) to (channel1);
+    \draw [line width=0.25mm,->] (su1) to (channel2);
+    \draw [line width=0.25mm,->] (su1) to (channel3);
+    \draw [line width=0.25mm,->] (su1) to (channel4);
+    \draw [line width=0.25mm,->] (su2) to (channel1);
+    \draw [line width=0.25mm,->] (su2) to (channel2);
+    \draw [line width=0.25mm,->] (su2) to (channel3);
+    \draw [line width=0.25mm,->] (su2) to (channel4);
+    
+    \draw (-2.25,-2.5) -- (-2.25,-0.6) -- (-1.4,-0.6) -- (-1.4,-2.5) -- (-2.25,-2.5);
+    \end{tikzpicture}
+\end{center}

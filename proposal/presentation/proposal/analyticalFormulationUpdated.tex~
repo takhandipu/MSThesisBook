@@ -1,0 +1,71 @@
+{
+% Define how TiKZ will draw the nodes
+\tikzset{mathterm/.style={draw=white,fill=white,rectangle,anchor=base}}
+\tikzstyle{every picture}+=[remember picture]
+\everymath{\displaystyle}
+
+\makeatletter
+
+% Designate a term in a math environment to point to
+% Syntax: \mathterm[node label]{some math}
+\newcommand\mathterm[2][]{%
+   \tikz [baseline] { \node [mathterm] (#1) {$#2$}; }}
+
+% A command to draw an arrow from the current position to a labelled math term
+% Default color=black, default arrow head=stealth
+% Syntax: \indicate[color]{term to point to}[path options]
+\newcommand\indicate[2][black]{%
+   \tikz [baseline] \node [inner sep=0pt,anchor=base] (i#2) {\vphantom|};
+   \@ifnextchar[{\@indicateopts{#1}{#2}}{\@indicatenoopts{#1}{#2}}}
+\def\@indicatenoopts#1#2{%
+   {\color{#1} \tikz[overlay] \path[line width=1pt,draw=#1,-stealth] (i#2) edge (#2);}}
+\def\@indicateopts#1#2[#3]{%
+   {\color{#1} \tikz[overlay] \path[line width=1pt,draw=#1,-stealth] (i#2) [#3] edge (#2);}}
+
+\makeatother
+\begin{center}
+    \begin{align*}
+    \visible<1->
+    {
+    %\begin{gather*}
+ \mathterm[t31]{T_{back-up}}&=\min \{T_1,T_2,\ldots, T_x\}\\
+    %\end{gather*}
+    }
+    \visible<3->
+    {
+    %\begin{gather*}
+ \mathterm[t41]{T_{fragmented}}&=\max \{T_1,T_2,\ldots, T_x\}\\
+    %\end{gather*}
+    }
+    \visible<5->
+    {
+    %\begin{gather*}
+       \mathterm[t21]{E[T_{total}]}&=\mathterm[t22]{p_{pu\_idle}}\times\mathterm[t23]{T_{pu\_idle}}\\&+(1-\mathterm[t24]{p_{pu\_idle}})\times(\mathterm[t25]{E[T_{unsuccessful}]}+E[T_{total}])\\
+    %\end{gather*}
+    }
+    \visible<10->{
+    %\begin{gather*}
+       \mathterm[t1]{T_{pu\_idle}}&=\mathterm[t2]{E[T_{sense}]}+\mathterm[t3]{E[T_{report}]}+\mathterm[t4]{E[T_{negotiate}]}+\mathterm[t5]{T_{data}}\\
+    }
+    \visible<15->{
+    %\begin{gather*}
+       E[T_{unsuccessful}] &= \int^{T_{pu\_idle}}_{0}\mathterm[t43]{p_{puc}(t)} t dt\\
+       &=\frac{1}{\mathterm[t42]{\lambda_{pu}}}(1-e^{-\lambda_{pu}T_{pu\_idle}}) - T_{pu\_idle}e^{-\lambda_{pu}T_{pu\_idle}}
+    %\end{gather*}
+    }
+    \end{align*}
+\end{center}
+\only<8>{Total time, if a primary user remains idle\indicate[red]{t23}[out=0,in=-50]}
+\only<11>{Channel sensing time\indicate[red]{t2}[out=0,in=-50]}
+\only<12>{Reporting time\indicate[red]{t3}[out=0,in=-50]}
+\only<13>{Negotiation time\indicate[red]{t4}[out=0,in=-50]}
+\only<14>{Data transmission time\indicate[red]{t5}[out=0,in=-50]}
+\only<16>{Probability that PU arrives at time $t$\indicate[red]{t41}[out=0,in=-50]}
+\only<17>{Primary user arrival rate\indicate[red]{t42}[out=0,in=-50]}
+\only<6>{Expected total time \indicate[red]{t21}[out=0,in=-50]}
+\only<7>{\small Probability of a primary user of being idle\indicate[red]{t22}[out=50,in=-50]$=e^{-\lambda_{pu}T_{pu\_idle}}$, {\tiny $\lambda_{pu}=$ PU arrival rate}}
+\only<9>{Unsuccessful data transmission time if corresponding primary user becomes busy\indicate[red]{t25}[out=0,in=-50]}
+\only<2>{Total time for back-up approach\indicate[red]{t31}[out=50,in=-50]}
+\only<4>{Total time for fragmented approach\indicate[red]{t41}[out=50,in=-50]}
+\only<5>{\begin{center}$T_1,T_2,\ldots, T_x$ are random variables following the same distribution with a mean, $E[T_{total}]$\end{center}}
+}

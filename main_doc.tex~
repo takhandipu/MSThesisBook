@@ -35,6 +35,7 @@
 \usepackage{varwidth}
 \usepackage{cleveref}
 \usepackage{amsmath}
+\usepackage{pdflscape}
 \usetikzlibrary{backgrounds}%arrows, shapes, trees, 
 \usetikzlibrary{positioning}
 \usetikzlibrary{shapes.geometric, arrows}

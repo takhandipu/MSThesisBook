@@ -1,0 +1,275 @@
+\documentclass[12pt,addpoints,fleqn]{exam}
+%\documentclass[12pt]{article}
+\usepackage[legalpaper]{geometry}
+\usepackage{array}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\def\arraystretch{1.5}
+\usepackage{booktabs}
+\usepackage{textcomp}
+\usepackage{censor}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{soul}
+\usepackage{lastpage}
+\newcounter{rowcount}
+\setcounter{rowcount}{0}
+\footer{}{Page \thepage\ of \pageref{LastPage}}{}
+%\qformat{\textbf{\thequestion.}}
+%\renewcommand{\theenumi}{\Alph{enumi}}
+\setul{}{2pt}
+\censorruledepth=-.4ex
+\censorruleheight=.2ex
+\geometry{top=1.0in, bottom=0.8in, left=0.8in, right=0.7in}
+\title{test}
+\author{test}
+\begin{document}
+\begin{center}
+    {
+        \textbf{BANGLADESH UNIVERSITY OF ENGINEERING AND TECHNOLOGY, DHAKA}\\
+        \textbf{OFFICE OF THE MEMBER SECRETARY OF THE COMMITTEE FOR\\ADVANCED STUDIES \& RESEARCH, BUET, DHAKA}\\
+        \vspace*{0.2cm}
+        \textbf{\ul{(Thesis Proposal)}}
+    }\\
+\end{center}
+\begin{minipage}[t]{0.7\textwidth}
+\hfill
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth}
+\flushleft
+\textbf{Date:} \today
+\end{minipage}
+\begin{questions}
+{\bfseries \question}
+\begin{minipage}[t]{0.7\textwidth}
+\flushleft
+\textbf{Name of the student:} TANVIR AHMED KHAN\\
+\textbf{Roll No.:} 1014052013
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth}
+\flushleft
+\textbf{Status:} Part-time\\
+\textbf{Session:} October, 2014
+\end{minipage}
+{\bfseries \question
+\textbf{Present Address:}} Room No. 420, Dept. of CSE, BUET, DHAKA.
+{\bfseries \question}
+\begin{minipage}[t]{0.7\textwidth}
+\flushleft
+\textbf{Name of the Department:} Computer Science and Engineering
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth}
+\flushleft
+\textbf{Programme:} M.Sc. Engineering
+\end{minipage}
+{\bfseries \question}
+\begin{minipage}[t]{0.7\textwidth}
+\flushleft
+\textbf{Name of the Supervisor:} Dr. A. B. M. Alim Al Islam
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth}
+\flushleft
+\textbf{Designation:}\\Assistant Professor, \\Dept. of CSE, BUET.
+\end{minipage}
+{\bfseries \question}
+\begin{minipage}[t]{0.7\textwidth}
+\flushleft
+\textbf{Name of the Co- Supervisor:} Not Applicable
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth}
+\flushleft
+\textbf{Designation:}\\Not Applicable
+\end{minipage}
+{\bfseries \question
+\textbf{Date of First Enrolment in the Programme:}} Novermber 1, 2014
+{\bfseries \question
+\textbf{Tentative Title:}} \MakeUppercase{Overcoming Throughput Degradation in Multi-Radio Cognitive Radio Networks.}
+{\bfseries \question
+\textbf{Background and present state of the problem:}}\\
+The famous spectrum scarcity problem along with significant spectrum under-utilization in traditional spectrum management has lead towards the notion of dynamic spectrum access~\cite{akyildiz2006next} through cognitive radios~\cite{Mitola}. A CRN generally comprises of two types of users - Primary Users (PUs), i.e., the users who are licensed to operate over a spectrum band, and Secondary Users (SUs), i.e., the unlicensed users employing cognitive radios to discover and opportunistically access temporal free spectrums~\cite{pelechrinis2013cognitive, zhang2016cognitive}.
+
+% A cognitive radio monitors its operational electromagnetic environment to dynamically adjust its operational parameters. Thus, a cognitive radio is capable of accessing temporal free spectrums. Cognitive Radio Networks (CRNs) exploit this capability of cognitive radios to form network connectivities~\cite{zhang2016cognitive}.
+
+%On the other hand, classical wireless networks frequently adopt the notion of deploying users with multiple radios~\cite{bahl2004reconsidering, adya2004multi}. Such deployment of multiple radios enable an increase in bandwidth, leading to an improvement in performance. Therefore, the concept of exploiting multiple radios in CRNs to supplement the dynamic spectrum access has been proposed in the contemporary literature. Such multiradio deployment on CRNs improves delay upto a certain point, however, throughput always degrades with an increase in number of radios per secondary user~\cite{khan2015towards}. To improve network throughput in multi-radio cognitive radio networks, we propose feedback based multi-radio exploitation approach.
+
+On the other hand, classical wireless networks frequently adopt the notion of deploying users with multiple radios~\cite{bahl2004reconsidering, adya2004multi} to improve performance of the networks~\cite{bahl2004reconsidering, draves2004routing, miu2005improving, song2012performance} through increased spectrum utilization. Now, as the primary motive of deploying cognitive radio networks is also to improve the performance of secondary users (through dynamic spectrum utilization), it is intuitive that simultaneous utilization of both these techniques, i.e., multi-radio CRNs, will result in significantly improved network performance. Therefore, the concept of exploiting multiple radios in CRNs to supplement the dynamic spectrum access has been proposed in the literature. Such multi-radio deployment on CRNs improves end-to-end delay up to a certain point, however, throughput degrades with an increase in the number of radios per secondary user~\cite{khan2015towards}.
+
+Therefore, the main motivation behind our study is to investigate how to overcome the already-known phenomena of getting degraded network throughput while equipping secondary users with multiple radios. At the same time, we also want to make sure that the delay metric does not get worse while attempting to increase the network throughput.
+{\bfseries \question
+\textbf{Objectives with specific aims and possible outcome:}}\\
+%In this study, we have proposed a feedback based multi-radio exploitation approach for CRNs to improve network throughput. Our proposed approach consists of three steps.
+The main objectives of our study are as follows:
+\begin{enumerate}[i.]
+    \item The first objective of our study is to propose a new approach for multi-radio CRNs that can improve network throughput through exploitation of the multiple radios. Here, we want to make sure that no other metric such as end-to-end delay gets degraded through our approach.
+    \item The second objective is to evaluate performance of our proposed approach through experimentation.
+    \item The third objective is to compare performance of our proposed approach with that of other contemporary approaches.
+\end{enumerate}
+
+The possible outcomes of our study are as follows:
+\begin{enumerate}[i.]
+    \item The first outcome will be a feedback-based multi-radio exploitation approach for CRNs. We want to incorporate information on performances obtained from lower layers (Physical layer and Data Link layer) in the process of decision making in an upper layer (Application layer).
+    \item The second outcome will be an evaluation of the performance of the proposed approach. Here, we will perform simulation using a discrete event simulator named CRE-NS3~\cite{al2014simulating}. We will implement the proposed feedback-based approach in the simulator and measure various performance metrics in response to an increase in the number of radios per SU.
+    \item The final outcome will be a comparison of performance of our proposed approach against that of the existing approaches available in the literatures for multi-radio CRNs.
+\end{enumerate}
+{\bfseries \question
+\textbf{Outline of Methodology/ Experimental Design:}}\\
+Outline of our proposed methodology and experimentation can be summarized in the following steps:
+\begin{enumerate}
+    \item At first, we will propose a multi-radio CRN model along with a new approach of dynamic channel access where SUs opportunistically access PUs' licensed spectrum bands. In our approach, first, we will dynamically distribute available wireless channels among available multiple radios of an SU. Second, we will measure packet delivery ratio for each radio to evaluate their individual performance as per the dynamic distribution. Third, we will calculate channel utilization ratio for each channel to assess their conditions. Finally, we will predict the overall network throughput from these measurements and set the data rate for each radio to maximize the throughput ensuring no degradation of other metric such as end-to-end delay.
+    \item Then, we will perform modifications in CRE-NS3 simulator required for implementation of our proposed approach. The existing simulator does not offer any module to implement a feedback-based approach. Therefore, we will develop such a module at our own and integrate it in the simulator.
+    \item Next, we will simulate multi-radio CRNs using our developed module and investigate the performance of the network. Here, we will vary operational parameters of our proposed approach and evaluate sensitivity of changing the parameters' values over performance of the network.
+    \item Then, we will compare the following network performance metrics obtained through our proposed approach against that of the existing approaches.
+    \begin{enumerate}[i.]
+        \item Average network throughput,
+        \item Per packet average end-to-end delay,
+        \item Per node average throughput,
+        \item Average packet loss.
+    \end{enumerate}
+    \item Finally, we will investigate various properties of our proposed approach, discuss findings of our study, and highlight open issues of the study as future directions.
+\end{enumerate}
+{\bfseries \question \textbf{References:}}
+\vspace{-1.75cm}
+\renewcommand\refname{}
+\bibliographystyle{IEEEtran}%ACM-Reference-Format-Journals
+%\bibliographystyle{ACM-Reference-Format-Journals}
+%\bibliographystyle{plain}
+%\bibliography{ieeetr}
+{%\footnotesize
+\bibliography{SystemModel}
+}
+%\newpage
+{\bfseries \question
+\textbf{List of courses taken:}}
+
+ \begin{center}%>{\columncolor[gray]{0.8}}
+ \begin{tabular}[c]{|>{CSE 6}p{0.1\textwidth}|p{0.3\textwidth}|>{3.0}p{0.1\textwidth}|>{A+}p{0.1\textwidth}|>{4.0}p{0.1\textwidth}|p{0.1\textwidth}|}
+    \hline
+    \multicolumn{1}{|c|}{\textbf{Course No}} & \multicolumn{1}{c|}{\textbf{Course Name}} & \multicolumn{1}{c|}{\textbf{Credit}} & \multicolumn{1}{c|}{\textbf{Grade}} & \multicolumn{1}{c|}{\textbf{Grade Point}} & \multicolumn{1}{c|}{\textbf{G.P.A}}\\
+    \hline
+    806 & Wireless and Mobile Communication Networks & & & & \multirow{7}{0.1\textwidth}{3.75}\\\cline{1-5}
+    813 & Network Security & & & & \\\cline{1-5}
+    402 & Graph Theory & & \multicolumn{1}{l|}{B} & \multicolumn{1}{l|}{2.5} & \\\cline{1-5}
+    602 & High Dimensional Data Management & & & & \\\cline{1-5}
+    506 & Data Mining & & & & \\\cline{1-5}
+    811 & Wireless Ad Hoc Networks & & & & \\\cline{1-5}
+    000 & Thesis & \multicolumn{1}{l|}{18.0} & \multicolumn{1}{l|}{--} & \multicolumn{1}{l|}{--} & \\
+    \hline
+  \end{tabular}
+  \end{center}
+\vspace{1cm}
+\begin{minipage}[t]{1.0\textwidth}
+\flushright
+\textbf{Signature of the Tabulator:} \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\end{minipage}
+{\bfseries \question
+\textbf{Cost Estimate:}}
+\begin{enumerate}[(a)]
+\item Cost of Materials:
+\begin{enumerate}[a.]
+\item Ink Cartridge: Tk.: 4000/=
+\end{enumerate}
+\textbf{Total:} Tk.: 4000/=
+\item Field works: Not applicable.
+\item Conveyance/Data Collection: Not applicable.
+\item Typing, Drafting, Binding, \& Paper etc.:
+\begin{enumerate}[a.]
+\item Drafting: Tk.: 1250/=
+\item Binding: Tk.: 1250/=
+\item Paper: Tk.: 1500/=
+\end{enumerate}
+\textbf{Total:} Tk.: 4000/=
+\end{enumerate}
+\textbf{Grand Total:} Tk.: 8000/=
+{\bfseries \question
+\textbf{Approximate time (in hour) for BUET workshop facilities (if required):}} Not applicable
+{\bfseries \question
+\textbf{Justification of having Co-Supervisor:}} Not applicable
+{\bfseries \question
+\textbf{Doctoral Committee/BPGS/RAC reference:}}\\
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{Meeting No.: }
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{Resolution No.: }
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{Date:}
+\end{minipage}
+\iffalse
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{}
+\end{minipage}
+\fi
+{\bfseries \question
+\textbf{Time Extension(if any) up to:}} Not applicable\\
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{Approved by the CASR\\Meeting No.: }Not applicable
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{Resolution No.: }Not applicable
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{Date:} Not applicable
+\end{minipage}
+{\bfseries \question
+\textbf{Appointment of Supervisor \& Co-Supervisor Approved by the CASR Meeting No. (For Ph. D):}} Not applicable\\
+\begin{minipage}[t]{0.45\textwidth}
+\textbf{Resolution No.: }Not applicable
+\end{minipage}
+\begin{minipage}[t]{0.45\textwidth}
+\textbf{Date:} Not applicable
+\end{minipage}
+{\bfseries \question
+\textbf{Appointment of Doctoral Committee Approved by the CASR Meeting No. (For Ph. D):}} Not applicable\\
+\begin{minipage}[t]{0.45\textwidth}
+\textbf{Resolution No.: }Not applicable
+\end{minipage}
+\begin{minipage}[t]{0.45\textwidth}
+\textbf{Date:} Not applicable
+\end{minipage}
+{\bfseries \question
+\textbf{Result of the comprehensive examination for Ph. D.:}} Not applicable
+{\bfseries \question
+\textbf{Number of Post-Graduate Student(s) working with the Supervisor at Present:}}\\
+\begin{minipage}[t]{0.4\textwidth}
+\flushleft
+\vspace{3cm}
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\\
+Signature of the Student\\
+\vspace{3cm}
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\\
+Signature of the Supervisor\\
+\vspace{3cm}
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\\
+Signature of the Head/Director\\
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\flushleft\vspace{1cm}
+{\begin{center} Names and signatures of the members of the Doctoral Committee (if applicable) \end{center}}
+\begin{center}
+\def\arraystretch{2.25}
+\begin{tabular}{|@{\stepcounter{rowcount}\makebox[2em][c]{\therowcount.}}|p{0.8\textwidth}|}
+\hline
+\\
+\hline
+\\
+\hline
+\\
+\hline
+\\
+\hline
+\\
+\hline
+\\
+\hline
+\\
+\hline
+\\
+\hline
+\end{tabular}
+\end{center}
+\end{minipage}
+\end{questions}
+\end{document}

@@ -210,6 +210,14 @@ ISSN={1550-2252},}
    year = "2014",
    howpublished = "\url{http://en.wikipedia.org/wiki/Two-ray\_ground-reflection\_model}",
  }
+
+@misc{ SpectrumScarcity,
+   author = "Gregory Staple and Kevin Werbach",
+   title = "The End of Spectrum Scarcity",
+   year = "2004",
+   howpublished = "\url{http://spectrum.ieee.org/telecom/wireless/the-end-of-spectrum-scarcity}",
+  note={(Date last accessed 8-July-2017)},
+ }
  
  @misc{ ruralConnect,
    author = "Carlson Wireless Technology",
@@ -713,6 +721,17 @@ ISSN={1550-2252},}
   number={2},
   pages={988--1017},
   year={2016},
+  publisher={IEEE}
+}
+
+@article{gabale2013classification,
+  title={A classification framework for scheduling algorithms in wireless mesh networks},
+  author={Gabale, Vijay and Raman, Bhaskaran and Dutta, Partha and Kalyanraman, Shivkumar},
+  journal={IEEE Communications Surveys \& Tutorials},
+  volume={15},
+  number={1},
+  pages={199--222},
+  year={2013},
   publisher={IEEE}
 }
 

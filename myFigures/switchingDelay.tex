@@ -1,5 +1,5 @@
-\begin{columns}
-    \begin{column}{0.5\textwidth}
+\noindent\begin{minipage}{\textwidth}
+    \begin{minipage}[c][6cm][c]{\dimexpr0.5\textwidth-0.5\Colsep\relax}
     \begin{center}
     \begin{tikzpicture} [scale=1.0, transform shape]%show background rectangle,
         \tikzstyle{every node} = [draw, shape = rectangle, node distance=0mm, minimum width=5mm, minimum height=5.2mm]
@@ -116,8 +116,8 @@
         };
     \end{tikzpicture}
     \end{center}
-    \end{column}
-    \begin{column}{0.5\textwidth}
+    \end{minipage}\hfill
+    \begin{minipage}[c][6cm][c]{\dimexpr0.5\textwidth-0.5\Colsep\relax}
     \begin{center}
     \begin{tikzpicture} [scale=1.0, transform shape]%show background rectangle,
         \tikzstyle{every node} = [draw, shape = rectangle, node distance=0mm, minimum width=5mm, minimum height=5.2mm]
@@ -234,5 +234,5 @@
         };
     \end{tikzpicture}
     \end{center}
-    \end{column}
-\end{columns}
+    \end{minipage}%
+\end{minipage}

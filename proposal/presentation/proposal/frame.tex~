@@ -1,0 +1,15 @@
+\documentclass{beamer}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usetikzlibrary{backgrounds}
+/home/user/Desktop/MS/proposal/presentation/proposal/tmp
+\begin{document}
+\begin{frame}
+%\input{su}
+\begin{center}
+\begin{tikzpicture}[scale=1.0, transform shape]
+    \node {\input{systemModel}};
+\end{tikzpicture}
+\end{center}
+\end{frame}
+\end{document}

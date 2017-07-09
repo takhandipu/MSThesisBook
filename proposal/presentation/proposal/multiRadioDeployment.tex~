@@ -1,0 +1,14 @@
+\begin{columns}
+    \begin{column}{0.5\textwidth}\centering
+    \input{backup}
+    \begin{center}
+    Here, the whole packet is simultaneously transmitted over multiple radios.
+    \end{center}
+    \end{column}
+    \begin{column}{0.5\textwidth}\centering
+    \input{fragmented}
+    \begin{center}
+    Here, a data packet is first fragmented, and then the fragments are transmitted over different radios.
+    \end{center}
+    \end{column}
+\end{columns}

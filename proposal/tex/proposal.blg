@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: proposal.aux
+The style file: ieeetr.bst
+Database file #1: SystemModel.bib
+Unbalanced braces---line 104 of file SystemModel.bib
+ : keywords="Poisson equation;cognitive radio;differential equations;stochastic processes;telecommunication channels;Fluid Queue View;Poisson driven stochastic differential equations;cognitive radio networks;delay analysis;practical systems;primary user;random access;secondary users;stochastic fluid models;Cognitive radio;Delay;Differential equations;Fluid dynamics;Frequency;Performance analysis;Queueing analysis;Steady-state;Stochastic processes;Traffic control
+ :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                },
+I'm skipping whatever remains of this entry
+Repeated entry---line 271 of file SystemModel.bib
+ : @inproceedings{draves2004routing
+ :                                 ,
+I'm skipping whatever remains of this entry
+You've used 11 entries,
+            1876 wiz_defined-function locations,
+            549 strings with 5843 characters,
+and the built_in function-call counts, 3643 in all, are:
+= -- 372
+> -- 127
+< -- 0
++ -- 46
+- -- 35
+* -- 256
+:= -- 491
+add.period$ -- 12
+call.type$ -- 11
+change.case$ -- 10
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 193
+empty$ -- 347
+format.name$ -- 35
+if$ -- 899
+int.to.chr$ -- 0
+int.to.str$ -- 11
+missing$ -- 12
+newline$ -- 37
+num.names$ -- 11
+pop$ -- 41
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 139
+stack$ -- 0
+substring$ -- 292
+swap$ -- 85
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 40
+width$ -- 13
+write$ -- 116
+(There were 2 error messages)

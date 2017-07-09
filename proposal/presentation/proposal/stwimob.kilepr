@@ -1,0 +1,27 @@
+[General]
+def_graphic_ext=eps
+img_extIsRegExp=false
+img_extensions=.eps .jpg .jpeg .png .pdf .ps .fig .gif
+kileprversion=2
+kileversion=2.0.85
+lastDocument=
+masterDocument=
+name=STWiMob
+pkg_extIsRegExp=false
+pkg_extensions=.cls .sty .bbx .cbx .lbx
+src_extIsRegExp=false
+src_extensions=.tex .ltx .latex .dtx .ins
+
+[Tools]
+MakeIndex=
+QuickBuild=
+
+[item:stwimob.kilepr]
+archive=true
+column=184060720
+encoding=
+highlight=
+line=0
+mode=
+open=false
+order=-1

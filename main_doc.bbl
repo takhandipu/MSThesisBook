@@ -8,6 +8,15 @@ Tanvir~Ahmed Khan, Chowdhury~Sayeed Hyder, and ABM Islam.
   (WiMob), 2015 IEEE 11th International Conference on}, pages 370--377. IEEE,
   2015.
 
+\bibitem{valenta2010survey}
+V{\'a}clav Valenta, Roman Mar{\v{s}}{\'a}lek, Genevi{\`e}ve Baudoin, Martine
+  Villegas, Martha Suarez, and Fabien Robert.
+\newblock Survey on spectrum utilization in europe: Measurements, analyses and
+  observations.
+\newblock In {\em Cognitive Radio Oriented Wireless Networks \& Communications
+  (CROWNCOM), 2010 Proceedings of the Fifth International Conference on}, pages
+  1--5. IEEE, 2010.
+
 \bibitem{mimoWiki}
 Wikipedia.
 \newblock Mimo: Multiple-input and multiple-output, wikipedia{,} the free
@@ -41,14 +50,13 @@ Xiaoxiong Zhong, Yang Qin, and Li~Li.
   networks: A small world perspective.
 \newblock {\em Wireless Personal Communications}, 79(3):2209--2225, 2014.
 
-\bibitem{valenta2010survey}
-V{\'a}clav Valenta, Roman Mar{\v{s}}{\'a}lek, Genevi{\`e}ve Baudoin, Martine
-  Villegas, Martha Suarez, and Fabien Robert.
-\newblock Survey on spectrum utilization in europe: Measurements, analyses and
-  observations.
-\newblock In {\em Cognitive Radio Oriented Wireless Networks \& Communications
-  (CROWNCOM), 2010 Proceedings of the Fifth International Conference on}, pages
-  1--5. IEEE, 2010.
+\bibitem{SpectrumScarcity}
+Gregory Staple and Kevin Werbach.
+\newblock The end of spectrum scarcity.
+\newblock
+  \url{http://spectrum.ieee.org/telecom/wireless/the-end-of-spectrum-scarcity},
+  2004.
+\newblock (Date last accessed 8-July-2017).
 
 \bibitem{akyildiz2006next}
 Ian~F Akyildiz, Won-Yeol Lee, Mehmet~C Vuran, and Shantidev Mohanty.
@@ -234,6 +242,40 @@ Carlson~Wireless Technology.
 \newblock Ruralconnect - tv white spaces radio.
 \newblock \url{http://www.carlsonwireless.com/ruralconnect/}.
 \newblock (Date last accessed 9-July-2017).
+
+\bibitem{raniwala2005architecture}
+Ashish Raniwala and Tzi-cker Chiueh.
+\newblock Architecture and algorithms for an ieee 802.11-based multi-channel
+  wireless mesh network.
+\newblock In {\em INFOCOM 2005. 24th Annual Joint Conference of the IEEE
+  Computer and Communications Societies. Proceedings IEEE}, volume~3, pages
+  2223--2234. IEEE, 2005.
+
+\bibitem{wang2007survey}
+JC-P Wang, Mehran Abolhasan, Farzad Safaei, and D~Franklin.
+\newblock A survey on control separation techniques in multi-radio
+  multi-channel mac protocols.
+\newblock In {\em Communications and Information Technologies, 2007. ISCIT'07.
+  International Symposium on}, pages 854--859. IEEE, 2007.
+
+\bibitem{ko2007distributed}
+Bong-Jun Ko, Vishal Misra, Jitendra Padhye, and Dan Rubenstein.
+\newblock Distributed channel assignment in multi-radio 802.11 mesh networks.
+\newblock In {\em Wireless Communications and Networking Conference, 2007. WCNC
+  2007. IEEE}, pages 3978--3983. IEEE, 2007.
+
+\bibitem{al2016channel}
+ABM~Alim Al~Islam, Md~Jahidul Islam, Novia Nurain, and Vijay Raghunathan.
+\newblock Channel assignment techniques for multi-radio wireless mesh networks:
+  A survey.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 18(2):988--1017,
+  2016.
+
+\bibitem{gabale2013classification}
+Vijay Gabale, Bhaskaran Raman, Partha Dutta, and Shivkumar Kalyanraman.
+\newblock A classification framework for scheduling algorithms in wireless mesh
+  networks.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 15(1):199--222, 2013.
 
 \bibitem{cormio2009survey}
 Claudia Cormio and Kaushik~R Chowdhury.

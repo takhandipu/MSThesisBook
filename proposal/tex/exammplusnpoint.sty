@@ -1,0 +1,10 @@
+% Based on http://tex.stackexchange.com/a/275221/14103 
+% Original question, http://tex.stackexchange.com/questions/275197/specifying-points-in-a-question-as-m-n-in-exam-class
+
+\RequirePackage{etoolbox}
+
+%% patch the command for adding points
+%% so that it accepts an expression
+\patchcmd{\addto@hlfcntr}{0#2}{\numexpr0#2\relax}{}{}
+
+\endinput

@@ -1,0 +1,55 @@
+\begin{tikzpicture}[scale=0.75, transform shape, show background rectangle]
+    \node (controlRadio)
+    {
+        \begin{tikzpicture} [scale=0.5]
+        \draw [fill=green!50!black, green!75!black] (2.3, -0.44) -- (2.5,0.44) -- (2.7, -0.44);
+        \draw [fill=green!50!black, green!75!black] (2.5,0.44) circle(1.5mm);
+
+        \draw [line width=0.25mm, green!75!black] (2.5, 0.725) to (2.5,1.0);
+        \draw [line width=0.25mm, green!75!black] (2.65, 0.65) to (2.825,0.85);
+        \draw [line width=0.25mm, green!75!black] (2.725, 0.44) to (3,0.44);
+        \draw [line width=0.25mm, green!75!black] (2.35, 0.65) to (2.175,0.85);
+        \draw [line width=0.25mm, green!75!black] (2.275, 0.44) to (2,0.44);
+
+        \end{tikzpicture}
+    };
+    \node (dataRadio1) [above=of controlRadio, yshift=-1cm] %, xshift=-1.5mm
+    {
+        \begin{tikzpicture} [scale=0.5]
+        \draw [line width=0.25mm, green!50!black] (2, -0.44) to (2.5,0.44);
+        \draw [line width=0.25mm, green!50!black] (3, -0.44) to (2.5,0.44);
+        \draw [line width=0.25mm, green!50!black] (2, -0.44) to (3,-0.44);
+        \draw [line width=0.25mm, green!50!black] (2.5, -0.44) to (2.5,0.44);
+        \draw [fill=green!50!black, green!50!black] (2.5,0.44) circle(1.5mm);
+
+        \draw [line width=0.25mm, green!50!black] (2.5, 0.725) to (2.5,1.0);
+        \draw [line width=0.25mm, green!50!black] (2.65, 0.65) to (2.825,0.85);
+        \draw [line width=0.25mm, green!50!black] (2.725, 0.44) to (3,0.44);
+        \draw [line width=0.25mm, green!50!black] (2.35, 0.65) to (2.175,0.85);
+        \draw [line width=0.25mm, green!50!black] (2.275, 0.44) to (2,0.44);
+
+        \end{tikzpicture}
+    };
+    %()
+    \draw[fill=green!50!black, green!50!black] (0,1.5) circle (0.025);
+    \draw[fill=green!50!black, green!50!black] (0,1.6) circle (0.025);
+    \draw[fill=green!50!black, green!50!black] (0,1.7) circle (0.025);
+    %
+    \node (dataRadio2) [above=of dataRadio1, yshift=-0.75cm] %, xshift=-1.5mm
+    {
+        \begin{tikzpicture} [scale=0.5]
+        \draw [line width=0.25mm, green!50!black] (2, -0.44) to (2.5,0.44);
+        \draw [line width=0.25mm, green!50!black] (3, -0.44) to (2.5,0.44);
+        \draw [line width=0.25mm, green!50!black] (2, -0.44) to (3,-0.44);
+        \draw [line width=0.25mm, green!50!black] (2.5, -0.44) to (2.5,0.44);
+        \draw [fill=green!50!black, green!50!black] (2.5,0.44) circle(1.5mm);
+
+        \draw [line width=0.25mm, green!50!black] (2.5, 0.725) to (2.5,1.0);
+        \draw [line width=0.25mm, green!50!black] (2.65, 0.65) to (2.825,0.85);
+        \draw [line width=0.25mm, green!50!black] (2.725, 0.44) to (3,0.44);
+        \draw [line width=0.25mm, green!50!black] (2.35, 0.65) to (2.175,0.85);
+        \draw [line width=0.25mm, green!50!black] (2.275, 0.44) to (2,0.44);
+
+        \end{tikzpicture}
+    };
+\end{tikzpicture}

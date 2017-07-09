@@ -1,0 +1,62 @@
+{
+% Define how TiKZ will draw the nodes
+\tikzset{mathterm/.style={draw=white,fill=white,rectangle,anchor=base}}
+\tikzstyle{every picture}+=[remember picture]
+\everymath{\displaystyle}
+
+\makeatletter
+
+% Designate a term in a math environment to point to
+% Syntax: \mathterm[node label]{some math}
+\newcommand\mathterm[2][]{%
+   \tikz [baseline] { \node [mathterm] (#1) {$#2$}; }}
+
+% A command to draw an arrow from the current position to a labelled math term
+% Default color=black, default arrow head=stealth
+% Syntax: \indicate[color]{term to point to}[path options]
+\newcommand\indicate[2][black]{%
+   \tikz [baseline] \node [inner sep=0pt,anchor=base] (i#2) {\vphantom|};
+   \@ifnextchar[{\@indicateopts{#1}{#2}}{\@indicatenoopts{#1}{#2}}}
+\def\@indicatenoopts#1#2{%
+   {\color{#1} \tikz[overlay] \path[line width=1pt,draw=#1,-stealth] (i#2) edge (#2);}}
+\def\@indicateopts#1#2[#3]{%
+   {\color{#1} \tikz[overlay] \path[line width=1pt,draw=#1,-stealth] (i#2) [#3] edge (#2);}}
+
+\makeatother
+\begin{center}
+    \begin{align*}
+    %\begin{gather*}
+       \mathterm[t1]{T_{idle}}&=\mathterm[t2]{E[T_{sense}]}+\mathterm[t3]{E[T_{report}]}+\mathterm[t4]{E[T_{negotiate}]}+\mathterm[t5]{T_{data}}\\
+    %\end{gather*}
+    \visible<6->
+    {
+    %\begin{gather*}
+       \mathterm[t21]{E[T_{total}]}&=\mathterm[t22]{p_{idle}}\times\mathterm[t23]{T_{idle}}+(1-\mathterm[t24]{p_{idle}})\times(\mathterm[t25]{T_{busy}}+E[T_{total}])\\
+    %\end{gather*}
+    }
+    \visible<10->
+    {
+    %\begin{gather*}
+ \mathterm[t31]{T_{back-up}}&=\min \{T_1,T_2,\ldots, T_x\}\\
+    %\end{gather*}
+    }
+    \visible<12->
+    {
+    %\begin{gather*}
+ \mathterm[t41]{T_{fragmented}}&=\max \{T_1,T_2,\ldots, T_x\}\\
+    %\end{gather*}
+    }
+    \end{align*}
+\end{center}
+\only<1>{total time, if primary user idle\indicate[red]{t1}[out=0,in=-50]}
+\only<2>{channel sensing time\indicate[red]{t2}[out=0,in=-50]}
+\only<3>{reporting time\indicate[red]{t3}[out=0,in=-50]}
+\only<4>{negotiation time\indicate[red]{t4}[out=0,in=-50]}
+\only<5>{data transmission time\indicate[red]{t5}[out=0,in=-50]}
+\only<7>{total expected time \indicate[red]{t21}[out=0,in=-50]}
+\only<8>{probability of primary user being idle \indicate[red]{t22}[out=50,in=-50]}
+\only<9>{total time, if primary user busy\indicate[red]{t25}[out=0,in=-50]}
+\only<11>{total time, for back-up approach\indicate[red]{t31}[out=50,in=-50]}
+\only<13>{total time, for fragmented approach\indicate[red]{t41}[out=50,in=-50]}
+\only<14>{\begin{center}$T_1,T_2,\ldots, T_x$, random variables following the same distribution with mean, $E[T_{total}]$\end{center}}
+}

@@ -1,0 +1,74 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{#1}
+\csname url@rmstyle\endcsname
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{akyildiz2006next}
+I.~F. Akyildiz, W.-Y. Lee, M.~C. Vuran, and S.~Mohanty, ``Next
+  generation/dynamic spectrum access/cognitive radio wireless networks: a
+  survey,'' \emph{Computer Networks}, vol.~50, no.~13, pp. 2127--2159, 2006.
+
+\bibitem{Mitola}
+J.~Mitola and J.~Maguire, G.Q., ``Cognitive radio: making software radios more
+  personal,'' \emph{Personal Communications, IEEE}, vol.~6, no.~4, pp. 13--18,
+  1999.
+
+\bibitem{bahl2004reconsidering}
+P.~Bahl, A.~Adya, J.~Padhye, and A.~Walman, ``Reconsidering wireless systems
+  with multiple radios,'' \emph{ACM SIGCOMM Computer Communication Review},
+  vol.~34, no.~5, pp. 39--46, 2004.
+
+\bibitem{adya2004multi}
+A.~Adya, P.~Bahl, J.~Padhye, A.~Wolman, and L.~Zhou, ``A multi-radio
+  unification protocol for ieee 802.11 wireless networks,'' in \emph{Broadband
+  Networks, 2004. BroadNets 2004. Proceedings. First International Conference
+  on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2004, pp. 344--354.
+
+\bibitem{draves2004routing}
+R.~Draves, J.~Padhye, and B.~Zill, ``Routing in multi-radio, multi-hop wireless
+  mesh networks,'' in \emph{Proceedings of the 10th annual international
+  conference on Mobile computing and networking}.\hskip 1em plus 0.5em minus
+  0.4em\relax ACM, 2004, pp. 114--128.
+
+\bibitem{miu2005improving}
+A.~Miu, H.~Balakrishnan, and C.~E. Koksal, ``Improving loss resilience with
+  multi-radio diversity in wireless networks,'' in \emph{Proceedings of the
+  11th annual international conference on Mobile computing and
+  networking}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2005, pp. 16--30.
+
+\bibitem{song2012performance}
+W.~Song and W.~Zhuang, ``Performance analysis of probabilistic multipath
+  transmission of video streaming traffic over multi-radio wireless devices,''
+  \emph{Wireless Communications, IEEE Transactions on}, vol.~11, no.~4, pp.
+  1554--1564, 2012.
+
+\bibitem{khan2015towards}
+T.~A. Khan, C.~S. Hyder, and A.~Islam, ``Towards exploiting a synergy between
+  cognitive and multi-radio networking,'' in \emph{Wireless and Mobile
+  Computing, Networking and Communications (WiMob), 2015 IEEE 11th
+  International Conference on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
+  2015, pp. 370--377.
+
+\bibitem{al2014simulating}
+A.~Al-Ali and K.~Chowdhury, ``Simulating dynamic spectrum access using ns-3 for
+  wireless networks in smart environments,'' in \emph{Sensing, Communication,
+  and Networking Workshops (SECON Workshops), 2014 Eleventh Annual IEEE
+  International Conference on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
+  2014, pp. 28--33.
+
+\end{thebibliography}
