@@ -45,7 +45,7 @@ The Cognitive Radio Networks (CRNs) architecture is shown in Figure~\ref{fig:cog
 
 \begin{figure}[!htbp]
     \begin{center}
-        \includegraphics[width=0.6\textwidth]{myFigures/cogArch.png}
+        \includegraphics[width=0.6\textwidth]{myFigures/cogarchSir.jpg}
         \caption{Cognitive radio networks architecture~\cite{bwnGatechProjectDescription}}
         \label{fig:cogArch}
     \end{center}
@@ -64,7 +64,7 @@ Emergency networks in the times of natural disasters can be established using CR
 
 \begin{figure}[!htbp]
     \begin{center}
-        \includegraphics[width=0.75\textwidth]{myFigures/CRNApplications.png}
+        \includegraphics[width=0.8\textwidth]{myFigures/CRNApplications.png}
         \caption{Applications of cognitive radio networks~\cite{akyildiz2006next}}
         \label{fig:CRNApplications}
     \end{center}
