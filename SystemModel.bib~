@@ -677,3 +677,42 @@ ISSN={1550-2252},}
   organization={IEEE}
 }
 
+@inproceedings{wang2007survey,
+  title={A survey on control separation techniques in multi-radio multi-channel MAC protocols},
+  author={Wang, JC-P and Abolhasan, Mehran and Safaei, Farzad and Franklin, D},
+  booktitle={Communications and Information Technologies, 2007. ISCIT'07. International Symposium on},
+  pages={854--859},
+  year={2007},
+  organization={IEEE}
+}
+
+@inproceedings{raniwala2005architecture,
+  title={Architecture and algorithms for an IEEE 802.11-based multi-channel wireless mesh network},
+  author={Raniwala, Ashish and Chiueh, Tzi-cker},
+  booktitle={INFOCOM 2005. 24th Annual Joint Conference of the IEEE Computer and Communications Societies. Proceedings IEEE},
+  volume={3},
+  pages={2223--2234},
+  year={2005},
+  organization={IEEE}
+}
+
+@inproceedings{ko2007distributed,
+  title={Distributed channel assignment in multi-radio 802.11 mesh networks},
+  author={Ko, Bong-Jun and Misra, Vishal and Padhye, Jitendra and Rubenstein, Dan},
+  booktitle={Wireless Communications and Networking Conference, 2007. WCNC 2007. IEEE},
+  pages={3978--3983},
+  year={2007},
+  organization={IEEE}
+}
+
+@article{al2016channel,
+  title={Channel assignment techniques for multi-radio wireless mesh networks: A survey},
+  author={Al Islam, ABM Alim and Islam, Md Jahidul and Nurain, Novia and Raghunathan, Vijay},
+  journal={IEEE Communications Surveys \& Tutorials},
+  volume={18},
+  number={2},
+  pages={988--1017},
+  year={2016},
+  publisher={IEEE}
+}
+

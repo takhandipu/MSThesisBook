@@ -63,7 +63,22 @@ Military networks is another significant applications of CRNs. CRNs support mili
 Emergency networks in the times of natural disasters can be established using CRNs. CRNs establishes such emergency networks by enabling data communication over existing spectrum without installing any new infrastructures~\cite{maldonado2005cognitive}.
 
 \section{Multi-Radio Networks}
-\section{Cognitive Multi-Radio Networks(CMRNs)}
+
+The price of RF transceivers has rapidly reduced in the last few years. This price reduction has prompted to install multiple low-cost radios in a single node of wireless networks~\cite{raniwala2005architecture}. Such networks are known as multi-radio networks. These multi-radio networks impose unique research challenges due to the nature of two conflicting objectives: channel diversity and node connectivity~\cite{wang2007survey}. Multiple radios on a single node enables simultaneous multiple channel access which results in improved network capacity. On the contrary, the transmitter and the receiver must be adjusted to the same channel to maintain network connectivity. Consequently, common control radio based protocols has been proposed in the recent literature to address these challenges~\cite{ko2007distributed, al2016channel, gabale2013classification, kyasanur2006routing, chatterjee2013low}.
+
+One of significant advantage of installing multiple radios on a single node in multi-radio networks is the network performance improvement through parallel spectrum access. On the other hand, the basic motivation behind using cognitive radio networks is also to improve network performance through opportunistic dynamic spectrum access. Therefore, these two paradigms are combined into another network architecture, multi-radio cognitive radio networks. 
+
+\section{Multi-Radio Cognitive Radio Networks(MRCRNs)}
+In multi-radio cognitive radio networks, secondary users are equipped with multiple transceivers. This enables secondary users to increase spectrum access just like any multi-radio networks. Moreover, the channel switching time for cognitive radio networks is also reduced as illustrated in Figure~\ref{fig:switchingDelay}. Secondary users have to vacant their currently used channel when the channel's licensed primary user becomes active. This results into secondary users looking for another free channel and switching into that free channel. Secondary users equipped with multiple radios can exploit their additional radios to reduce this switching delay.
+
+\begin{figure}[!htbp]
+\begin{center}
+    \input{myFigures/switchingDelay}
+    \caption{Multiple radio equipped SUs experience reduced switching delay.}
+    \label{fig:switchingDelay}
+\end{center}
+\end{figure}
+
 
 \section{Existing Studies on CMRNs}
 Existing studies on Cognitive Multi-Radio Networks(CMRNs) mainly investigate how to incorporate multiple radios in dynamic spectrum sharing scenario. These studies mainly propose medium access control protocols~\cite{cormio2009survey, de2012survey}, routing protocols~\cite{zhu2008stod, feng2009joint}, and channel assignment~\cite{ahmadi2012distributed, zhong2014capacity} for CMRNs. Zhu et al., present a spectrum-tree based on-demand routing protocol that considers multi-radio nodes~\cite{zhu2008stod}. Such nodes belong to multiple spectrum-trees and are called overlapping nodes. As these nodes simultaneously work in different spectrum-trees, they can be used for inter-spectrum routing. The study shows that the proposed approach significantly reduces the average end-to-end delay.  Besides, Feng et al., propose a novel spectrum handoff scheduling approach for multi-hop CMRNs~\cite{feng2009joint}. This study presents a routing protocol with the help of aging-based priority assignment to minimize the latency. Thus none of these approaches addresses the problem of overcoming throughput degradation problem in CMRNs.
