@@ -1,0 +1,6 @@
+            \input{improvedNetworkCapacity.tex}
+            \label{subfig:improvedNetworkCapacity}
+        \end{subfigure}
+        %\input{crnPU.tex}
+    \end{minipage}\hfill
+\end{minipage}

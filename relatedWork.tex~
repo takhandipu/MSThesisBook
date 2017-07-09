@@ -62,6 +62,14 @@ Military networks is another significant applications of CRNs. CRNs support mili
 
 Emergency networks in the times of natural disasters can be established using CRNs. CRNs establishes such emergency networks by enabling data communication over existing spectrum without installing any new infrastructures~\cite{maldonado2005cognitive}.
 
+\begin{figure}[!htbp]
+    \begin{center}
+        \includegraphics[width=0.75\textwidth]{myFigures/CRNApplications.png}
+        \caption{Applications of cognitive radio networks~\cite{akyildiz2006next}}
+        \label{fig:CRNApplications}
+    \end{center}
+\end{figure}
+
 \section{Multi-Radio Networks}
 
 The price of RF transceivers has rapidly reduced in the last few years. This price reduction has prompted to install multiple low-cost radios in a single node of wireless networks~\cite{raniwala2005architecture}. Such networks are known as multi-radio networks. These multi-radio networks impose unique research challenges due to the nature of two conflicting objectives: channel diversity and node connectivity~\cite{wang2007survey}. Multiple radios on a single node enables simultaneous multiple channel access which results in improved network capacity. On the contrary, the transmitter and the receiver must be adjusted to the same channel to maintain network connectivity. Consequently, common control radio based protocols has been proposed in the recent literature to address these challenges~\cite{ko2007distributed, al2016channel, gabale2013classification, kyasanur2006routing, chatterjee2013low}.

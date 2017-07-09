@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {2.1.1}Working Method of A Cognitive Radio}{6}{subsection.2.1.1}
 \contentsline {section}{\numberline {2.2}Cognitive Radio Networks (CRNs)}{8}{section.2.2}
 \contentsline {section}{\numberline {2.3}Applications of CRNs}{9}{section.2.3}
-\contentsline {section}{\numberline {2.4}Multi-Radio Networks}{9}{section.2.4}
+\contentsline {section}{\numberline {2.4}Multi-Radio Networks}{10}{section.2.4}
 \contentsline {section}{\numberline {2.5}Multi-Radio Cognitive Radio Networks(MRCRNs)}{10}{section.2.5}
 \contentsline {section}{\numberline {2.6}Existing Studies on MRCRNs}{10}{section.2.6}
 \contentsline {chapter}{\numberline {3}System Model and Problem Definition}{13}{chapter.3}

@@ -17,13 +17,6 @@ V{\'a}clav Valenta, Roman Mar{\v{s}}{\'a}lek, Genevi{\`e}ve Baudoin, Martine
   (CROWNCOM), 2010 Proceedings of the Fifth International Conference on}, pages
   1--5. IEEE, 2010.
 
-\bibitem{mimoWiki}
-Wikipedia.
-\newblock Mimo: Multiple-input and multiple-output, wikipedia{,} the free
-  encyclopedia.
-\newblock \url{https://en.wikipedia.org/wiki/MIMO}, 2017.
-\newblock (Date last accessed 5-July-2017).
-
 \bibitem{jondral2005software}
 Friedrich~K Jondral.
 \newblock Software-defined radio: basics and evolution to cognitive radio.
@@ -44,6 +37,12 @@ School of~Electrical Broadband Wireless Networking~Lab and Georgia Insititute
 \newblock \url{http://bwn.ece.gatech.edu/CR/projectdescription.html}, 2006.
 \newblock (Date last accessed 5-July-2017).
 
+\bibitem{akyildiz2006next}
+Ian~F Akyildiz, Won-Yeol Lee, Mehmet~C Vuran, and Shantidev Mohanty.
+\newblock Next generation/dynamic spectrum access/cognitive radio wireless
+  networks: a survey.
+\newblock {\em Computer Networks}, 50(13):2127--2159, 2006.
+
 \bibitem{zhong2014capacity}
 Xiaoxiong Zhong, Yang Qin, and Li~Li.
 \newblock Capacity analysis in multi-radio multi-channel cognitive radio
@@ -57,12 +56,6 @@ Gregory Staple and Kevin Werbach.
   \url{http://spectrum.ieee.org/telecom/wireless/the-end-of-spectrum-scarcity},
   2004.
 \newblock (Date last accessed 8-July-2017).
-
-\bibitem{akyildiz2006next}
-Ian~F Akyildiz, Won-Yeol Lee, Mehmet~C Vuran, and Shantidev Mohanty.
-\newblock Next generation/dynamic spectrum access/cognitive radio wireless
-  networks: a survey.
-\newblock {\em Computer Networks}, 50(13):2127--2159, 2006.
 
 \bibitem{Mitola}
 J.~Mitola and Jr. Maguire, G.Q.
