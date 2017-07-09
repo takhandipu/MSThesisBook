@@ -8,13 +8,6 @@ Tanvir~Ahmed Khan, Chowdhury~Sayeed Hyder, and ABM Islam.
   (WiMob), 2015 IEEE 11th International Conference on}, pages 370--377. IEEE,
   2015.
 
-\bibitem{bwnGatechProjectDescription}
-School of~Electrical Broadband Wireless Networking~Lab and Georgia Insititute
-  of~Technology Computer~Engineering.
-\newblock Cognitive radio networks.
-\newblock \url{http://bwn.ece.gatech.edu/CR/projectdescription.html}, 2006.
-\newblock (Date last accessed 5-July-2017).
-
 \bibitem{mimoWiki}
 Wikipedia.
 \newblock Mimo: Multiple-input and multiple-output, wikipedia{,} the free
@@ -35,11 +28,27 @@ Danijela Cabric, Shridhar~Mubaraq Mishra, and Robert~W Brodersen.
   the thirty-eighth Asilomar conference on}, volume~1, pages 772--776. Ieee,
   2004.
 
+\bibitem{bwnGatechProjectDescription}
+School of~Electrical Broadband Wireless Networking~Lab and Georgia Insititute
+  of~Technology Computer~Engineering.
+\newblock Cognitive radio networks.
+\newblock \url{http://bwn.ece.gatech.edu/CR/projectdescription.html}, 2006.
+\newblock (Date last accessed 5-July-2017).
+
 \bibitem{zhong2014capacity}
 Xiaoxiong Zhong, Yang Qin, and Li~Li.
 \newblock Capacity analysis in multi-radio multi-channel cognitive radio
   networks: A small world perspective.
 \newblock {\em Wireless Personal Communications}, 79(3):2209--2225, 2014.
+
+\bibitem{valenta2010survey}
+V{\'a}clav Valenta, Roman Mar{\v{s}}{\'a}lek, Genevi{\`e}ve Baudoin, Martine
+  Villegas, Martha Suarez, and Fabien Robert.
+\newblock Survey on spectrum utilization in europe: Measurements, analyses and
+  observations.
+\newblock In {\em Cognitive Radio Oriented Wireless Networks \& Communications
+  (CROWNCOM), 2010 Proceedings of the Fifth International Conference on}, pages
+  1--5. IEEE, 2010.
 
 \bibitem{akyildiz2006next}
 Ian~F Akyildiz, Won-Yeol Lee, Mehmet~C Vuran, and Shantidev Mohanty.
@@ -96,6 +105,14 @@ Avhishek Chatterjee, Supratim Deb, Kanthi Nagaraj, and Vikram Srinivasan.
   networks.
 \newblock 2013.
 
+\bibitem{li2014deterministic}
+Guyue Li, Zhaoquan Gu, Xiao Lin, Haosen Pu, and Qiang-sheng Hua.
+\newblock Deterministic distributed rendezvous algorithms for multi-radio
+  cognitive radio networks.
+\newblock In {\em Proceedings of the 17th ACM international conference on
+  Modeling, analysis and simulation of wireless and mobile systems}, pages
+  313--320. ACM, 2014.
+
 \bibitem{hoang2008downlink}
 Anh~Tuan Hoang and Ying-Chang Liang.
 \newblock Downlink channel assignment and power control for cognitive radio
@@ -127,23 +144,6 @@ Wei Feng, Jiannong Cao, Chisheng Zhang, and Chuda Liu.
 \newblock In {\em Distributed Computing Systems, 2009. ICDCS'09. 29th IEEE
   International Conference on}, pages 85--92. IEEE, 2009.
 
-\bibitem{li2014deterministic}
-Guyue Li, Zhaoquan Gu, Xiao Lin, Haosen Pu, and Qiang-sheng Hua.
-\newblock Deterministic distributed rendezvous algorithms for multi-radio
-  cognitive radio networks.
-\newblock In {\em Proceedings of the 17th ACM international conference on
-  Modeling, analysis and simulation of wireless and mobile systems}, pages
-  313--320. ACM, 2014.
-
-\bibitem{valenta2010survey}
-V{\'a}clav Valenta, Roman Mar{\v{s}}{\'a}lek, Genevi{\`e}ve Baudoin, Martine
-  Villegas, Martha Suarez, and Fabien Robert.
-\newblock Survey on spectrum utilization in europe: Measurements, analyses and
-  observations.
-\newblock In {\em Cognitive Radio Oriented Wireless Networks \& Communications
-  (CROWNCOM), 2010 Proceedings of the Fifth International Conference on}, pages
-  1--5. IEEE, 2010.
-
 \bibitem{tandra2009spectrum}
 Rahul Tandra, Shridhar~Mubaraq Mishra, and Anant Sahai.
 \newblock What is a spectrum hole and what does it take to recognize one?
@@ -168,6 +168,72 @@ Federal~Communications Commission et~al.
   for flexible, efficient, and reliable spectrum use employing cognitive radio
   technologies.
 \newblock {\em ET docket}, (03-108):73, 2005.
+
+\bibitem{buddhikot2005dimsumnet}
+Milind~M Buddhikot, Paul Kolodzy, Scott Miller, Kevin Ryan, and Jason Evans.
+\newblock Dimsumnet: new directions in wireless networking using coordinated
+  dynamic spectrum.
+\newblock In {\em World of Wireless Mobile and Multimedia Networks, 2005.
+  WoWMoM 2005. Sixth IEEE International Symposium on a}, pages 78--85. Ieee,
+  2005.
+
+\bibitem{ileri2005demand}
+Omer Ileri, Dragan Samardzija, and Narayan~B Mandayam.
+\newblock Demand responsive pricing and competitive spectrum allocation via a
+  spectrum server.
+\newblock In {\em New Frontiers in Dynamic Spectrum Access Networks, 2005.
+  DySPAN 2005. 2005 First IEEE International Symposium on}, pages 194--202.
+  IEEE, 2005.
+
+\bibitem{zekavat2005user}
+Seyed~A Zekavat and Xiukui Li.
+\newblock User-central wireless system: ultimate dynamic channel allocation.
+\newblock In {\em New Frontiers in Dynamic Spectrum Access Networks, 2005.
+  DySPAN 2005. 2005 First IEEE International Symposium on}, pages 82--87. IEEE,
+  2005.
+
+\bibitem{fitch2011wireless}
+Michael Fitch, Maziar Nekovee, Santosh Kawade, Keith Briggs, and Richard
+  MacKenzie.
+\newblock Wireless service provision in tv white space with cognitive radio
+  technology: A telecom operator's perspective and experience.
+\newblock {\em IEEE Communications Magazine}, 49(3), 2011.
+
+\bibitem{murty2003software}
+Ravi Murty.
+\newblock Software-defined reconfigurability radios: smart, agile, cognitive,
+  and interoperable.
+\newblock {\em Technology@ Intel Magazine}, 84, 2003.
+
+\bibitem{maldonado2005cognitive}
+David Maldonado, Bin Le, Akilah Hugine, Thomas~W Rondeau, and Charles~W
+  Bostian.
+\newblock Cognitive radio applications to dynamic spectrum allocation: a
+  discussion and an illustrative example.
+\newblock In {\em New Frontiers in Dynamic Spectrum Access Networks, 2005.
+  DySPAN 2005. 2005 First IEEE International Symposium on}, pages 597--600.
+  IEEE, 2005.
+
+\bibitem{stine2005spectrum}
+John~A Stine.
+\newblock Spectrum management: the killer application of ad hoc and mesh
+  networking.
+\newblock In {\em New Frontiers in Dynamic Spectrum Access Networks, 2005.
+  DySPAN 2005. 2005 First IEEE International Symposium on}, pages 184--193.
+  IEEE, 2005.
+
+\bibitem{berlemann2005policy}
+Lars Berlemann, Stefan Mangold, and Bernhard~H Walke.
+\newblock Policy-based reasoning for spectrum sharing in radio networks.
+\newblock In {\em New Frontiers in Dynamic Spectrum Access Networks, 2005.
+  DySPAN 2005. 2005 First IEEE International Symposium on}, pages 1--10. IEEE,
+  2005.
+
+\bibitem{ruralConnect}
+Carlson~Wireless Technology.
+\newblock Ruralconnect - tv white spaces radio.
+\newblock \url{http://www.carlsonwireless.com/ruralconnect/}.
+\newblock (Date last accessed 9-July-2017).
 
 \bibitem{cormio2009survey}
 Claudia Cormio and Kaushik~R Chowdhury.

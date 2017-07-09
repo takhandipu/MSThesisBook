@@ -3,21 +3,28 @@
 \contentsline {chapter}{\textit {Acknowledgment}}{iv}{chapter*.2}
 \contentsline {chapter}{\textit {Abstract}}{v}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Research Challenges}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Summary of Contributions}{3}{section.1.2}
 \contentsline {chapter}{\numberline {2}Background and Related Work}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Cognitive Radio Definition}{5}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}How does a cognitive radio physically work}{6}{subsection.2.1.1}
-\contentsline {chapter}{\numberline {3}System Model and Problem Definition}{10}{chapter.3}
-\contentsline {section}{\numberline {3.1}System Model}{10}{section.3.1}
-\contentsline {section}{\numberline {3.2}Problem Definition}{11}{section.3.2}
-\contentsline {chapter}{\numberline {4}Proposed Methodology: Feedback-based Multi-radio Exploitation Approach}{12}{chapter.4}
-\contentsline {section}{\numberline {4.1}Overview of The Proposed Approach}{12}{section.4.1}
-\contentsline {section}{\numberline {4.2}Radio Selection Based on Packet Transmission Ratio}{13}{section.4.2}
-\contentsline {section}{\numberline {4.3}Channel Selection Based on Channel Utilization Ratio}{14}{section.4.3}
-\contentsline {section}{\numberline {4.4}Variants of Our Proposed Approach}{17}{section.4.4}
-\contentsline {chapter}{\numberline {5}Experimental Evaluation}{18}{chapter.5}
-\contentsline {section}{\numberline {5.1}Simulator Modifications}{18}{section.5.1}
-\contentsline {section}{\numberline {5.2}Simulation Settings}{19}{section.5.2}
-\contentsline {section}{\numberline {5.3}Simulation Results and Analysis}{20}{section.5.3}
-\contentsline {section}{\numberline {5.4}Simulation Findings}{27}{section.5.4}
-\contentsline {chapter}{\numberline {6}Future Work}{29}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclusion}{30}{chapter.7}
+\contentsline {section}{\numberline {2.1}Cognitive Radio}{5}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Working Method of A Cognitive Radio}{6}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Cognitive Radio Networks (CRNs)}{8}{section.2.2}
+\contentsline {section}{\numberline {2.3}Applications of CRNs}{9}{section.2.3}
+\contentsline {section}{\numberline {2.4}Multi-Radio Networks}{9}{section.2.4}
+\contentsline {section}{\numberline {2.5}Cognitive Multi-Radio Networks(CMRNs)}{9}{section.2.5}
+\contentsline {section}{\numberline {2.6}Existing Studies on CMRNs}{9}{section.2.6}
+\contentsline {chapter}{\numberline {3}System Model and Problem Definition}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}System Model}{11}{section.3.1}
+\contentsline {section}{\numberline {3.2}Problem Definition}{12}{section.3.2}
+\contentsline {chapter}{\numberline {4}Proposed Methodology: Feedback-based Multi-radio Exploitation Approach}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}Overview of The Proposed Approach}{13}{section.4.1}
+\contentsline {section}{\numberline {4.2}Radio Selection Based on Packet Transmission Ratio}{14}{section.4.2}
+\contentsline {section}{\numberline {4.3}Channel Selection Based on Channel Utilization Ratio}{15}{section.4.3}
+\contentsline {section}{\numberline {4.4}Variants of Our Proposed Approach}{18}{section.4.4}
+\contentsline {chapter}{\numberline {5}Experimental Evaluation}{19}{chapter.5}
+\contentsline {section}{\numberline {5.1}Simulator Modifications}{19}{section.5.1}
+\contentsline {section}{\numberline {5.2}Simulation Settings}{20}{section.5.2}
+\contentsline {section}{\numberline {5.3}Simulation Results and Analysis}{21}{section.5.3}
+\contentsline {section}{\numberline {5.4}Simulation Findings}{28}{section.5.4}
+\contentsline {chapter}{\numberline {6}Future Work}{30}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclusion}{31}{chapter.7}

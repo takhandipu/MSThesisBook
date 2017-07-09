@@ -1,17 +1,17 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Cognitive radio networks architecture\nobreakspace {}\cite {bwnGatechProjectDescription}\relax }}{1}{figure.caption.8}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Multi-radio channel Model\nobreakspace {}\cite {mimoWiki}\relax }}{2}{figure.caption.9}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Multi-radio channel Model\nobreakspace {}\cite {mimoWiki}\relax }}{2}{figure.caption.8}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Cognitive radio transceiver (redrawn from\nobreakspace {}\cite {jondral2005software})\relax }}{6}{figure.caption.10}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Wideband RF/analog front-end architecture for cognitive radio (redrawn from\nobreakspace {}\cite {cabric2004implementation})\relax }}{7}{figure.caption.11}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Cognitive radio transceiver (redrawn from\nobreakspace {}\cite {jondral2005software})\relax }}{6}{figure.caption.9}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Wideband RF/analog front-end architecture for cognitive radio (redrawn from\nobreakspace {}\cite {cabric2004implementation})\relax }}{7}{figure.caption.10}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Cognitive radio networks architecture\nobreakspace {}\cite {bwnGatechProjectDescription}\relax }}{8}{figure.caption.11}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces System model of a CMRN\relax }}{11}{figure.caption.12}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces System model of a CMRN\relax }}{12}{figure.caption.12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces High-level overview of the proposed approach\relax }}{13}{figure.caption.13}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces High-level overview of the proposed approach\relax }}{14}{figure.caption.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Average network throughput with varying number of radios for various application data rates\relax }}{21}{figure.caption.15}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Average end-to-end delay with varying number of radios for various application data rates\relax }}{22}{figure.caption.16}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Average packet drop ratio with varying number of radios for various application data rates\relax }}{23}{figure.caption.17}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Application layer packet delivery ratio with varying number of radios for various application data rates\relax }}{24}{figure.caption.18}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Average network throughput with varying number of radios for various application data rates\relax }}{22}{figure.caption.15}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Average end-to-end delay with varying number of radios for various application data rates\relax }}{23}{figure.caption.16}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Average packet drop ratio with varying number of radios for various application data rates\relax }}{24}{figure.caption.17}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Application layer packet delivery ratio with varying number of radios for various application data rates\relax }}{25}{figure.caption.18}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

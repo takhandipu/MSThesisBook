@@ -137,7 +137,6 @@ ISSN={0743-166X},}
   publisher={IEEE}
 }
 
-
 @INPROCEEDINGS{CMAC, 
 author={Cordeiro, Carlos and Challapali, K.}, 
 booktitle={New Frontiers in Dynamic Spectrum Access Networks, 2007. DySPAN 2007. 2nd IEEE International Symposium on}, 
@@ -210,6 +209,13 @@ ISSN={1550-2252},}
    title = "Two-ray ground-reflection model, Wikipedia{,} The Free Encyclopedia",
    year = "2014",
    howpublished = "\url{http://en.wikipedia.org/wiki/Two-ray\_ground-reflection\_model}",
+ }
+ 
+ @misc{ ruralConnect,
+   author = "Carlson Wireless Technology",
+   title = "RuralConnect - TV White Spaces Radio",
+   howpublished = "\url{http://www.carlsonwireless.com/ruralconnect/}",
+  note={(Date last accessed 9-July-2017)},
  }
  
  @misc{ bwnGatechProjectDescription,
@@ -596,5 +602,78 @@ ISSN={1550-2252},}
   pages={772--776},
   year={2004},
   organization={Ieee}
+}
+
+@inproceedings{buddhikot2005dimsumnet,
+  title={DIMSUMnet: new directions in wireless networking using coordinated dynamic spectrum},
+  author={Buddhikot, Milind M and Kolodzy, Paul and Miller, Scott and Ryan, Kevin and Evans, Jason},
+  booktitle={World of Wireless Mobile and Multimedia Networks, 2005. WoWMoM 2005. Sixth IEEE International Symposium on a},
+  pages={78--85},
+  year={2005},
+  organization={Ieee}
+}
+
+@inproceedings{ileri2005demand,
+  title={Demand responsive pricing and competitive spectrum allocation via a spectrum server},
+  author={Ileri, Omer and Samardzija, Dragan and Mandayam, Narayan B},
+  booktitle={New Frontiers in Dynamic Spectrum Access Networks, 2005. DySPAN 2005. 2005 First IEEE International Symposium on},
+  pages={194--202},
+  year={2005},
+  organization={IEEE}
+}
+
+@inproceedings{zekavat2005user,
+  title={User-central wireless system: ultimate dynamic channel allocation},
+  author={Zekavat, Seyed A and Li, Xiukui},
+  booktitle={New Frontiers in Dynamic Spectrum Access Networks, 2005. DySPAN 2005. 2005 First IEEE International Symposium on},
+  pages={82--87},
+  year={2005},
+  organization={IEEE}
+}
+
+@article{fitch2011wireless,
+  title={Wireless service provision in TV white space with cognitive radio technology: A telecom operator's perspective and experience},
+  author={Fitch, Michael and Nekovee, Maziar and Kawade, Santosh and Briggs, Keith and MacKenzie, Richard},
+  journal={IEEE Communications Magazine},
+  volume={49},
+  number={3},
+  year={2011},
+  publisher={IEEE}
+}
+
+@inproceedings{maldonado2005cognitive,
+  title={Cognitive radio applications to dynamic spectrum allocation: a discussion and an illustrative example},
+  author={Maldonado, David and Le, Bin and Hugine, Akilah and Rondeau, Thomas W and Bostian, Charles W},
+  booktitle={New Frontiers in Dynamic Spectrum Access Networks, 2005. DySPAN 2005. 2005 First IEEE International Symposium on},
+  pages={597--600},
+  year={2005},
+  organization={IEEE}
+}
+
+
+@article{murty2003software,
+  title={Software-defined reconfigurability radios: smart, agile, cognitive, and interoperable},
+  author={Murty, Ravi},
+  journal={Technology@ Intel Magazine},
+  volume={84},
+  year={2003}
+}
+
+@inproceedings{stine2005spectrum,
+  title={Spectrum management: the killer application of ad hoc and mesh networking},
+  author={Stine, John A},
+  booktitle={New Frontiers in Dynamic Spectrum Access Networks, 2005. DySPAN 2005. 2005 First IEEE International Symposium on},
+  pages={184--193},
+  year={2005},
+  organization={IEEE}
+}
+
+@inproceedings{berlemann2005policy,
+  title={Policy-based reasoning for spectrum sharing in radio networks},
+  author={Berlemann, Lars and Mangold, Stefan and Walke, Bernhard H},
+  booktitle={New Frontiers in Dynamic Spectrum Access Networks, 2005. DySPAN 2005. 2005 First IEEE International Symposium on},
+  pages={1--10},
+  year={2005},
+  organization={IEEE}
 }
 
