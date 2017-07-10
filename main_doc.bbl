@@ -58,7 +58,7 @@ Gregory Staple and Kevin Werbach.
 \newblock (Date last accessed 8-July-2017).
 
 \bibitem{Mitola}
-J.~Mitola and Jr. Maguire, G.Q.
+Joseph Mitola and Gerald Q.~Maguire Jr.
 \newblock Cognitive radio: making software radios more personal.
 \newblock {\em Personal Communications, IEEE}, 6(4):13--18, 1999.
 
@@ -142,7 +142,7 @@ Ryan~W Thomas, Luiz~A DaSilva, and Allen~B MacKenzie.
 \newblock Cognitive networks.
 \newblock In {\em New Frontiers in Dynamic Spectrum Access Networks, 2005.
   DySPAN 2005. 2005 First IEEE International Symposium on}, pages 352--360.
-  Ieee, 2005.
+  IEEE, 2005.
 
 \bibitem{haykin2005cognitive}
 Simon Haykin.
@@ -162,7 +162,7 @@ Milind~M Buddhikot, Paul Kolodzy, Scott Miller, Kevin Ryan, and Jason Evans.
 \newblock Dimsumnet: new directions in wireless networking using coordinated
   dynamic spectrum.
 \newblock In {\em World of Wireless Mobile and Multimedia Networks, 2005.
-  WoWMoM 2005. Sixth IEEE International Symposium on a}, pages 78--85. Ieee,
+  WoWMoM 2005. Sixth IEEE International Symposium on a}, pages 78--85. IEEE,
   2005.
 
 \bibitem{ileri2005demand}
@@ -222,6 +222,13 @@ Carlson~Wireless Technology.
 \newblock Ruralconnect - tv white spaces radio.
 \newblock \url{http://www.carlsonwireless.com/ruralconnect/}.
 \newblock (Date last accessed 9-July-2017).
+
+\bibitem{gutierrez2001ieee}
+Jose~A Gutierrez, Marco Naeve, Ed~Callaway, Monique Bourgeois, Vinay Mitter,
+  and Bob Heile.
+\newblock Ieee 802.15. 4: a developing standard for low-power low-cost wireless
+  personal area networks.
+\newblock {\em IEEE network}, 15(5):12--19, 2001.
 
 \bibitem{raniwala2005architecture}
 Ashish Raniwala and Tzi-cker Chiueh.
@@ -308,7 +315,7 @@ Brandon~F Lo.
 
 \bibitem{thilina2016dccc}
 Karaputugala G~Madushan Thilina, Ekram Hossain, and Dong~In Kim.
-\newblock Dccc-mac: a dynamic common-control-channel-based mac protocol for
+\newblock {DCCC-MAC}: a dynamic common-control-channel-based mac protocol for
   cellular cognitive radio networks.
 \newblock {\em IEEE Transactions on Vehicular Technology}, 65(5):3597--3613,
   2016.

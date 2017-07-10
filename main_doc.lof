@@ -4,7 +4,7 @@
 \contentsline {figure}{\numberline {1.3}{\ignorespaces Advantages of multi-radio networks\relax }}{3}{figure.caption.10}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Cognitive radio transceiver (redrawn from\nobreakspace {}\cite {jondral2005software})\relax }}{6}{figure.caption.11}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Wideband RF/analog front-end architecture for cognitive radio (redrawn from\nobreakspace {}\cite {cabric2004implementation})\relax }}{7}{figure.caption.12}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Wideband RF/analog front-end architecture of a cognitive radio (redrawn from\nobreakspace {}\cite {cabric2004implementation})\relax }}{7}{figure.caption.12}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Cognitive radio networks architecture\nobreakspace {}\cite {bwnGatechProjectDescription}\relax }}{8}{figure.caption.13}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Applications of cognitive radio networks\nobreakspace {}\cite {akyildiz2006next}\relax }}{9}{figure.caption.14}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Secondary users (SUs) equipped with multiple radios experience reduced switching delay\relax }}{11}{figure.caption.15}
@@ -17,5 +17,4 @@
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Average end-to-end delay with varying number of radios for various application data rates\relax }}{25}{figure.caption.20}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Average packet drop ratio with varying number of radios for various application data rates\relax }}{26}{figure.caption.21}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Application layer packet delivery ratio with varying number of radios for various application data rates\relax }}{27}{figure.caption.22}
-\addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -10,16 +10,18 @@ Cognitive radio is a special kind of radio with two unique attributes namely cog
 Based on these two special characteristics, the primary objective of cognitive radio can be best understood from its widely adopted definition as follows~\cite{federal2005notice}:
 
 \begin{quote}
-A cognitive radio is a radio or system that senses its operational electromagnetic environment and can dynamically and autonomously adjust its radio operating parameters to modify system operation, such as maximize throughput, mitigate interference, facilitate interoperability, access secondary markets.
+``A cognitive radio is a radio or system that senses its operational electromagnetic environment and can dynamically and autonomously adjust its radio operating parameters to modify system operation, such as maximize throughput, mitigate interference, facilitate interoperability, access secondary markets.''
 \end{quote}
 
-Given the fixed nature of traditional spectrum allocation, the primary challenge of cognitive radio is to exploit spectrum holes in the licensed band while not causing any interruption to the licensed users. Therefore, while using a temporally and/or spatially free spectrum, if the licensed user starts using the corresponding spectrum, the cognitive radio must have the capability to switch to another spectrum or change its other transmission parameters to avoid interruption with the licensed user. Next, we will see how does a cognitive radio achieve this in greater detail.
+Given the fixed nature of traditional spectrum allocation, the primary challenge of cognitive radio is to exploit spectrum holes in the licensed band while not causing any interruption to the licensed users. Therefore, while using a temporally and/or spatially free spectrum, if the licensed user starts using the corresponding spectrum, the cognitive radio must have the capability to switch to another spectrum or change its other transmission parameters to avoid interruption with the licensed user. Next, we present how a cognitive radio achieves this goal.
 
 \subsection{Working Method of A Cognitive Radio}
 
 \begin{figure}[!htbp]
+\vspace{-1cm}
 \begin{center}
     \includegraphics[scale=0.5]{myFigures/PhysicalCR}
+\vspace{-1cm}
     \caption{Cognitive radio transceiver (redrawn from~\cite{jondral2005software})}
     \label{fig:PhysicalCR}
 \end{center}
@@ -30,18 +32,19 @@ As shown in Figure~\ref{fig:PhysicalCR}~\cite{jondral2005software}, the cognitiv
 \begin{figure}[!htbp]
 \begin{center}
     \includegraphics[scale=0.5]{myFigures/RFFrontEnd}
-    \caption{Wideband RF/analog front-end architecture for cognitive radio (redrawn from~\cite{cabric2004implementation})}
+    \caption{Wideband RF/analog front-end architecture of a cognitive radio (redrawn from~\cite{cabric2004implementation})}
     \label{fig:RFFrontEnd}
 \end{center}
 \end{figure}
 
 The radio front-end of a cognitive radio is illustrated in Figure~\ref{fig:RFFrontEnd}~\cite{cabric2004implementation}. It has a wideband sensing capability mainly due to its components such as wideband antenna, power amplifier, and adaptive filter. This wideband sensing capability of the radio front end enables cognitive radio to tune to any part of a wide spectrum band. This capability also helps cognitive radio to measure any spectrum information of radio surroundings. To accomplish all this, a wideband radio front-end needs to have several components~\cite{akyildiz2006next}: RF filter, low noise amplifier (LNA), tunable notch, wideband tunable local oscillator (LO), and analog to digital (A/D) converter. RF filter works as a bandpass filter selecting only the desired band RF signal. LNA minimizes the signal noise and amplifies the desired signals amplitude. Tunable notch filters the selected channel from the signal and rejects adjacent channels. Wideband tunable LO has mainly two components: voltage-controlled oscillator (VCO) and mixer. VCO usually can generate signals at any specific frequency and this locally generated RF signal is mixed with desired signal at mixer to convert it into a baseband signal. A/D converter samples and quantizes this signal with very high resolution.
 
-Now that we have described the definition and the working procedure of cognitive radios, we will see how the cognitive radio networks (CRNs) architecture employs cognitive radios to increase spectrum utilization. 
+
+A Cognitive Radio Network (CRN) exploits the capability of cognitive radios. Next, we present how the CRN architecture employs cognitive radios to increase spectrum utilization.
 
 \section{Cognitive Radio Networks (CRNs)}
 
-The Cognitive Radio Networks (CRNs) architecture is shown in Figure~\ref{fig:cogArch}. The components of the architecture can be widely categorized in two groups, the primary network and the secondary network~\cite{akyildiz2006next}. The primary network is the existing network infrastructure. In the existing infrastructure, some spectrum bands are licensed (Example, cellular network, TV broadcast networks) and some other bands are unlicensed. Licensed band users have exclusive right to their spectrum band and are called primary users (PUs). Primary users' access to their licensed band is supervised by the primary base stations and these users require no adaptation to include in cognitive radio networks architecture. 
+The Cognitive Radio Networks (CRNs) architecture is shown in Figure~\ref{fig:cogArch}. The components of the architecture can be widely categorized in two groups, the primary network and the secondary network~\cite{akyildiz2006next}. The primary network is the existing network infrastructure. In the existing infrastructure, some spectrum bands are licensed (for example, cellular network, TV broadcast networks) and some other bands are unlicensed. Licensed band users have exclusive right to their spectrum band and are called primary users (PUs). Primary users' access to their licensed band is supervised by the primary base stations and these users require no adaptation to include in cognitive radio networks architecture. 
 
 \begin{figure}[!htbp]
     \begin{center}
@@ -54,17 +57,13 @@ The Cognitive Radio Networks (CRNs) architecture is shown in Figure~\ref{fig:cog
 The secondary network is also known as dynamic spectrum access network, unlicensed network, xG network, and cognitive radio network~\cite{akyildiz2006next}. The users of this network contains no license to use the spectrum band and are called secondary users (SUs). These users employ cognitive radios to opportunistically exploit temporal spectrum holes. The secondary network can operate under the provision of secondary base stations or just work in an ad hoc manner. Another important component of cognitive radio networks is a central network entity called spectrum broker that works as a spectrum information manager to maintain the coexistence of multiple cognitive radio networks~\cite{akyildiz2006next, buddhikot2005dimsumnet, ileri2005demand, zekavat2005user}.
 
 \section{Applications of CRNs}
-The unconventional architecture of cognitive radio networks has several applications including high-speed rural internet infrastructure development~\cite{fitch2011wireless}, military networks~\cite{murty2003software}, emergency networks~\cite{maldonado2005cognitive}, leased networks~\cite{stine2005spectrum}, and cognitive mesh networks~\cite{berlemann2005policy}.
+The unconventional architecture of cognitive radio networks exhibits a potential to be utilized in several applications including high-speed rural Internet infrastructure development~\cite{fitch2011wireless}, military networks~\cite{murty2003software}, emergency networks~\cite{maldonado2005cognitive}, leased networks~\cite{stine2005spectrum}, and cognitive mesh networks~\cite{berlemann2005policy}. For example, California based Carlson wireless technologies markets cognitive radio enabled RuralConnect device~\cite{ruralConnect}. This device exploits TV white space to deliver high speed Internet connectivity to rural people. It can also be deployed in densly populated areas with significant spectrum contention.
 
-California based Carlson wireless technologies markets cognitive radio enabled RuralConnect device~\cite{ruralConnect}. This device exploits TV white space to deliver high speed internet connectivity to rural people. It can also be deployed in densly populated areas with significant spectrum contention.
-
-Military networks is another significant applications of CRNs. CRNs support military radios' requirements of choosing any random frequency, modulation and coding techniques, and adaptation to the changing battle-field environment~\cite{akyildiz2006next}.
-
-Emergency networks in the times of natural disasters can be established using CRNs. CRNs establishes such emergency networks by enabling data communication over existing spectrum without installing any new infrastructures~\cite{maldonado2005cognitive}.
+Military networks is another significant applications of CRNs. CRNs support military radios' requirements of choosing any random frequency, modulation and coding techniques, and adaptation to the changing battle-field environment~\cite{akyildiz2006next}. Emergency networks in the times of natural disasters can be established using CRNs. CRNs establishes such emergency networks by enabling data communication over existing spectrum without installing any new infrastructures~\cite{maldonado2005cognitive}.
 
 \begin{figure}[!htbp]
     \begin{center}
-        \includegraphics[width=0.8\textwidth]{myFigures/CRNApplications.png}
+        \includegraphics[width=1.0\textwidth]{myFigures/CRNApplications.png}
         \caption{Applications of cognitive radio networks~\cite{akyildiz2006next}}
         \label{fig:CRNApplications}
     \end{center}
@@ -72,12 +71,12 @@ Emergency networks in the times of natural disasters can be established using CR
 
 \section{Multi-Radio Networks}
 
-The price of RF transceivers has rapidly reduced in the last few years. This price reduction has prompted to install multiple low-cost radios in a single node of wireless networks~\cite{raniwala2005architecture}. Such networks are known as multi-radio networks. These multi-radio networks impose unique research challenges due to the nature of two conflicting objectives: channel diversity and node connectivity~\cite{wang2007survey}. Multiple radios on a single node enables simultaneous multiple channel access which results in improved network capacity. On the contrary, the transmitter and the receiver must be adjusted to the same channel to maintain network connectivity. Consequently, common control radio based protocols has been proposed in the recent literature to address these challenges~\cite{ko2007distributed, al2016channel, gabale2013classification, kyasanur2006routing, chatterjee2013low}.
+The price of RF transceivers has rapidly reduced in the last few years~\cite{gutierrez2001ieee}. This price reduction has prompted to install multiple low-cost radios in a single node of wireless networks~\cite{raniwala2005architecture}. Such networks are known as multi-radio networks. These multi-radio networks impose unique research challenges due to the nature of two conflicting objectives: channel diversity and node connectivity~\cite{wang2007survey}. Multiple radios on a single node enables simultaneous multiple channel access which results in improved network capacity. On the contrary, the transmitter and the receiver must be adjusted to the same channel to maintain network connectivity. Consequently, common control radio based protocols has been proposed in the recent literature to address these challenges~\cite{ko2007distributed, al2016channel, gabale2013classification, kyasanur2006routing, chatterjee2013low}.
 
 One of significant advantage of installing multiple radios on a single node in multi-radio networks is the network performance improvement through parallel spectrum access. On the other hand, the basic motivation behind using cognitive radio networks is also to improve network performance through opportunistic dynamic spectrum access. Therefore, these two paradigms are combined into another network architecture, multi-radio cognitive radio networks. 
 
 \section{Multi-Radio Cognitive Radio Networks (MRCRNs)}
-In multi-radio cognitive radio networks, secondary users are equipped with multiple transceivers. This enables secondary users to increase spectrum access just like any multi-radio networks. Moreover, the channel switching time for cognitive radio networks is also reduced as illustrated in Figure~\ref{fig:switchingDelay}. Secondary users have to vacant their currently used channel when the channel's licensed primary user becomes active. This results into secondary users looking for another free channel and switching into that free channel. Secondary users equipped with multiple radios can exploit their additional radios to reduce this switching delay.
+In multi-radio cognitive radio networks, secondary users are equipped with multiple transceivers. This enables secondary users to increase spectrum access just like any multi-radio networks. Moreover, the channel switching time for cognitive radio networks is also reduced as illustrated in Figure~\ref{fig:switchingDelay}. Secondary users have to vacant their currently used channel when the channel's licensed primary user becomes active. This results into secondary users looking for another free channel and switching into that free channel. Secondary users equipped with multiple radios can exploit their additional radios to reduce this switching delay. Due to these advantages, several studies have investigated the various research problems in MRCRNs. In next section, we will survey the existing research works on MRCRNs.
 
 \begin{figure}[!htbp]
 \begin{center}
@@ -87,7 +86,6 @@ In multi-radio cognitive radio networks, secondary users are equipped with multi
 \end{center}
 \end{figure}
 
-Due to these advantages, several studies have investigated the various research problems in MRCRNs. In next section, we will survey the existing research works on MRCRNs.
 
 \section{Existing Studies on MRCRNs}
 Existing studies on MRCRNs mainly investigate how to incorporate multiple radios in dynamic spectrum sharing scenario. These studies mainly propose medium access control protocols~\cite{cormio2009survey, de2012survey}, routing protocols~\cite{zhu2008stod, feng2009joint}, and channel assignment~\cite{ahmadi2012distributed, zhong2014capacity} for MRCRNs. Zhu et al., present a spectrum-tree based on-demand routing protocol that considers multi-radio nodes~\cite{zhu2008stod}. Such nodes belong to multiple spectrum-trees and are called overlapping nodes. As these nodes simultaneously work in different spectrum-trees, they can be used for inter-spectrum routing. The study shows that the proposed approach significantly reduces the average end-to-end delay.  Besides, Feng et al., propose a novel spectrum handoff scheduling approach for multi-hop MRCRNs~\cite{feng2009joint}. This study presents a routing protocol with the help of aging-based priority assignment to minimize the latency. Thus none of these approaches addresses the problem of overcoming throughput degradation problem in MRCRNs.

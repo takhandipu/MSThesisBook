@@ -12,7 +12,7 @@ This dedicated control channel is utilized into time slots. Each time slot has $
 
 \begin{figure}[!htb]
 \begin{center}
-\begin{tikzpicture}[scale=0.5, transform shape]
+\begin{tikzpicture}[scale=0.35, transform shape]
     \node {\input{myFigures/systemModel}};
 \end{tikzpicture}
 \caption{System model of a MRCRN}
@@ -23,5 +23,5 @@ This dedicated control channel is utilized into time slots. Each time slot has $
 
 \section{Problem Definition}
 
-Under the presented system model, our research question is how to efficiently use the available multiple data transmission radios to get enhanced total network throughput while limiting end-to-end delay. As there is no central authority in the considered system model, solution of the problem must be distributed. Besides, the decision making must also be online as the primary and secondary users' behavior can dynamically vary and thus can not be predicted beforehand. Considering these aspects, we propose a new solution in the next chapter.
+Under the presented system model, our research question is how to efficiently use the available multiple data transmission radios to get enhanced total network throughput while limiting end-to-end delay. As there is no central authority in the considered system model, solution of the problem must be distributed. Besides, the decision making must also be online as the primary and secondary users' behavior can dynamically vary, and thus can not be predicted beforehand. Considering these aspects, we propose a new solution in the next chapter.
 \endinput
