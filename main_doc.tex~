@@ -39,6 +39,7 @@
 \usetikzlibrary{backgrounds}%arrows, shapes, trees, 
 \usetikzlibrary{positioning}
 \usetikzlibrary{shapes.geometric, arrows}
+\usetikzlibrary{patterns}
 
 \makeatletter
 \let\OldStatex\Statex

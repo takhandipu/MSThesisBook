@@ -11,9 +11,9 @@
 \BOOKMARK [1][-]{section.2.2}{Cognitive Radio Networks \(CRNs\)}{chapter.2}% 11
 \BOOKMARK [1][-]{section.2.3}{Applications of CRNs}{chapter.2}% 12
 \BOOKMARK [1][-]{section.2.4}{Multi-Radio Networks}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.5}{Multi-Radio Cognitive Radio Networks\(MRCRNs\)}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.5}{Multi-Radio Cognitive Radio Networks \(MRCRNs\)}{chapter.2}% 14
 \BOOKMARK [1][-]{section.2.6}{Existing Studies on MRCRNs}{chapter.2}% 15
-\BOOKMARK [0][-]{chapter.3}{System Model and Problem Definition}{}% 16
+\BOOKMARK [0][-]{chapter.3}{System Model and Problem Formulation}{}% 16
 \BOOKMARK [1][-]{section.3.1}{System Model}{chapter.3}% 17
 \BOOKMARK [1][-]{section.3.2}{Problem Definition}{chapter.3}% 18
 \BOOKMARK [0][-]{chapter.4}{Proposed Methodology: Feedback-based Multi-radio Exploitation Approach}{}% 19
@@ -24,7 +24,7 @@
 \BOOKMARK [0][-]{chapter.5}{Experimental Evaluation}{}% 24
 \BOOKMARK [1][-]{section.5.1}{Simulator Modifications}{chapter.5}% 25
 \BOOKMARK [1][-]{section.5.2}{Simulation Settings}{chapter.5}% 26
-\BOOKMARK [1][-]{section.5.3}{Simulation Results and Analysis}{chapter.5}% 27
+\BOOKMARK [1][-]{section.5.3}{Results and Analysis}{chapter.5}% 27
 \BOOKMARK [1][-]{section.5.4}{Simulation Findings}{chapter.5}% 28
 \BOOKMARK [0][-]{chapter.6}{Future Work}{}% 29
 \BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 30

@@ -93,19 +93,6 @@ Wei Song and Weihua Zhuang.
 \newblock {\em Wireless Communications, IEEE Transactions on},
   11(4):1554--1564, 2012.
 
-\bibitem{kyasanur2006routing}
-Pradeep Kyasanur and Nitin~H Vaidya.
-\newblock Routing and link-layer protocols for multi-channel multi-interface ad
-  hoc wireless networks.
-\newblock {\em ACM SIGMOBILE Mobile Computing and Communications Review},
-  10(1):31--43, 2006.
-
-\bibitem{chatterjee2013low}
-Avhishek Chatterjee, Supratim Deb, Kanthi Nagaraj, and Vikram Srinivasan.
-\newblock Low delay mac scheduling for frequency-agile multi-radio wireless
-  networks.
-\newblock 2013.
-
 \bibitem{li2014deterministic}
 Guyue Li, Zhaoquan Gu, Xiao Lin, Haosen Pu, and Qiang-sheng Hua.
 \newblock Deterministic distributed rendezvous algorithms for multi-radio
@@ -269,6 +256,19 @@ Vijay Gabale, Bhaskaran Raman, Partha Dutta, and Shivkumar Kalyanraman.
 \newblock A classification framework for scheduling algorithms in wireless mesh
   networks.
 \newblock {\em IEEE Communications Surveys \& Tutorials}, 15(1):199--222, 2013.
+
+\bibitem{kyasanur2006routing}
+Pradeep Kyasanur and Nitin~H Vaidya.
+\newblock Routing and link-layer protocols for multi-channel multi-interface ad
+  hoc wireless networks.
+\newblock {\em ACM SIGMOBILE Mobile Computing and Communications Review},
+  10(1):31--43, 2006.
+
+\bibitem{chatterjee2013low}
+Avhishek Chatterjee, Supratim Deb, Kanthi Nagaraj, and Vikram Srinivasan.
+\newblock Low delay mac scheduling for frequency-agile multi-radio wireless
+  networks.
+\newblock 2013.
 
 \bibitem{cormio2009survey}
 Claudia Cormio and Kaushik~R Chowdhury.
