@@ -36,6 +36,7 @@
 \usepackage{cleveref}
 \usepackage{amsmath}
 \usepackage{pdflscape}
+\usepackage[toc,page]{appendix}
 \usetikzlibrary{backgrounds}%arrows, shapes, trees, 
 \usetikzlibrary{positioning}
 \usetikzlibrary{shapes.geometric, arrows}
@@ -109,6 +110,7 @@
 
 \input{conclusion.tex}
 
+\input{myAppendix.tex}
 \bibliographystyle{unsrt}
 %\bibliographystyle{ieeetr}
 \bibliography{SystemModel}
