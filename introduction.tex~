@@ -7,7 +7,7 @@ The famous spectrum scarcity problem~\cite{SpectrumScarcity} along with signific
 
 \begin{figure}[!htbp]
     \begin{center}
-        \includegraphics[width=0.85\textwidth]{myFigures/SpectrumUnderutilizationSir.PNG}
+        \includegraphics[width=0.8\textwidth]{myFigures/SpectrumUnderutilizationSir.PNG}
         \caption{Licensed frequency spectrums are mostly under-utilized~\cite{valenta2010survey}}
         \label{fig:SpectrumUnderutilization}
     \end{center}

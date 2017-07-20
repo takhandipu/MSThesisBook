@@ -127,7 +127,7 @@ ISSN={0743-166X},}
 }
 
 @article{thilina2016dccc,
-  title={DCCC-MAC: a dynamic common-control-channel-based MAC protocol for cellular cognitive radio networks},
+  title={{DCCC-MAC}: a dynamic common-control-channel-based MAC protocol for cellular cognitive radio networks},
   author={Thilina, Karaputugala G Madushan and Hossain, Ekram and Kim, Dong In},
   journal={IEEE Transactions on Vehicular Technology},
   volume={65},
