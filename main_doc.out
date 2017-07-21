@@ -20,11 +20,12 @@
 \BOOKMARK [1][-]{section.4.1}{Overview of The Proposed Approach}{chapter.4}% 20
 \BOOKMARK [1][-]{section.4.2}{Radio Selection Based on Packet Transmission Ratio}{chapter.4}% 21
 \BOOKMARK [1][-]{section.4.3}{Channel Selection Based on Channel Utilization Ratio}{chapter.4}% 22
-\BOOKMARK [1][-]{section.4.4}{Variants of Our Proposed Approach}{chapter.4}% 23
-\BOOKMARK [0][-]{chapter.5}{Experimental Evaluation}{}% 24
-\BOOKMARK [1][-]{section.5.1}{Simulator Modifications}{chapter.5}% 25
-\BOOKMARK [1][-]{section.5.2}{Simulation Settings}{chapter.5}% 26
-\BOOKMARK [1][-]{section.5.3}{Results and Analysis}{chapter.5}% 27
-\BOOKMARK [1][-]{section.5.4}{Simulation Findings}{chapter.5}% 28
-\BOOKMARK [0][-]{chapter.6}{Conclusion and Future Work}{}% 29
-\BOOKMARK [0][-]{Appendix.1.A}{Appendix Simulation Results for Different Network Topologies}{}% 30
+\BOOKMARK [1][-]{section.4.4}{Sequential Radio and Channel Selection}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.5}{Variants of Our Proposed Approach}{chapter.4}% 24
+\BOOKMARK [0][-]{chapter.5}{Experimental Evaluation}{}% 25
+\BOOKMARK [1][-]{section.5.1}{Simulator Modifications}{chapter.5}% 26
+\BOOKMARK [1][-]{section.5.2}{Simulation Settings}{chapter.5}% 27
+\BOOKMARK [1][-]{section.5.3}{Results and Analysis}{chapter.5}% 28
+\BOOKMARK [1][-]{section.5.4}{Simulation Findings}{chapter.5}% 29
+\BOOKMARK [0][-]{chapter.6}{Conclusion and Future Work}{}% 30
+\BOOKMARK [0][-]{Appendix.1.A}{Appendix Simulation Results for Different Network Topologies}{}% 31

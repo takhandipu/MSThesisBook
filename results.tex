@@ -17,7 +17,24 @@ Using the modified simulator, we implement our proposed approach and evaluate it
 
 \section{Simulation Settings}
 
-We consider that arrival and departure of a PU follow a Poisson process~\cite{heo2008mathematical}. Accordingly, we consider an exponential distribution for both inter-arrival time and service time. Hence we adopt the mean time between two successive arrivals to be 5 seconds and the mean service time to be 2 seconds. Besides, we consider that each secondary user enables a constant bit rate application where the data transmission rate is varied from 1 Mbps to 32 Mbps. Here, each secondary user is equipped with a variable number of radios. Each of the radios consists of one transmitter interface and one receiver interface. The transmitter interface transmits data over any of the eleven orthogonal channels that conventionally operate with OFDM WiFi mode having 18Mbps data rate. For each transmitter interface or radio, we associate a drop-tail queue with a maximum capacity of 100 packets, each of 1KB in size. These interfaces have a transmission range of 130m and a sensing range of 250m. To ensure that the destination users are reachable from the source users, we place the destinations at an average distance of 80m from the sources. Maintaining such average distance, primary users and secondary users are placed randomly in an area of $500$m$\times 500$m. Here, we vary the number of secondary users from 12 to 40 with a granularity of 4. For each such settings, we perform 99 simulation iterations, each of 50 seconds, and then take average results of all the iterations. It is to be noted here that the maximum iteration count for obtaining 95\% confidence interval according to Monte Carlo Sampling~\cite{winston2000simulation} is found to be 61 in our experiment settings. 
+We consider that arrival and departure of a PU follow a Poisson process~\cite{heo2008mathematical}. Accordingly, we consider an exponential distribution for both inter-arrival time and service time. Hence we adopt the mean time between two successive arrivals to be 5 seconds and the mean service time to be 2 seconds. Besides, we consider that each secondary user enables a constant bit rate application where the data transmission rate is varied from 1 Mbps to 32 Mbps. Here, each secondary user is equipped with a variable number of radios. Each of the radios consists of one transmitter interface and one receiver interface. The transmitter interface transmits data over any of the eleven orthogonal channels that conventionally operate with OFDM WiFi mode having 18Mbps data rate. For each transmitter interface or radio, we associate a drop-tail queue with a maximum capacity of 100 packets, each of 1KB in size. These interfaces have a transmission range of 130m and a sensing range of 250m. To ensure that the destination users are reachable from the source users, we place the destinations at an average distance of 80m from the sources. Maintaining such average distance, primary users and secondary users are placed randomly in an area of $500$m$\times 500$m. Here, we vary the number of secondary users from 12 to 40 with a granularity of 4. For each such settings, we perform 99 simulation iterations and then take average results of all the iterations. It is to be noted here that the maximum iteration count for obtaining 95\% confidence interval according to Monte Carlo Sampling~\cite{winston2000simulation} is found to be 61 in our experiment settings. As our initial simulation results shows that almost all the performance metrics become constant after 40-50 seconds (as shown in Figure~\ref{}), each iteration of our simulation is 50 seconds long.
+
+\begin{figure*}[!htbp]
+    \centering
+    \begin{subfigure}[t]{0.475\textwidth}
+        \includegraphics[width=\textwidth]{topology4/Delay24d1}
+        \caption{Average network throughput}
+        \label{fig:simEndTime1}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[t]{0.475\textwidth}
+        \includegraphics[width=\textwidth]{topology4/Delay24d2}
+        \caption{Average end-to-end delay}
+        \label{fig:simEndTime2}
+    \end{subfigure}
+    \caption{Average network throughput and end-to-end delay with varying simulation end time}
+    \label{fig:simEndTimeTest}
+\end{figure*}
 
 We carefully set the tuning parameters of the proposed approach after numerous simulation trials. The channel switching probability of SU radios, \texttt{switchingProbability} was varied from 0.1 to 0.9 with a granularity of 0.05 and the reactivation probability of switched-off radios, \texttt{wakeUpProbability} was varied from 0.05 to 0.5 with a granularity of 0.05. Following these initial simulation results, we selected the value of these parameters that yielded best results in terms of throughput, delay, and packet drop ratio. The \texttt{switchingProbability} is set as 0.75 and the \texttt{wakeUpProbability} is set as 0.2. The channel sensing time for each of the cognitive radio is set as 0.01s while the channel switching time is set as 0.05s.
 
