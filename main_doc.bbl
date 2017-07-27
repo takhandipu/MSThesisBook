@@ -8,41 +8,6 @@ Tanvir~Ahmed Khan, Chowdhury~Sayeed Hyder, and ABM Islam.
   (WiMob), 2015 IEEE 11th International Conference on}, pages 370--377. IEEE,
   2015.
 
-\bibitem{valenta2010survey}
-V{\'a}clav Valenta, Roman Mar{\v{s}}{\'a}lek, Genevi{\`e}ve Baudoin, Martine
-  Villegas, Martha Suarez, and Fabien Robert.
-\newblock Survey on spectrum utilization in europe: Measurements, analyses and
-  observations.
-\newblock In {\em Cognitive Radio Oriented Wireless Networks \& Communications
-  (CROWNCOM), 2010 Proceedings of the Fifth International Conference on}, pages
-  1--5. IEEE, 2010.
-
-\bibitem{jondral2005software}
-Friedrich~K Jondral.
-\newblock Software-defined radio: basics and evolution to cognitive radio.
-\newblock {\em EURASIP journal on wireless communications and networking},
-  2005(3):275--283, 2005.
-
-\bibitem{cabric2004implementation}
-Danijela Cabric, Shridhar~Mubaraq Mishra, and Robert~W Brodersen.
-\newblock Implementation issues in spectrum sensing for cognitive radios.
-\newblock In {\em Signals, systems and computers, 2004. Conference record of
-  the thirty-eighth Asilomar conference on}, volume~1, pages 772--776. Ieee,
-  2004.
-
-\bibitem{bwnGatechProjectDescription}
-School of~Electrical Broadband Wireless Networking~Lab and Georgia Insititute
-  of~Technology Computer~Engineering.
-\newblock Cognitive radio networks.
-\newblock \url{http://bwn.ece.gatech.edu/CR/projectdescription.html}, 2006.
-\newblock (Date last accessed 5-July-2017).
-
-\bibitem{akyildiz2006next}
-Ian~F Akyildiz, Won-Yeol Lee, Mehmet~C Vuran, and Shantidev Mohanty.
-\newblock Next generation/dynamic spectrum access/cognitive radio wireless
-  networks: a survey.
-\newblock {\em Computer Networks}, 50(13):2127--2159, 2006.
-
 \bibitem{zhong2014capacity}
 Xiaoxiong Zhong, Yang Qin, and Li~Li.
 \newblock Capacity analysis in multi-radio multi-channel cognitive radio
@@ -56,6 +21,21 @@ Gregory Staple and Kevin Werbach.
   \url{http://spectrum.ieee.org/telecom/wireless/the-end-of-spectrum-scarcity},
   2004.
 \newblock (Date last accessed 8-July-2017).
+
+\bibitem{valenta2010survey}
+V{\'a}clav Valenta, Roman Mar{\v{s}}{\'a}lek, Genevi{\`e}ve Baudoin, Martine
+  Villegas, Martha Suarez, and Fabien Robert.
+\newblock Survey on spectrum utilization in europe: Measurements, analyses and
+  observations.
+\newblock In {\em Cognitive Radio Oriented Wireless Networks \& Communications
+  (CROWNCOM), 2010 Proceedings of the Fifth International Conference on}, pages
+  1--5. IEEE, 2010.
+
+\bibitem{akyildiz2006next}
+Ian~F Akyildiz, Won-Yeol Lee, Mehmet~C Vuran, and Shantidev Mohanty.
+\newblock Next generation/dynamic spectrum access/cognitive radio wireless
+  networks: a survey.
+\newblock {\em Computer Networks}, 50(13):2127--2159, 2006.
 
 \bibitem{Mitola}
 Joseph Mitola and Gerald Q.~Maguire Jr.
@@ -150,12 +130,32 @@ Simon Haykin.
 \newblock {\em IEEE journal on selected areas in communications},
   23(2):201--220, 2005.
 
+\bibitem{jondral2005software}
+Friedrich~K Jondral.
+\newblock Software-defined radio: basics and evolution to cognitive radio.
+\newblock {\em EURASIP journal on wireless communications and networking},
+  2005(3):275--283, 2005.
+
 \bibitem{federal2005notice}
 Federal~Communications Commission et~al.
 \newblock Notice of proposed rule making and order: Facilitating opportunities
   for flexible, efficient, and reliable spectrum use employing cognitive radio
   technologies.
 \newblock {\em ET docket}, (03-108):73, 2005.
+
+\bibitem{cabric2004implementation}
+Danijela Cabric, Shridhar~Mubaraq Mishra, and Robert~W Brodersen.
+\newblock Implementation issues in spectrum sensing for cognitive radios.
+\newblock In {\em Signals, systems and computers, 2004. Conference record of
+  the thirty-eighth Asilomar conference on}, volume~1, pages 772--776. Ieee,
+  2004.
+
+\bibitem{bwnGatechProjectDescription}
+School of~Electrical Broadband Wireless Networking~Lab and Georgia Insititute
+  of~Technology Computer~Engineering.
+\newblock Cognitive radio networks.
+\newblock \url{http://bwn.ece.gatech.edu/CR/projectdescription.html}, 2006.
+\newblock (Date last accessed 5-July-2017).
 
 \bibitem{buddhikot2005dimsumnet}
 Milind~M Buddhikot, Paul Kolodzy, Scott Miller, Kevin Ryan, and Jason Evans.

@@ -23,7 +23,7 @@
 \usepackage{longtable}
 \usepackage{multirow} % tables
 \usepackage{rotating} % for rotating texts
-%\usepackage{paralist}
+\usepackage{paralist}
 %\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
 %\usepackage{algorithmic}
 

@@ -22,34 +22,34 @@ Given the fixed nature of traditional spectrum allocation, the primary challenge
 \begin{center}
     \includegraphics[scale=0.5]{myFigures/PhysicalCR}
 \vspace{-1cm}
-    \caption{Cognitive radio transceiver (redrawn from~\cite{jondral2005software})}
+    \caption{Cognitive radio transceiver}
     \label{fig:PhysicalCR}
 \end{center}
 \end{figure}
 
-As shown in Figure~\ref{fig:PhysicalCR}~\cite{jondral2005software}, the cognitive radio transceiver is consisted of a radio front-end and a processing unit~\cite{akyildiz2006next}. The most important fact that distinguishes cognitive radios from other traditional radios is cognitive radio's ability to reconfigure itself via a control bus parameterizing both the radio front-end and processing units~\cite{jondral2005software}. The radio front-end amplifies and mixes the received signal and then converts it from analog to digital signal. The processing unit doing the job of baseband and data processing is quite similar to conventional radio transceivers. Nonetheless, the unique design of cognitive radio's front end also attributes to its novelty, and therefore, we will discuss the radio front-end up next.
+As shown in Figure~\ref{fig:PhysicalCR} (redrawn from~\cite{jondral2005software}), the cognitive radio transceiver is consisted of a radio front-end and a processing unit~\cite{akyildiz2006next}. The most important fact that distinguishes cognitive radios from other traditional radios is cognitive radio's ability to reconfigure itself via a control bus parameterizing both the radio front-end and processing units~\cite{jondral2005software}. The radio front-end amplifies and mixes the received signal and then converts it from analog to digital signal. The processing unit doing the job of baseband and data processing is quite similar to conventional radio transceivers. Nonetheless, the unique design of cognitive radio's front end also attributes to its novelty, and therefore, we will discuss the radio front-end up next.
 
 \begin{figure}[!htbp]
 \begin{center}
     \includegraphics[scale=0.5]{myFigures/RFFrontEnd}
-    \caption{Wideband RF/analog front-end architecture of a cognitive radio (redrawn from~\cite{cabric2004implementation})}
+    \caption{Wideband RF/analog front-end architecture of a cognitive radio}
     \label{fig:RFFrontEnd}
 \end{center}
 \end{figure}
 
-The radio front-end of a cognitive radio is illustrated in Figure~\ref{fig:RFFrontEnd}~\cite{cabric2004implementation}. It has a wideband sensing capability mainly due to its components such as wideband antenna, power amplifier, and adaptive filter. This wideband sensing capability of the radio front end enables cognitive radio to tune to any part of a wide spectrum band. This capability also helps cognitive radio to measure any spectrum information of radio surroundings. To accomplish all this, a wideband radio front-end needs to have several components~\cite{akyildiz2006next}: RF filter, low noise amplifier (LNA), tunable notch, wideband tunable local oscillator (LO), and analog to digital (A/D) converter. RF filter works as a bandpass filter selecting only the desired band RF signal. LNA minimizes the signal noise and amplifies the desired signals amplitude. Tunable notch filters the selected channel from the signal and rejects adjacent channels. Wideband tunable LO has mainly two components: voltage-controlled oscillator (VCO) and mixer. VCO usually can generate signals at any specific frequency and this locally generated RF signal is mixed with desired signal at mixer to convert it into a baseband signal. A/D converter samples and quantizes this signal with very high resolution.
+The radio front-end of a cognitive radio is illustrated in Figure~\ref{fig:RFFrontEnd} (redrawn from~\cite{cabric2004implementation}). It has a wideband sensing capability mainly due to its components such as wideband antenna, power amplifier, and adaptive filter. This wideband sensing capability of the radio front end enables cognitive radio to tune to any part of a wide spectrum band. This capability also helps cognitive radio to measure any spectrum information of radio surroundings. To accomplish all this, a wideband radio front-end needs to have several components~\cite{akyildiz2006next}: RF filter, low noise amplifier (LNA), tunable notch, wideband tunable local oscillator (LO), and analog to digital (A/D) converter. RF filter works as a bandpass filter selecting only the desired band RF signal. LNA minimizes the signal noise and amplifies the desired signals amplitude. Tunable notch filters the selected channel from the signal and rejects adjacent channels. Wideband tunable LO has mainly two components: voltage-controlled oscillator (VCO) and mixer. VCO usually can generate signals at any specific frequency and this locally generated RF signal is mixed with desired signal at mixer to convert it into a baseband signal. A/D converter samples and quantizes this signal with very high resolution.
 
 
 A Cognitive Radio Network (CRN) exploits the capability of cognitive radios. Next, we present how the CRN architecture employs cognitive radios to increase spectrum utilization.
 
 \section{Cognitive Radio Networks (CRNs)}
 
-The Cognitive Radio Networks (CRNs) architecture is shown in Figure~\ref{fig:cogArch}. The components of the architecture can be widely categorized in two groups, the primary network and the secondary network~\cite{akyildiz2006next}. The primary network is the existing network infrastructure. In the existing infrastructure, some spectrum bands are licensed (for example, cellular network, TV broadcast networks) and some other bands are unlicensed. Licensed band users have exclusive right to their spectrum band and are called primary users (PUs). Primary users' access to their licensed band is supervised by the primary base stations and these users require no adaptation to include in cognitive radio networks architecture. 
+The Cognitive Radio Networks (CRNs) architecture is shown in Figure~\ref{fig:cogArch}~\cite{bwnGatechProjectDescription}. The components of the architecture can be widely categorized in two groups, the primary network and the secondary network~\cite{akyildiz2006next}. The primary network is the existing network infrastructure. In the existing infrastructure, some spectrum bands are licensed (for example, cellular network, TV broadcast networks) and some other bands are unlicensed. Licensed band users have exclusive right to their spectrum band and are called primary users (PUs). Primary users' access to their licensed band is supervised by the primary base stations and these users require no adaptation to include in cognitive radio networks architecture. 
 
 \begin{figure}[!htbp]
     \begin{center}
         \includegraphics[width=0.75\textwidth]{myFigures/cogarchSir.jpg}
-        \caption{Cognitive radio networks architecture~\cite{bwnGatechProjectDescription}}
+        \caption{Cognitive radio networks architecture}
         \label{fig:cogArch}
     \end{center}
 \end{figure}
@@ -64,7 +64,7 @@ Military networks is another significant applications of CRNs. CRNs support mili
 \begin{figure}[!htbp]
     \begin{center}
         \includegraphics[width=1.0\textwidth]{myFigures/CRNApplications.png}
-        \caption{Applications of cognitive radio networks~\cite{akyildiz2006next}}
+        \caption{Applications of cognitive radio networks}
         \label{fig:CRNApplications}
     \end{center}
 \end{figure}

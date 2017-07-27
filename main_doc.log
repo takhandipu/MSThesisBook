@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.5.11)  27 JUL 2017 15:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.5.11)  27 JUL 2017 18:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1129,7 +1129,7 @@ LaTeX Info: Redefining \nameref on input line 84.
 \openout4 = `main_doc.out'.
 
  ABD: EveryShipout initializing macros
-(./front_matter.tex <figures/buet_logo.png, id=130, 1027.84pt x 1027.84pt>
+(./front_matter.tex <figures/buet_logo.png, id=134, 1027.84pt x 1027.84pt>
 File: figures/buet_logo.png Graphic file (type png)
 
 <use figures/buet_logo.png>
@@ -1190,7 +1190,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] (./introduction.tex
 Chapter 1.
 
-<myFigures/SpectrumUnderutilizationSir.PNG, id=405, 935.74594pt x 400.49625pt>
+<myFigures/SpectrumUnderutilizationSir.PNG, id=404, 935.74594pt x 400.49625pt>
 File: myFigures/SpectrumUnderutilizationSir.PNG Graphic file (type png)
 
 <use myFigures/SpectrumUnderutilizationSir.PNG>
@@ -1210,61 +1210,68 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] [3]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 70.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+[2] [3] <myFigures/blockDiagram.png, id=456, 726.46407pt x 172.39406pt>
+File: myFigures/blockDiagram.png Graphic file (type png)
+
+<use myFigures/blockDiagram.png>
+Package pdftex.def Info: myFigures/blockDiagram.png used on input line 65.
+(pdftex.def)             Requested size: 481.87546pt x 114.35387pt.
+ [4 <./myFigures/blockDiagram.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 83.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 70.
-)
-(./relatedWork.tex [4]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
+) (./relatedWork.tex
+[5]
 Chapter 2.
-[5
+[6
 
-] <myFigures/PhysicalCR.png, id=479, 722.7pt x 542.025pt>
+] <myFigures/PhysicalCR.png, id=486, 722.7pt x 542.025pt>
 File: myFigures/PhysicalCR.png Graphic file (type png)
 
 <use myFigures/PhysicalCR.png>
 Package pdftex.def Info: myFigures/PhysicalCR.png used on input line 23.
 (pdftex.def)             Requested size: 361.3491pt x 271.01183pt.
 
-<myFigures/RFFrontEnd.png, id=486, 723.70375pt x 341.275pt>
+<myFigures/RFFrontEnd.png, id=491, 723.70375pt x 341.275pt>
 File: myFigures/RFFrontEnd.png Graphic file (type png)
 
 <use myFigures/RFFrontEnd.png>
 Package pdftex.def Info: myFigures/RFFrontEnd.png used on input line 34.
 (pdftex.def)             Requested size: 361.85098pt x 170.63707pt.
- [6 <./myFigures/PhysicalCR.png>] [7 <./myFigures/RFFrontEnd.png>] <myFigures/c
-ogarchSir.jpg, id=505, 602.25pt x 472.76625pt>
+ [7 <./myFigures/PhysicalCR.png>] [8 <./myFigures/RFFrontEnd.png>] <myFigures/c
+ogarchSir.jpg, id=510, 602.25pt x 472.76625pt>
 File: myFigures/cogarchSir.jpg Graphic file (type jpg)
 
 <use myFigures/cogarchSir.jpg>
 Package pdftex.def Info: myFigures/cogarchSir.jpg used on input line 51.
 (pdftex.def)             Requested size: 361.40659pt x 283.71243pt.
- [8 <./myFigures/cogarchSir.jpg>]
-<myFigures/CRNApplications.png, id=528, 767.86874pt x 411.78844pt>
+ [9 <./myFigures/cogarchSir.jpg>]
+<myFigures/CRNApplications.png, id=531, 767.86874pt x 411.78844pt>
 File: myFigures/CRNApplications.png Graphic file (type png)
 
 <use myFigures/CRNApplications.png>
 Package pdftex.def Info: myFigures/CRNApplications.png used on input line 66.
 (pdftex.def)             Requested size: 481.87546pt x 258.42273pt.
- [9 <./myFigures/CRNApplications.png>]
-(./myFigures/switchingDelay.tex) [10] [11]) (./systemModel.tex [12]
+ [10 <./myFigures/CRNApplications.png>]
+(./myFigures/switchingDelay.tex) [11] [12]) (./systemModel.tex [13]
 Chapter 3.
-[13
+[14
 
 ] (./myFigures/systemModel.tex (./pu.tex) (./pu.tex) (./pu.tex) (./pu.tex)
 (./su_circle.tex) (./su_circle.tex) (./su_circle.tex) (./su_circle.tex)
 (./su_circle.tex) (./channel.tex) (./channel.tex) (./channel.tex)
-(./channel.tex) (./controlChannel.tex))) (./feedback.tex [14]
+(./channel.tex) (./controlChannel.tex))) (./feedback.tex [15]
 Chapter 4.
 (./myFigures/overview.tex
 Overfull \hbox (5.39241pt too wide) in paragraph at lines 16--16
  [][][][]\OT1/cmr/m/n/10.95 End 
  []
 
-) [15
+) [16
 
 ]
 
@@ -1273,7 +1280,7 @@ Package Fancyhdr Warning: \headheight is too small (13.59999pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16]
+[17]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 48.
 
@@ -1282,7 +1289,7 @@ Underfull \hbox (badness 2582) in paragraph at lines 137--138
 ry among all the ra-dios with weight,
  []
 
-[17] [18pdfTeX warning (ext4): destination with the same identifier (name{ALG@l
+[18] [19pdfTeX warning (ext4): destination with the same identifier (name{ALG@l
 ine.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1396,7 +1403,7 @@ e.5}) has been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.167 
-      ] [19pdfTeX warning (ext4): destination with the same identifier (name{AL
+      ] [20pdfTeX warning (ext4): destination with the same identifier (name{AL
 G@line.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1528,74 +1535,74 @@ e.11}) has been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.167 
-      ]) (./results.tex [20] [21]
+      ]) (./results.tex [21] [22]
 Chapter 5.
-[22
+[23
 
 ]
 
-LaTeX Warning: Reference `' on page 23 undefined on input line 20.
+LaTeX Warning: Reference `' on page 24 undefined on input line 20.
 
-[23] <topology4/Delay24d1.pdf, id=670, 911.405pt x 362.35374pt>
+[24] <topology4/Delay24d1.pdf, id=672, 911.405pt x 362.35374pt>
 File: topology4/Delay24d1.pdf Graphic file (type pdf)
 
 <use topology4/Delay24d1.pdf>
 Package pdftex.def Info: topology4/Delay24d1.pdf used on input line 25.
 (pdftex.def)             Requested size: 228.89378pt x 91.00288pt.
 
-<topology4/Delay24d2.pdf, id=671, 911.405pt x 363.3575pt>
+<topology4/Delay24d2.pdf, id=673, 911.405pt x 363.3575pt>
 File: topology4/Delay24d2.pdf Graphic file (type pdf)
 
 <use topology4/Delay24d2.pdf>
 Package pdftex.def Info: topology4/Delay24d2.pdf used on input line 31.
 (pdftex.def)             Requested size: 228.89378pt x 91.25497pt.
- [24 <./topology4/Delay24d1.pdf> <./topology4/Delay24d2.pdf
+ [25 <./topology4/Delay24d1.pdf> <./topology4/Delay24d2.pdf
 
 pdfTeX warning: pdflatex (file ./topology4/Delay24d2.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
->] (./topology4T.tex [25]
-<topology4/Throughput24d1.pdf, id=704, 911.405pt x 363.3575pt>
+>] (./topology4T.tex [26]
+<topology4/Throughput24d1.pdf, id=705, 911.405pt x 363.3575pt>
 File: topology4/Throughput24d1.pdf Graphic file (type pdf)
 
 <use topology4/Throughput24d1.pdf>
 Package pdftex.def Info: topology4/Throughput24d1.pdf used on input line 5.
 (pdftex.def)             Requested size: 301.17215pt x 120.06912pt.
 
-<topology4/Throughput24d2.pdf, id=705, 911.405pt x 363.3575pt>
+<topology4/Throughput24d2.pdf, id=706, 911.405pt x 363.3575pt>
 File: topology4/Throughput24d2.pdf Graphic file (type pdf)
 
 <use topology4/Throughput24d2.pdf>
 Package pdftex.def Info: topology4/Throughput24d2.pdf used on input line 11.
 (pdftex.def)             Requested size: 301.17215pt x 120.06912pt.
 
-<topology4/Throughput24d4.pdf, id=706, 911.405pt x 363.3575pt>
+<topology4/Throughput24d4.pdf, id=707, 911.405pt x 363.3575pt>
 File: topology4/Throughput24d4.pdf Graphic file (type pdf)
 
 <use topology4/Throughput24d4.pdf>
 Package pdftex.def Info: topology4/Throughput24d4.pdf used on input line 17.
 (pdftex.def)             Requested size: 301.17215pt x 120.06912pt.
 
-<topology4/Throughput24d8.pdf, id=707, 911.405pt x 362.35374pt>
+<topology4/Throughput24d8.pdf, id=708, 911.405pt x 362.35374pt>
 File: topology4/Throughput24d8.pdf Graphic file (type pdf)
 
 <use topology4/Throughput24d8.pdf>
 Package pdftex.def Info: topology4/Throughput24d8.pdf used on input line 23.
 (pdftex.def)             Requested size: 301.17215pt x 119.73744pt.
 
-<topology4/Throughput24d16.pdf, id=708, 911.405pt x 362.35374pt>
+<topology4/Throughput24d16.pdf, id=709, 911.405pt x 362.35374pt>
 File: topology4/Throughput24d16.pdf Graphic file (type pdf)
 
 <use topology4/Throughput24d16.pdf>
 Package pdftex.def Info: topology4/Throughput24d16.pdf used on input line 29.
 (pdftex.def)             Requested size: 301.17215pt x 119.73744pt.
 
-<topology4/Throughput24d32.pdf, id=709, 911.405pt x 363.3575pt>
+<topology4/Throughput24d32.pdf, id=710, 911.405pt x 363.3575pt>
 File: topology4/Throughput24d32.pdf Graphic file (type pdf)
 
 <use topology4/Throughput24d32.pdf>
 Package pdftex.def Info: topology4/Throughput24d32.pdf used on input line 35.
 (pdftex.def)             Requested size: 301.17215pt x 120.06912pt.
- [26
+ [27
 
  <./topology4/Throughput24d1.pdf> <./topology4/Throughput24d2.pdf
 
@@ -1628,34 +1635,34 @@ File: topology4/Delay24d2.pdf Graphic file (type pdf)
 Package pdftex.def Info: topology4/Delay24d2.pdf used on input line 11.
 (pdftex.def)             Requested size: 301.17215pt x 120.06912pt.
 
-<topology4/Delay24d4.pdf, id=758, 911.405pt x 362.35374pt>
+<topology4/Delay24d4.pdf, id=759, 911.405pt x 362.35374pt>
 File: topology4/Delay24d4.pdf Graphic file (type pdf)
 
 <use topology4/Delay24d4.pdf>
 Package pdftex.def Info: topology4/Delay24d4.pdf used on input line 17.
 (pdftex.def)             Requested size: 301.17215pt x 119.73744pt.
 
-<topology4/Delay24d8.pdf, id=759, 911.405pt x 362.35374pt>
+<topology4/Delay24d8.pdf, id=760, 911.405pt x 362.35374pt>
 File: topology4/Delay24d8.pdf Graphic file (type pdf)
 
 <use topology4/Delay24d8.pdf>
 Package pdftex.def Info: topology4/Delay24d8.pdf used on input line 23.
 (pdftex.def)             Requested size: 301.17215pt x 119.73744pt.
 
-<topology4/Delay24d16.pdf, id=760, 911.405pt x 363.3575pt>
+<topology4/Delay24d16.pdf, id=761, 911.405pt x 363.3575pt>
 File: topology4/Delay24d16.pdf Graphic file (type pdf)
 
 <use topology4/Delay24d16.pdf>
 Package pdftex.def Info: topology4/Delay24d16.pdf used on input line 29.
 (pdftex.def)             Requested size: 301.17215pt x 120.06912pt.
 
-<topology4/Delay24d32.pdf, id=761, 911.405pt x 363.3575pt>
+<topology4/Delay24d32.pdf, id=762, 911.405pt x 363.3575pt>
 File: topology4/Delay24d32.pdf Graphic file (type pdf)
 
 <use topology4/Delay24d32.pdf>
 Package pdftex.def Info: topology4/Delay24d32.pdf used on input line 35.
 (pdftex.def)             Requested size: 301.17215pt x 120.06912pt.
- [27
+ [28
 
 
  <./topology4/Delay24d4.pdf> <./topology4/Delay24d8.pdf
@@ -1671,7 +1678,7 @@ iple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./topology4/Delay24d32.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
 >]) (./topology4P.tex
-<topology4/PacketDropRatio24d1.pdf, id=794, 911.405pt x 427.5975pt>
+<topology4/PacketDropRatio24d1.pdf, id=795, 911.405pt x 427.5975pt>
 File: topology4/PacketDropRatio24d1.pdf Graphic file (type pdf)
 
 <use topology4/PacketDropRatio24d1.pdf>
@@ -1679,7 +1686,7 @@ Package pdftex.def Info: topology4/PacketDropRatio24d1.pdf used on input line 5
 .
 (pdftex.def)             Requested size: 301.17215pt x 141.29681pt.
 
-<topology4/PacketDropRatio24d2.pdf, id=795, 911.405pt x 427.5975pt>
+<topology4/PacketDropRatio24d2.pdf, id=796, 911.405pt x 427.5975pt>
 File: topology4/PacketDropRatio24d2.pdf Graphic file (type pdf)
 
 <use topology4/PacketDropRatio24d2.pdf>
@@ -1687,7 +1694,7 @@ Package pdftex.def Info: topology4/PacketDropRatio24d2.pdf used on input line 1
 1.
 (pdftex.def)             Requested size: 301.17215pt x 141.29681pt.
 
-<topology4/PacketDropRatio24d4.pdf, id=796, 911.405pt x 427.5975pt>
+<topology4/PacketDropRatio24d4.pdf, id=797, 911.405pt x 427.5975pt>
 File: topology4/PacketDropRatio24d4.pdf Graphic file (type pdf)
 
 <use topology4/PacketDropRatio24d4.pdf>
@@ -1695,7 +1702,7 @@ Package pdftex.def Info: topology4/PacketDropRatio24d4.pdf used on input line 1
 7.
 (pdftex.def)             Requested size: 301.17215pt x 141.29681pt.
 
-<topology4/PacketDropRatio24d8.pdf, id=797, 911.405pt x 427.5975pt>
+<topology4/PacketDropRatio24d8.pdf, id=798, 911.405pt x 427.5975pt>
 File: topology4/PacketDropRatio24d8.pdf Graphic file (type pdf)
 
 <use topology4/PacketDropRatio24d8.pdf>
@@ -1703,7 +1710,7 @@ Package pdftex.def Info: topology4/PacketDropRatio24d8.pdf used on input line 2
 3.
 (pdftex.def)             Requested size: 301.17215pt x 141.29681pt.
 
-<topology4/PacketDropRatio24d16.pdf, id=798, 911.405pt x 427.5975pt>
+<topology4/PacketDropRatio24d16.pdf, id=799, 911.405pt x 427.5975pt>
 File: topology4/PacketDropRatio24d16.pdf Graphic file (type pdf)
 
 <use topology4/PacketDropRatio24d16.pdf>
@@ -1711,7 +1718,7 @@ Package pdftex.def Info: topology4/PacketDropRatio24d16.pdf used on input line
 29.
 (pdftex.def)             Requested size: 301.17215pt x 141.29681pt.
 
-<topology4/PacketDropRatio24d32.pdf, id=799, 911.405pt x 427.5975pt>
+<topology4/PacketDropRatio24d32.pdf, id=800, 911.405pt x 427.5975pt>
 File: topology4/PacketDropRatio24d32.pdf Graphic file (type pdf)
 
 <use topology4/PacketDropRatio24d32.pdf>
@@ -1722,7 +1729,7 @@ Package pdftex.def Info: topology4/PacketDropRatio24d32.pdf used on input line
 
 LaTeX Warning: Float too large for page by 21.61497pt on input line 41.
 
-[28 <./topology4/PacketDropRatio24d1.pdf> <./topology4/PacketDropRatio24d2.pdf
+[29 <./topology4/PacketDropRatio24d1.pdf> <./topology4/PacketDropRatio24d2.pdf
 
 pdfTeX warning: pdflatex (file ./topology4/PacketDropRatio24d2.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
@@ -1743,14 +1750,14 @@ sion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./topology4/PacketDropRatio24d32.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
 >]) (./topology4PD.tex
-<topology4/DeliveryRatio24d1.pdf, id=848, 932.48375pt x 437.635pt>
+<topology4/DeliveryRatio24d1.pdf, id=849, 932.48375pt x 437.635pt>
 File: topology4/DeliveryRatio24d1.pdf Graphic file (type pdf)
 
 <use topology4/DeliveryRatio24d1.pdf>
 Package pdftex.def Info: topology4/DeliveryRatio24d1.pdf used on input line 5.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<topology4/DeliveryRatio24d2.pdf, id=849, 932.48375pt x 437.635pt>
+<topology4/DeliveryRatio24d2.pdf, id=850, 932.48375pt x 437.635pt>
 File: topology4/DeliveryRatio24d2.pdf Graphic file (type pdf)
 
 <use topology4/DeliveryRatio24d2.pdf>
@@ -1758,7 +1765,7 @@ Package pdftex.def Info: topology4/DeliveryRatio24d2.pdf used on input line 11.
 
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<topology4/DeliveryRatio24d4.pdf, id=850, 932.48375pt x 437.635pt>
+<topology4/DeliveryRatio24d4.pdf, id=851, 932.48375pt x 437.635pt>
 File: topology4/DeliveryRatio24d4.pdf Graphic file (type pdf)
 
 <use topology4/DeliveryRatio24d4.pdf>
@@ -1766,7 +1773,7 @@ Package pdftex.def Info: topology4/DeliveryRatio24d4.pdf used on input line 17.
 
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<topology4/DeliveryRatio24d8.pdf, id=851, 932.48375pt x 437.635pt>
+<topology4/DeliveryRatio24d8.pdf, id=852, 932.48375pt x 437.635pt>
 File: topology4/DeliveryRatio24d8.pdf Graphic file (type pdf)
 
 <use topology4/DeliveryRatio24d8.pdf>
@@ -1774,7 +1781,7 @@ Package pdftex.def Info: topology4/DeliveryRatio24d8.pdf used on input line 23.
 
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<topology4/DeliveryRatio24d16.pdf, id=852, 932.48375pt x 437.635pt>
+<topology4/DeliveryRatio24d16.pdf, id=853, 932.48375pt x 437.635pt>
 File: topology4/DeliveryRatio24d16.pdf Graphic file (type pdf)
 
 <use topology4/DeliveryRatio24d16.pdf>
@@ -1782,7 +1789,7 @@ Package pdftex.def Info: topology4/DeliveryRatio24d16.pdf used on input line 29
 .
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<topology4/DeliveryRatio24d32.pdf, id=853, 932.48375pt x 437.635pt>
+<topology4/DeliveryRatio24d32.pdf, id=854, 932.48375pt x 437.635pt>
 File: topology4/DeliveryRatio24d32.pdf Graphic file (type pdf)
 
 <use topology4/DeliveryRatio24d32.pdf>
@@ -1793,7 +1800,7 @@ Package pdftex.def Info: topology4/DeliveryRatio24d32.pdf used on input line 35
 
 LaTeX Warning: Float too large for page by 21.7692pt on input line 41.
 
-[29 <./topology4/DeliveryRatio24d1.pdf> <./topology4/DeliveryRatio24d2.pdf
+[30 <./topology4/DeliveryRatio24d1.pdf> <./topology4/DeliveryRatio24d2.pdf
 
 pdfTeX warning: pdflatex (file ./topology4/DeliveryRatio24d2.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
@@ -1835,22 +1842,22 @@ Overfull \hbox (9.63957pt too wide) in paragraph at lines 50--50
  []|[]| 
  []
 
-) [30
+) [31
 
 
 
 
 
-] [31]) (./conclusion.tex [32]
+] [32]) (./conclusion.tex [33]
 Chapter 6.
-) (./myAppendix.tex [33
+) (./myAppendix.tex [34
 
 ]
 Appendix A.
-(./app/12t.tex [34
+(./app/12t.tex [35
 
 ]
-<alltopology/12Throughput24d1.pdf, id=943, 932.48375pt x 371.3875pt>
+<alltopology/12Throughput24d1.pdf, id=944, 932.48375pt x 371.3875pt>
 File: alltopology/12Throughput24d1.pdf Graphic file (type pdf)
 
 <use alltopology/12Throughput24d1.pdf>
@@ -1858,7 +1865,7 @@ Package pdftex.def Info: alltopology/12Throughput24d1.pdf used on input line 5.
 
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/12Throughput24d2.pdf, id=944, 932.48375pt x 371.3875pt>
+<alltopology/12Throughput24d2.pdf, id=945, 932.48375pt x 371.3875pt>
 File: alltopology/12Throughput24d2.pdf Graphic file (type pdf)
 
 <use alltopology/12Throughput24d2.pdf>
@@ -1866,7 +1873,7 @@ Package pdftex.def Info: alltopology/12Throughput24d2.pdf used on input line 10
 .
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/12Throughput24d4.pdf, id=945, 932.48375pt x 371.3875pt>
+<alltopology/12Throughput24d4.pdf, id=946, 932.48375pt x 371.3875pt>
 File: alltopology/12Throughput24d4.pdf Graphic file (type pdf)
 
 <use alltopology/12Throughput24d4.pdf>
@@ -1874,7 +1881,7 @@ Package pdftex.def Info: alltopology/12Throughput24d4.pdf used on input line 15
 .
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/12Throughput24d8.pdf, id=946, 932.48375pt x 371.3875pt>
+<alltopology/12Throughput24d8.pdf, id=947, 932.48375pt x 371.3875pt>
 File: alltopology/12Throughput24d8.pdf Graphic file (type pdf)
 
 <use alltopology/12Throughput24d8.pdf>
@@ -1882,7 +1889,7 @@ Package pdftex.def Info: alltopology/12Throughput24d8.pdf used on input line 20
 .
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/12Throughput24d16.pdf, id=947, 932.48375pt x 371.3875pt>
+<alltopology/12Throughput24d16.pdf, id=948, 932.48375pt x 371.3875pt>
 File: alltopology/12Throughput24d16.pdf Graphic file (type pdf)
 
 <use alltopology/12Throughput24d16.pdf>
@@ -1890,14 +1897,14 @@ Package pdftex.def Info: alltopology/12Throughput24d16.pdf used on input line 2
 5.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/12Throughput24d32.pdf, id=948, 932.48375pt x 371.3875pt>
+<alltopology/12Throughput24d32.pdf, id=949, 932.48375pt x 371.3875pt>
 File: alltopology/12Throughput24d32.pdf Graphic file (type pdf)
 
 <use alltopology/12Throughput24d32.pdf>
 Package pdftex.def Info: alltopology/12Throughput24d32.pdf used on input line 3
 0.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
- [35
+ [36
 
  <./alltopology/12Throughput24d1.pdf> <./alltopology/12Throughput24d2.pdf
 
@@ -1920,48 +1927,48 @@ ion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./alltopology/12Throughput24d32.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]) (./app/12d.tex
-<alltopology/12Delay24d1.pdf, id=1001, 932.48375pt x 371.3875pt>
+<alltopology/12Delay24d1.pdf, id=1003, 932.48375pt x 371.3875pt>
 File: alltopology/12Delay24d1.pdf Graphic file (type pdf)
 
 <use alltopology/12Delay24d1.pdf>
 Package pdftex.def Info: alltopology/12Delay24d1.pdf used on input line 5.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/12Delay24d2.pdf, id=1002, 932.48375pt x 371.3875pt>
+<alltopology/12Delay24d2.pdf, id=1004, 932.48375pt x 371.3875pt>
 File: alltopology/12Delay24d2.pdf Graphic file (type pdf)
 
 <use alltopology/12Delay24d2.pdf>
 Package pdftex.def Info: alltopology/12Delay24d2.pdf used on input line 10.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/12Delay24d4.pdf, id=1003, 932.48375pt x 371.3875pt>
+<alltopology/12Delay24d4.pdf, id=1005, 932.48375pt x 371.3875pt>
 File: alltopology/12Delay24d4.pdf Graphic file (type pdf)
 
 <use alltopology/12Delay24d4.pdf>
 Package pdftex.def Info: alltopology/12Delay24d4.pdf used on input line 15.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/12Delay24d8.pdf, id=1004, 932.48375pt x 371.3875pt>
+<alltopology/12Delay24d8.pdf, id=1006, 932.48375pt x 371.3875pt>
 File: alltopology/12Delay24d8.pdf Graphic file (type pdf)
 
 <use alltopology/12Delay24d8.pdf>
 Package pdftex.def Info: alltopology/12Delay24d8.pdf used on input line 20.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/12Delay24d16.pdf, id=1005, 932.48375pt x 371.3875pt>
+<alltopology/12Delay24d16.pdf, id=1007, 932.48375pt x 371.3875pt>
 File: alltopology/12Delay24d16.pdf Graphic file (type pdf)
 
 <use alltopology/12Delay24d16.pdf>
 Package pdftex.def Info: alltopology/12Delay24d16.pdf used on input line 25.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/12Delay24d32.pdf, id=1006, 932.48375pt x 371.3875pt>
+<alltopology/12Delay24d32.pdf, id=1008, 932.48375pt x 371.3875pt>
 File: alltopology/12Delay24d32.pdf Graphic file (type pdf)
 
 <use alltopology/12Delay24d32.pdf>
 Package pdftex.def Info: alltopology/12Delay24d32.pdf used on input line 30.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
- [36
+ [37
 
 
  <./alltopology/12Delay24d1.pdf> <./alltopology/12Delay24d2.pdf
@@ -1985,7 +1992,7 @@ multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./alltopology/12Delay24d32.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >]) (./app/12p.tex
-<alltopology/12PacketDropRatio24d1.pdf, id=1055, 932.48375pt x 437.635pt>
+<alltopology/12PacketDropRatio24d1.pdf, id=1056, 932.48375pt x 437.635pt>
 File: alltopology/12PacketDropRatio24d1.pdf Graphic file (type pdf)
 
 <use alltopology/12PacketDropRatio24d1.pdf>
@@ -1993,7 +2000,7 @@ Package pdftex.def Info: alltopology/12PacketDropRatio24d1.pdf used on input li
 ne 5.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/12PacketDropRatio24d2.pdf, id=1056, 932.48375pt x 437.635pt>
+<alltopology/12PacketDropRatio24d2.pdf, id=1057, 932.48375pt x 437.635pt>
 File: alltopology/12PacketDropRatio24d2.pdf Graphic file (type pdf)
 
 <use alltopology/12PacketDropRatio24d2.pdf>
@@ -2001,7 +2008,7 @@ Package pdftex.def Info: alltopology/12PacketDropRatio24d2.pdf used on input li
 ne 10.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/12PacketDropRatio24d4.pdf, id=1057, 932.48375pt x 437.635pt>
+<alltopology/12PacketDropRatio24d4.pdf, id=1058, 932.48375pt x 437.635pt>
 File: alltopology/12PacketDropRatio24d4.pdf Graphic file (type pdf)
 
 <use alltopology/12PacketDropRatio24d4.pdf>
@@ -2009,7 +2016,7 @@ Package pdftex.def Info: alltopology/12PacketDropRatio24d4.pdf used on input li
 ne 15.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/12PacketDropRatio24d8.pdf, id=1058, 932.48375pt x 437.635pt>
+<alltopology/12PacketDropRatio24d8.pdf, id=1059, 932.48375pt x 437.635pt>
 File: alltopology/12PacketDropRatio24d8.pdf Graphic file (type pdf)
 
 <use alltopology/12PacketDropRatio24d8.pdf>
@@ -2017,7 +2024,7 @@ Package pdftex.def Info: alltopology/12PacketDropRatio24d8.pdf used on input li
 ne 20.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/12PacketDropRatio24d16.pdf, id=1059, 932.48375pt x 437.635pt>
+<alltopology/12PacketDropRatio24d16.pdf, id=1060, 932.48375pt x 437.635pt>
 File: alltopology/12PacketDropRatio24d16.pdf Graphic file (type pdf)
 
 <use alltopology/12PacketDropRatio24d16.pdf>
@@ -2025,7 +2032,7 @@ Package pdftex.def Info: alltopology/12PacketDropRatio24d16.pdf used on input l
 ine 25.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/12PacketDropRatio24d32.pdf, id=1060, 932.48375pt x 437.635pt>
+<alltopology/12PacketDropRatio24d32.pdf, id=1061, 932.48375pt x 437.635pt>
 File: alltopology/12PacketDropRatio24d32.pdf Graphic file (type pdf)
 
 <use alltopology/12PacketDropRatio24d32.pdf>
@@ -2036,7 +2043,7 @@ ine 30.
 
 LaTeX Warning: Float too large for page by 35.3692pt on input line 34.
 
-[37 <./alltopology/12PacketDropRatio24d1.pdf> <./alltopology/12PacketDropRatio2
+[38 <./alltopology/12PacketDropRatio24d1.pdf> <./alltopology/12PacketDropRatio2
 4d2.pdf
 
 pdfTeX warning: pdflatex (file ./alltopology/12PacketDropRatio24d2.pdf): PDF in
@@ -2058,7 +2065,7 @@ nclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./alltopology/12PacketDropRatio24d32.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
 >]) (./app/12pd.tex
-<alltopology/12DeliveryRatio24d1.pdf, id=1112, 932.48375pt x 437.635pt>
+<alltopology/12DeliveryRatio24d1.pdf, id=1113, 932.48375pt x 437.635pt>
 File: alltopology/12DeliveryRatio24d1.pdf Graphic file (type pdf)
 
 <use alltopology/12DeliveryRatio24d1.pdf>
@@ -2066,7 +2073,7 @@ Package pdftex.def Info: alltopology/12DeliveryRatio24d1.pdf used on input line
  5.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/12DeliveryRatio24d2.pdf, id=1113, 932.48375pt x 437.635pt>
+<alltopology/12DeliveryRatio24d2.pdf, id=1114, 932.48375pt x 437.635pt>
 File: alltopology/12DeliveryRatio24d2.pdf Graphic file (type pdf)
 
 <use alltopology/12DeliveryRatio24d2.pdf>
@@ -2074,7 +2081,7 @@ Package pdftex.def Info: alltopology/12DeliveryRatio24d2.pdf used on input line
  10.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/12DeliveryRatio24d4.pdf, id=1114, 932.48375pt x 437.635pt>
+<alltopology/12DeliveryRatio24d4.pdf, id=1115, 932.48375pt x 437.635pt>
 File: alltopology/12DeliveryRatio24d4.pdf Graphic file (type pdf)
 
 <use alltopology/12DeliveryRatio24d4.pdf>
@@ -2082,7 +2089,7 @@ Package pdftex.def Info: alltopology/12DeliveryRatio24d4.pdf used on input line
  15.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/12DeliveryRatio24d8.pdf, id=1115, 932.48375pt x 437.635pt>
+<alltopology/12DeliveryRatio24d8.pdf, id=1116, 932.48375pt x 437.635pt>
 File: alltopology/12DeliveryRatio24d8.pdf Graphic file (type pdf)
 
 <use alltopology/12DeliveryRatio24d8.pdf>
@@ -2090,7 +2097,7 @@ Package pdftex.def Info: alltopology/12DeliveryRatio24d8.pdf used on input line
  20.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/12DeliveryRatio24d16.pdf, id=1116, 932.48375pt x 437.635pt>
+<alltopology/12DeliveryRatio24d16.pdf, id=1117, 932.48375pt x 437.635pt>
 File: alltopology/12DeliveryRatio24d16.pdf Graphic file (type pdf)
 
 <use alltopology/12DeliveryRatio24d16.pdf>
@@ -2098,7 +2105,7 @@ Package pdftex.def Info: alltopology/12DeliveryRatio24d16.pdf used on input lin
 e 25.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/12DeliveryRatio24d32.pdf, id=1117, 932.48375pt x 437.635pt>
+<alltopology/12DeliveryRatio24d32.pdf, id=1118, 932.48375pt x 437.635pt>
 File: alltopology/12DeliveryRatio24d32.pdf Graphic file (type pdf)
 
 <use alltopology/12DeliveryRatio24d32.pdf>
@@ -2109,7 +2116,7 @@ e 30.
 
 LaTeX Warning: Float too large for page by 35.3692pt on input line 34.
 
-[38 <./alltopology/12DeliveryRatio24d1.pdf> <./alltopology/12DeliveryRatio24d2.
+[39 <./alltopology/12DeliveryRatio24d1.pdf> <./alltopology/12DeliveryRatio24d2.
 pdf
 
 pdfTeX warning: pdflatex (file ./alltopology/12DeliveryRatio24d2.pdf): PDF incl
@@ -2131,7 +2138,7 @@ lusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./alltopology/12DeliveryRatio24d32.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
 >]) (./app/16t.tex
-<alltopology/16Throughput24d1.pdf, id=1165, 932.48375pt x 371.3875pt>
+<alltopology/16Throughput24d1.pdf, id=1166, 932.48375pt x 371.3875pt>
 File: alltopology/16Throughput24d1.pdf Graphic file (type pdf)
 
 <use alltopology/16Throughput24d1.pdf>
@@ -2155,7 +2162,7 @@ Package pdftex.def Info: alltopology/12Throughput24d8.pdf used on input line 20
 .
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/16Throughput24d16.pdf, id=1166, 932.48375pt x 371.3875pt>
+<alltopology/16Throughput24d16.pdf, id=1167, 932.48375pt x 371.3875pt>
 File: alltopology/16Throughput24d16.pdf Graphic file (type pdf)
 
 <use alltopology/16Throughput24d16.pdf>
@@ -2168,7 +2175,7 @@ File: alltopology/12Throughput24d32.pdf Graphic file (type pdf)
 Package pdftex.def Info: alltopology/12Throughput24d32.pdf used on input line 3
 0.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
- [39
+ [40
 
 
 
@@ -2180,7 +2187,7 @@ Package pdftex.def Info: alltopology/12Throughput24d32.pdf used on input line 3
 pdfTeX warning: pdflatex (file ./alltopology/16Throughput24d16.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]) (./app/16d.tex
-<alltopology/16Delay24d1.pdf, id=1186, 932.48375pt x 371.3875pt>
+<alltopology/16Delay24d1.pdf, id=1187, 932.48375pt x 371.3875pt>
 File: alltopology/16Delay24d1.pdf Graphic file (type pdf)
 
 <use alltopology/16Delay24d1.pdf>
@@ -2200,7 +2207,7 @@ File: alltopology/12Delay24d8.pdf Graphic file (type pdf)
 Package pdftex.def Info: alltopology/12Delay24d8.pdf used on input line 20.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/16Delay24d16.pdf, id=1187, 932.48375pt x 371.3875pt>
+<alltopology/16Delay24d16.pdf, id=1188, 932.48375pt x 371.3875pt>
 File: alltopology/16Delay24d16.pdf Graphic file (type pdf)
 
 <use alltopology/16Delay24d16.pdf>
@@ -2210,7 +2217,7 @@ File: alltopology/12Delay24d32.pdf Graphic file (type pdf)
  <use alltopology/12Delay24d32.pdf>
 Package pdftex.def Info: alltopology/12Delay24d32.pdf used on input line 30.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
- [40
+ [41
 
 
  <./alltopology/16Delay24d1.pdf> <./alltopology/16Delay24d16.pdf
@@ -2218,7 +2225,7 @@ Package pdftex.def Info: alltopology/12Delay24d32.pdf used on input line 30.
 pdfTeX warning: pdflatex (file ./alltopology/16Delay24d16.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >]) (./app/16p.tex
-<alltopology/16PacketDropRatio24d1.pdf, id=1207, 932.48375pt x 437.635pt>
+<alltopology/16PacketDropRatio24d1.pdf, id=1208, 932.48375pt x 437.635pt>
 File: alltopology/16PacketDropRatio24d1.pdf Graphic file (type pdf)
 
 <use alltopology/16PacketDropRatio24d1.pdf>
@@ -2244,7 +2251,7 @@ Package pdftex.def Info: alltopology/12PacketDropRatio24d8.pdf used on input li
 ne 20.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/16PacketDropRatio24d16.pdf, id=1208, 932.48375pt x 437.635pt>
+<alltopology/16PacketDropRatio24d16.pdf, id=1209, 932.48375pt x 437.635pt>
 File: alltopology/16PacketDropRatio24d16.pdf Graphic file (type pdf)
 
 <use alltopology/16PacketDropRatio24d16.pdf>
@@ -2261,13 +2268,13 @@ ine 30.
 
 LaTeX Warning: Float too large for page by 35.3692pt on input line 34.
 
-[41 <./alltopology/16PacketDropRatio24d1.pdf> <./alltopology/16PacketDropRatio2
+[42 <./alltopology/16PacketDropRatio24d1.pdf> <./alltopology/16PacketDropRatio2
 4d16.pdf
 
 pdfTeX warning: pdflatex (file ./alltopology/16PacketDropRatio24d16.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
 >]) (./app/16pd.tex
-<alltopology/16DeliveryRatio24d1.pdf, id=1229, 932.48375pt x 437.635pt>
+<alltopology/16DeliveryRatio24d1.pdf, id=1231, 932.48375pt x 437.635pt>
 File: alltopology/16DeliveryRatio24d1.pdf Graphic file (type pdf)
 
 <use alltopology/16DeliveryRatio24d1.pdf>
@@ -2293,7 +2300,7 @@ Package pdftex.def Info: alltopology/12DeliveryRatio24d8.pdf used on input line
  20.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/16DeliveryRatio24d16.pdf, id=1230, 932.48375pt x 437.635pt>
+<alltopology/16DeliveryRatio24d16.pdf, id=1232, 932.48375pt x 437.635pt>
 File: alltopology/16DeliveryRatio24d16.pdf Graphic file (type pdf)
 
 <use alltopology/16DeliveryRatio24d16.pdf>
@@ -2310,13 +2317,13 @@ e 30.
 
 LaTeX Warning: Float too large for page by 35.3692pt on input line 34.
 
-[42 <./alltopology/16DeliveryRatio24d1.pdf> <./alltopology/16DeliveryRatio24d16
+[43 <./alltopology/16DeliveryRatio24d1.pdf> <./alltopology/16DeliveryRatio24d16
 .pdf
 
 pdfTeX warning: pdflatex (file ./alltopology/16DeliveryRatio24d16.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
 >]) (./app/20t.tex
-<alltopology/20Throughput24d1.pdf, id=1251, 932.48375pt x 371.3875pt>
+<alltopology/20Throughput24d1.pdf, id=1252, 932.48375pt x 371.3875pt>
 File: alltopology/20Throughput24d1.pdf Graphic file (type pdf)
 
 <use alltopology/20Throughput24d1.pdf>
@@ -2324,7 +2331,7 @@ Package pdftex.def Info: alltopology/20Throughput24d1.pdf used on input line 5.
 
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/20Throughput24d2.pdf, id=1252, 932.48375pt x 371.3875pt>
+<alltopology/20Throughput24d2.pdf, id=1253, 932.48375pt x 371.3875pt>
 File: alltopology/20Throughput24d2.pdf Graphic file (type pdf)
 
 <use alltopology/20Throughput24d2.pdf>
@@ -2332,7 +2339,7 @@ Package pdftex.def Info: alltopology/20Throughput24d2.pdf used on input line 10
 .
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/20Throughput24d4.pdf, id=1253, 932.48375pt x 371.3875pt>
+<alltopology/20Throughput24d4.pdf, id=1254, 932.48375pt x 371.3875pt>
 File: alltopology/20Throughput24d4.pdf Graphic file (type pdf)
 
 <use alltopology/20Throughput24d4.pdf>
@@ -2340,7 +2347,7 @@ Package pdftex.def Info: alltopology/20Throughput24d4.pdf used on input line 15
 .
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/20Throughput24d8.pdf, id=1254, 932.48375pt x 371.3875pt>
+<alltopology/20Throughput24d8.pdf, id=1255, 932.48375pt x 371.3875pt>
 File: alltopology/20Throughput24d8.pdf Graphic file (type pdf)
 
 <use alltopology/20Throughput24d8.pdf>
@@ -2348,7 +2355,7 @@ Package pdftex.def Info: alltopology/20Throughput24d8.pdf used on input line 20
 .
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/20Throughput24d16.pdf, id=1255, 932.48375pt x 371.3875pt>
+<alltopology/20Throughput24d16.pdf, id=1256, 932.48375pt x 371.3875pt>
 File: alltopology/20Throughput24d16.pdf Graphic file (type pdf)
 
 <use alltopology/20Throughput24d16.pdf>
@@ -2356,14 +2363,14 @@ Package pdftex.def Info: alltopology/20Throughput24d16.pdf used on input line 2
 5.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/20Throughput24d32.pdf, id=1256, 932.48375pt x 371.3875pt>
+<alltopology/20Throughput24d32.pdf, id=1257, 932.48375pt x 371.3875pt>
 File: alltopology/20Throughput24d32.pdf Graphic file (type pdf)
 
 <use alltopology/20Throughput24d32.pdf>
 Package pdftex.def Info: alltopology/20Throughput24d32.pdf used on input line 3
 0.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
- [43
+ [44
 
 
 
@@ -2391,48 +2398,48 @@ ion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./alltopology/20Throughput24d32.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]) (./app/20d.tex
-<alltopology/20Delay24d1.pdf, id=1304, 932.48375pt x 371.3875pt>
+<alltopology/20Delay24d1.pdf, id=1305, 932.48375pt x 371.3875pt>
 File: alltopology/20Delay24d1.pdf Graphic file (type pdf)
 
 <use alltopology/20Delay24d1.pdf>
 Package pdftex.def Info: alltopology/20Delay24d1.pdf used on input line 5.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/20Delay24d2.pdf, id=1305, 932.48375pt x 371.3875pt>
+<alltopology/20Delay24d2.pdf, id=1306, 932.48375pt x 371.3875pt>
 File: alltopology/20Delay24d2.pdf Graphic file (type pdf)
 
 <use alltopology/20Delay24d2.pdf>
 Package pdftex.def Info: alltopology/20Delay24d2.pdf used on input line 10.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/20Delay24d4.pdf, id=1306, 932.48375pt x 371.3875pt>
+<alltopology/20Delay24d4.pdf, id=1307, 932.48375pt x 371.3875pt>
 File: alltopology/20Delay24d4.pdf Graphic file (type pdf)
 
 <use alltopology/20Delay24d4.pdf>
 Package pdftex.def Info: alltopology/20Delay24d4.pdf used on input line 15.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/20Delay24d8.pdf, id=1307, 932.48375pt x 371.3875pt>
+<alltopology/20Delay24d8.pdf, id=1308, 932.48375pt x 371.3875pt>
 File: alltopology/20Delay24d8.pdf Graphic file (type pdf)
 
 <use alltopology/20Delay24d8.pdf>
 Package pdftex.def Info: alltopology/20Delay24d8.pdf used on input line 20.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/20Delay24d16.pdf, id=1308, 932.48375pt x 371.3875pt>
+<alltopology/20Delay24d16.pdf, id=1309, 932.48375pt x 371.3875pt>
 File: alltopology/20Delay24d16.pdf Graphic file (type pdf)
 
 <use alltopology/20Delay24d16.pdf>
 Package pdftex.def Info: alltopology/20Delay24d16.pdf used on input line 25.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/20Delay24d32.pdf, id=1309, 932.48375pt x 371.3875pt>
+<alltopology/20Delay24d32.pdf, id=1310, 932.48375pt x 371.3875pt>
 File: alltopology/20Delay24d32.pdf Graphic file (type pdf)
 
 <use alltopology/20Delay24d32.pdf>
 Package pdftex.def Info: alltopology/20Delay24d32.pdf used on input line 30.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
- [44
+ [45
 
 
  <./alltopology/20Delay24d1.pdf> <./alltopology/20Delay24d2.pdf
@@ -2456,7 +2463,7 @@ multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./alltopology/20Delay24d32.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >]) (./app/20p.tex
-<alltopology/20PacketDropRatio24d1.pdf, id=1358, 932.48375pt x 437.635pt>
+<alltopology/20PacketDropRatio24d1.pdf, id=1359, 932.48375pt x 437.635pt>
 File: alltopology/20PacketDropRatio24d1.pdf Graphic file (type pdf)
 
 <use alltopology/20PacketDropRatio24d1.pdf>
@@ -2464,7 +2471,7 @@ Package pdftex.def Info: alltopology/20PacketDropRatio24d1.pdf used on input li
 ne 5.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/20PacketDropRatio24d2.pdf, id=1359, 932.48375pt x 437.635pt>
+<alltopology/20PacketDropRatio24d2.pdf, id=1360, 932.48375pt x 437.635pt>
 File: alltopology/20PacketDropRatio24d2.pdf Graphic file (type pdf)
 
 <use alltopology/20PacketDropRatio24d2.pdf>
@@ -2472,7 +2479,7 @@ Package pdftex.def Info: alltopology/20PacketDropRatio24d2.pdf used on input li
 ne 10.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/20PacketDropRatio24d4.pdf, id=1360, 932.48375pt x 437.635pt>
+<alltopology/20PacketDropRatio24d4.pdf, id=1361, 932.48375pt x 437.635pt>
 File: alltopology/20PacketDropRatio24d4.pdf Graphic file (type pdf)
 
 <use alltopology/20PacketDropRatio24d4.pdf>
@@ -2480,7 +2487,7 @@ Package pdftex.def Info: alltopology/20PacketDropRatio24d4.pdf used on input li
 ne 15.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/20PacketDropRatio24d8.pdf, id=1361, 932.48375pt x 437.635pt>
+<alltopology/20PacketDropRatio24d8.pdf, id=1362, 932.48375pt x 437.635pt>
 File: alltopology/20PacketDropRatio24d8.pdf Graphic file (type pdf)
 
 <use alltopology/20PacketDropRatio24d8.pdf>
@@ -2488,7 +2495,7 @@ Package pdftex.def Info: alltopology/20PacketDropRatio24d8.pdf used on input li
 ne 20.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/20PacketDropRatio24d16.pdf, id=1362, 932.48375pt x 437.635pt>
+<alltopology/20PacketDropRatio24d16.pdf, id=1363, 932.48375pt x 437.635pt>
 File: alltopology/20PacketDropRatio24d16.pdf Graphic file (type pdf)
 
 <use alltopology/20PacketDropRatio24d16.pdf>
@@ -2496,7 +2503,7 @@ Package pdftex.def Info: alltopology/20PacketDropRatio24d16.pdf used on input l
 ine 25.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/20PacketDropRatio24d32.pdf, id=1363, 932.48375pt x 437.635pt>
+<alltopology/20PacketDropRatio24d32.pdf, id=1364, 932.48375pt x 437.635pt>
 File: alltopology/20PacketDropRatio24d32.pdf Graphic file (type pdf)
 
 <use alltopology/20PacketDropRatio24d32.pdf>
@@ -2507,7 +2514,7 @@ ine 30.
 
 LaTeX Warning: Float too large for page by 35.3692pt on input line 34.
 
-[45 <./alltopology/20PacketDropRatio24d1.pdf> <./alltopology/20PacketDropRatio2
+[46 <./alltopology/20PacketDropRatio24d1.pdf> <./alltopology/20PacketDropRatio2
 4d2.pdf
 
 pdfTeX warning: pdflatex (file ./alltopology/20PacketDropRatio24d2.pdf): PDF in
@@ -2529,7 +2536,7 @@ nclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./alltopology/20PacketDropRatio24d32.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
 >]) (./app/20pd.tex
-<alltopology/20DeliveryRatio24d1.pdf, id=1411, 932.48375pt x 437.635pt>
+<alltopology/20DeliveryRatio24d1.pdf, id=1412, 932.48375pt x 437.635pt>
 File: alltopology/20DeliveryRatio24d1.pdf Graphic file (type pdf)
 
 <use alltopology/20DeliveryRatio24d1.pdf>
@@ -2537,7 +2544,7 @@ Package pdftex.def Info: alltopology/20DeliveryRatio24d1.pdf used on input line
  5.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/20DeliveryRatio24d2.pdf, id=1412, 932.48375pt x 437.635pt>
+<alltopology/20DeliveryRatio24d2.pdf, id=1413, 932.48375pt x 437.635pt>
 File: alltopology/20DeliveryRatio24d2.pdf Graphic file (type pdf)
 
 <use alltopology/20DeliveryRatio24d2.pdf>
@@ -2545,7 +2552,7 @@ Package pdftex.def Info: alltopology/20DeliveryRatio24d2.pdf used on input line
  10.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/20DeliveryRatio24d4.pdf, id=1413, 932.48375pt x 437.635pt>
+<alltopology/20DeliveryRatio24d4.pdf, id=1414, 932.48375pt x 437.635pt>
 File: alltopology/20DeliveryRatio24d4.pdf Graphic file (type pdf)
 
 <use alltopology/20DeliveryRatio24d4.pdf>
@@ -2553,7 +2560,7 @@ Package pdftex.def Info: alltopology/20DeliveryRatio24d4.pdf used on input line
  15.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/20DeliveryRatio24d8.pdf, id=1414, 932.48375pt x 437.635pt>
+<alltopology/20DeliveryRatio24d8.pdf, id=1415, 932.48375pt x 437.635pt>
 File: alltopology/20DeliveryRatio24d8.pdf Graphic file (type pdf)
 
 <use alltopology/20DeliveryRatio24d8.pdf>
@@ -2561,7 +2568,7 @@ Package pdftex.def Info: alltopology/20DeliveryRatio24d8.pdf used on input line
  20.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/20DeliveryRatio24d16.pdf, id=1415, 932.48375pt x 437.635pt>
+<alltopology/20DeliveryRatio24d16.pdf, id=1416, 932.48375pt x 437.635pt>
 File: alltopology/20DeliveryRatio24d16.pdf Graphic file (type pdf)
 
 <use alltopology/20DeliveryRatio24d16.pdf>
@@ -2569,7 +2576,7 @@ Package pdftex.def Info: alltopology/20DeliveryRatio24d16.pdf used on input lin
 e 25.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/20DeliveryRatio24d32.pdf, id=1416, 932.48375pt x 437.635pt>
+<alltopology/20DeliveryRatio24d32.pdf, id=1417, 932.48375pt x 437.635pt>
 File: alltopology/20DeliveryRatio24d32.pdf Graphic file (type pdf)
 
 <use alltopology/20DeliveryRatio24d32.pdf>
@@ -2580,7 +2587,7 @@ e 30.
 
 LaTeX Warning: Float too large for page by 35.3692pt on input line 34.
 
-[46 <./alltopology/20DeliveryRatio24d1.pdf> <./alltopology/20DeliveryRatio24d2.
+[47 <./alltopology/20DeliveryRatio24d1.pdf> <./alltopology/20DeliveryRatio24d2.
 pdf
 
 pdfTeX warning: pdflatex (file ./alltopology/20DeliveryRatio24d2.pdf): PDF incl
@@ -2602,7 +2609,7 @@ lusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./alltopology/20DeliveryRatio24d32.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
 >]) (./app/28t.tex
-<alltopology/28Throughput24d1.pdf, id=1464, 932.48375pt x 371.3875pt>
+<alltopology/28Throughput24d1.pdf, id=1465, 932.48375pt x 371.3875pt>
 File: alltopology/28Throughput24d1.pdf Graphic file (type pdf)
 
 <use alltopology/28Throughput24d1.pdf>
@@ -2610,7 +2617,7 @@ Package pdftex.def Info: alltopology/28Throughput24d1.pdf used on input line 5.
 
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/28Throughput24d2.pdf, id=1465, 932.48375pt x 371.3875pt>
+<alltopology/28Throughput24d2.pdf, id=1466, 932.48375pt x 371.3875pt>
 File: alltopology/28Throughput24d2.pdf Graphic file (type pdf)
 
 <use alltopology/28Throughput24d2.pdf>
@@ -2618,7 +2625,7 @@ Package pdftex.def Info: alltopology/28Throughput24d2.pdf used on input line 10
 .
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/28Throughput24d4.pdf, id=1466, 932.48375pt x 371.3875pt>
+<alltopology/28Throughput24d4.pdf, id=1467, 932.48375pt x 371.3875pt>
 File: alltopology/28Throughput24d4.pdf Graphic file (type pdf)
 
 <use alltopology/28Throughput24d4.pdf>
@@ -2626,7 +2633,7 @@ Package pdftex.def Info: alltopology/28Throughput24d4.pdf used on input line 15
 .
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/28Throughput24d8.pdf, id=1467, 932.48375pt x 371.3875pt>
+<alltopology/28Throughput24d8.pdf, id=1468, 932.48375pt x 371.3875pt>
 File: alltopology/28Throughput24d8.pdf Graphic file (type pdf)
 
 <use alltopology/28Throughput24d8.pdf>
@@ -2634,7 +2641,7 @@ Package pdftex.def Info: alltopology/28Throughput24d8.pdf used on input line 20
 .
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/28Throughput24d16.pdf, id=1468, 932.48375pt x 371.3875pt>
+<alltopology/28Throughput24d16.pdf, id=1469, 932.48375pt x 371.3875pt>
 File: alltopology/28Throughput24d16.pdf Graphic file (type pdf)
 
 <use alltopology/28Throughput24d16.pdf>
@@ -2642,14 +2649,14 @@ Package pdftex.def Info: alltopology/28Throughput24d16.pdf used on input line 2
 5.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/28Throughput24d32.pdf, id=1469, 932.48375pt x 371.3875pt>
+<alltopology/28Throughput24d32.pdf, id=1470, 932.48375pt x 371.3875pt>
 File: alltopology/28Throughput24d32.pdf Graphic file (type pdf)
 
 <use alltopology/28Throughput24d32.pdf>
 Package pdftex.def Info: alltopology/28Throughput24d32.pdf used on input line 3
 0.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
- [47
+ [48
 
 
 
@@ -2677,48 +2684,48 @@ ion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./alltopology/28Throughput24d32.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]) (./app/28d.tex
-<alltopology/28Delay24d1.pdf, id=1519, 932.48375pt x 371.3875pt>
+<alltopology/28Delay24d1.pdf, id=1521, 932.48375pt x 371.3875pt>
 File: alltopology/28Delay24d1.pdf Graphic file (type pdf)
 
 <use alltopology/28Delay24d1.pdf>
 Package pdftex.def Info: alltopology/28Delay24d1.pdf used on input line 5.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/28Delay24d2.pdf, id=1520, 932.48375pt x 371.3875pt>
+<alltopology/28Delay24d2.pdf, id=1522, 932.48375pt x 371.3875pt>
 File: alltopology/28Delay24d2.pdf Graphic file (type pdf)
 
 <use alltopology/28Delay24d2.pdf>
 Package pdftex.def Info: alltopology/28Delay24d2.pdf used on input line 10.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/28Delay24d4.pdf, id=1521, 932.48375pt x 371.3875pt>
+<alltopology/28Delay24d4.pdf, id=1523, 932.48375pt x 371.3875pt>
 File: alltopology/28Delay24d4.pdf Graphic file (type pdf)
 
 <use alltopology/28Delay24d4.pdf>
 Package pdftex.def Info: alltopology/28Delay24d4.pdf used on input line 15.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/28Delay24d8.pdf, id=1522, 932.48375pt x 371.3875pt>
+<alltopology/28Delay24d8.pdf, id=1524, 932.48375pt x 371.3875pt>
 File: alltopology/28Delay24d8.pdf Graphic file (type pdf)
 
 <use alltopology/28Delay24d8.pdf>
 Package pdftex.def Info: alltopology/28Delay24d8.pdf used on input line 20.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/28Delay24d16.pdf, id=1523, 932.48375pt x 371.3875pt>
+<alltopology/28Delay24d16.pdf, id=1525, 932.48375pt x 371.3875pt>
 File: alltopology/28Delay24d16.pdf Graphic file (type pdf)
 
 <use alltopology/28Delay24d16.pdf>
 Package pdftex.def Info: alltopology/28Delay24d16.pdf used on input line 25.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/28Delay24d32.pdf, id=1524, 932.48375pt x 371.3875pt>
+<alltopology/28Delay24d32.pdf, id=1526, 932.48375pt x 371.3875pt>
 File: alltopology/28Delay24d32.pdf Graphic file (type pdf)
 
 <use alltopology/28Delay24d32.pdf>
 Package pdftex.def Info: alltopology/28Delay24d32.pdf used on input line 30.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
- [48
+ [49
 
 
  <./alltopology/28Delay24d1.pdf> <./alltopology/28Delay24d2.pdf
@@ -2742,7 +2749,7 @@ multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./alltopology/28Delay24d32.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >]) (./app/28p.tex
-<alltopology/28PacketDropRatio24d1.pdf, id=1575, 932.48375pt x 437.635pt>
+<alltopology/28PacketDropRatio24d1.pdf, id=1576, 932.48375pt x 437.635pt>
 File: alltopology/28PacketDropRatio24d1.pdf Graphic file (type pdf)
 
 <use alltopology/28PacketDropRatio24d1.pdf>
@@ -2750,7 +2757,7 @@ Package pdftex.def Info: alltopology/28PacketDropRatio24d1.pdf used on input li
 ne 5.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/28PacketDropRatio24d2.pdf, id=1576, 932.48375pt x 437.635pt>
+<alltopology/28PacketDropRatio24d2.pdf, id=1577, 932.48375pt x 437.635pt>
 File: alltopology/28PacketDropRatio24d2.pdf Graphic file (type pdf)
 
 <use alltopology/28PacketDropRatio24d2.pdf>
@@ -2758,7 +2765,7 @@ Package pdftex.def Info: alltopology/28PacketDropRatio24d2.pdf used on input li
 ne 10.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/28PacketDropRatio24d4.pdf, id=1577, 932.48375pt x 437.635pt>
+<alltopology/28PacketDropRatio24d4.pdf, id=1578, 932.48375pt x 437.635pt>
 File: alltopology/28PacketDropRatio24d4.pdf Graphic file (type pdf)
 
 <use alltopology/28PacketDropRatio24d4.pdf>
@@ -2766,7 +2773,7 @@ Package pdftex.def Info: alltopology/28PacketDropRatio24d4.pdf used on input li
 ne 15.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/28PacketDropRatio24d8.pdf, id=1578, 932.48375pt x 437.635pt>
+<alltopology/28PacketDropRatio24d8.pdf, id=1579, 932.48375pt x 437.635pt>
 File: alltopology/28PacketDropRatio24d8.pdf Graphic file (type pdf)
 
 <use alltopology/28PacketDropRatio24d8.pdf>
@@ -2774,7 +2781,7 @@ Package pdftex.def Info: alltopology/28PacketDropRatio24d8.pdf used on input li
 ne 20.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/28PacketDropRatio24d16.pdf, id=1579, 932.48375pt x 437.635pt>
+<alltopology/28PacketDropRatio24d16.pdf, id=1580, 932.48375pt x 437.635pt>
 File: alltopology/28PacketDropRatio24d16.pdf Graphic file (type pdf)
 
 <use alltopology/28PacketDropRatio24d16.pdf>
@@ -2782,7 +2789,7 @@ Package pdftex.def Info: alltopology/28PacketDropRatio24d16.pdf used on input l
 ine 25.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/28PacketDropRatio24d32.pdf, id=1580, 932.48375pt x 437.635pt>
+<alltopology/28PacketDropRatio24d32.pdf, id=1581, 932.48375pt x 437.635pt>
 File: alltopology/28PacketDropRatio24d32.pdf Graphic file (type pdf)
 
 <use alltopology/28PacketDropRatio24d32.pdf>
@@ -2793,7 +2800,7 @@ ine 30.
 
 LaTeX Warning: Float too large for page by 35.3692pt on input line 34.
 
-[49 <./alltopology/28PacketDropRatio24d1.pdf> <./alltopology/28PacketDropRatio2
+[50 <./alltopology/28PacketDropRatio24d1.pdf> <./alltopology/28PacketDropRatio2
 4d2.pdf
 
 pdfTeX warning: pdflatex (file ./alltopology/28PacketDropRatio24d2.pdf): PDF in
@@ -2815,7 +2822,7 @@ nclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./alltopology/28PacketDropRatio24d32.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
 >]) (./app/28pd.tex
-<alltopology/28DeliveryRatio24d1.pdf, id=1631, 932.48375pt x 437.635pt>
+<alltopology/28DeliveryRatio24d1.pdf, id=1632, 932.48375pt x 437.635pt>
 File: alltopology/28DeliveryRatio24d1.pdf Graphic file (type pdf)
 
 <use alltopology/28DeliveryRatio24d1.pdf>
@@ -2823,7 +2830,7 @@ Package pdftex.def Info: alltopology/28DeliveryRatio24d1.pdf used on input line
  5.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/28DeliveryRatio24d2.pdf, id=1632, 932.48375pt x 437.635pt>
+<alltopology/28DeliveryRatio24d2.pdf, id=1633, 932.48375pt x 437.635pt>
 File: alltopology/28DeliveryRatio24d2.pdf Graphic file (type pdf)
 
 <use alltopology/28DeliveryRatio24d2.pdf>
@@ -2831,7 +2838,7 @@ Package pdftex.def Info: alltopology/28DeliveryRatio24d2.pdf used on input line
  10.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/28DeliveryRatio24d4.pdf, id=1633, 932.48375pt x 437.635pt>
+<alltopology/28DeliveryRatio24d4.pdf, id=1634, 932.48375pt x 437.635pt>
 File: alltopology/28DeliveryRatio24d4.pdf Graphic file (type pdf)
 
 <use alltopology/28DeliveryRatio24d4.pdf>
@@ -2839,7 +2846,7 @@ Package pdftex.def Info: alltopology/28DeliveryRatio24d4.pdf used on input line
  15.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/28DeliveryRatio24d8.pdf, id=1634, 932.48375pt x 437.635pt>
+<alltopology/28DeliveryRatio24d8.pdf, id=1635, 932.48375pt x 437.635pt>
 File: alltopology/28DeliveryRatio24d8.pdf Graphic file (type pdf)
 
 <use alltopology/28DeliveryRatio24d8.pdf>
@@ -2847,7 +2854,7 @@ Package pdftex.def Info: alltopology/28DeliveryRatio24d8.pdf used on input line
  20.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/28DeliveryRatio24d16.pdf, id=1635, 932.48375pt x 437.635pt>
+<alltopology/28DeliveryRatio24d16.pdf, id=1636, 932.48375pt x 437.635pt>
 File: alltopology/28DeliveryRatio24d16.pdf Graphic file (type pdf)
 
 <use alltopology/28DeliveryRatio24d16.pdf>
@@ -2855,7 +2862,7 @@ Package pdftex.def Info: alltopology/28DeliveryRatio24d16.pdf used on input lin
 e 25.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/28DeliveryRatio24d32.pdf, id=1636, 932.48375pt x 437.635pt>
+<alltopology/28DeliveryRatio24d32.pdf, id=1637, 932.48375pt x 437.635pt>
 File: alltopology/28DeliveryRatio24d32.pdf Graphic file (type pdf)
 
 <use alltopology/28DeliveryRatio24d32.pdf>
@@ -2866,7 +2873,7 @@ e 30.
 
 LaTeX Warning: Float too large for page by 35.3692pt on input line 34.
 
-[50 <./alltopology/28DeliveryRatio24d1.pdf> <./alltopology/28DeliveryRatio24d2.
+[51 <./alltopology/28DeliveryRatio24d1.pdf> <./alltopology/28DeliveryRatio24d2.
 pdf
 
 pdfTeX warning: pdflatex (file ./alltopology/28DeliveryRatio24d2.pdf): PDF incl
@@ -2888,7 +2895,7 @@ lusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./alltopology/28DeliveryRatio24d32.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
 >]) (./app/32t.tex
-<alltopology/32Throughput24d1.pdf, id=1686, 932.48375pt x 371.3875pt>
+<alltopology/32Throughput24d1.pdf, id=1687, 932.48375pt x 371.3875pt>
 File: alltopology/32Throughput24d1.pdf Graphic file (type pdf)
 
 <use alltopology/32Throughput24d1.pdf>
@@ -2896,7 +2903,7 @@ Package pdftex.def Info: alltopology/32Throughput24d1.pdf used on input line 5.
 
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/32Throughput24d2.pdf, id=1687, 932.48375pt x 371.3875pt>
+<alltopology/32Throughput24d2.pdf, id=1688, 932.48375pt x 371.3875pt>
 File: alltopology/32Throughput24d2.pdf Graphic file (type pdf)
 
 <use alltopology/32Throughput24d2.pdf>
@@ -2904,7 +2911,7 @@ Package pdftex.def Info: alltopology/32Throughput24d2.pdf used on input line 10
 .
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/32Throughput24d4.pdf, id=1688, 932.48375pt x 371.3875pt>
+<alltopology/32Throughput24d4.pdf, id=1689, 932.48375pt x 371.3875pt>
 File: alltopology/32Throughput24d4.pdf Graphic file (type pdf)
 
 <use alltopology/32Throughput24d4.pdf>
@@ -2912,7 +2919,7 @@ Package pdftex.def Info: alltopology/32Throughput24d4.pdf used on input line 15
 .
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/32Throughput24d8.pdf, id=1689, 932.48375pt x 371.3875pt>
+<alltopology/32Throughput24d8.pdf, id=1690, 932.48375pt x 371.3875pt>
 File: alltopology/32Throughput24d8.pdf Graphic file (type pdf)
 
 <use alltopology/32Throughput24d8.pdf>
@@ -2920,7 +2927,7 @@ Package pdftex.def Info: alltopology/32Throughput24d8.pdf used on input line 20
 .
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/32Throughput24d16.pdf, id=1690, 932.48375pt x 371.3875pt>
+<alltopology/32Throughput24d16.pdf, id=1691, 932.48375pt x 371.3875pt>
 File: alltopology/32Throughput24d16.pdf Graphic file (type pdf)
 
 <use alltopology/32Throughput24d16.pdf>
@@ -2928,14 +2935,14 @@ Package pdftex.def Info: alltopology/32Throughput24d16.pdf used on input line 2
 5.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/32Throughput24d32.pdf, id=1691, 932.48375pt x 371.3875pt>
+<alltopology/32Throughput24d32.pdf, id=1692, 932.48375pt x 371.3875pt>
 File: alltopology/32Throughput24d32.pdf Graphic file (type pdf)
 
 <use alltopology/32Throughput24d32.pdf>
 Package pdftex.def Info: alltopology/32Throughput24d32.pdf used on input line 3
 0.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
- [51
+ [52
 
 
 
@@ -2963,48 +2970,48 @@ ion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./alltopology/32Throughput24d32.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]) (./app/32d.tex
-<alltopology/32Delay24d1.pdf, id=1740, 932.48375pt x 371.3875pt>
+<alltopology/32Delay24d1.pdf, id=1741, 932.48375pt x 371.3875pt>
 File: alltopology/32Delay24d1.pdf Graphic file (type pdf)
 
 <use alltopology/32Delay24d1.pdf>
 Package pdftex.def Info: alltopology/32Delay24d1.pdf used on input line 5.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/32Delay24d2.pdf, id=1741, 932.48375pt x 371.3875pt>
+<alltopology/32Delay24d2.pdf, id=1742, 932.48375pt x 371.3875pt>
 File: alltopology/32Delay24d2.pdf Graphic file (type pdf)
 
 <use alltopology/32Delay24d2.pdf>
 Package pdftex.def Info: alltopology/32Delay24d2.pdf used on input line 10.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/32Delay24d4.pdf, id=1742, 932.48375pt x 371.3875pt>
+<alltopology/32Delay24d4.pdf, id=1743, 932.48375pt x 371.3875pt>
 File: alltopology/32Delay24d4.pdf Graphic file (type pdf)
 
 <use alltopology/32Delay24d4.pdf>
 Package pdftex.def Info: alltopology/32Delay24d4.pdf used on input line 15.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/32Delay24d8.pdf, id=1743, 932.48375pt x 371.3875pt>
+<alltopology/32Delay24d8.pdf, id=1744, 932.48375pt x 371.3875pt>
 File: alltopology/32Delay24d8.pdf Graphic file (type pdf)
 
 <use alltopology/32Delay24d8.pdf>
 Package pdftex.def Info: alltopology/32Delay24d8.pdf used on input line 20.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/32Delay24d16.pdf, id=1744, 932.48375pt x 371.3875pt>
+<alltopology/32Delay24d16.pdf, id=1745, 932.48375pt x 371.3875pt>
 File: alltopology/32Delay24d16.pdf Graphic file (type pdf)
 
 <use alltopology/32Delay24d16.pdf>
 Package pdftex.def Info: alltopology/32Delay24d16.pdf used on input line 25.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/32Delay24d32.pdf, id=1745, 932.48375pt x 371.3875pt>
+<alltopology/32Delay24d32.pdf, id=1746, 932.48375pt x 371.3875pt>
 File: alltopology/32Delay24d32.pdf Graphic file (type pdf)
 
 <use alltopology/32Delay24d32.pdf>
 Package pdftex.def Info: alltopology/32Delay24d32.pdf used on input line 30.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
- [52
+ [53
 
 
  <./alltopology/32Delay24d1.pdf> <./alltopology/32Delay24d2.pdf
@@ -3061,11 +3068,11 @@ File: alltopology/32Throughput24d32.pdf Graphic file (type pdf)
 Package pdftex.def Info: alltopology/32Throughput24d32.pdf used on input line 3
 0.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
- [53
+ [54
 
 
 ]) (./app/32pd.tex
-<alltopology/32DeliveryRatio24d1.pdf, id=1802, 932.48375pt x 437.635pt>
+<alltopology/32DeliveryRatio24d1.pdf, id=1804, 932.48375pt x 437.635pt>
 File: alltopology/32DeliveryRatio24d1.pdf Graphic file (type pdf)
 
 <use alltopology/32DeliveryRatio24d1.pdf>
@@ -3073,7 +3080,7 @@ Package pdftex.def Info: alltopology/32DeliveryRatio24d1.pdf used on input line
  5.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/32DeliveryRatio24d2.pdf, id=1803, 932.48375pt x 437.635pt>
+<alltopology/32DeliveryRatio24d2.pdf, id=1805, 932.48375pt x 437.635pt>
 File: alltopology/32DeliveryRatio24d2.pdf Graphic file (type pdf)
 
 <use alltopology/32DeliveryRatio24d2.pdf>
@@ -3081,7 +3088,7 @@ Package pdftex.def Info: alltopology/32DeliveryRatio24d2.pdf used on input line
  10.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/32DeliveryRatio24d4.pdf, id=1804, 932.48375pt x 437.635pt>
+<alltopology/32DeliveryRatio24d4.pdf, id=1806, 932.48375pt x 437.635pt>
 File: alltopology/32DeliveryRatio24d4.pdf Graphic file (type pdf)
 
 <use alltopology/32DeliveryRatio24d4.pdf>
@@ -3089,7 +3096,7 @@ Package pdftex.def Info: alltopology/32DeliveryRatio24d4.pdf used on input line
  15.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/32DeliveryRatio24d8.pdf, id=1805, 932.48375pt x 437.635pt>
+<alltopology/32DeliveryRatio24d8.pdf, id=1807, 932.48375pt x 437.635pt>
 File: alltopology/32DeliveryRatio24d8.pdf Graphic file (type pdf)
 
 <use alltopology/32DeliveryRatio24d8.pdf>
@@ -3097,7 +3104,7 @@ Package pdftex.def Info: alltopology/32DeliveryRatio24d8.pdf used on input line
  20.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/32DeliveryRatio24d16.pdf, id=1806, 932.48375pt x 437.635pt>
+<alltopology/32DeliveryRatio24d16.pdf, id=1808, 932.48375pt x 437.635pt>
 File: alltopology/32DeliveryRatio24d16.pdf Graphic file (type pdf)
 
 <use alltopology/32DeliveryRatio24d16.pdf>
@@ -3105,7 +3112,7 @@ Package pdftex.def Info: alltopology/32DeliveryRatio24d16.pdf used on input lin
 e 25.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/32DeliveryRatio24d32.pdf, id=1807, 932.48375pt x 437.635pt>
+<alltopology/32DeliveryRatio24d32.pdf, id=1809, 932.48375pt x 437.635pt>
 File: alltopology/32DeliveryRatio24d32.pdf Graphic file (type pdf)
 
 <use alltopology/32DeliveryRatio24d32.pdf>
@@ -3116,7 +3123,7 @@ e 30.
 
 LaTeX Warning: Float too large for page by 35.3692pt on input line 34.
 
-[54 <./alltopology/32DeliveryRatio24d1.pdf> <./alltopology/32DeliveryRatio24d2.
+[55 <./alltopology/32DeliveryRatio24d1.pdf> <./alltopology/32DeliveryRatio24d2.
 pdf
 
 pdfTeX warning: pdflatex (file ./alltopology/32DeliveryRatio24d2.pdf): PDF incl
@@ -3138,7 +3145,7 @@ lusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./alltopology/32DeliveryRatio24d32.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
 >]) (./app/36t.tex
-<alltopology/36Throughput24d1.pdf, id=1856, 932.48375pt x 371.3875pt>
+<alltopology/36Throughput24d1.pdf, id=1857, 932.48375pt x 371.3875pt>
 File: alltopology/36Throughput24d1.pdf Graphic file (type pdf)
 
 <use alltopology/36Throughput24d1.pdf>
@@ -3146,7 +3153,7 @@ Package pdftex.def Info: alltopology/36Throughput24d1.pdf used on input line 5.
 
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/36Throughput24d2.pdf, id=1857, 932.48375pt x 371.3875pt>
+<alltopology/36Throughput24d2.pdf, id=1858, 932.48375pt x 371.3875pt>
 File: alltopology/36Throughput24d2.pdf Graphic file (type pdf)
 
 <use alltopology/36Throughput24d2.pdf>
@@ -3154,7 +3161,7 @@ Package pdftex.def Info: alltopology/36Throughput24d2.pdf used on input line 10
 .
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/36Throughput24d4.pdf, id=1858, 932.48375pt x 371.3875pt>
+<alltopology/36Throughput24d4.pdf, id=1859, 932.48375pt x 371.3875pt>
 File: alltopology/36Throughput24d4.pdf Graphic file (type pdf)
 
 <use alltopology/36Throughput24d4.pdf>
@@ -3162,7 +3169,7 @@ Package pdftex.def Info: alltopology/36Throughput24d4.pdf used on input line 15
 .
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/36Throughput24d8.pdf, id=1859, 932.48375pt x 371.3875pt>
+<alltopology/36Throughput24d8.pdf, id=1860, 932.48375pt x 371.3875pt>
 File: alltopology/36Throughput24d8.pdf Graphic file (type pdf)
 
 <use alltopology/36Throughput24d8.pdf>
@@ -3170,7 +3177,7 @@ Package pdftex.def Info: alltopology/36Throughput24d8.pdf used on input line 20
 .
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/36Throughput24d16.pdf, id=1860, 932.48375pt x 371.3875pt>
+<alltopology/36Throughput24d16.pdf, id=1861, 932.48375pt x 371.3875pt>
 File: alltopology/36Throughput24d16.pdf Graphic file (type pdf)
 
 <use alltopology/36Throughput24d16.pdf>
@@ -3178,14 +3185,14 @@ Package pdftex.def Info: alltopology/36Throughput24d16.pdf used on input line 2
 5.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/36Throughput24d32.pdf, id=1861, 932.48375pt x 371.3875pt>
+<alltopology/36Throughput24d32.pdf, id=1862, 932.48375pt x 371.3875pt>
 File: alltopology/36Throughput24d32.pdf Graphic file (type pdf)
 
 <use alltopology/36Throughput24d32.pdf>
 Package pdftex.def Info: alltopology/36Throughput24d32.pdf used on input line 3
 0.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
- [55
+ [56
 
 
 
@@ -3211,48 +3218,48 @@ ion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./alltopology/36Throughput24d32.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]) (./app/36d.tex
-<alltopology/36Delay24d1.pdf, id=1912, 932.48375pt x 371.3875pt>
+<alltopology/36Delay24d1.pdf, id=1913, 932.48375pt x 371.3875pt>
 File: alltopology/36Delay24d1.pdf Graphic file (type pdf)
 
 <use alltopology/36Delay24d1.pdf>
 Package pdftex.def Info: alltopology/36Delay24d1.pdf used on input line 5.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/36Delay24d2.pdf, id=1913, 932.48375pt x 371.3875pt>
+<alltopology/36Delay24d2.pdf, id=1914, 932.48375pt x 371.3875pt>
 File: alltopology/36Delay24d2.pdf Graphic file (type pdf)
 
 <use alltopology/36Delay24d2.pdf>
 Package pdftex.def Info: alltopology/36Delay24d2.pdf used on input line 10.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/36Delay24d4.pdf, id=1914, 932.48375pt x 371.3875pt>
+<alltopology/36Delay24d4.pdf, id=1915, 932.48375pt x 371.3875pt>
 File: alltopology/36Delay24d4.pdf Graphic file (type pdf)
 
 <use alltopology/36Delay24d4.pdf>
 Package pdftex.def Info: alltopology/36Delay24d4.pdf used on input line 15.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/36Delay24d8.pdf, id=1915, 932.48375pt x 371.3875pt>
+<alltopology/36Delay24d8.pdf, id=1916, 932.48375pt x 371.3875pt>
 File: alltopology/36Delay24d8.pdf Graphic file (type pdf)
 
 <use alltopology/36Delay24d8.pdf>
 Package pdftex.def Info: alltopology/36Delay24d8.pdf used on input line 20.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/36Delay24d16.pdf, id=1916, 932.48375pt x 371.3875pt>
+<alltopology/36Delay24d16.pdf, id=1917, 932.48375pt x 371.3875pt>
 File: alltopology/36Delay24d16.pdf Graphic file (type pdf)
 
 <use alltopology/36Delay24d16.pdf>
 Package pdftex.def Info: alltopology/36Delay24d16.pdf used on input line 25.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/36Delay24d32.pdf, id=1917, 932.48375pt x 371.3875pt>
+<alltopology/36Delay24d32.pdf, id=1918, 932.48375pt x 371.3875pt>
 File: alltopology/36Delay24d32.pdf Graphic file (type pdf)
 
 <use alltopology/36Delay24d32.pdf>
 Package pdftex.def Info: alltopology/36Delay24d32.pdf used on input line 30.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
- [56
+ [57
 
 
  <./alltopology/36Delay24d1.pdf> <./alltopology/36Delay24d2.pdf
@@ -3276,7 +3283,7 @@ multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./alltopology/36Delay24d32.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >]) (./app/36p.tex
-<alltopology/36PacketDropRatio24d1.pdf, id=1967, 932.48375pt x 437.635pt>
+<alltopology/36PacketDropRatio24d1.pdf, id=1968, 932.48375pt x 437.635pt>
 File: alltopology/36PacketDropRatio24d1.pdf Graphic file (type pdf)
 
 <use alltopology/36PacketDropRatio24d1.pdf>
@@ -3284,7 +3291,7 @@ Package pdftex.def Info: alltopology/36PacketDropRatio24d1.pdf used on input li
 ne 5.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/36PacketDropRatio24d2.pdf, id=1968, 932.48375pt x 437.635pt>
+<alltopology/36PacketDropRatio24d2.pdf, id=1969, 932.48375pt x 437.635pt>
 File: alltopology/36PacketDropRatio24d2.pdf Graphic file (type pdf)
 
 <use alltopology/36PacketDropRatio24d2.pdf>
@@ -3292,7 +3299,7 @@ Package pdftex.def Info: alltopology/36PacketDropRatio24d2.pdf used on input li
 ne 10.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/36PacketDropRatio24d4.pdf, id=1969, 932.48375pt x 437.635pt>
+<alltopology/36PacketDropRatio24d4.pdf, id=1970, 932.48375pt x 437.635pt>
 File: alltopology/36PacketDropRatio24d4.pdf Graphic file (type pdf)
 
 <use alltopology/36PacketDropRatio24d4.pdf>
@@ -3300,7 +3307,7 @@ Package pdftex.def Info: alltopology/36PacketDropRatio24d4.pdf used on input li
 ne 15.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/36PacketDropRatio24d8.pdf, id=1970, 932.48375pt x 437.635pt>
+<alltopology/36PacketDropRatio24d8.pdf, id=1971, 932.48375pt x 437.635pt>
 File: alltopology/36PacketDropRatio24d8.pdf Graphic file (type pdf)
 
 <use alltopology/36PacketDropRatio24d8.pdf>
@@ -3308,7 +3315,7 @@ Package pdftex.def Info: alltopology/36PacketDropRatio24d8.pdf used on input li
 ne 20.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/36PacketDropRatio24d16.pdf, id=1971, 932.48375pt x 437.635pt>
+<alltopology/36PacketDropRatio24d16.pdf, id=1972, 932.48375pt x 437.635pt>
 File: alltopology/36PacketDropRatio24d16.pdf Graphic file (type pdf)
 
 <use alltopology/36PacketDropRatio24d16.pdf>
@@ -3316,7 +3323,7 @@ Package pdftex.def Info: alltopology/36PacketDropRatio24d16.pdf used on input l
 ine 25.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/36PacketDropRatio24d32.pdf, id=1972, 932.48375pt x 437.635pt>
+<alltopology/36PacketDropRatio24d32.pdf, id=1973, 932.48375pt x 437.635pt>
 File: alltopology/36PacketDropRatio24d32.pdf Graphic file (type pdf)
 
 <use alltopology/36PacketDropRatio24d32.pdf>
@@ -3327,7 +3334,7 @@ ine 30.
 
 LaTeX Warning: Float too large for page by 35.3692pt on input line 34.
 
-[57 <./alltopology/36PacketDropRatio24d1.pdf> <./alltopology/36PacketDropRatio2
+[58 <./alltopology/36PacketDropRatio24d1.pdf> <./alltopology/36PacketDropRatio2
 4d2.pdf
 
 pdfTeX warning: pdflatex (file ./alltopology/36PacketDropRatio24d2.pdf): PDF in
@@ -3349,7 +3356,7 @@ nclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./alltopology/36PacketDropRatio24d32.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
 >]) (./app/36pd.tex
-<alltopology/36DeliveryRatio24d1.pdf, id=2021, 932.48375pt x 437.635pt>
+<alltopology/36DeliveryRatio24d1.pdf, id=2022, 932.48375pt x 437.635pt>
 File: alltopology/36DeliveryRatio24d1.pdf Graphic file (type pdf)
 
 <use alltopology/36DeliveryRatio24d1.pdf>
@@ -3357,7 +3364,7 @@ Package pdftex.def Info: alltopology/36DeliveryRatio24d1.pdf used on input line
  5.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/36DeliveryRatio24d2.pdf, id=2022, 932.48375pt x 437.635pt>
+<alltopology/36DeliveryRatio24d2.pdf, id=2023, 932.48375pt x 437.635pt>
 File: alltopology/36DeliveryRatio24d2.pdf Graphic file (type pdf)
 
 <use alltopology/36DeliveryRatio24d2.pdf>
@@ -3365,7 +3372,7 @@ Package pdftex.def Info: alltopology/36DeliveryRatio24d2.pdf used on input line
  10.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/36DeliveryRatio24d4.pdf, id=2023, 932.48375pt x 437.635pt>
+<alltopology/36DeliveryRatio24d4.pdf, id=2024, 932.48375pt x 437.635pt>
 File: alltopology/36DeliveryRatio24d4.pdf Graphic file (type pdf)
 
 <use alltopology/36DeliveryRatio24d4.pdf>
@@ -3373,7 +3380,7 @@ Package pdftex.def Info: alltopology/36DeliveryRatio24d4.pdf used on input line
  15.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/36DeliveryRatio24d8.pdf, id=2024, 932.48375pt x 437.635pt>
+<alltopology/36DeliveryRatio24d8.pdf, id=2025, 932.48375pt x 437.635pt>
 File: alltopology/36DeliveryRatio24d8.pdf Graphic file (type pdf)
 
 <use alltopology/36DeliveryRatio24d8.pdf>
@@ -3381,7 +3388,7 @@ Package pdftex.def Info: alltopology/36DeliveryRatio24d8.pdf used on input line
  20.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/36DeliveryRatio24d16.pdf, id=2025, 932.48375pt x 437.635pt>
+<alltopology/36DeliveryRatio24d16.pdf, id=2026, 932.48375pt x 437.635pt>
 File: alltopology/36DeliveryRatio24d16.pdf Graphic file (type pdf)
 
 <use alltopology/36DeliveryRatio24d16.pdf>
@@ -3389,7 +3396,7 @@ Package pdftex.def Info: alltopology/36DeliveryRatio24d16.pdf used on input lin
 e 25.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/36DeliveryRatio24d32.pdf, id=2026, 932.48375pt x 437.635pt>
+<alltopology/36DeliveryRatio24d32.pdf, id=2027, 932.48375pt x 437.635pt>
 File: alltopology/36DeliveryRatio24d32.pdf Graphic file (type pdf)
 
 <use alltopology/36DeliveryRatio24d32.pdf>
@@ -3400,7 +3407,7 @@ e 30.
 
 LaTeX Warning: Float too large for page by 35.3692pt on input line 34.
 
-[58 <./alltopology/36DeliveryRatio24d1.pdf> <./alltopology/36DeliveryRatio24d2.
+[59 <./alltopology/36DeliveryRatio24d1.pdf> <./alltopology/36DeliveryRatio24d2.
 pdf
 
 pdfTeX warning: pdflatex (file ./alltopology/36DeliveryRatio24d2.pdf): PDF incl
@@ -3422,7 +3429,7 @@ lusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./alltopology/36DeliveryRatio24d32.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
 >]) (./app/40t.tex
-<alltopology/40Throughput24d1.pdf, id=2074, 932.48375pt x 371.3875pt>
+<alltopology/40Throughput24d1.pdf, id=2075, 932.48375pt x 371.3875pt>
 File: alltopology/40Throughput24d1.pdf Graphic file (type pdf)
 
 <use alltopology/40Throughput24d1.pdf>
@@ -3430,7 +3437,7 @@ Package pdftex.def Info: alltopology/40Throughput24d1.pdf used on input line 5.
 
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/40Throughput24d2.pdf, id=2075, 932.48375pt x 371.3875pt>
+<alltopology/40Throughput24d2.pdf, id=2076, 932.48375pt x 371.3875pt>
 File: alltopology/40Throughput24d2.pdf Graphic file (type pdf)
 
 <use alltopology/40Throughput24d2.pdf>
@@ -3438,7 +3445,7 @@ Package pdftex.def Info: alltopology/40Throughput24d2.pdf used on input line 10
 .
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/40Throughput24d4.pdf, id=2076, 932.48375pt x 371.3875pt>
+<alltopology/40Throughput24d4.pdf, id=2077, 932.48375pt x 371.3875pt>
 File: alltopology/40Throughput24d4.pdf Graphic file (type pdf)
 
 <use alltopology/40Throughput24d4.pdf>
@@ -3446,7 +3453,7 @@ Package pdftex.def Info: alltopology/40Throughput24d4.pdf used on input line 15
 .
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/40Throughput24d8.pdf, id=2077, 932.48375pt x 371.3875pt>
+<alltopology/40Throughput24d8.pdf, id=2078, 932.48375pt x 371.3875pt>
 File: alltopology/40Throughput24d8.pdf Graphic file (type pdf)
 
 <use alltopology/40Throughput24d8.pdf>
@@ -3454,14 +3461,14 @@ Package pdftex.def Info: alltopology/40Throughput24d8.pdf used on input line 20
 .
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/40Throughput24d16.pdf, id=2078, 932.48375pt x 371.3875pt>
+<alltopology/40Throughput24d16.pdf, id=2079, 932.48375pt x 371.3875pt>
 File: alltopology/40Throughput24d16.pdf Graphic file (type pdf)
 
 <use alltopology/40Throughput24d16.pdf>
 Package pdftex.def Info: alltopology/40Throughput24d16.pdf used on input line 2
 5.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
- [59
+ [60
 
 
 
@@ -3485,41 +3492,41 @@ on: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./alltopology/40Throughput24d16.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]) (./app/40d.tex
-<alltopology/40Delay24d1.pdf, id=2119, 932.48375pt x 371.3875pt>
+<alltopology/40Delay24d1.pdf, id=2121, 932.48375pt x 371.3875pt>
 File: alltopology/40Delay24d1.pdf Graphic file (type pdf)
 
 <use alltopology/40Delay24d1.pdf>
 Package pdftex.def Info: alltopology/40Delay24d1.pdf used on input line 5.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/40Delay24d2.pdf, id=2120, 932.48375pt x 371.3875pt>
+<alltopology/40Delay24d2.pdf, id=2122, 932.48375pt x 371.3875pt>
 File: alltopology/40Delay24d2.pdf Graphic file (type pdf)
 
 <use alltopology/40Delay24d2.pdf>
 Package pdftex.def Info: alltopology/40Delay24d2.pdf used on input line 10.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/40Delay24d4.pdf, id=2121, 932.48375pt x 371.3875pt>
+<alltopology/40Delay24d4.pdf, id=2123, 932.48375pt x 371.3875pt>
 File: alltopology/40Delay24d4.pdf Graphic file (type pdf)
 
 <use alltopology/40Delay24d4.pdf>
 Package pdftex.def Info: alltopology/40Delay24d4.pdf used on input line 15.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/40Delay24d8.pdf, id=2122, 932.48375pt x 371.3875pt>
+<alltopology/40Delay24d8.pdf, id=2124, 932.48375pt x 371.3875pt>
 File: alltopology/40Delay24d8.pdf Graphic file (type pdf)
 
 <use alltopology/40Delay24d8.pdf>
 Package pdftex.def Info: alltopology/40Delay24d8.pdf used on input line 20.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
 
-<alltopology/40Delay24d16.pdf, id=2123, 932.48375pt x 371.3875pt>
+<alltopology/40Delay24d16.pdf, id=2125, 932.48375pt x 371.3875pt>
 File: alltopology/40Delay24d16.pdf Graphic file (type pdf)
 
 <use alltopology/40Delay24d16.pdf>
 Package pdftex.def Info: alltopology/40Delay24d16.pdf used on input line 25.
 (pdftex.def)             Requested size: 301.17215pt x 119.95146pt.
- [60
+ [61
 
 
  <./alltopology/40Delay24d1.pdf> <./alltopology/40Delay24d2.pdf
@@ -3539,7 +3546,7 @@ ultiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./alltopology/40Delay24d16.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >]) (./app/40p.tex
-<alltopology/40PacketDropRatio24d1.pdf, id=2169, 932.48375pt x 437.635pt>
+<alltopology/40PacketDropRatio24d1.pdf, id=2170, 932.48375pt x 437.635pt>
 File: alltopology/40PacketDropRatio24d1.pdf Graphic file (type pdf)
 
 <use alltopology/40PacketDropRatio24d1.pdf>
@@ -3547,7 +3554,7 @@ Package pdftex.def Info: alltopology/40PacketDropRatio24d1.pdf used on input li
 ne 5.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/40PacketDropRatio24d2.pdf, id=2170, 932.48375pt x 437.635pt>
+<alltopology/40PacketDropRatio24d2.pdf, id=2171, 932.48375pt x 437.635pt>
 File: alltopology/40PacketDropRatio24d2.pdf Graphic file (type pdf)
 
 <use alltopology/40PacketDropRatio24d2.pdf>
@@ -3555,7 +3562,7 @@ Package pdftex.def Info: alltopology/40PacketDropRatio24d2.pdf used on input li
 ne 10.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/40PacketDropRatio24d4.pdf, id=2171, 932.48375pt x 437.635pt>
+<alltopology/40PacketDropRatio24d4.pdf, id=2172, 932.48375pt x 437.635pt>
 File: alltopology/40PacketDropRatio24d4.pdf Graphic file (type pdf)
 
 <use alltopology/40PacketDropRatio24d4.pdf>
@@ -3563,7 +3570,7 @@ Package pdftex.def Info: alltopology/40PacketDropRatio24d4.pdf used on input li
 ne 15.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/40PacketDropRatio24d8.pdf, id=2172, 932.48375pt x 437.635pt>
+<alltopology/40PacketDropRatio24d8.pdf, id=2173, 932.48375pt x 437.635pt>
 File: alltopology/40PacketDropRatio24d8.pdf Graphic file (type pdf)
 
 <use alltopology/40PacketDropRatio24d8.pdf>
@@ -3571,7 +3578,7 @@ Package pdftex.def Info: alltopology/40PacketDropRatio24d8.pdf used on input li
 ne 20.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/40PacketDropRatio24d16.pdf, id=2173, 932.48375pt x 437.635pt>
+<alltopology/40PacketDropRatio24d16.pdf, id=2174, 932.48375pt x 437.635pt>
 File: alltopology/40PacketDropRatio24d16.pdf Graphic file (type pdf)
 
 <use alltopology/40PacketDropRatio24d16.pdf>
@@ -3582,7 +3589,7 @@ ine 25.
 
 LaTeX Warning: Float too large for page by 35.3692pt on input line 29.
 
-[61 <./alltopology/40PacketDropRatio24d1.pdf> <./alltopology/40PacketDropRatio2
+[62 <./alltopology/40PacketDropRatio24d1.pdf> <./alltopology/40PacketDropRatio2
 4d2.pdf
 
 pdfTeX warning: pdflatex (file ./alltopology/40PacketDropRatio24d2.pdf): PDF in
@@ -3600,7 +3607,7 @@ clusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./alltopology/40PacketDropRatio24d16.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
 >]) (./app/40pd.tex
-<alltopology/40DeliveryRatio24d1.pdf, id=2216, 932.48375pt x 437.635pt>
+<alltopology/40DeliveryRatio24d1.pdf, id=2217, 932.48375pt x 437.635pt>
 File: alltopology/40DeliveryRatio24d1.pdf Graphic file (type pdf)
 
 <use alltopology/40DeliveryRatio24d1.pdf>
@@ -3608,7 +3615,7 @@ Package pdftex.def Info: alltopology/40DeliveryRatio24d1.pdf used on input line
  5.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/40DeliveryRatio24d2.pdf, id=2217, 932.48375pt x 437.635pt>
+<alltopology/40DeliveryRatio24d2.pdf, id=2218, 932.48375pt x 437.635pt>
 File: alltopology/40DeliveryRatio24d2.pdf Graphic file (type pdf)
 
 <use alltopology/40DeliveryRatio24d2.pdf>
@@ -3616,7 +3623,7 @@ Package pdftex.def Info: alltopology/40DeliveryRatio24d2.pdf used on input line
  10.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/40DeliveryRatio24d4.pdf, id=2218, 932.48375pt x 437.635pt>
+<alltopology/40DeliveryRatio24d4.pdf, id=2219, 932.48375pt x 437.635pt>
 File: alltopology/40DeliveryRatio24d4.pdf Graphic file (type pdf)
 
 <use alltopology/40DeliveryRatio24d4.pdf>
@@ -3624,7 +3631,7 @@ Package pdftex.def Info: alltopology/40DeliveryRatio24d4.pdf used on input line
  15.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/40DeliveryRatio24d8.pdf, id=2219, 932.48375pt x 437.635pt>
+<alltopology/40DeliveryRatio24d8.pdf, id=2220, 932.48375pt x 437.635pt>
 File: alltopology/40DeliveryRatio24d8.pdf Graphic file (type pdf)
 
 <use alltopology/40DeliveryRatio24d8.pdf>
@@ -3632,7 +3639,7 @@ Package pdftex.def Info: alltopology/40DeliveryRatio24d8.pdf used on input line
  20.
 (pdftex.def)             Requested size: 301.17215pt x 141.34822pt.
 
-<alltopology/40DeliveryRatio24d16.pdf, id=2220, 932.48375pt x 437.635pt>
+<alltopology/40DeliveryRatio24d16.pdf, id=2221, 932.48375pt x 437.635pt>
 File: alltopology/40DeliveryRatio24d16.pdf Graphic file (type pdf)
 
 <use alltopology/40DeliveryRatio24d16.pdf>
@@ -3643,7 +3650,7 @@ e 25.
 
 LaTeX Warning: Float too large for page by 35.3692pt on input line 29.
 
-[62 <./alltopology/40DeliveryRatio24d1.pdf> <./alltopology/40DeliveryRatio24d2.
+[63 <./alltopology/40DeliveryRatio24d1.pdf> <./alltopology/40DeliveryRatio24d2.
 pdf
 
 pdfTeX warning: pdflatex (file ./alltopology/40DeliveryRatio24d2.pdf): PDF incl
@@ -3660,27 +3667,27 @@ usion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./alltopology/40DeliveryRatio24d16.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
->])) (./main_doc.bbl [63
+>])) (./main_doc.bbl [64
 
 
 
 
 
 
-] [64] [65]
+] [65] [66]
 Underfull \hbox (badness 2334) in paragraph at lines 221--225
 []\OT1/cmr/m/n/10.95 Carlson Wire-less Tech-nol-ogy.  Ru-ral-con-nect - tv whit
 e spaces ra-dio.  [][]$\OT1/cmtt/m/n/10.95 http : / / www .
  []
 
-[66] [67]) [68]
+[67] [68]) [69]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
  (./main_doc.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
 Package rerunfilecheck Info: File `main_doc.out' has not changed.
-(rerunfilecheck)             Checksum: 950C81B6A581812B762EBAAF2D90F142;2226.
+(rerunfilecheck)             Checksum: C8975EB8500CEC442F792AEA3723CF19;2293.
 
 
 LaTeX Warning: There were undefined references.
@@ -3691,10 +3698,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
  ) 
 Here is how much of TeX's memory you used:
- 23662 strings out of 493105
- 458122 string characters out of 6137072
- 557744 words of memory out of 5000000
- 26099 multiletter control sequences out of 15000+600000
+ 23673 strings out of 493105
+ 458350 string characters out of 6137072
+ 557831 words of memory out of 5000000
+ 26106 multiletter control sequences out of 15000+600000
  18096 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,17n,60p,2196b,2101s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3712,10 +3719,10 @@ nts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main_doc.pdf (81 pages, 2243157 bytes).
+Output written on main_doc.pdf (82 pages, 2265239 bytes).
 PDF statistics:
- 2399 PDF objects out of 2487 (max. 8388607)
- 1927 compressed objects within 20 object streams
- 235 named destinations out of 1000 (max. 500000)
- 1125 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2400 PDF objects out of 2487 (max. 8388607)
+ 1931 compressed objects within 20 object streams
+ 238 named destinations out of 1000 (max. 500000)
+ 1138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
