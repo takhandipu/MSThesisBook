@@ -23,7 +23,7 @@
 \usepackage{longtable}
 \usepackage{multirow} % tables
 \usepackage{rotating} % for rotating texts
-\usepackage{paralist}
+%\usepackage{paralist}
 %\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
 %\usepackage{algorithmic}
 
@@ -36,7 +36,7 @@
 \usepackage{cleveref}
 \usepackage{amsmath}
 \usepackage{pdflscape}
-\usepackage[titletoc, page]{appendix}
+\usepackage[titletoc]{appendix}
 \usetikzlibrary{backgrounds}%arrows, shapes, trees, 
 \usetikzlibrary{positioning}
 \usetikzlibrary{shapes.geometric, arrows}
