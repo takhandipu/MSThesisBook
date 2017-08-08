@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: MobiHoc.aux
+The style file: unsrt.bst
+Database file #1: SystemModel.bib
+Warning--empty journal in chatterjee2013low
+You've used 24 entries,
+            1791 wiz_defined-function locations,
+            587 strings with 8593 characters,
+and the built_in function-call counts, 6742 in all, are:
+= -- 645
+> -- 274
+< -- 11
++ -- 100
+- -- 76
+* -- 441
+:= -- 998
+add.period$ -- 83
+call.type$ -- 24
+change.case$ -- 22
+chr.to.int$ -- 0
+cite$ -- 25
+duplicate$ -- 321
+empty$ -- 662
+format.name$ -- 76
+if$ -- 1575
+int.to.chr$ -- 0
+int.to.str$ -- 24
+missing$ -- 26
+newline$ -- 123
+num.names$ -- 24
+pop$ -- 94
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 158
+stack$ -- 0
+substring$ -- 469
+swap$ -- 107
+text.length$ -- 11
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 71
+width$ -- 26
+write$ -- 274
+(There was 1 warning)
