@@ -6,27 +6,10 @@ Ian~F Akyildiz, Won-Yeol Lee, Mehmet~C Vuran, and Shantidev Mohanty.
   networks: a survey.
 \newblock {\em Computer Networks}, 50(13):2127--2159, 2006.
 
-\bibitem{Mitola}
-J.~Mitola and Jr. Maguire, G.Q.
-\newblock Cognitive radio: making software radios more personal.
-\newblock {\em Personal Communications, IEEE}, 6(4):13--18, 1999.
-
 \bibitem{bahl2004reconsidering}
 Paramvir Bahl, Atul Adya, Jitendra Padhye, and Alec Walman.
 \newblock Reconsidering wireless systems with multiple radios.
 \newblock {\em ACM SIGCOMM Computer Communication Review}, 34(5):39--46, 2004.
-
-\bibitem{adya2004multi}
-Atul Adya, Paramvir Bahl, Jitendra Padhye, Alec Wolman, and Lidong Zhou.
-\newblock A multi-radio unification protocol for ieee 802.11 wireless networks.
-\newblock In {\em Broadband Networks, 2004. BroadNets 2004. Proceedings. First
-  International Conference on}, pages 344--354. IEEE, 2004.
-
-\bibitem{draves2004routing}
-Richard Draves, Jitendra Padhye, and Brian Zill.
-\newblock Routing in multi-radio, multi-hop wireless mesh networks.
-\newblock In {\em Proceedings of the 10th annual international conference on
-  Mobile computing and networking}, pages 114--128. ACM, 2004.
 
 \bibitem{miu2005improving}
 Allen Miu, Hari Balakrishnan, and Can~Emre Koksal.
@@ -81,18 +64,12 @@ A~El Gamal, James Mammen, Balaji Prabhakar, and Devavrat Shah.
 \newblock In {\em INFOCOM 2004. Twenty-third AnnualJoint Conference of the IEEE
   Computer and Communications Societies}, volume~1. IEEE, 2004.
 
-\bibitem{de2012survey}
-Antonio De~Domenico, Emilio~Calvanese Strinati, and Maria-Gabriella
-  Di~Benedetto.
-\newblock A survey on mac strategies for cognitive radio networks.
-\newblock {\em IEEE Communications Surveys \& Tutorials}, 14(1):21--44, 2012.
-
-\bibitem{feng2009joint}
-Wei Feng, Jiannong Cao, Chisheng Zhang, and Chuda Liu.
-\newblock Joint optimization of spectrum handoff scheduling and routing in
-  multi-hop multi-radio cognitive networks.
-\newblock In {\em Distributed Computing Systems, 2009. ICDCS'09. 29th IEEE
-  International Conference on}, pages 85--92. IEEE, 2009.
+\bibitem{ahmadi2012distributed}
+Maryam Ahmadi, Yanyan Zhuang, and Jianping Pan.
+\newblock Distributed robust channel assignment for multi-radio cognitive radio
+  networks.
+\newblock In {\em Vehicular Technology Conference (VTC Fall), 2012 IEEE}, pages
+  1--5. IEEE, 2012.
 
 \bibitem{zhong2014capacity}
 Xiaoxiong Zhong, Yang Qin, and Li~Li.
@@ -108,6 +85,19 @@ Guyue Li, Zhaoquan Gu, Xiao Lin, Haosen Pu, and Qiang-sheng Hua.
   Modeling, analysis and simulation of wireless and mobile systems}, pages
   313--320. ACM, 2014.
 
+\bibitem{de2012survey}
+Antonio De~Domenico, Emilio~Calvanese Strinati, and Maria-Gabriella
+  Di~Benedetto.
+\newblock A survey on mac strategies for cognitive radio networks.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 14(1):21--44, 2012.
+
+\bibitem{feng2009joint}
+Wei Feng, Jiannong Cao, Chisheng Zhang, and Chuda Liu.
+\newblock Joint optimization of spectrum handoff scheduling and routing in
+  multi-hop multi-radio cognitive networks.
+\newblock In {\em Distributed Computing Systems, 2009. ICDCS'09. 29th IEEE
+  International Conference on}, pages 85--92. IEEE, 2009.
+
 \bibitem{cormio2009survey}
 Claudia Cormio and Kaushik~R Chowdhury.
 \newblock A survey on mac protocols for cognitive radio networks.
@@ -120,17 +110,29 @@ Guo-Mei Zhu, Ian~F Akyildiz, and Geng-Sheng Kuo.
 \newblock In {\em Global Telecommunications Conference, 2008. IEEE GLOBECOM
   2008. IEEE}, pages 1--5. IEEE, 2008.
 
-\bibitem{ahmadi2012distributed}
-Maryam Ahmadi, Yanyan Zhuang, and Jianping Pan.
-\newblock Distributed robust channel assignment for multi-radio cognitive radio
-  networks.
-\newblock In {\em Vehicular Technology Conference (VTC Fall), 2012 IEEE}, pages
-  1--5. IEEE, 2012.
-
 \bibitem{Ross}
 Sheldon~M. Ross.
 \newblock {\em Introduction to Probability Models, Ninth Edition}.
 \newblock Academic Press, Inc., Orlando, FL, USA, 2006.
+
+\bibitem{ACH}
+Kaigui Bian and Jung-Min Park.
+\newblock Asynchronous channel hopping for establishing rendezvous in cognitive
+  radio networks.
+\newblock In {\em INFOCOM, 2011 Proceedings IEEE}, pages 236--240, 2011.
+
+\bibitem{lo2011survey}
+Brandon~F Lo.
+\newblock A survey of common control channel design in cognitive radio
+  networks.
+\newblock {\em Physical Communication}, 4(1):26--39, 2011.
+
+\bibitem{thilina2016dccc}
+Karaputugala G~Madushan Thilina, Ekram Hossain, and Dong~In Kim.
+\newblock {DCCC-MAC}: a dynamic common-control-channel-based mac protocol for
+  cellular cognitive radio networks.
+\newblock {\em IEEE Transactions on Vehicular Technology}, 65(5):3597--3613,
+  2016.
 
 \bibitem{al2014simulating}
 Abdulla Al-Ali and Kaushik Chowdhury.

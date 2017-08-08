@@ -37,5 +37,5 @@
     \end{subfigure}
     \caption{Average packet drop ratio with varying number of radios for various application data rates}
     \label{fig:topology4P}
-    \vspace{-0.55cm}
+    \vspace{-0.625cm}
 \end{figure*}

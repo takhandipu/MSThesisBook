@@ -37,5 +37,5 @@
     \end{subfigure}
     \caption{Average network throughput with varying number of radios for various application data rates}
     \label{fig:topology4T}
-    \vspace{-0.5cm}
+    \vspace{-0.75cm}
 \end{figure*}

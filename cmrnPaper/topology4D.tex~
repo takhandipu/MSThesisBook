@@ -1,5 +1,5 @@
 \begin{figure*}[htbp]
-    \vspace{-0.25cm}
+    \vspace{-0.5cm}
     \centering
     \begin{subfigure}[t]{0.32\textwidth}
         \includegraphics[width=\textwidth]{topology4/Delay24d1}
