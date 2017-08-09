@@ -1,24 +1,10 @@
-\chapter{Proposed Methodology: Feedback-based Multi-radio Exploitation Approach}\label{chap:feedback}
+\chapter{Feedback-based Multi-radio Exploitation Approach}\label{chap:feedback}
 
 Our proposed approach consists of mainly two different types of feedbacks. Firstly, we measure packet transmission ratio for each radio to evaluate radio performance. Secondly, we calculate channel utilization ratio for each channel to assess corresponding channel condition.
 
 \section{Overview of The Proposed Approach}
 
-We present a brief overview of our proposed feedback-based approach in \cref{fig:overview}. As SUs are equipped with multiple radios, a single radio is first selected to send a transport layer packet. The radio selection process as described in \cref{sec:radioSelect} is based on packet transmission ratio. The selected radio then senses the PU activity on its current channel. If the current channel is idle, it transmits the packet following an standard CSMA-CA protocol. However, if the current channel is busy, then the radio selects another channel and starts switching to that channel. The channel selection process is based on channel utilization ratio and is described in \cref{sec:channelSelect}.
-
-\iffalse
-\begin{figure}[!htb]
-\begin{center}
-%\resizebox{0.625\textwidth}{!}{
-\begin{center}
-
-\end{center}
-%}
-\caption{High-level overview of the proposed approach}
-\label{fig:overview}
-\end{center}
-\end{figure}
-\fi
+We present a brief overview of our proposed feedback-based approach in \cref{fig:overview}. Our proposed approach starts operating whenever a Transport layer packet is received on the Data Link layer. The Transport layer packets enter via \texttt{sendPacket} function of our proposed SU agent. As SUs are equipped with multiple radios, a single radio is first selected to send the transport layer packet. The radio selection process as described in \cref{sec:radioSelect} is based on packet transmission ratio. After the radio is selected, the transport layer packet is enqueued on the corresponding radio's queue. When the packet is dequeued from the radio's  queue to be transmitted over the spectrum, the radio starts sensing the PU activity on its current channel. If the current channel is idle, it transmits the packet following an standard CSMA-CA protocol. However, if the current channel is busy, then the radio selects another channel and starts switching to that channel. The channel selection process is based on channel utilization ratio and is described in \cref{sec:channelSelect}.
 
 \begin{figure}[!htb]
 \begin{center}
@@ -166,6 +152,10 @@ The last two important aspects of our feedback-based multi-radio exploitation ap
 An important characteristic of our proposed feedback-based multi-radio exploitation approach is the sequential radio and channel selection instead of jointly optimized radio-channel selection. In our approach, when transport layer packets come in the data link layer, our SU agent enqueue them to one of the available radio's queue. Our packet transmission ratio based radio selection algorithm (Section~\ref{sec:radioSelect}) determines that on which radio's queue each packet will be enqueued. During this time, the channel through which this packet will be transmitted is not decided. The channel selection decision is made later when the packet is dequeued from the radio's queue. At that time if the radio senses no primary user on the radio's currently assigned channel, the dequeued packet is transmitted using the currently assigned channel. Only if the radio's sensing results show that there is primary user activity of the current channel, the radio switches from the current channel, only then the channel selection algorithm is used to find the new channel.
 
 The reason behind this sequential radio and channel selection is the dynamic nature of cognitive radio networks. When the packets are enqueued in the radio, neither the actual time when any of these packets will be transmitted nor the channels' state at that time can be accurately predicted. Therefore, any jointly optimized radio-channel selection could not consider the actual channel condition at the time of packet transmission. Keeping this issue in mind, our proposed approach employs sequential radio and channel selection process.
+
+\section{Weighted Lottery Mechanism}
+
+Since we select radio and channel for packet transmission through weighted lottery, the details of such an weighted lottery is described in this section. For example, let us assume the radio selection probabilities of four radios at an SU are $0.1$, $0.2$, $0.3$, and $0.4$. In our proposed approach, we then randomly select a floating point value, $x$  uniformly within the range $[0,1]$. If the value of this random floating number, $x$ is less than or equal $0.1$ ($0.0 < x \leq 0.1$), we select the first radio. Similarly, if $0.1 < x \leq 0.3$, we select the second radio, if $0.3 < x \leq 0.6$, we select the third radio, and if $0.6 < x \leq 1.0$, we select the fourth radio. Such an weighted lottery based mechanism has previously been proposed in the fields of statistics~\cite{tessmer2007method} and scheduling algorithms~\cite{wang2016skyline}.
 
 \section{Variants of Our Proposed Approach}
 

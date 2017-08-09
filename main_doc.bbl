@@ -306,6 +306,17 @@ Sheldon~M. Ross.
 \newblock {\em Introduction to Probability Models, Ninth Edition}.
 \newblock Academic Press, Inc., Orlando, FL, USA, 2006.
 
+\bibitem{ghasemi2008spectrum}
+Amir Ghasemi and Elvino~S Sousa.
+\newblock Spectrum sensing in cognitive radio networks: requirements,
+  challenges and design trade-offs.
+\newblock {\em IEEE Communications Magazine}, 46(4), 2008.
+
+\bibitem{akyildiz2009crahns}
+Ian~F Akyildiz, Won-Yeol Lee, and Kaushik~R Chowdhury.
+\newblock Crahns: Cognitive radio ad hoc networks.
+\newblock {\em AD hoc networks}, 7(5):810--836, 2009.
+
 \bibitem{ACH}
 Kaigui Bian and Jung-Min Park.
 \newblock Asynchronous channel hopping for establishing rendezvous in cognitive
@@ -324,6 +335,19 @@ Karaputugala G~Madushan Thilina, Ekram Hossain, and Dong~In Kim.
   cellular cognitive radio networks.
 \newblock {\em IEEE Transactions on Vehicular Technology}, 65(5):3597--3613,
   2016.
+
+\bibitem{tessmer2007method}
+M.~Tessmer, L.~Cannon, C.~Centuori, and A.~Williams.
+\newblock Method and system for weighting odds to specific gaming entities in a
+  shared bonus event, May~31 2007.
+\newblock US Patent App. 11/669,013.
+
+\bibitem{wang2016skyline}
+Y.~Wang, Y.~Song, and M.~Liang.
+\newblock A skyline-based efficient web service selection method supporting
+  frequent requests.
+\newblock In {\em 2016 IEEE 20th International Conference on Computer Supported
+  Cooperative Work in Design (CSCWD)}, pages 328--333, May 2016.
 
 \bibitem{al2014simulating}
 Abdulla Al-Ali and Kaushik Chowdhury.

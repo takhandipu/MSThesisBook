@@ -5,7 +5,7 @@
 \tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
 \tikzstyle{decision} = [diamond, minimum width=1cm,  text badly centered, inner sep=0pt, draw=black, fill=green!30]
 \tikzstyle{arrow} = [thick,->,>=stealth]
-\node (sendPacket) [startstop] {Application layer packet is sent to the SU agent, \texttt{sendPacket}};
+\node (sendPacket) [startstop] {Transport layer packet is sent to the SU agent, \texttt{sendPacket}};
 \node (getSelectedRadio) [process, below of=sendPacket] {SU agent selects a radio to transmit the packet, \texttt{getSelectedRadio}};
 \node (startSensing) [decision, text width=3cm, aspect=2, below of=getSelectedRadio, yshift=-1cm] {Radio senses PU's activities, \texttt{startSensing}};
 \node (startSwitching) [process, text width=3.5cm, below right =0.75cm and -0.625 cm of startSensing, xshift=-0.5cm] {Radio switches its channel, \texttt{startSwitching}};

@@ -14,19 +14,20 @@
 \BOOKMARK [1][-]{section.2.4}{Multi-Radio Networks}{chapter.2}% 14
 \BOOKMARK [1][-]{section.2.5}{Multi-Radio Cognitive Radio Networks \(MRCRNs\)}{chapter.2}% 15
 \BOOKMARK [1][-]{section.2.6}{Existing Studies on MRCRNs}{chapter.2}% 16
-\BOOKMARK [0][-]{chapter.3}{System Model and Problem Formulation}{}% 17
+\BOOKMARK [0][-]{chapter.3}{System Model and Problem Definition}{}% 17
 \BOOKMARK [1][-]{section.3.1}{System Model}{chapter.3}% 18
 \BOOKMARK [1][-]{section.3.2}{Problem Definition}{chapter.3}% 19
-\BOOKMARK [0][-]{chapter.4}{Proposed Methodology: Feedback-based Multi-radio Exploitation Approach}{}% 20
+\BOOKMARK [0][-]{chapter.4}{Feedback-based Multi-radio Exploitation Approach}{}% 20
 \BOOKMARK [1][-]{section.4.1}{Overview of The Proposed Approach}{chapter.4}% 21
 \BOOKMARK [1][-]{section.4.2}{Radio Selection Based on Packet Transmission Ratio}{chapter.4}% 22
 \BOOKMARK [1][-]{section.4.3}{Channel Selection Based on Channel Utilization Ratio}{chapter.4}% 23
 \BOOKMARK [1][-]{section.4.4}{Sequential Radio and Channel Selection}{chapter.4}% 24
-\BOOKMARK [1][-]{section.4.5}{Variants of Our Proposed Approach}{chapter.4}% 25
-\BOOKMARK [0][-]{chapter.5}{Experimental Evaluation}{}% 26
-\BOOKMARK [1][-]{section.5.1}{Simulator Modifications}{chapter.5}% 27
-\BOOKMARK [1][-]{section.5.2}{Simulation Settings}{chapter.5}% 28
-\BOOKMARK [1][-]{section.5.3}{Results and Analysis}{chapter.5}% 29
-\BOOKMARK [1][-]{section.5.4}{Simulation Findings}{chapter.5}% 30
-\BOOKMARK [0][-]{chapter.6}{Conclusion and Future Work}{}% 31
-\BOOKMARK [0][-]{Appendix.1.A}{Appendix Simulation Results for Different Network Topologies}{}% 32
+\BOOKMARK [1][-]{section.4.5}{Weighted Lottery Mechanism}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.6}{Variants of Our Proposed Approach}{chapter.4}% 26
+\BOOKMARK [0][-]{chapter.5}{Experimental Evaluation}{}% 27
+\BOOKMARK [1][-]{section.5.1}{Simulator Modifications}{chapter.5}% 28
+\BOOKMARK [1][-]{section.5.2}{Simulation Settings}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.3}{Results and Analysis}{chapter.5}% 30
+\BOOKMARK [1][-]{section.5.4}{Simulation Findings}{chapter.5}% 31
+\BOOKMARK [0][-]{chapter.6}{Conclusion and Future Work}{}% 32
+\BOOKMARK [0][-]{Appendix.1.A}{Appendix Simulation Results for Different Network Topologies}{}% 33
