@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.5.11)  8 AUG 2017 22:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.5.11)  13 AUG 2017 02:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -914,10 +914,6 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <9> not available
 (Font)              Font shape `OT1/pcr/b/n' tried instead on input line 103.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
 LaTeX Font Info:    Try loading font information for U+msa on input line 165.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -927,13 +923,15 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 165.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./systemModel.tex
-(./pu.tex)
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+] (./systemModel.tex (./pu.tex)
 LaTeX Font Info:    Calculating math sizes for size <17> on input line 4.
- (./pu.tex) (./pu.tex) (./pu.tex) (./su_circle.tex) (./su_circle.tex) (./su_cir
-cle.tex) (./su_circle.tex) (./su_circle.tex) (./channel.tex)
-(./channel.tex) (./channel.tex) (./channel.tex) (./controlChannel.tex))
-[2]
+ (./pu.tex)
+(./pu.tex) (./pu.tex) (./su_circle.tex) (./su_circle.tex) (./su_circle.tex)
+(./su_circle.tex) (./su_circle.tex) (./channel.tex) (./channel.tex)
+(./channel.tex) (./channel.tex) (./controlChannel.tex)) [2]
 Overfull \hbox (1.88362pt too wide) in paragraph at lines 231--231
  [][][][]\OT1/ptm/m/n/10 End 
  []
@@ -954,7 +952,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 412--413
  [] 
  []
 
-[4]
+[4 <./blockDiagram.png>]
 Underfull \hbox (badness 3068) in paragraph at lines 459--460
 \OT1/ptm/m/n/10 and the re-ac-ti-va-tion prob-a-bil-ity of switched-off ra-dios
 ,
@@ -1002,49 +1000,53 @@ File: topology4/Throughput24d32.pdf Graphic file (type pdf)
 <use topology4/Throughput24d32.pdf>
 Package pdftex.def Info: topology4/Throughput24d32.pdf used on input line 34.
 (pdftex.def)             Requested size: 165.12378pt x 65.82843pt.
-) [5 <./blockDiagram.png>] (./topology4D.tex <topology4/Delay24d1.pdf, id=45, 9
-11.405pt x 362.35374pt>
+) (./topology4D.tex
+<topology4/Delay24d1.pdf, id=42, 911.405pt x 362.35374pt>
 File: topology4/Delay24d1.pdf Graphic file (type pdf)
 
 <use topology4/Delay24d1.pdf>
 Package pdftex.def Info: topology4/Delay24d1.pdf used on input line 5.
 (pdftex.def)             Requested size: 165.12378pt x 65.64659pt.
 
-<topology4/Delay24d2.pdf, id=46, 911.405pt x 363.3575pt>
+<topology4/Delay24d2.pdf, id=43, 911.405pt x 363.3575pt>
 File: topology4/Delay24d2.pdf Graphic file (type pdf)
 
 <use topology4/Delay24d2.pdf>
 Package pdftex.def Info: topology4/Delay24d2.pdf used on input line 11.
 (pdftex.def)             Requested size: 165.12378pt x 65.82843pt.
 
-<topology4/Delay24d4.pdf, id=47, 911.405pt x 362.35374pt>
+<topology4/Delay24d4.pdf, id=44, 911.405pt x 362.35374pt>
 File: topology4/Delay24d4.pdf Graphic file (type pdf)
 
 <use topology4/Delay24d4.pdf>
 Package pdftex.def Info: topology4/Delay24d4.pdf used on input line 17.
 (pdftex.def)             Requested size: 165.12378pt x 65.64659pt.
 
-<topology4/Delay24d8.pdf, id=48, 911.405pt x 362.35374pt>
+<topology4/Delay24d8.pdf, id=45, 911.405pt x 362.35374pt>
 File: topology4/Delay24d8.pdf Graphic file (type pdf)
 
 <use topology4/Delay24d8.pdf>
 Package pdftex.def Info: topology4/Delay24d8.pdf used on input line 23.
 (pdftex.def)             Requested size: 165.12378pt x 65.64659pt.
 
-<topology4/Delay24d16.pdf, id=49, 911.405pt x 363.3575pt>
+<topology4/Delay24d16.pdf, id=46, 911.405pt x 363.3575pt>
 File: topology4/Delay24d16.pdf Graphic file (type pdf)
 
 <use topology4/Delay24d16.pdf>
 Package pdftex.def Info: topology4/Delay24d16.pdf used on input line 29.
 (pdftex.def)             Requested size: 165.12378pt x 65.82843pt.
 
-<topology4/Delay24d32.pdf, id=50, 911.405pt x 363.3575pt>
+<topology4/Delay24d32.pdf, id=47, 911.405pt x 363.3575pt>
 File: topology4/Delay24d32.pdf Graphic file (type pdf)
 
 <use topology4/Delay24d32.pdf>
 Package pdftex.def Info: topology4/Delay24d32.pdf used on input line 35.
 (pdftex.def)             Requested size: 165.12378pt x 65.82843pt.
-) (./topology4P.tex
+) [5]
+Underfull \vbox (badness 6978) has occurred while \output is active []
+
+
+(./topology4P.tex
 <topology4/PacketDropRatio24d1.pdf, id=51, 911.405pt x 427.5975pt>
 File: topology4/PacketDropRatio24d1.pdf Graphic file (type pdf)
 
@@ -1271,7 +1273,10 @@ Overfull \hbox (2.9253pt too wide) in paragraph at lines 53--67
  [][] 
  []
 
-) [6 <./topology4/Throughput24d1.pdf> <./topology4/Throughput24d2.pdf
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <./topology4/Throughput24d1.pdf> <./topology4/Throughput24d2.pdf
 
 pdfTeX warning: pdflatex (file ./topology4/Throughput24d2.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
@@ -1291,7 +1296,11 @@ pdfTeX warning: pdflatex (file ./topology4/Throughput24d16.pdf): PDF inclusion:
 
 pdfTeX warning: pdflatex (file ./topology4/Throughput24d32.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
->] [7 <./topology4/Delay24d1.pdf> <./topology4/Delay24d2.pdf
+> <./topology4/Delay24d1.pdf
+
+pdfTeX warning: pdflatex (file ./topology4/Delay24d1.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./topology4/Delay24d2.pdf
 
 pdfTeX warning: pdflatex (file ./topology4/Delay24d2.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
@@ -1311,11 +1320,8 @@ iple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./topology4/Delay24d32.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
-> <./topology4/PacketDropRatio24d1.pdf
-
-pdfTeX warning: pdflatex (file ./topology4/PacketDropRatio24d1.pdf): PDF inclus
-ion: multiple pdfs with page group included in a single page
-> <./topology4/PacketDropRatio24d2.pdf
+>] [7 <./topology4/PacketDropRatio24d1.pdf> <./topology4/PacketDropRatio24d2.pd
+f
 
 pdfTeX warning: pdflatex (file ./topology4/PacketDropRatio24d2.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
@@ -1377,10 +1383,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 16640 strings out of 493105
- 328199 string characters out of 6137072
- 415290 words of memory out of 5000000
- 19689 multiletter control sequences out of 15000+600000
+ 16638 strings out of 493105
+ 328162 string characters out of 6137072
+ 409801 words of memory out of 5000000
+ 19687 multiletter control sequences out of 15000+600000
  51535 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,14n,60p,1765b,2082s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1400,7 +1406,7 @@ exmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on MobiHoc.pdf (8 pages, 340487 bytes).
+Output written on MobiHoc.pdf (8 pages, 340386 bytes).
 PDF statistics:
  300 PDF objects out of 1000 (max. 8388607)
  221 compressed objects within 3 object streams

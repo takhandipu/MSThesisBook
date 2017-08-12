@@ -46,24 +46,6 @@ Tanvir~Ahmed Khan, Chowdhury~Sayeed Hyder, and ABM Islam.
   (WiMob), 2015 IEEE 11th International Conference on}, pages 370--377. IEEE,
   2015.
 
-\bibitem{hoang2008downlink}
-Anh~Tuan Hoang and Ying-Chang Liang.
-\newblock Downlink channel assignment and power control for cognitive radio
-  networks.
-\newblock {\em IEEE Transactions on Wireless Communications}, 7(8), 2008.
-
-\bibitem{ahmed2014channel}
-Ejaz Ahmed, Abdullah Gani, Saeid Abolfazli, Liu~Jie Yao, and Samee~U Khan.
-\newblock Channel assignment algorithms in cognitive radio networks: Taxonomy,
-  open issues, and challenges.
-\newblock {\em IEEE Communications Surveys \& Tutorials}, 18(1):795--823, 2014.
-
-\bibitem{gamal2004throughput}
-A~El Gamal, James Mammen, Balaji Prabhakar, and Devavrat Shah.
-\newblock Throughput-delay trade-off in wireless networks.
-\newblock In {\em INFOCOM 2004. Twenty-third AnnualJoint Conference of the IEEE
-  Computer and Communications Societies}, volume~1. IEEE, 2004.
-
 \bibitem{ahmadi2012distributed}
 Maryam Ahmadi, Yanyan Zhuang, and Jianping Pan.
 \newblock Distributed robust channel assignment for multi-radio cognitive radio
@@ -97,6 +79,12 @@ Wei Feng, Jiannong Cao, Chisheng Zhang, and Chuda Liu.
   multi-hop multi-radio cognitive networks.
 \newblock In {\em Distributed Computing Systems, 2009. ICDCS'09. 29th IEEE
   International Conference on}, pages 85--92. IEEE, 2009.
+
+\bibitem{gamal2004throughput}
+A~El Gamal, James Mammen, Balaji Prabhakar, and Devavrat Shah.
+\newblock Throughput-delay trade-off in wireless networks.
+\newblock In {\em INFOCOM 2004. Twenty-third AnnualJoint Conference of the IEEE
+  Computer and Communications Societies}, volume~1. IEEE, 2004.
 
 \bibitem{cormio2009survey}
 Claudia Cormio and Kaushik~R Chowdhury.
